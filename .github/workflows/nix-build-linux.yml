@@ -30,17 +30,18 @@ jobs:
             libxss-dev \
             libasound2-dev
 
-      - name: Setup Node 18
+      - name: Setup Node 20
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install Packages
-        run: npm install
+        run: |
+          npm install
+          npm install -g tsx
 
       - name: Build Linux
-        run: |
-          npm run create_dist
+        run: npm run create_dist
 
       - name: Upload .deb File
         uses: actions/upload-artifact@v4
