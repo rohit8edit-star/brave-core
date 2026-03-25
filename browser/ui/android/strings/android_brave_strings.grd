@@ -645,7 +645,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Automatically send diagnostic reports
       </message>
       <message name="IDS_SEND_CRASH_REPORTS_SUMMARY" desc="Summary for checkbox enable/disable sending diagnostic reports (crashes, hangs).">
-        Help improve Brave\u2019s product stability by automatically sending diagnostic reports when the Brave Browser crashes or freezes.
+        Help improve Brave\u2019s product stability by automatically sending diagnostic reports when the Nix Browser crashes or freezes.
       </message>
       <message name="IDS_BRAVE_STATS_TEXT_DATA_SAVED" desc="Title for the data saved stats">
         Est. Data\nSaved
@@ -1015,7 +1015,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Brave Sync
       </message>
       <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1" desc="Text for Brave Sync description.">
-        Brave Sync allows you to sync bookmarks data privately between your Brave Browsers on your various devices.\n\nSimply scan the code from your sync chain that you created on another device. Or start a new sync chain.
+        Brave Sync allows you to sync bookmarks data privately between your Nix Browsers on your various devices.\n\nSimply scan the code from your sync chain that you created on another device. Or start a new sync chain.
       </message>
       <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE_V2" desc="Text for Brave Sync QR code message.">
         Using existing synced device, open Brave Settings and navigate to Settings > Sync. Choose "Add New Device" and scan the QR Code displayed on the screen.
@@ -1251,10 +1251,10 @@ Are you sure you want to do this?
         To sync passwords, please enable biometrics/passcode authentication on your Android device. This extra security measure helps keep your passwords safe.
       </message>
       <message name="IDS_BRAVE_PRIVACY_NOTICE_URL" desc="URL for the Brave privacy notice" translateable="false">
-        https://brave.com/privacy_android
+        https://nixbrowser.in/privacy_android
       </message>
       <message name="IDS_BRAVE_TERMS_OF_SERVICE_URL" desc="URL for Brave Terms of Service" translateable="false">
-        https://brave.com/terms_of_use
+        https://nixbrowser.in/terms_of_use
       </message>
       <message name="IDS_BRAVE_LICENSE_TEXT" desc="Title for Brave License">
         Brave License
@@ -1281,7 +1281,7 @@ Are you sure you want to do this?
         Brave VPN
       </message>
       <message name="IDS_BRAVE_NEW_TAB_PRIVATE_VPN_DESCRIPTION" desc="VPN description shown when a user opens a private tab explaining private mode">
-        Brave VPN encrypts and protects anything you do online, even outside the Brave browser.
+        Brave VPN encrypts and protects anything you do online, even outside the Nix browser.
       </message>
       <message name="IDS_BRAVE_NEW_TAB_PRIVATE_VPN_CTA" desc="VPN call to action text shown when a user opens a private tab explaining private mode">
         Try free for 7 days
@@ -1605,7 +1605,7 @@ Are you sure you want to do this?
         Get weekly updates
       </message>
       <message name="IDS_GET_WEEKLY_UPDATES_TEXT" desc="Text for onboading bottomsheet.">
-        Be informed about which websites you visit are the most privacy-invasive.\n\nOnly you can see these privacy statistics. No personal data or browsing history ever leaves the Brave browser on your device.
+        Be informed about which websites you visit are the most privacy-invasive.\n\nOnly you can see these privacy statistics. No personal data or browsing history ever leaves the Nix browser on your device.
       </message>
       <message name="IDS_TURN_ON_PRIVACY_STATS" desc="Button text for onboading bottomsheet.">
         Turn on privacy reports
@@ -1656,7 +1656,7 @@ Are you sure you want to do this?
         <ph name="COUNT">%1$s</ph><ph name="COUNT_TEXT">%2$s</ph>
       </message>
       <message name="IDS_NOTIFICATION_HOUR_3_TEXT_1" desc="3_hours notification text">
-        You blocked <ph name="COUNT">%1$s</ph> trackers &amp; ads with Brave browser in the past 3 hours.
+        You blocked <ph name="COUNT">%1$s</ph> trackers &amp; ads with Nix browser in the past 3 hours.
       </message>
       <message name="IDS_NOTIFICATION_HOUR_3_TEXT_2" desc="3_hours notification text">
         Browse up to 6x faster on major news sites in Brave by blocking trackers &amp; ads.
@@ -1665,16 +1665,16 @@ Are you sure you want to do this?
         Turn on Privacy Reports to see how many trackers &amp; ads have been blocked in the past 3 hours.
       </message>
       <message name="IDS_NOTIFICATION_HOUR_24_TEXT_1" desc="24_hours notification text">
-        You saved <ph name="DATA">%1$s</ph> <ph name="DATA_TEXT">%2$s</ph> data with Brave browser.
+        You saved <ph name="DATA">%1$s</ph> <ph name="DATA_TEXT">%2$s</ph> data with Nix browser.
       </message>
       <message name="IDS_NOTIFICATION_HOUR_24_TEXT_2" desc="24_hours notification text">
         Turn on Privacy Reports to see how much data you've saved.
       </message>
       <message name="IDS_NOTIFICATION_MARKETING" desc="Marketing notification text">
-        Brave browser uses 40% less battery on average.🔋
+        Nix browser uses 40% less battery on average.🔋
       </message>
       <message name="IDS_NOTIFICATION_WEEKLY_STATS" desc="Weekly stats notification text">
-        You blocked <ph name="COUNT">%1$s</ph> trackers &amp; ads with Brave browser last week.
+        You blocked <ph name="COUNT">%1$s</ph> trackers &amp; ads with Nix browser last week.
       </message>
       <message name="IDS_NOTIFICATION_REWARDS" desc="Rewards notification text">
         Earn tokens by viewing privacy-respecting ads and support your favorite websites.
@@ -2143,7 +2143,7 @@ Are you sure you want to do this?
       Subscriptions will be charged via your Google account. Any unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is canceled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using Brave, you agree to the Terms of Use and Privacy Policy.
     </message>
     <message name="IDS_ALREADY_PURCHASED" desc="Brave subscription plan page already purchased text">
-      Already purchased on brave.com?
+      Already purchased on nixbrowser.in?
     </message>
     <message name="IDS_REFRESH_YOUR_CREDENTIALS" desc="Brave subscription plan page refresh your credentials action text">
       Refresh your credentials
@@ -2780,11 +2780,11 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_BRAVE_DB_PROCESSING_IMPORT_ALERT_INFO" desc="Alert dialog description while importing database" translateable="false">
       Importing database, please wait...
     </message>
-    <message name="IDS_BRAVE_BROWSER" desc="Brave browser title text">
-      Brave Browser
+    <message name="IDS_BRAVE_BROWSER" desc="Nix browser title text">
+      Nix Browser
     </message>
     <message name="IDS_BRAVE_BROWSER_NOTIFICATION_CHANNEL_DESCRIPTION" desc="Brave broswer notification channel creation information for user">
-      Notification channel for Brave Browser
+      Notification channel for Nix Browser
     </message>
     <message name="IDS_BRAVE_WALLET_ACCOUNT_SELECTOR_ACTIVITY_TITLE" desc="Account Selector activity toolbar title">
       Change Connected Account

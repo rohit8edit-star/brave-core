@@ -495,7 +495,7 @@
     Grammar check currently available for English only
   </message>
   <message name="IDS_OS_SETTINGS_LANGUAGES_SPELL_CHECK_ENHANCED_LABEL" desc="Label for enhanced spell check toggle, the type of spell check that sends the text the user types to Brave spelling service. It is important that it is communicated that the text the user types will be sent to Brave.">
-    Enhanced spell check in Brave browser (text is sent to Brave for spelling suggestions)
+    Enhanced spell check in Nix browser (text is sent to Brave for spelling suggestions)
   </message>
   <message name="IDS_OS_SETTINGS_LANGUAGES_SPELL_CHECK_LANGUAGES_LIST_TITLE" desc="Title for the list of languages that support spell check, from which users can enable or disable spell check for.">
     Spell check languages
@@ -995,10 +995,10 @@
     Search and suggestions
   </message>
   <message name="IDS_OS_SETTINGS_SEARCH_ENGINE_LABEL" desc="Label in OS settings describing search engine behavior.">
-    Set search engine in Brave browser settings
+    Set search engine in Nix browser settings
   </message>
-  <message name="IDS_OS_SETTINGS_SEARCH_ENGINE_DESCRIPTION" desc="Description in the search engine dialog in OS settings explaining that search engine is used in both the Brave browser and the ChromeOS app launcher.">
-    Set your default search engine for Brave browser and <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> Launcher
+  <message name="IDS_OS_SETTINGS_SEARCH_ENGINE_DESCRIPTION" desc="Description in the search engine dialog in OS settings explaining that search engine is used in both the Nix browser and the ChromeOS app launcher.">
+    Set your default search engine for Nix browser and <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> Launcher
   </message>
   <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT" desc="Label for the Brave Assistant button.">
     Brave Assistant
@@ -1203,7 +1203,7 @@
     Error mounting share. Please check your credentials and try again.
   </message>
   <message name="IDS_SETTINGS_IN_SESSION_AUTH_ORIGIN_NAME_PROMPT" desc="Text shown in the auth dialog to indicate we are currently authenticating for ChromeOS settings">
-    <ph name="ORIGIN_NAME">$1<ex>Brave</ex></ph> would like to confirm it's you
+    <ph name="ORIGIN_NAME">$1<ex>Nix</ex></ph> would like to confirm it's you
   </message>
   <message name="IDS_SETTINGS_IN_SESSION_AUTH_ORIGIN_NAME_PROMPT_LOCATION" desc="Location in text shown in the auth dialog to indicate we are currently authenticating for ChromeOS settings">
     ChromeOS Settings
@@ -4734,7 +4734,7 @@ Press an assigned switch or key to remove assignment.
     Block traffic without VPN
   </message>
   <message name="IDS_SETTINGS_INTERNET_NETWORK_ALWAYS_ON_VPN_LOCKDOWN_SUBLABEL" desc="Settings &gt; Internet &gt; VPN: Sublabel for the toggle that enables always-on VPN lockdown.">
-    Brave browser and Android traffic will be blocked unless a VPN is connected
+    Nix browser and Android traffic will be blocked unless a VPN is connected
   </message>
   <message name="IDS_SETTINGS_INTERNET_NETWORK_ALWAYS_ON_VPN_SERVICE" desc="Settings &gt; Internet &gt; VPN: Label for the dropdown menu determining which VPN client will be automatically started on login.">
     VPN service
@@ -5906,7 +5906,7 @@ Press an assigned switch or key to remove assignment.
     Restart your device
   </message>
   <message name="IDS_SETTINGS_FACTORY_RESET_DESCRIPTION" desc="Description of the factory reset option on the Brave settings page">
-    Remove all user accounts and reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device to be just like new.
+    Remove all user accounts and reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Nix</ex></ph> device to be just like new.
   </message>
   <message name="IDS_OS_SETTINGS_FACTORY_RESET_DESCRIPTION" desc="Description of the factory reset option on the ChromeOS settings page">
     Remove all user accounts and reset your Chromebook to be just like new.
@@ -6696,7 +6696,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Notifications won't pop up on the screen. You can still see notifications by clicking the Do Not Disturb icon on the bottom right of your screen.
   </message>
   <message name="IDS_SETTINGS_APP_NOTIFICATIONS_LINK_TO_BROWSER_SETTINGS_DESCRIPTION" desc="In notifications OS Settings subpage, explanatory text for website notifications link.">
-    For browser notifications, go to <ph name="LINK_BEGIN">&lt;a href="#"&gt;</ph>Brave browser Settings<ph name="LINK_END">&lt;/a&gt;</ph>
+    For browser notifications, go to <ph name="LINK_BEGIN">&lt;a href="#"&gt;</ph>Nix browser Settings<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_APP_BADGING_TOGGLE_LABEL" desc="The label for the app badging toggle in the App Notifications page of OS Settings.">
     App badging
@@ -7266,7 +7266,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
   <message name="IDS_APP_MANAGEMENT_APP_DETAILS_TITLE" desc="Title for App Details Section">
     App details
   </message>
-  <message name="IDS_APP_MANAGEMENT_APP_DETAILS_TOOLTIP_WEB_A11Y" desc="Text to be read out by ChromeVox, when highlighting an info icon for Web Apps downloaded from the Brave browser, stating the source URL of the app">
+  <message name="IDS_APP_MANAGEMENT_APP_DETAILS_TOOLTIP_WEB_A11Y" desc="Text to be read out by ChromeVox, when highlighting an info icon for Web Apps downloaded from the Nix browser, stating the source URL of the app">
     From <ph name="APP_URL">$1<ex>https://google.com</ex></ph>
   </message>
   <message name="IDS_APP_MANAGEMENT_APP_DETAILS_INSTALL_SOURCE_WEB_STORE" desc="Text for Web Store installation source">
@@ -7275,8 +7275,8 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
   <message name="IDS_APP_MANAGEMENT_APP_DETAILS_INSTALL_SOURCE_PLAY_STORE" desc="Text for Google Play Store installation source">
     Google Play Store
   </message>
-  <message name="IDS_APP_MANAGEMENT_APP_DETAILS_INSTALL_SOURCE_BROWSER" desc="Text for Brave browser installation source for Web App">
-    Web App installed from Brave browser
+  <message name="IDS_APP_MANAGEMENT_APP_DETAILS_INSTALL_SOURCE_BROWSER" desc="Text for Nix browser installation source for Web App">
+    Web App installed from Nix browser
   </message>
   <message name="IDS_APP_MANAGEMENT_APP_DETAILS_TYPE_AND_SOURCE_COMBINED" desc="Full text for installation source and app type line">
     <ph name="APP_TYPE">$1<ex>Web App</ex></ph> installed from <ph name="BEGIN_LINK">&lt;a href="#"&gt;</ph><ph name="INSTALL_SOURCE">$2<ex>Google Play Store</ex></ph><ph name="END_LINK">&lt;/a&gt;</ph>

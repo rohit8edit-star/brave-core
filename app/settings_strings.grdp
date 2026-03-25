@@ -1016,7 +1016,7 @@
     Remove
   </message>
   <message name="IDS_SETTINGS_ON_STARTUP_PAGE_TOOLTIP" desc="A tooltip to display for a page in the list of pages to open on startup">
-    <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - <ph name="PAGE_URL">$2<ex>http://www.google.com/</ex></ph>
+    <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - <ph name="PAGE_URL">$2<ex>http://www.google.com/</ex></ph>
   </message>
   <message name="IDS_SETTINGS_INVALID_URL" desc="Error message explaining that the URL being entered is invalid.">
     Invalid URL
@@ -2422,16 +2422,16 @@
     Additional inactive sites
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_MORE_ACTIONS_ARIA_LABEL" desc="Accessibility label for the three-dot more actions menu button associated with each search engine on chrome://settings/searchEngines">
-    More actions for <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph>
+    More actions for <ph name="SEARCH_ENGINE_NAME">$1<ex>Nix</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_ACTIVATE_BUTTON_ARIA_LABEL" desc="Accessibility label for the Activate button associated with each inactive search engine on chrome://settings/searchEngines">
-    Click to activate <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph>
+    Click to activate <ph name="SEARCH_ENGINE_NAME">$1<ex>Nix</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_ADD_SITE_SEARCH_BUTTON_ARIA_LABEL" desc="Accessibility label for the Add button that opens the Add Site search dialog on chrome://settings/searchEngines.">
     Click to open Add Site Search dialog
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_EDIT_SEARCH_ENGINE_BUTTON_ARIA_LABEL" desc="Accessibility label for the Edit (pencil-icon) button that opens the Edit Site search/Search engine dialog for the associated search engine on chrome://settings/searchEngines.">
-    Click to open Edit dialog for <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph>
+    Click to open Edit dialog for <ph name="SEARCH_ENGINE_NAME">$1<ex>Nix</ex></ph>
   </message>
 
   <!-- Site Settings Page -->
@@ -4047,10 +4047,10 @@
       Open your computer's proxy settings
     </message>
     <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_EXTENSION_LABEL" desc="Non-interactive label that describes when Brave's proxy settings are overwritten by an extension. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
-      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is using proxy settings from an extension
+      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Nix</ex></ph> is using proxy settings from an extension
     </message>
     <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_POLICY_LABEL" desc="Non-interactive label that describes when Brave's proxy settings are overwritten by policy. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
-      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is using proxy settings from your administrator
+      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Nix</ex></ph> is using proxy settings from your administrator
     </message>
     <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_YOUR_ORGANIZATION_LABEL" desc="Non-interactive label that describes when Brave's proxy settings are overwritten by the user's organization. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
       Your organization

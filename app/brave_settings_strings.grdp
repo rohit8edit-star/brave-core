@@ -760,7 +760,7 @@
     Automatically send diagnostic reports
   </message>
   <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF_DESC" desc="The description of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
-    Help improve Brave's product stability by automatically sending diagnostic reports when the Brave Browser crashes or freezes
+    Help improve Brave's product stability by automatically sending diagnostic reports when the Nix Browser crashes or freezes
   </message>
   <!-- Request OTR -->
   <if expr="enable_request_otr">
@@ -1193,10 +1193,10 @@
     Search engine for Private Windows
   </message>
   <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_CHOICE_SETTINGS_CONFIRMATION_TOAST_LABEL" desc="This confirmation message is intended to help users understand that their choice is now saved. It appears after the user changes their default private search engine in Brave settings. (A search engine provides answers to search queries; this is different from a browser, which displays web pages. A search engine powers many experiences within a browser.)">
-    <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph> is now your default search engine for private windows
+    <ph name="SEARCH_ENGINE_NAME">$1<ex>Nix</ex></ph> is now your default search engine for private windows
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINE_LIST_BRAVE_SEARCH_DESCRIPTION" desc="The description shown with the Brave Search radio button in the search engines list.">
-    Brave Search is recommended for the best browsing experience while using Brave browser.
+    Brave Search is recommended for the best browsing experience while using Nix browser.
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINE_LIST_BRAVE_SEARCH_RECOMMENDED" desc="The label shown in the Brave Search radio button in the search engines list.">
     Recommended

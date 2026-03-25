@@ -422,12 +422,12 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
         <if expr="_is_chrome_for_testing_branded">
           <then>
             <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabs and popup windows">
-              <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave for Testing
+              <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave for Testing
             </message>
           </then>
           <else>
             <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabs and popup windows">
-              <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave
+              <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave
             </message>
           </else>
         </if>
@@ -435,25 +435,25 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       <if expr="is_chromeos">
         <!-- Browser Window Title Format -->
         <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabbed browser windows">
-          Brave - <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph>
+          Brave - <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph>
         </message>
       </if>
       <if expr="not is_chromeos and not is_macosx">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Network Sign-in - Brave
+          <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Network Sign-in - Brave
         </message>
       </if>
       <if expr="is_chromeos">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          Brave - Network Sign-in - <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph>
+          Brave - Network Sign-in - <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph>
         </message>
       </if>
       <if expr="is_macosx">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Network Sign-in
+          <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Network Sign-in
         </message>
       </if>
       <!-- Accessible window title format - includes the channel, and the same
@@ -461,23 +461,23 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       <if expr="_is_chrome_for_testing_branded">
         <then>
           <message name="IDS_ACCESSIBLE_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window">
-            <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave for Testing
+            <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave for Testing
           </message>
         </then>
         <else>
           <message name="IDS_ACCESSIBLE_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window">
-            <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave
+            <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave
           </message>
         </else>
       </if>
       <message name="IDS_ACCESSIBLE_BETA_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the beta channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave Beta
+        <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave Beta
       </message>
       <message name="IDS_ACCESSIBLE_DEV_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the developer (dev) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave Dev
+        <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave Dev
       </message>
       <message name="IDS_ACCESSIBLE_CANARY_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the canary (nightly build) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave Canary
+        <ph name="PAGE_TITLE">$1<ex>Nix</ex></ph> - Brave Canary
       </message>
       <if expr="_is_chrome_for_testing_branded">
         <then>
@@ -490,7 +490,7 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
         </then>
         <else>
           <message name="IDS_ABOUT_VERSION_COMPANY_NAME" desc="Company name on the about pages">
-            Brave Software Inc
+            Nix Technologies Inc
           </message>
           <message name="IDS_ABOUT_VERSION_COPYRIGHT" desc="Copyright information on the about pages">
             Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The Brave Authors. All rights reserved.
@@ -719,10 +719,10 @@ Brave is unable to recover your settings.
           Brave is already installed for all users on your computer.
         </message>
         <message name="IDS_ELEVATION_SERVICE_DESCRIPTION" desc="The description of the Windows elevation service. Displayed in the Windows Services management console.">
-          Provides elevated privileges for <ph name="BROWSER_NAME">$1<ex>Brave</ex></ph>.
+          Provides elevated privileges for <ph name="BROWSER_NAME">$1<ex>Nix</ex></ph>.
         </message>
         <message name="IDS_TRACING_SERVICE_DESCRIPTION" desc="The description of the Windows system tracing service. Displayed in the Windows Services management console.">
-          Provides system tracing services for <ph name="BROWSER_NAME">$1<ex>Brave</ex></ph>. If this service is disabled, performance traces created by the browser will not include system-wide events such as context switch and ready thread events.
+          Provides system tracing services for <ph name="BROWSER_NAME">$1<ex>Nix</ex></ph>. If this service is disabled, performance traces created by the browser will not include system-wide events such as context switch and ready thread events.
         </message>
       </if>
       <if expr="not is_android">
@@ -1183,7 +1183,7 @@ Brave is unable to recover your settings.
           </message>
         </then>
         <else>
-          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Brave browser.">
+          <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Nix browser.">
             Customize Brave
           </message>
         </else>
@@ -2293,7 +2293,7 @@ Brave is unable to recover your settings.
 <ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
         </message>
         <message name="IDS_EXTENSION_EXTERNAL_INITIAL_INSTALL_PROMPT_TITLE_EXTENSION" desc="">
-          <ph name="PARTNER_NAME">$1<ex>Brave</ex></ph> has added an extension that may change the way Brave works.
+          <ph name="PARTNER_NAME">$1<ex>Nix</ex></ph> has added an extension that may change the way Brave works.
 
 <ph name="EXTENSION_NAME">$2<ex>Babylon Toolbar</ex></ph>
         </message>
@@ -2487,7 +2487,7 @@ Brave is unable to recover your settings.
           Installation failed. Please try again.
         </message>
         <message name="IDS_INSTALLER_DISPLAY_NAME" desc="Name for the updater metainstaller.">
-          <ph name="COMPANY_NAME">$1<ex>Brave</ex></ph> Installer
+          <ph name="COMPANY_NAME">$1<ex>Nix</ex></ph> Installer
         </message>
         <message name="IDS_CLOSE_BUTTON" desc="Close button tooltip">
           Close
@@ -2526,13 +2526,13 @@ Brave is unable to recover your settings.
           Canceling...
         </message>
         <message name="IDS_TEXT_RESTART_BROWSER" desc="For when a browser must be restarted to complete the installation.">
-          Thanks for installing. You must restart your browser before using <ph name="BUNDLE_NAME">$1<ex>Brave</ex></ph>.
+          Thanks for installing. You must restart your browser before using <ph name="BUNDLE_NAME">$1<ex>Nix</ex></ph>.
         </message>
         <message name="IDS_TEXT_RESTART_ALL_BROWSERS" desc="For when all browsers must be restarted to complete the installation.">
-          Thanks for installing. You must restart all your browsers before using <ph name="BUNDLE_NAME">$1<ex>Brave</ex></ph>.
+          Thanks for installing. You must restart all your browsers before using <ph name="BUNDLE_NAME">$1<ex>Nix</ex></ph>.
         </message>
         <message name="IDS_TEXT_RESTART_COMPUTER" desc="For when the computer must be restarted to complete the installation.">
-          Thanks for installing. You must restart your computer before using <ph name="BUNDLE_NAME">$1<ex>Brave</ex></ph>.
+          Thanks for installing. You must restart your computer before using <ph name="BUNDLE_NAME">$1<ex>Nix</ex></ph>.
         </message>
         <message name="IDS_UPDATER_CLOSE" desc="For close button on the UI post install completion.">
           Close
