@@ -1,0 +1,71 @@
+name: Nix Master Setup
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Python
+        run: sudo apt-get install -y python3-pil
+
+      - name: Generate Nix Logos
+        run: |
+          python3 << 'EOF'
+          from PIL import Image, ImageDraw, ImageFont
+          import os
+          sizes = [16, 32, 48, 64, 128, 256]
+          for size in sizes:
+              img = Image.new('RGBA', (size, size), (0,0,0,0))
+              draw = ImageDraw.Draw(img)
+              draw.ellipse([0,0,size-1,size-1], fill=(13,17,23,255))
+              cx = size//2
+              scale = size/400
+              shield = [
+                (cx, int(40*scale)),
+                (int(330*scale), int(95*scale)),
+                (int(330*scale), int(220*scale)),
+                (int(300*scale), int(300*scale)),
+                (cx, int(375*scale)),
+                (int(100*scale), int(300*scale)),
+                (int(70*scale), int(220*scale)),
+                (int(70*scale), int(95*scale)),
+              ]
+              draw.polygon(shield, fill=(26,31,78,255), outline=(255,107,0,255))
+              font_size = int(size*0.55)
+              try:
+                  font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
+              except:
+                  font = ImageFont.load_default()
+              bbox = draw.textbbox((0,0), "N", font=font)
+              tw = bbox[2]-bbox[0]
+              th = bbox[3]-bbox[1]
+              img.save(f'nix_{size}.png')
+              print(f"✅ {size}x{size} done!")
+          EOF
+
+      - name: Replace Logos
+        run: |
+          find . -name "brave_lion*.png" | while read f; do
+            size=$(identify -format "%w" "$f" 2>/dev/null || echo "0")
+            if [ -f "nix_${size}.png" ]; then
+              cp "nix_${size}.png" "$f"
+              echo "✅ Replaced: $f"
+            fi
+          done
+
+      - name: Replace Text
+        run: chmod +x nix-rebrand.sh && ./nix-rebrand.sh
+
+      - name: Commit All Changes
+        run: |
+          git config user.name "Nix Bot"
+          git config user.email "bot@nixbrowser.in"
+          git add .
+          git commit -m "🔥 Nix Browser: Full branding complete"
+          git push
