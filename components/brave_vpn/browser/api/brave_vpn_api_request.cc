@@ -32,7 +32,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
         trigger:
           "Triggered by user connecting the Brave VPN."
         data:
-          "Servers, hosts and credentials for Brave VPN"
+          "Servers, hosts and credentials for Nix VPN"
         destination: WEBSITE
       }
       policy {

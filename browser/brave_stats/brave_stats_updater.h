@@ -112,7 +112,7 @@ class BraveStatsUpdater : public ProfileManagerObserver {
   base::WeakPtrFactory<BraveStatsUpdater> weak_ptr_factory_{this};
 };
 
-// Registers the preferences used by BraveStatsUpdater
+// Registers the preferences used by NixStatsUpdater
 void RegisterLocalStatePrefs(PrefRegistrySimple* registry);
 void RegisterLocalStatePrefsForMigration(PrefRegistrySimple* registry);
 void MigrateObsoleteLocalStatePrefs(PrefService* local_state);

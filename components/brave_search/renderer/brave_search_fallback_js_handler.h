@@ -21,7 +21,7 @@ class ThreadSafeBrowserInterfaceBrokerProxy;
 
 namespace brave_search {
 
-// TODO(petemill): rename this to BraveSearchWorkerJSHandler
+// TODO(petemill): rename this to NixSearchWorkerJSHandler
 class BraveSearchFallbackJSHandler {
  public:
   BraveSearchFallbackJSHandler(

@@ -20,7 +20,7 @@
 using brave::ResponseCallback;
 
 TEST(BraveStaticRedirectNetworkDelegateHelperTest, NoModifyTypicalURL) {
-  const GURL url("https://bradhatesprimes.brave.com/composite_numbers_ftw");
+  const GURL url("https://bradhatesprimes.nixbrowser.in/composite_numbers_ftw");
   GURL new_url;
   int rc = brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url, &new_url);
   EXPECT_TRUE(new_url.is_empty());
@@ -43,7 +43,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet1) {
       "https://dl.google.com/release2/chrome_component/AJ4r388iQSJq_4819/"
       "4819_all_crl-set-5934829738003798040.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/release2/chrome_component/"
+      "https://redirector.nixbrowser.in/release2/chrome_component/"
       "AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   GURL new_url;
@@ -58,7 +58,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet2) {
       "chrome_component/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040"
       ".data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/edgedl/release2/chrome_compone"
+      "https://redirector.nixbrowser.in/edgedl/release2/chrome_compone"
       "nt/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   GURL new_url;
@@ -73,7 +73,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet3) {
       "LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/dl/release2/chrome_component/"
+      "https://redirector.nixbrowser.in/dl/release2/chrome_component/"
       "LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
 
@@ -88,7 +88,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet1_http) {
       "http://dl.google.com/release2/chrome_component/AJ4r388iQSJq_4819/"
       "4819_all_crl-set-5934829738003798040.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/release2/chrome_component/"
+      "https://redirector.nixbrowser.in/release2/chrome_component/"
       "AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   GURL new_url;
@@ -103,7 +103,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet2_http) {
       "chrome_component/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040"
       ".data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/edgedl/release2/chrome_compone"
+      "https://redirector.nixbrowser.in/edgedl/release2/chrome_compone"
       "nt/AJ4r388iQSJq_4819/4819_all_crl-set-5934829738003798040.data.crx3");
 
   GURL new_url;
@@ -117,7 +117,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet3_http) {
       "http://www.google.com/dl/release2/chrome_component/LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/dl/release2/chrome_component/"
+      "https://redirector.nixbrowser.in/dl/release2/chrome_component/"
       "LLjIBPPmveI_4988/"
       "4988_all_crl-set-6296993568184466307.data.crx3");
 
@@ -134,7 +134,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyCRLSet5_http) {
       "khaoiebndkojlmppeemjhbpbandiljpe_58_win_advr4ucepztwtigvw3fduftsvbeq."
       "crx3");
   const GURL expected_url(
-      "https://redirector.brave.com/dl/release2/chrome_component/"
+      "https://redirector.nixbrowser.in/dl/release2/chrome_component/"
       "cxpsjblnoxgjoqggdsbvujtof4_58/"
       "khaoiebndkojlmppeemjhbpbandiljpe_58_win_advr4ucepztwtigvw3fduftsvbeq."
       "crx3");
@@ -180,7 +180,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyGvt1) {
       "http://redirector.gvt1.com/edgedl/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
   const GURL expected_url(
-      "https://redirector.brave.com/edgedl/release2/"
+      "https://redirector.nixbrowser.in/edgedl/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
 
   GURL new_url;
@@ -194,7 +194,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest, ModifyGoogleDl) {
       "http://dl.google.com/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
   const GURL expected_url(
-      "https://redirector.brave.com/release2/"
+      "https://redirector.nixbrowser.in/release2/"
       "NfaZYtcKdtFc0LUvFkcNFA_0.3/AKveSIjhHAm2K09XAMovFEQ");
 
   GURL new_url;
@@ -260,7 +260,7 @@ TEST(BraveStaticRedirectNetworkDelegateHelperTest,
       "https://sb-ssl.google.com/safebrowsing/clientreport/download?"
       "key=DUMMY_KEY");
   GURL expected_url(
-      "https://sb-ssl.brave.com/safebrowsing/clientreport/download?"
+      "https://sb-ssl.nixbrowser.in/safebrowsing/clientreport/download?"
       "key=DUMMY_KEY");
 
   GURL new_url;

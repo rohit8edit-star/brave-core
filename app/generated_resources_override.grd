@@ -520,7 +520,7 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_EXTENSION_WEB_STORE_TITLE" desc="Text for the Web Store">
         Web Store
       </message>
-      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Brave without the user's knowledge">
+      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Nix without the user's knowledge">
         This extension is not listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
       </message>
       <if expr="is_macosx">

@@ -17,7 +17,7 @@
               "payload": {
                 "body": "Test Notification Ad Campaign 1 Body",
                 "title": "Test Notification Ad Campaign 1 Title",
-                "targetUrl": "https://brave.com/1/notification_ad"
+                "targetUrl": "https://nixbrowser.in/1/notification_ad"
               }
             },
             {
@@ -31,10 +31,10 @@
               "payload": {
                 "title": "Inline Content 1",
                 "description": "Test Inline Content Ad Campaign 1",
-                "imageUrl": "https://www.brave.com/1/image.png",
+                "imageUrl": "https://www.nixbrowser.in/1/image.png",
                 "dimensions": "200x100",
                 "ctaText": "Call to Action Text 1",
-                "targetUrl": "https://brave.com/1/inline_content_ad"
+                "targetUrl": "https://nixbrowser.in/1/inline_content_ad"
               }
             }
           ],
@@ -61,7 +61,7 @@
           "conversions": [
             {
               "observationWindow": 30,
-              "urlPattern": "https://www.brave.com/1/*"
+              "urlPattern": "https://www.nixbrowser.in/1/*"
             }
           ],
           "creativeSetId": "340c927f-696e-4060-9933-3eafc56c3f31",
@@ -114,7 +114,7 @@
               "payload": {
                 "body": "Test Notification Ad Campaign 2 Body",
                 "title": "Test Notification Ad Campaign 2 Title",
-                "targetUrl": "https://brave.com/2/notification_ad"
+                "targetUrl": "https://nixbrowser.in/2/notification_ad"
               }
             },
             {
@@ -128,10 +128,10 @@
               "payload": {
                 "title": "Inline Content 2",
                 "description": "Test Inline Content Ad Campaign 2",
-                "imageUrl": "https://www.brave.com/2/image.png",
+                "imageUrl": "https://www.nixbrowser.in/2/image.png",
                 "dimensions": "100x200",
                 "ctaText": "Call to Action Text 2",
-                "targetUrl": "https://brave.com/2/inline_content_ad"
+                "targetUrl": "https://nixbrowser.in/2/inline_content_ad"
               }
             }
           ],
@@ -154,7 +154,7 @@
           "conversions": [
             {
               "observationWindow": 7,
-              "urlPattern": "https://www.brave.com/2/*"
+              "urlPattern": "https://www.nixbrowser.in/2/*"
             }
           ],
           "creativeSetId": "741cd2ba-3100-45f2-be1e-acedd24e0067",

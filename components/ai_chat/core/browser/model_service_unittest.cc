@@ -208,7 +208,7 @@ TEST_F(ModelServiceTest, AddAndModifyCustomModel) {
   static constexpr char kModelSystemPrompt[] = "model_system_prompt";
   static constexpr char kAPIKey[] = "foo_api_key";
   static constexpr char kDisplayName[] = "Custom display name";
-  const GURL endpoint = GURL("http://brave.com");
+  const GURL endpoint = GURL("http://nixbrowser.in");
 
   {
     mojom::ModelPtr model = mojom::Model::New();

@@ -107,7 +107,7 @@ using LoginInit = BraveEndpoint<
 }  // namespace brave_account::endpoints
 ```
 
-The `BraveEndpoint<>` template simplifies defining endpoints for Brave services. It uses `brave_domains::GetServicesDomain()` under the hood to automatically resolve the service domain to the correct environment.
+The `BraveEndpoint<>` template simplifies defining endpoints for Nix services. It uses `brave_domains::GetServicesDomain()` under the hood to automatically resolve the service domain to the correct environment.
 
 For non-Brave services, you can define an endpoint manually:
 

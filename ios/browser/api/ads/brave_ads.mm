@@ -657,7 +657,7 @@ constexpr NSString* kAdsResourceComponentMetadataVersion = @".v1";
                    });
   };
 
-  NSString* baseUrl = @"https://brave-user-model-installer-input.s3.brave.com";
+  NSString* baseUrl = @"https://brave-user-model-installer-input.s3.nixbrowser.in";
   const auto flags = brave_rewards::RewardsFlags::ForCurrentProcess();
   if (flags.environment) {
     switch (*flags.environment) {

@@ -126,7 +126,7 @@ TEST_F(RewardsDatabaseMigrationTest, Migration_4_ActivityInfo) {
 
   EXPECT_EQ(list.at(0)->id, "slo-tech.com");
   EXPECT_EQ(list.at(0)->visits, 5u);
-  EXPECT_EQ(list.at(1)->id, "brave.com");
+  EXPECT_EQ(list.at(1)->id, "nixbrowser.in");
   EXPECT_EQ(list.at(1)->visits, 5u);
 }
 
@@ -148,7 +148,7 @@ TEST_F(RewardsDatabaseMigrationTest, Migration_5_ActivityInfo) {
     list.push_back(std::move(info));
   }
 
-  EXPECT_EQ(list.at(0)->id, "brave.com");
+  EXPECT_EQ(list.at(0)->id, "nixbrowser.in");
   EXPECT_EQ(list.at(0)->visits, 1u);
   EXPECT_EQ(list.at(1)->id, "slo-tech.com");
   EXPECT_EQ(list.at(1)->visits, 1u);
@@ -189,7 +189,7 @@ TEST_F(RewardsDatabaseMigrationTest, Migration_6_ActivityInfo) {
   EXPECT_NEAR(list.at(0)->weight, 25.919327084376, 0.001f);
   EXPECT_EQ(list.at(0)->reconcile_stamp, 1553423066u);
 
-  EXPECT_EQ(list.at(1)->id, "brave.com");
+  EXPECT_EQ(list.at(1)->id, "nixbrowser.in");
   EXPECT_EQ(list.at(1)->duration, 20u);
   EXPECT_EQ(list.at(1)->visits, 2u);
   EXPECT_NEAR(list.at(1)->score, 1.07471534438942, 0.001f);

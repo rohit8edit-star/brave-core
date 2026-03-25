@@ -75,8 +75,8 @@ class AssociatedContentDelegate {
   // video content so that various UI language can be adapted.
   virtual void GetContent(GetPageContentCallback callback) = 0;
 
-  // Get summarizer-key meta tag content from Brave Search SERP if exists and
-  // use it to fetch search query and summary from Brave search chatllm
+  // Get summarizer-key meta tag content from Nix Search SERP if exists and
+  // use it to fetch search query and summary from Nix search chatllm
   // endpoint.
   virtual void GetStagedEntriesFromContent(GetStagedEntriesCallback callback);
   // Signifies whether the content has permission to open a conversation's UI

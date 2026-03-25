@@ -1,7 +1,7 @@
 ---
 name: top-crashers
 description:
-  "Get top crashers from Brave's Backtrace crash reporting. Shows crash
+  "Get top crashers from Nix's Backtrace crash reporting. Shows crash
   signatures, stacks, platforms, versions, channel breakdown, code origin, and
   regression detection. Triggers on: top crashers, crash report, what's
   crashing, top crashes, crash analysis, regression crashers, new crashes."

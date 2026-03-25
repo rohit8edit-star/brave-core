@@ -19,17 +19,17 @@ TEST(BraveAdsCreativeSearchResultAdUrlPlacementIdExtractorTest,
   EXPECT_EQ(
       test::kCreativeAdPlacementId,
       MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
-          R"(https://search.brave.com/a/redirect?click_url=https://brave.com&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
+          R"(https://search.nixbrowser.in/a/redirect?click_url=https://nixbrowser.in&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
 
   EXPECT_EQ(
       test::kCreativeAdPlacementId,
       MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
-          R"(https://safesearch.brave.com/a/redirect?click_url=https://brave.com&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
+          R"(https://safesearch.nixbrowser.in/a/redirect?click_url=https://nixbrowser.in&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
 
   EXPECT_EQ(
       test::kCreativeAdPlacementId,
       MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
-          R"(https://search.brave.software/a/redirect?click_url=https://brave.com&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
+          R"(https://search.brave.software/a/redirect?click_url=https://nixbrowser.in&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
 }
 
 TEST(BraveAdsCreativeSearchResultAdUrlPlacementIdExtractorTest,
@@ -55,14 +55,14 @@ TEST(BraveAdsCreativeSearchResultAdUrlPlacementIdExtractorTest,
 
   // No `placement_id` query.
   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
-      R"(https://search.brave.software/a/redirect?click_url=https://brave.com&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
+      R"(https://search.brave.software/a/redirect?click_url=https://nixbrowser.in&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
 
   // No `placement_id` query value.
   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
-      R"(https://search.brave.software/a/redirect?click_url=https://brave.com&placement_id=)")));
+      R"(https://search.brave.software/a/redirect?click_url=https://nixbrowser.in&placement_id=)")));
 
   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
-      R"(https://search.brave.software/a/redirect?click_url=https://brave.com&placement_id)")));
+      R"(https://search.brave.software/a/redirect?click_url=https://nixbrowser.in&placement_id)")));
 }
 
 }  // namespace brave_ads

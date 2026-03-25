@@ -19,7 +19,7 @@
   <message name="IDS_WALLET_PARSING_ERROR" desc="There was a parsing error">A response parsing error has occurred</message>
   <message name="IDS_WALLET_REQUEST_PROCESSING_ERROR" desc="There was a request processing error">A generic request processing error has occurred</message>
   <message name="IDS_WALLET_REQUESTED_RESOURCE_NOT_AVAILABLE_ERROR" desc="The text of response when request panel is already open for current dapp">Requested resource not available</message>
-  <message name="IDS_WALLET_INVALID_MNEMONIC_ERROR" desc="The text for invalid mnemonic being imported error">The mnemonic being imported is not valid for Brave Wallet</message>
+  <message name="IDS_WALLET_INVALID_MNEMONIC_ERROR" desc="The text for invalid mnemonic being imported error">The mnemonic being imported is not valid for Nix Wallet</message>
   <message name="IDS_BRAVE_WALLET_IMPORT_WALLET_TYPE_TITLE" desc="Title for selection wallet type to import">Which type of wallet would you like to import?</message>
   <message name="IDS_BRAVE_WALLET_IMPORT_WALLET_TYPE_HOT_WALLET_TITLE" desc="Title for hot wallet option">Ethereum/Solana/Filecoin wallet</message>
   <message name="IDS_BRAVE_WALLET_IMPORT_WALLET_TYPE_HOT_WALLET_DESCRIPTION" desc="Description for hot wallet option">Import your seed phrase from an existing wallet</message>
@@ -194,7 +194,7 @@
   <message name="IDS_BRAVE_WALLET_WELCOME_NEW_WALLET_DESCRIPTION" desc="Onboarding welcome screen, new wallet action description">Get started with Brave Wallet in minutes.</message>
   <message name="IDS_BRAVE_WALLET_WELCOME_IMPORT_WALLET_TITLE" desc="Onboarding welcome screen, import wallet action title">Already have a wallet?</message>
   <message name="IDS_BRAVE_WALLET_WELCOME_WATCH_ONLY_TITLE" desc="Onboarding welcome screen, create watch only wallet">I need a watch-only wallet</message>
-  <message name="IDS_BRAVE_WALLET_WELCOME_COPYRIGHT" desc="Onboarding welcome screen copyright">©2025 Brave Software Inc. Brave and the Brave logo are registered trademarks of Brave Software, Inc. Other product names and logos may be trademarks of their respective companies. All rights reserved.</message>
+  <message name="IDS_BRAVE_WALLET_WELCOME_COPYRIGHT" desc="Onboarding welcome screen copyright">©2025 Nix Technologies Inc. Brave and the Brave logo are registered trademarks of Nix Technologies Other product names and logos may be trademarks of their respective companies. All rights reserved.</message>
   <message name="IDS_BRAVE_WALLET_WELCOME_DIVIDER_TEXT" desc="Wallet onboarding welcome divider text">or</message>
   <message name="IDS_BRAVE_WALLET_WELCOME_IMPORT_WALLET_DESCRIPTION" desc="Onboarding welcome screen, import wallet action description">Already have a wallet?</message>
   <message name="IDS_BRAVE_WALLET_BACKUP_INTRO_TITLE" desc="Backup screen title">Back up your crypto wallet</message>
@@ -311,9 +311,9 @@
   <message name="IDS_BRAVE_WALLET_AUTHORIZE_HARDWARE_WALLET" desc="Authorize hardware wallet page title">Authorize your wallet</message>
   <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_WALLET" desc="Title for connect hardware wallet page">Connect hardware wallet</message>
   <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_WALLET_DESCRIPTION" desc="Description for connect hardware wallet page">We currently support <ph name="HARDWARE_DEVICE"><ex>Ledger</ex>$1</ph> and <ph name="HARDWARE_DEVICE1"><ex>Trezor</ex>$2</ph> devices.</message>
-  <message name="IDS_BRAVE_WALLET_IMPORT_HARDWARE_WALLET_DESCRIPTION" desc="Description for import hardware wallet page">Connect your hardware wallet to manage your assets directly from Brave Wallet</message>
+  <message name="IDS_BRAVE_WALLET_IMPORT_HARDWARE_WALLET_DESCRIPTION" desc="Description for import hardware wallet page">Connect your hardware wallet to manage your assets directly from Nix Wallet</message>
   <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_WALLET_SELECT_BLOCKCHAIN" desc="Page title for selecting blockchain for hardware wallet">Select a blockchain to import your hardware wallet</message>
-  <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_DEVICE_DESCRIPTION" desc="Connect a hardware wallet description">Connect your <ph name="HARDWARE_DEVICE"><ex>Ledger</ex>$1</ph> device to Brave Wallet</message>
+  <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_DEVICE_DESCRIPTION" desc="Connect a hardware wallet description">Connect your <ph name="HARDWARE_DEVICE"><ex>Ledger</ex>$1</ph> device to Nix Wallet</message>
   <message name="IDS_BRAVE_WALLET_UNKNOWN_INTERNAL_ERROR" desc="Connect hardware wallet connection error">Unknown error, please reconnect your hardware wallet and try again.</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_WATCHLIST" desc="Account settings modal visible assets button">Visible assets</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_PRIVATE_KEY" desc="Account settings modal show private key button">Private key</message>
@@ -888,7 +888,7 @@
   <message name="IDS_BRAVE_WALLET_HARDWARE_OPERATION_UNSUPPORTED_ERROR" desc="Error message of unsupported hardware wallet operation">This hardware wallet does not support this operation.</message>
   <message name="IDS_BRAVE_WALLET_ENTER_YOUR_BRAVE_WALLET_PASSWORD" desc="Prompt for the user to enter their Brave Wallet password">Enter your Brave Wallet password</message>
   <message name="IDS_BRAVE_WALLET_ENTER_YOUR_PASSWORD" desc="Prompt for the user to enter their password">Enter your password</message>
-  <message name="IDS_BRAVE_WALLET_LEARN_MORE_ABOUT_BRAVE_WALLET" desc="Link to article explaining wallet">Learn more about Brave Wallet</message>
+  <message name="IDS_BRAVE_WALLET_LEARN_MORE_ABOUT_BRAVE_WALLET" desc="Link to article explaining wallet">Learn more about Nix Wallet</message>
   <message name="IDS_BRAVE_WALLET_PASSWORD_STRENGTH_TOOLTIP_HEADING" desc="Heading of password strength tooltip">Password should have:</message>
   <message name="IDS_BRAVE_WALLET_PASSWORD_STRENGTH_TOOLTIP_IS_LONG_ENOUGH" desc="Password strength length requirements">At least 8 characters</message>
   <message name="IDS_BRAVE_WALLET_PASSWORD_MATCH" desc="Password and confirmed passwords match">Passwords match</message>
@@ -1107,8 +1107,8 @@
   <message name="IDS_BRAVE_WALLET_NFT_JUNK" desc="Junk label in NFT item">Junk</message>
   <message name="IDS_BRAVE_WALLET_NFT_MOVE_TO_SPAM" desc="Move to spam option label">Mark as junk</message>
   <message name="IDS_BRAVE_WALLET_ADD_NFT_MODAL_TITLE" desc="NFT Add NFT modal title">Add NFT</message>
-  <message name="IDS_BRAVE_WALLET_REMOVE_NFT_MODAL_HEADER" desc="Remove NFT modal header">Remove from Brave Wallet?</message>
-  <message name="IDS_BRAVE_WALLET_REMOVE_NFT_MODAL_DESCRIPTION" desc="Remove NFT modal description">NFT will be removed from Brave Wallet but will remain on the blockchain. If you remove it, then change your mind, you'll need to import it again manually.</message>
+  <message name="IDS_BRAVE_WALLET_REMOVE_NFT_MODAL_HEADER" desc="Remove NFT modal header">Remove from Nix Wallet?</message>
+  <message name="IDS_BRAVE_WALLET_REMOVE_NFT_MODAL_DESCRIPTION" desc="Remove NFT modal description">NFT will be removed from Nix Wallet but will remain on the blockchain. If you remove it, then change your mind, you'll need to import it again manually.</message>
   <message name="IDS_BRAVE_WALLET_REMOVE_NFT_MODAL_CANCEL" desc="Remove NFT modal cancel action">Cancel</message>
   <message name="IDS_BRAVE_WALLET_REMOVE_NFT_MODAL_CONFIRM" desc="Remove NFT modal confirm action">Remove</message>
   <message name="IDS_BRAVE_WALLET_EDIT_NFT_MODAL_TITLE" desc="NFT Import NFT modal title">Edit NFT</message>
@@ -1186,7 +1186,7 @@
   <message name="IDS_BRAVE_WALLET_HIDE_NOT_OWNED_NF_TS" desc="Toggle label to enable or disable the display of NFTs that are not owned by any wallet account">Hide not owned NFTs</message>
   <message name="IDS_BRAVE_WALLET_GROUP_BY_COLLECTION" desc="Toggle label for grouping NFTs by collection">Group by collection</message>
   <message name="IDS_BRAVE_WALLET_ADD_CHAIN_INVALID_URL" desc="Error message for when the user enters an invalid URL for a custom chain">Invalid URL</message>
-  <message name="IDS_BRAVE_WALLET_ADD_NFT_MODAL_DESCRIPTION" desc="Description of the of the add-nft modal purpose">If you can't see an NFT automatically detected by Brave, or want to track one owned by others, you can import it manually.</message>
+  <message name="IDS_BRAVE_WALLET_ADD_NFT_MODAL_DESCRIPTION" desc="Description of the of the add-nft modal purpose">If you can't see an NFT automatically detected by Nix, or want to track one owned by others, you can import it manually.</message>
   <message name="IDS_BRAVE_WALLET_WHAT_IS_AN_NFT_CONTRACT_ADDRESS" desc="Explanation of what a contract address is for an NFT">The contract address when adding an NFT to a wallet is the unique address on the blockchain where the smart contract for the NFT collection resides. You can find the contract address from marketplace, or blockchain explorers, etc.</message>
   <message name="IDS_BRAVE_WALLET_WHAT_IS_AN_NFT_TOKEN_ID" desc="Explanation of what an NFT token ID is">The unique identifier for the specific NFT within the collection.</message>
   <message name="IDS_BRAVE_WALLET_FETCH_NFT_METADATA_ERROR" desc="Error message explaining that the NFT Metadata lookup failed">Unable to fetch NFT metadata</message>

@@ -130,7 +130,7 @@ std::string GetUpholdCard(const std::string& balance,
         "balance": "%s",
         "currency": "BAT",
         "id": "%s",
-        "label": "Brave Browser",
+        "label": "Nix Browser",
         "lastTransactionAt": null,
         "settings": {
           "position": 31,
@@ -168,7 +168,7 @@ std::string GetOrderCreateResponse(mojom::SKUOrderPtr sku_order) {
         "currency": "BAT",
         "updatedAt": "2020-04-08T08:22:26.288974Z",
         "totalPrice": "%g",
-        "location": "brave.com",
+        "location": "nixbrowser.in",
         "status": "pending",
         "items": [%s]
       })",

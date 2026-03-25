@@ -126,7 +126,7 @@ def DownloadOpengrep():
 
     # Construct download URL
     # original url: https://github.com/opengrep/opengrep/releases/download/
-    url = (f'https://brave-build-deps-public.s3.brave.com/opengrep/'
+    url = (f'https://brave-build-deps-public.s3.nixbrowser.in/opengrep/'
            f'{OPENGREP_VERSION}/{dist_name}')
 
     print(f'Downloading opengrep {OPENGREP_VERSION}...')

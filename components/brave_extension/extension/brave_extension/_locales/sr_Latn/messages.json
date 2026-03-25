@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "Prijavite da sajt ne funkcioniše",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "Stavke su blokirane",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Dodaj u Brave",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Ukloni iz Brave-a",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Add to Chrome",

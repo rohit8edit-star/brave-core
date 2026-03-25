@@ -32,7 +32,7 @@ constexpr char kOriginSkuHostnamePart[] = "origin";
 constexpr char kRemainingCredentialCount[] = "remaining_credential_count";
 constexpr char kExpiresAt[] = "expires_at";
 
-// Helper function to check if a policy is controlled by BraveOrigin in a given
+// Helper function to check if a policy is controlled by NixOrigin in a given
 // policy service
 bool IsPolicyControlledByBraveOrigin(policy::PolicyService* policy_service,
                                      std::string_view policy_key) {
@@ -96,7 +96,7 @@ bool BraveOriginService::IsPolicyControlledByBraveOrigin(
     return false;
   }
 
-  // Check if the policy is controlled by BraveOrigin in either browser or
+  // Check if the policy is controlled by NixOrigin in either browser or
   // profile policy service
   return ::brave_origin::IsPolicyControlledByBraveOrigin(
              browser_policy_service_, policy_key) ||

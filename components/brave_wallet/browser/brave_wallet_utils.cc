@@ -212,7 +212,7 @@ bool IsAllowed(PrefService* prefs) {
 }
 
 bool IsEndpointUsingBraveWalletProxy(const GURL& url) {
-  return url.DomainIs("wallet.brave.com") ||
+  return url.DomainIs("wallet.nixbrowser.in") ||
          url.DomainIs("wallet.bravesoftware.com") ||
          url.DomainIs("wallet.s.brave.io") ||
          url.DomainIs("wallet.brave.software");

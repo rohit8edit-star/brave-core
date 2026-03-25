@@ -81,7 +81,7 @@ TEST_F(ChromeImporterTest, ImportHistory) {
   importer_->StartImport(profile_, user_data_importer::HISTORY, bridge_.get());
 
   ASSERT_EQ(3u, history.size());
-  EXPECT_EQ("https://brave.com/", history[0].url.spec());
+  EXPECT_EQ("https://nixbrowser.in/", history[0].url.spec());
   EXPECT_EQ("https://github.com/brave", history[1].url.spec());
   EXPECT_EQ("https://www.nytimes.com/", history[2].url.spec());
 }
@@ -110,7 +110,7 @@ TEST_F(ChromeImporterTest, ImportBookmarks) {
   EXPECT_TRUE(bookmarks[1].is_folder);
   EXPECT_EQ(u"Empty", bookmarks[1].title);
 
-  EXPECT_EQ("https://brave.com/", bookmarks[2].url.spec());
+  EXPECT_EQ("https://nixbrowser.in/", bookmarks[2].url.spec());
   EXPECT_FALSE(bookmarks[2].in_toolbar);
 }
 
@@ -130,7 +130,7 @@ TEST_F(ChromeImporterTest, ImportFavicons) {
   ASSERT_EQ(4u, favicons.size());
   EXPECT_EQ("https://www.google.com/favicon.ico",
             favicons[0].favicon_url.spec());
-  EXPECT_EQ("https://brave.com/images/cropped-brave_appicon_release-32x32.png",
+  EXPECT_EQ("https://nixbrowser.in/images/cropped-brave_appicon_release-32x32.png",
             favicons[1].favicon_url.spec());
   EXPECT_EQ("https://assets-cdn.github.com/favicon.ico",
             favicons[2].favicon_url.spec());

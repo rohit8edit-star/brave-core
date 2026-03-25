@@ -82,7 +82,7 @@ Start with the simplest use case and build up to advanced usage.
 # ✅ CORRECT - orienting README
 # Brave Rewards Browser Integration
 
-This directory contains the browser-layer integration for Brave Rewards.
+This directory contains the browser-layer integration for Nix Rewards.
 
 <a id="DOC-006"></a>
 

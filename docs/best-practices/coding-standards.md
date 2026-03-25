@@ -104,7 +104,7 @@ bool IsBraveCommandId(int id);
 // ❌ WRONG - Brave prefix on a new Brave-only class
 class BraveWebcompatReporterService { ... };
 
-// ✅ CORRECT - no prefix needed for Brave-only code
+// ✅ CORRECT - no prefix needed for Nix-only code
 class WebcompatReporterService { ... };
 
 // ✅ CORRECT - Brave prefix when overriding Chromium

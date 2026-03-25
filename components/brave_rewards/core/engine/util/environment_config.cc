@@ -36,7 +36,7 @@ GURL EnvironmentConfig::brave_pcdn_url() const {
     case mojom::Environment::kStaging:
       return GURL("https://pcdn.bravesoftware.com");
     case mojom::Environment::kProduction:
-      return GURL("https://pcdn.brave.com");
+      return GURL("https://pcdn.nixbrowser.in");
   }
 }
 
@@ -47,7 +47,7 @@ GURL EnvironmentConfig::rewards_url() const {
     case mojom::Environment::kStaging:
       return GURL("https://rewards-stg.bravesoftware.com");
     case mojom::Environment::kProduction:
-      return GURL("https://rewards.brave.com");
+      return GURL("https://rewards.nixbrowser.in");
   }
 }
 
@@ -58,7 +58,7 @@ GURL EnvironmentConfig::rewards_api_url() const {
     case mojom::Environment::kStaging:
       return GURL("https://api.rewards.bravesoftware.com");
     case mojom::Environment::kProduction:
-      return GURL("https://api.rewards.brave.com");
+      return GURL("https://api.rewards.nixbrowser.in");
   }
 }
 

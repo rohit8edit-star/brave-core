@@ -33,7 +33,7 @@ class PostCreateTransaction : public RequestBuilder {
   // added in the meantime to fix the build error. Remove this attribute and
   // provide a proper fix.
   [[clang::no_destroy]] inline static const std::string kFeeMessage =
-      "5% transaction fee collected by Brave Software International";
+      "5% transaction fee collected by Nix Technologies International";
 
   std::string token_;
   std::string address_;

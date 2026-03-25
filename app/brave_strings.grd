@@ -305,15 +305,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <message name="IDS_SHORTCUT_NAME_BETA">Brave Beta</message>
         <message name="IDS_SHORTCUT_NAME_DEV">Brave Dev</message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
-          Brave is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Brave.
+          Brave is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Nix.
         </message>
         <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Brave is launched at the conclusion of installation.">
-          Welcome to Brave; new browser window opened
+          Welcome to Nix; new browser window opened
         </message>
       </if>
       <if expr="is_macosx or is_linux">
         <message name="IDS_FIRST_RUN_DIALOG_WINDOW_TITLE" desc="Window title of First Run dialog on Mac and Linux, displayed in title bar">
-          Welcome to Brave
+          Welcome to Nix
         </message>
       </if>
       <if expr="is_linux">
@@ -390,7 +390,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         All tasks
       </message>
       <message name="IDS_SESSION_CRASHED_VIEW_UMA_OPTIN" desc="Text besides the checkbox to let users optin to UMA in the restore from previous crash bubble.">
-        Help make Brave better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Brave
+        Help make Brave better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Nix
       </message>
       <if expr="not is_android">
         <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_TOO_MANY_BOOKMARKS_BODY" desc="Body of the signout confirmation dialog when the user has too many bookmarks.">
@@ -567,13 +567,13 @@ New bookmarks can’t be saved in your account until you delete some. If you sig
       </if>
       <!-- Sharing messages -->
       <message name="IDS_BROWSER_SHARING_CLICK_TO_CALL_DIALOG_HELP_TEXT_NO_DEVICES" desc="The label to be shown as a help text of the dialog when user click on a phone number, if there are no phones to choose from.">
-        To send a number from here to your Android phone, sign in to Brave on both devices.
+        To send a number from here to your Android phone, sign in to Nix on both devices.
       </message>
       <message name="IDS_BROWSER_SHARING_CLICK_TO_CALL_DIALOG_HELP_TEXT_NO_DEVICES_ORIGIN" desc="The label to be shown as a help text of the dialog when user click on a phone number, if there are no phones to choose from.">
-        To send a number from <ph name="ORIGIN">$1<ex>www.google.com</ex></ph> to your Android phone, sign in to Brave on both devices.
+        To send a number from <ph name="ORIGIN">$1<ex>www.google.com</ex></ph> to your Android phone, sign in to Nix on both devices.
       </message>
       <message name="IDS_BROWSER_SHARING_ERROR_DIALOG_TEXT_DEVICE_NOT_FOUND" desc="The text to be shown on the dialog when an error occurred because the device is not synced.">
-        Make sure you are signed in to Brave on your <ph name="TARGET_DEVICE_NAME">$1<ex>Pixel XL</ex></ph> and then try sending again.
+        Make sure you are signed in to Nix on your <ph name="TARGET_DEVICE_NAME">$1<ex>Pixel XL</ex></ph> and then try sending again.
       </message>
       <!-- Uninstall messages -->
       <if expr="is_win">
@@ -620,7 +620,7 @@ Brave cannot read and write to its data directory:
       </message>
       <if expr="is_chromeos">
         <message name="IDS_EULA_CHECKBOX_ENABLE_LOGGING" desc="The label of the checkbox to enable/disable crash and user metrics logging">
-          Optional: Help improve ChromeOS features and performance by automatically sending diagnostic and usage data to Brave.
+          Optional: Help improve ChromeOS features and performance by automatically sending diagnostic and usage data to Nix.
         </message>
       </if>
       <message name="IDS_PROFILE_TOO_NEW_ERROR" desc="Error displayed on startup when the profile is from a newer version of the product and can not be read">
@@ -679,7 +679,7 @@ Brave is unable to recover your settings.
         <message name="IDS_PASSWORDS_PAGE_EXPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before exporting passwords to a file.">
           Brave wants to export your passwords. Type your Windows password to allow this.
         </message>
-        <message name="IDS_PASSWORDS_PAGE_DELETE_ALL_DATA_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before deleting all data from Brave Password Manager.">
+        <message name="IDS_PASSWORDS_PAGE_DELETE_ALL_DATA_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before deleting all data from Nix Password Manager.">
           Brave wants to delete your Password Manager data. Type your Windows password to allow this.
         </message>
         <message name="IDS_PASSWORDS_PAGE_IMPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before overriding passwords during Import.">
@@ -691,7 +691,7 @@ Brave is unable to recover your settings.
         <message name="IDS_INSTALL_FAILED" desc="Error displayed if installation fails due to some unknown error.">
           Installation failed due to unspecified error. If Brave is currently running, please close it and try again.
         </message>
-        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Brave running.">
+        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Nix running.">
           Can not install the same Brave version that is currently running. Please close Brave and try again.
         </message>
         <message name="IDS_INSTALL_OS_NOT_SUPPORTED" desc="Error displayed if OS is not supported">
@@ -727,10 +727,10 @@ Brave is unable to recover your settings.
       </if>
       <if expr="not is_android">
         <message name="IDS_PASSWORD_MANAGER_IMPORT_DIALOG_TITLE" desc="The title of the file selection dialog for importing passwords">
-          Import Passwords To Brave
+          Import Passwords To Nix
         </message>
         <message name="IDS_PASSWORD_MANAGER_EXPORT_DIALOG_TITLE" desc="The title of the file selection dialog for exporting passwords">
-          Export Passwords From Brave
+          Export Passwords From Nix
         </message>
       </if>
       <!-- Options Dialog -->
@@ -745,15 +745,15 @@ Brave is unable to recover your settings.
           Uninstall
         </message>
         <message name="IDS_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not pinned to the taskbar.">
-          Pin Brave to your taskbar to get to it quickly anytime
+          Pin Nix to your taskbar to get to it quickly anytime
         </message>
         <message name="IDS_PIN_INFOBAR_BUTTON" desc="Label for the button on an infobar offering to pin Brave to the taskbar. Pins Brave when clicked.">
-          Pin Brave
+          Pin Nix
         </message>
       </if>
       <if expr="is_macosx">
         <message name="IDS_PIN_INFOBAR_DOCK_TEXT" desc="Text to show in an infobar when Brave is not in the Dock.">
-          Keep Brave in your Dock to get to it quickly anytime
+          Keep Nix in your Dock to get to it quickly anytime
         </message>
         <message name="IDS_PIN_INFOBAR_DOCK_BUTTON" desc="Label for the button on an infobar offering to keep Brave in the Dock.">
           Keep in Dock
@@ -763,17 +763,17 @@ Brave is unable to recover your settings.
         Brave isn't your default browser
       </message>
       <message name="IDS_DEFAULT_BROWSER_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not the current default browser and can be pinned to the taskbar.">
-        Set Brave as your default browser and pin it to your taskbar
+        Set Nix as your default browser and pin it to your taskbar
       </message>
       <if expr="not is_android and not is_chromeos">
         <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITH_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal with settings illustration.">
-          Set Brave as your default browser
+          Set Nix as your default browser
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITH_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal with settings illustration.">
-          Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Brave.
+          Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to Nix.
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITHOUT_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal without settings illustration.">
-          Use Brave recommended browser settings
+          Use Nix recommended browser settings
         </message>
         <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITHOUT_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal without settings illustration.">
           Get easy access to the features you know, love, and trust by setting Brave as your default browser. Brave will be pinned to your taskbar for quick access.
@@ -781,7 +781,7 @@ Brave is unable to recover your settings.
       </if>
       <if expr="is_win or is_macosx">
         <message name="IDS_PDF_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not the default PDF viewer.">
-          Set Brave as your default PDF viewer
+          Set Nix as your default PDF viewer
         </message>
       </if>
       <!-- Download Bubble Items -->
@@ -797,7 +797,7 @@ Brave is unable to recover your settings.
 
       <!-- Download Shelf Items -->
       <message name="IDS_DOWNLOAD_STATUS_CRX_INSTALL_RUNNING" desc="Message shown when a CRX has been downloaded and is being unpacked.">
-        Adding to Brave...
+        Adding to Nix...
       </message>
 
       <message name="IDS_PROMPT_DOWNLOAD_CHANGES_SETTINGS" desc="Message shown on the download shelf when the download is known to change settings in the browser in a malicious way.">
@@ -875,12 +875,12 @@ Brave is unable to recover your settings.
       <if expr="enable_extensions_core">
         <!-- Extension installed bubble -->
         <message name="IDS_EXTENSION_INSTALLED_HEADING" desc="Title of the extension-installed bubble. Instructs that the extension was installed.">
-          <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> has been added to Brave
+          <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> has been added to Nix
         </message>
 
         <!-- Extension uninstall prompt -->
         <message name="IDS_EXTENSION_UNINSTALL_PROMPT_REMOVE_DATA_CHECKBOX" desc="Checkbox text to ask the user whether they want to remove associated data at uninstall time. Only used when uninstalling an app associated with a particular website.">
-          Also delete data from Brave (<ph name="URL">$1<ex>www.google.com</ex></ph>)
+          Also delete data from Nix (<ph name="URL">$1<ex>www.google.com</ex></ph>)
         </message>
 
         <!-- Extension alerts. -->
@@ -910,25 +910,25 @@ Brave is unable to recover your settings.
           }
         </message>
         <message name="IDS_EXTENSIONS_MV2_DEPRECATION_PANEL_REMOVE_BUTTON_ACC_LABEL" desc="The (accessible) label for the button to remove an extension.">
-          Remove <ph name="EXTENSION_NAME">$1<ex>Brave Translate</ex></ph> from Brave
+          Remove <ph name="EXTENSION_NAME">$1<ex>Brave Translate</ex></ph> from Nix
         </message>
       </if>
 
       <!-- Extension Safety Check Detail Page strings -->
       <message name="IDS_SAFETY_CHECK_EXTENSIONS_MALWARE" desc="The text explaining the reason for disabling extension. The extension in question contains malware.">
-        This extension contains malware and is unsafe. Remove it from Brave so it can no longer see and change your data on sites you visit, including your personal info.
+        This extension contains malware and is unsafe. Remove it from Nix so it can no longer see and change your data on sites you visit, including your personal info.
       </message>
       <message name="IDS_SAFETY_CHECK_EXTENSIONS_POLICY_VIOLATION" desc="The text explaining the reason for disabling extension. The extension in question violates Web Store policy.">
-        This extension violates the Web Store policy, and might be unsafe. Remove it from Brave so it can no longer see and change your data on sites you visit, including your personal info.
+        This extension violates the Web Store policy, and might be unsafe. Remove it from Nix so it can no longer see and change your data on sites you visit, including your personal info.
       </message>
       <message name="IDS_SAFETY_CHECK_EXTENSIONS_UNPUBLISHED" desc="The text explaining the reason for disabling extension. The extension in question was unpublished by the developer.">
-        This extension was unpublished by its developer, and might be unsafe. Remove it from Brave so it can no longer see and change your data on sites you visit, including your personal info.
+        This extension was unpublished by its developer, and might be unsafe. Remove it from Nix so it can no longer see and change your data on sites you visit, including your personal info.
       </message>
       <message name="IDS_EXTENSIONS_SAFETY_CHECK_PRIMARY_LABEL" desc="Alerts the user that the extension should be reviewed.">
         Brave recommends you review this extension
       </message>
       <message name="IDS_EXTENSIONS_SAFETY_CHECK_OFFSTORE" desc="Alerts the user that the extension is not from the Brave web store.">
-        Brave can't verify where this extension comes from, and it might be unsafe. Remove it from Brave so it can no longer see and change your data on sites you visit, including personal info.
+        Brave can't verify where this extension comes from, and it might be unsafe. Remove it from Nix so it can no longer see and change your data on sites you visit, including personal info.
       </message>
       <message name="IDS_EXTENSIONS_SAFETY_CHECK_OFFSTORE_ON" desc="Alerts the user that the extension is not from the Brave web store.">
         On • Brave can't verify where this extension comes from
@@ -953,7 +953,7 @@ Brave is unable to recover your settings.
         Warning: Brave cannot prevent extensions from recording your browsing history. To disable this extension in Private mode, unselect this option.
       </message>
       <message name="IDS_EXTENSIONS_UNINSTALL" desc="The label for a control that triggers an extension uninstall.">
-        Remove from Brave
+        Remove from Nix
       </message>
       <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Brave application.">
         In Brave
@@ -1088,10 +1088,10 @@ Brave is unable to recover your settings.
       <!-- One click sign-in infobar -->
       <if expr="not is_chromeos">
         <message name="IDS_SYNC_WRONG_EMAIL" desc="Message shown when sync setup failed due to the user entering the wrong email address for sign-in.">
-          You were signed in to Brave as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Please use the same account to sign in again.
+          You were signed in to Nix as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Please use the same account to sign in again.
         </message>
         <message name="IDS_SYNC_USED_PROFILE_ERROR" desc="An error message shown when user tries to sign in to a profile that is used by other user name before.">
-          Someone previously signed in to Brave on this computer as <ph name="ACCOUNT_EMAIL_LAST">$1<ex>user@example.com</ex></ph>. Please create a new Brave user to keep your information separate.
+          Someone previously signed in to Nix on this computer as <ph name="ACCOUNT_EMAIL_LAST">$1<ex>user@example.com</ex></ph>. Please create a new Brave user to keep your information separate.
         </message>
       </if>
 
@@ -1112,8 +1112,8 @@ Brave is unable to recover your settings.
         Settings, opens in new tab.
       </message>
       <!-- Enterprise sign-in dialog -->
-      <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Brave with their enterprise account when it is mandatory to sign in to Brave with the enterprise account.">
-        Your organization requires you to sign into Brave
+      <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Nix with their enterprise account when it is mandatory to sign in to Nix with the enterprise account.">
+        Your organization requires you to sign into Nix
       </message>
       <if expr="toolkit_views">
         <message name="IDS_ENTERPRISE_SIGNIN_TITLE" desc="The title of the dialog to confirm linking the browser profile with the signed-in enterprise account">
@@ -1125,11 +1125,11 @@ Brave is unable to recover your settings.
         <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Brave account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
           You are signing in with a managed account and giving its administrator control over your Brave profile. Your Brave data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Brave sync chains Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Brave data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_KNOWN_DOMAIN_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Brave with their enterprise account when it is mandatory to sign in to Brave with the enterprise account.">
-          Your organization, <ph name="MANAGER">$1<ex>manager.com</ex></ph>, requires you to sign into Brave
+        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_KNOWN_DOMAIN_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Nix with their enterprise account when it is mandatory to sign in to Nix with the enterprise account.">
+          Your organization, <ph name="MANAGER">$1<ex>manager.com</ex></ph>, requires you to sign into Nix
         </message>
-        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_SUGGESTED_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Brave with their enterprise account.">
-          Sign in to Brave?
+        <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_SUGGESTED_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to Nix with their enterprise account.">
+          Sign in to Nix?
         </message>
       </if>
 
@@ -1145,20 +1145,20 @@ Brave is unable to recover your settings.
       </message>
 
       <!-- Managed profile required interstitial -->
-      <message name="IDS_MANAGED_PROFILE_INTERSTITIAL_PRIMARY_PARAGRAPH" desc="The main text of the interstitial that tells the user that their organization requires them to sign in to Brave with their managed account in order to access it.">
-       To continue, sign in to Brave as <ph name="EMAIL">$1<ex>user@example.com</ex></ph>. This makes sure that you've got your organization's policies.
+      <message name="IDS_MANAGED_PROFILE_INTERSTITIAL_PRIMARY_PARAGRAPH" desc="The main text of the interstitial that tells the user that their organization requires them to sign in to Nix with their managed account in order to access it.">
+       To continue, sign in to Nix as <ph name="EMAIL">$1<ex>user@example.com</ex></ph>. This makes sure that you've got your organization's policies.
       </message>
 
-      <!-- Extension requests sign in to Brave through chrome.identity API -->
+      <!-- Extension requests sign in to Nix through chrome.identity API -->
       <if expr="enable_extensions">
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain.">
-          The extension "<ph name="EXTENSION_NAME">$1<ex>Screencast</ex></ph>" wants you to sign in to Brave
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Nix to be able to use their Brave sync chain.">
+          The extension "<ph name="EXTENSION_NAME">$1<ex>Screencast</ex></ph>" wants you to sign in to Nix
         </message>
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_BODY_PART_1" desc="This string is the body of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain.">
-         To use this extension as <ph name="USER_EMAIL_ADDRESS">$1<ex>elisa.g.beckett@gmail.com</ex></ph>, sign in to Brave.
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_BODY_PART_1" desc="This string is the body of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Nix to be able to use their Brave sync chain.">
+         To use this extension as <ph name="USER_EMAIL_ADDRESS">$1<ex>elisa.g.beckett@gmail.com</ex></ph>, sign in to Nix.
         </message>
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE_FALLBACK" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain. Used when the extension name couldn't be retrieved.">
-          An extension wants you to sign in to Brave
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_TITLE_FALLBACK" desc="This string is the heading of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Nix to be able to use their Brave sync chain. Used when the extension name couldn't be retrieved.">
+          An extension wants you to sign in to Nix
         </message>
       </if>
 
@@ -1201,7 +1201,7 @@ Brave is unable to recover your settings.
           Customize Brave to give your browser a new look
         </message>
         <message name="IDS_NTP_SIGN_IN_PROMO_WITH_BOOKMARKS" desc="The text shown in the body of the New Tab Page sign in promotion">
-          Sign in to Brave to get your passwords, bookmarks, and more on all your devices
+          Sign in to Nix to get your passwords, bookmarks, and more on all your devices
         </message>
       </if>
 
@@ -1230,63 +1230,63 @@ Brave is unable to recover your settings.
 
       <!-- Dice Web Signin Interception Bubble-->
       <if expr="not use_titlecase">
-        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Brave while the Brave Signin Bubble intercept is shown.">
-          Sign in to Brave?
+        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Nix while the Brave Signin Bubble intercept is shown.">
+          Sign in to Nix?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE" desc="Title of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
           Make Brave your own
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_DECLINE_TEXT" desc="Label of the Decline button of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
-          Use Brave without an account
+          Use Nix without an account
         </message>
       </if>
       <if expr="use_titlecase">
-        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Brave while the Brave Signin Bubble intercept is shown.">
-          Sign In to Brave?
+        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_TEXT" desc="Text asking the user to sign into Nix while the Brave Signin Bubble intercept is shown.">
+          Sign In to Nix?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE" desc="Title of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
           Make Brave Your Own
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_DECLINE_TEXT" desc="Label of the Decline button of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
-          Use Brave Without an Account
+          Use Nix Without an Account
         </message>
       </if>
 
       <if expr="not is_chromeos and not is_android">
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CREATE_BUBBLE_TITLE_V2" desc="Title of the web signin interception bubble used when Explicit browser Sign in is enabled">
-          Sign in to Brave in a new profile?
+          Sign in to Nix in a new profile?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_TITLE" desc="Title for the profile switch interception bubble">
           Switch to existing Brave profile?
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2" desc="This string is the body text for a dialog that appears when the user is already signed in to Brave, but they just tried to sign in to a Brave service (like Gmail) with a different Brave sync chain that already has its own Brave profile on this device. The body text is after the 'Switch to existing Brave profile?' string. The tone should be inviting and helpful.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2" desc="This string is the body text for a dialog that appears when the user is already signed in to Nix, but they just tried to sign in to a Brave service (like Gmail) with a different Brave sync chain that already has its own Brave profile on this device. The body text is after the 'Switch to existing Brave profile?' string. The tone should be inviting and helpful.">
           You're already signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph> in another Brave profile
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2_SUPERVISED" desc="This string is the body text for a dialog that appears when the user is already signed in to Brave, but they just tried to sign in to a Brave service (like Gmail) with a different supervised Brave sync chain that already has its own Brave profile on this device. The body text is after the 'Switch to existing Brave profile?' string. The tone should be inviting and helpful.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC_V2_SUPERVISED" desc="This string is the body text for a dialog that appears when the user is already signed in to Nix, but they just tried to sign in to a Brave service (like Gmail) with a different supervised Brave sync chain that already has its own Brave profile on this device. The body text is after the 'Switch to existing Brave profile?' string. The tone should be inviting and helpful.">
           To stay safer online with your parent’s choices, switch to your Brave profile where you’re already signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CONSUMER_BUBBLE_DESC" desc="Body of the web signin interception bubble">
           <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in to this Brave profile. To keep your browsing separate, Brave can create your own profile for you.
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CREATE_BUBBLE_DESC" desc="Body of the web signin interception bubble. It is shown when the user signs in on the web while they already have another account present in the current profile.">
-          <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in.  To keep your browsing separate, sign in to Brave in your own profile as <ph name="USER_EMAIL_ADDRESS">$2<ex>foo@gmail.com</ex></ph>.
+          <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in.  To keep your browsing separate, sign in to Nix in your own profile as <ph name="USER_EMAIL_ADDRESS">$2<ex>foo@gmail.com</ex></ph>.
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE" desc="Subtitle of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
-          To get your passwords and more on all your devices, sign in to Brave
+          To get your passwords and more on all your devices, sign in to Nix
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE_WITH_BOOKMARKS" desc="Subtitle of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account.">
-          To get your passwords, bookmarks, and more on all your devices, sign in to Brave
+          To get your passwords, bookmarks, and more on all your devices, sign in to Nix
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE_SUPERVISED" desc="This string is the body of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
-          To stay safer online with your parent’s choices, sign in to Brave
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_SUBTITLE_SUPERVISED" desc="This string is the body of a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
+          To stay safer online with your parent’s choices, sign in to Nix
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER" desc="This string is the body text of a reminder message, which is intended to help users understand that they have been signed in to Brave. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Brave as well, the user selected yes. After a period of time, this reminder message appears at the top right of Brave (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This body text string comes after the 'Welcome back, USER_NAME' string. We are focusing on the benefit that user enjoys, now that they're signed in to Brave. The tone should be welcoming.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER" desc="This string is the body text of a reminder message, which is intended to help users understand that they have been signed in to Nix. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Nix as well, the user selected yes. After a period of time, this reminder message appears at the top right of Brave (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This body text string comes after the 'Welcome back, USER_NAME' string. We are focusing on the benefit that user enjoys, now that they're signed in to Nix. The tone should be welcoming.">
           While you're signed in, you can use your passwords and more from your Brave sync chain in Brave. To change this, go to “Your account in Brave”.
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER_SCREENREADER" desc="This string is the accessibility text of a reminder message, which is intended to help users understand that they have been signed in to Brave.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER_SCREENREADER" desc="This string is the accessibility text of a reminder message, which is intended to help users understand that they have been signed in to Nix.">
           While you're signed in, you can use your passwords and more from your Brave sync chain in Brave. <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+M</ex></ph> can change your Brave services settings.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_TITLE" desc="This is the title of a confirmation dialog and asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This title is before the 'Your passwords and other Brave data are saved to your Brave sync chain, and will be removed from this device. To use them in the future, sign back in to Brave.' string. The tone should be straightforward.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_TITLE" desc="This is the title of a confirmation dialog and asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This title is before the 'Your passwords and other Brave data are saved to your Brave sync chain, and will be removed from this device. To use them in the future, sign back in to Nix.' string. The tone should be straightforward.">
           Sign out of Brave?
         </message>
         <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This subtitle is after the 'Sign out of Brave?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
@@ -1295,24 +1295,24 @@ Brave is unable to recover your settings.
         <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_NO_UNSYNCED_DATA_BODY" desc="This is the subtitle of a confirmation dialog that asks the user to confirm that they want to sign out of Brave. It appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. This subtitle is after the 'Sign out of Brave?' string. The tone should be calm, because we want to explain to the user that their data is saved; however, we want to set expectations by clarifying that the data will be removed from the device. This string provides a path to resolution because it explains how the user can see their data again (by signing back in).">
           Your passwords and other Brave data that you saved in your Brave sync chain will be removed from this device. To use them again in Brave, sign back in.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Brave, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Brave.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Nix, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Brave.">
           Brave needs to verify it’s you before some data can be saved in your Brave sync chain and used on all your devices. If you sign out now, this data will be deleted.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Brave, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Brave.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Nix, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of Brave.">
           {count, plural,
               =1 {Brave needs to verify it’s you before some data can be saved in your Brave sync chain and used on all your devices. If you sign out now, this data (1 item) will be deleted.}
               other {Brave needs to verify it’s you before some data can be saved in your Brave sync chain and used on all your devices. If you sign out now, this data ({count} items) will be deleted.}}
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Brave and Brave hasn't had time to save that data to the user's Brave sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Brave sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Nix and Brave hasn't had time to save that data to the user's Brave sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Brave sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
           Some of your Brave data hasn't been saved in your Brave sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data will be deleted.
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Brave and Brave hasn't had time to save that data to the user's Brave sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Brave sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to Nix and Brave hasn't had time to save that data to the user's Brave sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their Brave sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
           {count, plural,
               =1 {Some of your Brave data hasn't been saved in your Brave sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data (1 item) will be deleted.}
               other {Some of your Brave data hasn't been saved in your Brave sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data ({count} items) will be deleted.}}
         </message>
         <message name="IDS_CLOSE_WARNING_FOR_CLEAR_COOKIES_ON_EXIT_TEXT" desc="Body of a notice displayed when closing the last Brave window, to inform the user about a change in the way the 'Clear cookie on exit' setting works.">
-          You’ll be signed out of most sites when you close all Brave windows, except your Brave sync chain if you’re signed in to Brave. To let sites remember you, <ph name="SETTINGS_LINK">$1<ex>go to settings</ex></ph>.
+          You’ll be signed out of most sites when you close all Brave windows, except your Brave sync chain if you’re signed in to Nix. To let sites remember you, <ph name="SETTINGS_LINK">$1<ex>go to settings</ex></ph>.
         </message>
         <message name="IDS_SYNC_PASSPHRASE_DIALOG_FOOTER" desc="Dialog footer of the passphrase dialog.">
           If you forgot your passphrase or want to change this setting, <ph name="SETTINGS_LINK">$1<ex>clear</ex></ph> the Brave data in your account
@@ -1323,7 +1323,7 @@ Brave is unable to recover your settings.
         <message name="IDS_SYNC_PASSPHRASE_DIALOG_BODY" desc="Body of the sync passphrase dialog.">
           Your data is encrypted with your passphrase. Enter it to use and save Brave data in your Brave sync chain.
         </message>
-        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when the Brave Signin bubble is shown. The text implies that the expanded bubble underneath the button is closable by clicking on the button. The actual text is 'Sign in to Brave?' with a bubble shown under it.">
+        <message name="IDS_AVATAR_BUTTON_INTERCEPT_BUBBLE_CHROME_SIGNIN_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when the Brave Signin bubble is shown. The text implies that the expanded bubble underneath the button is closable by clicking on the button. The actual text is 'Sign in to Nix?' with a bubble shown under it.">
           Click to close the Brave sign-in dialog
         </message>
         <message name="IDS_AVATAR_BUTTON_SIGNIN_PENDING_ACCESSIBILITY_LABEL" desc="Accessibility label (read by the accessibility tools) of the avatar button when Brave is in 'Sign-in pending' state. This state means that the account associated with Brave does not have valid credentials anymore and needs to be re-authenticated.">
@@ -1331,11 +1331,11 @@ Brave is unable to recover your settings.
         </message>
 
         <!-- Autofill Sign In Promo Bubble -->
-        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Brave sync chain). It appears when the user is not signed in to Brave and is after the 'Password saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Sign in to Brave' button at the bottom of this message. The tone should be motivating.">
-          To get your passwords and more on all your devices, sign in to Brave. This password will be saved in your Brave sync chain after you sign in.
+        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Brave sync chain). It appears when the user is not signed in to Nix and is after the 'Password saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Sign in to Nix' button at the bottom of this message. The tone should be motivating.">
+          To get your passwords and more on all your devices, sign in to Nix. This password will be saved in your Brave sync chain after you sign in.
         </message>
-        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Brave sync chain). It appears when the user is not signed in to Brave and is after the 'Address saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Sign in to Brave' button at the bottom of this message. The tone should be motivating.">
-          To get your addresses and more on all your devices, sign in to Brave. This address will be saved in your Brave sync chain after you sign in.
+        <message name="IDS_AUTOFILL_SIGNIN_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Brave sync chain). It appears when the user is not signed in to Nix and is after the 'Address saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Sign in to Nix' button at the bottom of this message. The tone should be motivating.">
+          To get your addresses and more on all your devices, sign in to Nix. This address will be saved in your Brave sync chain after you sign in.
         </message>
       </if>
 
@@ -1367,14 +1367,14 @@ Brave is unable to recover your settings.
 
       <!-- Profile Menu -->
       <message name="IDS_PROFILE_MENU_SIGNIN_PROMO_BUTTON" meaning="Button" desc="Text for the button in the sign-in promo in the profile menu when the used is signed out.">
-        Sign in to Brave
+        Sign in to Nix
       </message>
       <message name="IDS_PROFILE_MENU_PLACEHOLDER_PROFILE_NAME" desc="Placeholder profile name, used when the user did not enter a name for their profile.">
         Your Brave
       </message>
       <if expr="not use_titlecase">
         <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Brave button in the Profile Menu when the user is in sign in pending state.">
-          Remove account from Brave
+          Remove account from Nix
         </message>
         <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Brave profiles'.">
           Other Brave profiles
@@ -1391,7 +1391,7 @@ Brave is unable to recover your settings.
       </if>
       <if expr="use_titlecase">
         <message name="IDS_PROFILE_MENU_SIGN_OUT_WHEN_SIGNIN_PENDING" desc="The text label of the Sign out of Brave button in the Profile Menu when the user is in sign in pending state.">
-          Remove Account from Brave
+          Remove Account from Nix
         </message>
         <message name="IDS_PROFILE_MENU_PROFILES_LIST_TITLE" desc="Title in the profile menu for the list of 'other Brave profiles'.">
           Other Brave Profiles
@@ -1410,12 +1410,12 @@ Brave is unable to recover your settings.
       <!-- App list -->
       <if expr="is_chromeos">
         <message name="IDS_APP_LIST_EXTENSIONS_UNINSTALL" desc="Title text for the context menu item of a non-platform-app app list item that removes the app.">
-          Remove from Brave...
+          Remove from Nix...
         </message>
       </if>
 
       <message name="IDS_APP_ALSO_DELETE_APPS_DATA" desc="Checkbox text to ask the user during uninstall; Whether they want to remove associated data for the app being uninstalled. Only used when uninstalling an app associated with a particular website.">
-        Remove this app's data from Brave
+        Remove this app's data from Nix
       </message>
 
       <!-- App shortcuts -->
@@ -1474,7 +1474,7 @@ Brave is unable to recover your settings.
       <!-- Mac First-run dialog messages -->
       <if expr="is_macosx">
         <message name="IDS_FIRSTRUN_DLG_MAC_SET_DEFAULT_BROWSER_LABEL" desc="Label for checkbox that sets the default browser">
-          Set Brave as your default browser
+          Set Nix as your default browser
         </message>
       </if>
 
@@ -1482,7 +1482,7 @@ Brave is unable to recover your settings.
       <if expr="not is_android and not is_chromeos">
         <!-- User pod remove sync warning text -->
         <message name="IDS_LOGIN_POD_USER_REMOVE_WARNING_SYNC" desc="Main text shown as a warning when attempting to remove an user.">
-          This person's browsing data will be deleted from this device. To recover the data, sign in to Brave as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
+          This person's browsing data will be deleted from this device. To recover the data, sign in to Nix as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
         </message>
 
         <!-- Tutorial -->
@@ -1508,7 +1508,7 @@ Brave is unable to recover your settings.
           Click your name to open Brave and start browsing.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_OUTRO_ADD_USER" desc="Text of the add a new user button">
-          Add yourself to Brave
+          Add yourself to Nix
         </message>
       </if>
 
@@ -1538,7 +1538,7 @@ Brave is unable to recover your settings.
 
       <!-- Webstore strings -->
       <message name="IDS_WEBSTORE_APP_DESCRIPTION" desc="Description for the WebStore app.">
-        Discover great apps, games, extensions and themes for Brave.
+        Discover great apps, games, extensions and themes for Nix.
       </message>
 
       <!-- Windows firewall rule strings. -->
@@ -1550,22 +1550,22 @@ Brave is unable to recover your settings.
         <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Brave Nightly (mDNS-In)</message>
         <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Brave Dev (mDNS-In)</message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION">
-          Inbound rule for Brave to allow mDNS traffic.
+          Inbound rule for Nix to allow mDNS traffic.
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Brave Beta to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Brave Nightly to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Brave Dev to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Nix Beta to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Nix Nightly to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Nix Dev to allow mDNS traffic.</message>
       </if>
 
       <if expr="not is_android">
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Brave.">
-          If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave. You can turn this off in settings at any time.
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Nix.">
+          If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Nix. You can turn this off in settings at any time.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Brave just once.">
-          If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave.
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Nix just once.">
+          If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Nix.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Brave to Brave.">
-          This uses the same spell checker that's used in Brave search. Text you type in the browser is sent to Brave. You can always change this behavior in settings.
+        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Brave to Nix.">
+          This uses the same spell checker that's used in Brave search. Text you type in the browser is sent to Nix. You can always change this behavior in settings.
         </message>
         <if expr="not use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP" desc="The name of the command to open a link in a newly created browser tab when the user is in an app window">
@@ -1597,9 +1597,9 @@ Brave is unable to recover your settings.
         </message>
         <message name="IDS_UPDATE_RECOMMENDED" desc="The main text of the Update Recommended dialog with a count of open Private windows.">
           {COUNT, plural,
-          =0 {A new update for Brave is available and will be applied as soon as you relaunch.}
-          =1 {A new update for Brave is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
-          other {A new update for Brave is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
+          =0 {A new update for Nix is available and will be applied as soon as you relaunch.}
+          =1 {A new update for Nix is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
+          other {A new update for Nix is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
         </message>
         <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Brave.">
           Relaunch
@@ -1698,7 +1698,7 @@ Brave is unable to recover your settings.
         Please restart Brave now
       </message>
       <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Brave must restart to install it.">
-        A special security update for Brave was just applied. Restart now and we'll restore your tabs.
+        A special security update for Nix was just applied. Restart now and we'll restore your tabs.
       </message>
 
       <!-- Desktop Capture -->
@@ -1706,22 +1706,22 @@ Brave is unable to recover your settings.
         Brave Tab
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_SCREEN_PERMISSION_TEXT_MAC" desc="Instructive text for how to enable screen recording on Mac when trying to share a screen.">
-        To share your screen, allow screen recording for Brave in System Settings
+        To share your screen, allow screen recording for Nix in System Settings
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_SCREEN_PERMISSION_TEXT_PERIOD_MAC" desc="Instructive text for how to enable screen recording on Mac when trying to share a screen, ending with period to allow a supplementary text to follow.">
-        To share your screen, allow screen recording for Brave in System Settings.
+        To share your screen, allow screen recording for Nix in System Settings.
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_WINDOW_PERMISSION_TEXT_MAC" desc="Instructive text for how to enable screen recording on Mac when trying to share a window.">
-        To share your window, allow screen recording for Brave in System Settings
+        To share your window, allow screen recording for Nix in System Settings
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_WINDOW_PERMISSION_TEXT_PERIOD_MAC" desc="Instructive text for how to enable screen recording on Mac when trying to share a window, ending with period to allow a supplementary text to follow.">
-        To share your window, allow screen recording for Brave in System Settings.
+        To share your window, allow screen recording for Nix in System Settings.
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_PERMISSION_RESTART_TEXT_MAC" desc="Supplementary text about the need to restart Brave, displayed below the message about enabling screen-recording permissions on Mac when those permissions are missing.">
         You'll then need to restart Brave.
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_SYSTEM_AUDIO_PERMISSION_TEXT_MAC" desc="Instructive text for how to enable system audio capture on Mac.">
-        To share system audio, open System Settings and allow 'System Audio Recording Only' for Brave. You'll then need to restart Brave.
+        To share system audio, open System Settings and allow 'System Audio Recording Only' for Nix. You'll then need to restart Brave.
       </message>
 
       <!-- Runtime permission strings -->
@@ -1779,7 +1779,7 @@ Brave is unable to recover your settings.
           Once Brave has access, websites will be able to ask you for access.
         </message>
         <message name="IDS_LOCAL_NETWORK_ACCESS_PERMISSION_DESC" desc="Text shown in the macOS permission dialog, describing why Brave needs the permission to access local network.">
-          This will allow you to share content from Brave to your local devices, such as a TV or speaker.
+          This will allow you to share content from Nix to your local devices, such as a TV or speaker.
         </message>
       </if>
 
@@ -2035,16 +2035,16 @@ Brave is unable to recover your settings.
         </message>
 
         <!-- Lens Permission Bubble Dialog-->
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CANCEL_BUTTON" desc="Text on the cancel button in the dialog for choosing not to allow the sending of the Lens screenshot to Brave.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CANCEL_BUTTON" desc="Text on the cancel button in the dialog for choosing not to allow the sending of the Lens screenshot to Nix.">
           Cancel
         </message>
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CONTINUE_BUTTON" desc="Text on the continue button in the dialog for choosing to allow the sending of the Lens screenshot to Brave.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CONTINUE_BUTTON" desc="Text on the continue button in the dialog for choosing to allow the sending of the Lens screenshot to Nix.">
           OK
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CSB_DESCRIPTION" desc="Text that is shown in the Lens permission bubble, giving examples of what Lens can do and informing uawea what information will be sent to the server. Includes placeholder for learn more link.">
           When you use Image Search, the page title, URL, and content, including PDFs, are sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_NON_BLOCKING_DESCRIPTION" desc="Text that is shown in the Lens non-blocking privacy notice, giving examples of what Lens can do and informing users what information will be sent to Brave. Includes placeholder for learn more link.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_NON_BLOCKING_DESCRIPTION" desc="Text that is shown in the Lens non-blocking privacy notice, giving examples of what Lens can do and informing users what information will be sent to Nix. Includes placeholder for learn more link.">
           When you open Image Search, the page title, URL, and content, including PDFs, will automatically be sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_DESCRIPTION" desc="Text that is shown in the Lens permission bubble, giving examples of what Lens can do and informing users that their screenshot will be sent to the server. Includes placeholder for learn more link.">
@@ -2062,7 +2062,7 @@ Brave is unable to recover your settings.
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_TAB_TO_CONTINUE" desc="Instructs the user to press Tab to begin using the feature.">
           Tab to continue
         </message>
-        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_GOT_IT" desc="Text on button in privacy notice, indicating that user understands that information will be sent to Brave.">
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_GOT_IT" desc="Text on button in privacy notice, indicating that user understands that information will be sent to Nix.">
           Got it
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_REMIND_ME_LATER" desc="Text on button to dismiss privacy notice, indicating that the privacy notice will be shown again later.">
@@ -2143,8 +2143,8 @@ Brave is unable to recover your settings.
 
       <!-- Native notifications for Windows 10 -->
       <if expr="is_win">
-        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Brave notification settings.">
-          Go to Brave notification settings
+        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Nix notification settings.">
+          Go to Nix notification settings
         </message>
       </if>
       <!-- Relaunch notification bubble and dialog. -->
@@ -2274,7 +2274,7 @@ Brave is unable to recover your settings.
       <!-- Brave parent extension/app install blocking dialog. -->
       <if expr="enable_extensions_core">
         <message name="IDS_EXTENSION_PERMISSIONS_BLOCKED_BY_PARENT_PROMPT_MESSAGE" desc="Text for the dialog indicating that a parent has blocked extensions and apps.">
-         Your parent has turned off "Permissions for sites, apps and extensions" for Brave
+         Your parent has turned off "Permissions for sites, apps and extensions" for Nix
         </message>
 
         <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_APP" desc="Titlebar of the prompt window for an externally installed app">
@@ -2298,7 +2298,7 @@ Brave is unable to recover your settings.
 <ph name="EXTENSION_NAME">$2<ex>Babylon Toolbar</ex></ph>
         </message>
         <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_ABORT_BUTTON" desc="Button on the external install prompt to remove an extension installed by a third party.">
-          Remove from Brave
+          Remove from Nix
         </message>
       </if>
 
@@ -2309,7 +2309,7 @@ Brave is unable to recover your settings.
         </message>
         <!-- Profile Picker -->
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE" desc="Profile picker main view title">
-          Welcome to Brave profiles
+          Welcome to Nix profiles
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which Brave profile would you like to use?' may be used instead">
           Who's using Brave?
@@ -2349,19 +2349,19 @@ Brave is unable to recover your settings.
         </message>
 
         <!-- First Run Experience -->
-        <message name="IDS_FRE_SIGN_IN_TITLE_0" meaning="Title" desc="This string appears as a heading on a full-page screen that asks the user to sign in to Brave with their Brave sync chain. It appears when the user launches Brave for the first time. When they sign in, they can personalize and customize Brave and remember their settings in their Brave sync chain. The tone should be inviting and alluring.">
-          Sign in to Brave
+        <message name="IDS_FRE_SIGN_IN_TITLE_0" meaning="Title" desc="This string appears as a heading on a full-page screen that asks the user to sign in to Nix with their Brave sync chain. It appears when the user launches Brave for the first time. When they sign in, they can personalize and customize Brave and remember their settings in their Brave sync chain. The tone should be inviting and alluring.">
+          Sign in to Nix
         </message>
 
         <!-- Default Browser Promo -->
         <message name="IDS_FRE_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Brave as their default browser in the first run experience.">
-          Set Brave as your default browser
+          Set Nix as your default browser
         </message>
         <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_TITLE" desc="Title for the page that prompts user to set Brave as their default browser and pin to taskbar in the first run experience.">
-          Use Brave by default and get it pinned
+          Use Nix by default and get it pinned
         </message>
         <message name="IDS_FRE_DEFAULT_BROWSER_SUBTITLE_NEW" desc="Subtitle for the page that prompts user to set Brave as their default browser in the first run experience.">
-          Use Brave anytime you click links in messages, documents, and other apps
+          Use Nix anytime you click links in messages, documents, and other apps
         </message>
         <message name="IDS_FRE_DEFAULT_BROWSER_AND_PINNING_SUBTITLE" desc="Subtitle for the page that prompts user to set Brave as their default browser and pin to taskbar in the first run experience.">
           Open links in Brave from any app. Plus for easy access, it gets pinned to your taskbar.
@@ -2370,18 +2370,18 @@ Brave is unable to recover your settings.
           Brave logo inside a computer screen.
         </message>
         <message name="IDS_APP_MENU_TOOLTIP_DEFAULT_PROMPT" desc="The tooltip to show for the browser menu when the default browser prompt is displayed">
-          Customize and control Brave. Set Brave as your default.
+          Customize and control Brave. Set Nix as your default.
         </message>
         <message name="IDS_APP_MENU_BUTTON_DEFAULT_PROMPT" desc="Text in the browser menu chip indicating that the user can change their default browser">
-          Set Brave as your default
+          Set Nix as your default
         </message>
         <message name="IDS_SET_BROWSER_AS_DEFAULT_MENU_ITEM" desc="Menu item that prompts user to set Brave as their default browser.">
-          Set Brave as your default browser
+          Set Nix as your default browser
         </message>
 
         <!-- Default Browser Promo Refresh -->
         <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set Brave as their default browser in the refreshed first run experience.">
-          Set Brave as default and pin it to taskbar
+          Set Nix as default and pin it to taskbar
         </message>
         <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_SUBTITLE" desc="Subtitle for the page that prompts user to set Brave as their default browser in the refreshed first run experience.">
           Open links in Brave from any app and keep the browser accessible on your taskbar
@@ -2400,10 +2400,10 @@ Brave is unable to recover your settings.
 
         <!-- Web Signout Intercept IPH -->
         <message name="IDS_SIGNOUT_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNOUT_IPH_TEXT" desc="This confirmation message is intended to help users to understand that signing out of a Brave service (like Gmail) will not sign them out of Brave. It appears in a blue in-product help bubble, which points to the Brave Profile Menu; it appears after the user signs out of a Brave service (like Gmail). The user can open the Profile Menu and sign out of Brave, if they wish to do so.">
-          To remove your Brave sync chain from Brave, sign out
+          To remove your Brave sync chain from Nix, sign out
         </message>
         <message name="IDS_SIGNOUT_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNOUT_IPH_TEXT_SCREENREADER" desc="Text announced by screenreaders related to the confirmation message is intended to help users to understand that signing out of a Brave service (like Gmail) will not sign them out of Brave. It appears in a blue in-product help bubble, which points to the Brave Profile Menu; it appears after the user signs out of a Brave service (like Gmail). The user can open the Profile Menu and sign out of Brave, if they wish to do so.">
-          To remove your Brave sync chain from Brave, sign out of Brave in the Settings page
+          To remove your Brave sync chain from Nix, sign out of Brave in the Settings page
         </message>
       </if>
 
@@ -2741,7 +2741,7 @@ Brave is unable to recover your settings.
 
       <!-- New Create Shortcut View Strings -->
       <if expr="not is_android and not is_chromeos">
-        <message name="IDS_CREATE_SHORTCUT_NOT_APPS_DIALOG_SUBTITLE" desc="Subtitle of the updated Create Shortcut dialog about how the site opens for Brave">
+        <message name="IDS_CREATE_SHORTCUT_NOT_APPS_DIALOG_SUBTITLE" desc="Subtitle of the updated Create Shortcut dialog about how the site opens for Nix">
           Shortcuts open in Brave
         </message>
       </if>
@@ -2846,16 +2846,16 @@ Brave is unable to recover your settings.
           Choose a Brave profile to use with <ph name="START_GLIC_STYLING">&lt;span class="glic-brand-style"&gt;</ph>Glic<ph name="END_GLIC_STYLING">&lt;/span&gt;</ph>
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_GLIC_NO_PROFILE" desc="Profile picker main view title for Glic version when no profiles are eligible to use Glic. 'Glic' has a special styling." translateable="false">
-          Sign into Brave with your Brave sync chain to use <ph name="START_GLIC_STYLING">&lt;span class="glic-brand-style"&gt;</ph>Glic<ph name="END_GLIC_STYLING">&lt;/span&gt;</ph>
+          Sign into Nix with your Brave sync chain to use <ph name="START_GLIC_STYLING">&lt;span class="glic-brand-style"&gt;</ph>Glic<ph name="END_GLIC_STYLING">&lt;/span&gt;</ph>
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE_GLIC" desc="Profile picker main view subtitle for Glic version." translateable="false">
           Select the Brave profile linked to your Brave sync chain to personalize your Glic experience
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE_GLIC_NO_PROFILE" desc="Profile picker main view subtitle for Glic version. This version is shown when no profiles are eligibile to use Glic." translateable="false">
-          To add a new profile and use it with Glic, sign in to Brave with a Brave sync chain. <ph name="BEGIN_LINK">&lt;a class="learn-more-link" href="#" target="_blank"&gt;</ph>Learn how to sign in to Brave<ph name="END_LINK">&lt;/a&gt;</ph>
+          To add a new profile and use it with Glic, sign in to Nix with a Brave sync chain. <ph name="BEGIN_LINK">&lt;a class="learn-more-link" href="#" target="_blank"&gt;</ph>Learn how to sign in to Nix<ph name="END_LINK">&lt;/a&gt;</ph>
         </message>
         <message name="IDS_PROFILE_PICKER_ADD_PROFILE_HELPER_GLIC" desc="Text shown in the Profile Picker Glic version below the profiles list container that helps the user to create a new profile and sign in to it." translateable="false">
-          To add a new profile and use it with Glic, sign in to Brave with a different Brave sync chain. <ph name="BEGIN_LINK">&lt;a class="learn-more-link" href="#" target="_blank"&gt;</ph>Learn how to add a new Brave profile<ph name="END_LINK">&lt;/a&gt;</ph>
+          To add a new profile and use it with Glic, sign in to Nix with a different Brave sync chain. <ph name="BEGIN_LINK">&lt;a class="learn-more-link" href="#" target="_blank"&gt;</ph>Learn how to add a new Brave profile<ph name="END_LINK">&lt;/a&gt;</ph>
         </message>
 
         <!-- Glic button and tab strip context menu -->
@@ -2871,26 +2871,26 @@ Brave is unable to recover your settings.
       <!-- UNO Promo strings for extensions -->
       <if expr="enable_extensions">
         <message name="IDS_EXTENSION_INSTALLED_PROMO_EXPLICIT_SIGNIN_MESSAGE" desc="Text of the promo displayed at the bottom of the extension installed bubble asking the user to enable UNO.">
-          To get this extension and more on all your computers, sign in to Brave
+          To get this extension and more on all your computers, sign in to Nix
         </message>
       </if>
 
       <!-- UNO Promo strings for bookmarks -->
       <message name="IDS_BOOKMARK_INSTALLED_PROMO_EXPLICIT_SIGNIN_MESSAGE" desc="Text of the promo displayed at the bottom of the bookmark bubble asking the user to enable UNO.">
-        To get this bookmark and more on all your devices, sign in to Brave
+        To get this bookmark and more on all your devices, sign in to Nix
       </message>
       <message name="IDS_BOOKMARK_INSTALLED_BUBBLE_PROMO_EXPLICIT_SIGNIN_MESSAGE" desc="Text of the promo displayed after the bookmark bubble asking the user to enable UNO.">
-        To get your bookmarks and more on all your devices, sign in to Brave. This bookmark will be saved in your Brave sync chain after you sign in.
+        To get your bookmarks and more on all your devices, sign in to Nix. This bookmark will be saved in your Brave sync chain after you sign in.
       </message>
 
       <!-- Dice Migration strings -->
       <message name="IDS_DICE_MIGRATION_DIALOG_TITLE" desc="The title in the Dice Migration dialog advertising the sign-in benefit.">
-        Get more when you’re signed in to Brave
+        Get more when you’re signed in to Nix
       </message>
-      <message name="IDS_DICE_MIGRATION_DIALOG_DESCRIPTION" desc="The content of the Dice Migration dialog advertising the benefits of signing in to Brave.">
-        You’ll save and use passwords and more in your Brave sync chain whenever you’re signed in to Brave. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
+      <message name="IDS_DICE_MIGRATION_DIALOG_DESCRIPTION" desc="The content of the Dice Migration dialog advertising the benefits of signing in to Nix.">
+        You’ll save and use passwords and more in your Brave sync chain whenever you’re signed in to Nix. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
       </message>
-      <message name="IDS_DICE_MIGRATION_DIALOG_OK_BUTTON" desc="The primary button label in the Dice Migration dialog, letting the user acknowledge signing in to Brave.">
+      <message name="IDS_DICE_MIGRATION_DIALOG_OK_BUTTON" desc="The primary button label in the Dice Migration dialog, letting the user acknowledge signing in to Nix.">
         Got it
       </message>
       <message name="IDS_DICE_MIGRATION_CONFIRMATION_TOAST_MESSAGE" desc="The confirmation message shown in a toast after the user clicks on the accept button on the Dice Migration dialog.">
@@ -2923,7 +2923,7 @@ Brave is unable to recover your settings.
           Extend Enhanced Safe Browsing with Brave on your phone
         </message>
         <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_DESCRIPTION_REMINDER" desc="The description for the footer of the iOS desktop password promo bubble.">
-          Sign in faster to sites using saved passwords for Brave on iOS
+          Sign in faster to sites using saved passwords for Nix on iOS
         </message>
         <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_TITLE" desc="The title for the footer of the iOS desktop password promo bubble suggesting to users that they can use their passwords on their iOS devices.">
           Use your passwords with Brave on your phone
@@ -2984,11 +2984,11 @@ Brave is unable to recover your settings.
       </message>
 
       <!--Report-unsafe-site Dialog (accessed from Help menu)-->
-      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_TITLE" desc="Title of the dialog for reporting an unsafe site to Brave">
+      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_TITLE" desc="Title of the dialog for reporting an unsafe site to Nix">
         Report this site
       </message>
 
-      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_DESCRIPTION" desc="Explanatory text in dialog for reporting an unsafe site to Brave">
+      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_DESCRIPTION" desc="Explanatory text in dialog for reporting an unsafe site to Nix">
         Improve online safety for everyone when you report a site you think is harmful.
       </message>
     <message name="IDS_CHROME_SHORTCUT_NAME_BETA" desc="The Chrome shortcut name for beta channel">

@@ -61,7 +61,7 @@ using ConversationEventRole = ConversationAPIClient::ConversationEventRole;
 
 constexpr char kRemotePath[] = "v1/conversation";
 
-constexpr char kAllowedWebSourceFaviconHost[] = "imgs.search.brave.com";
+constexpr char kAllowedWebSourceFaviconHost[] = "imgs.search.nixbrowser.in";
 
 net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
   return net::DefineNetworkTrafficAnnotation("ai_chat", R"(

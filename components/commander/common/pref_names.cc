@@ -7,5 +7,5 @@
 
 namespace commander::prefs {
 
-constexpr char kCommanderFrecencies[] = "brave.commander.command_frecencies";
+constexpr char kCommanderFrecencies[] = "nixbrowser.inmander.command_frecencies";
 }

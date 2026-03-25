@@ -35,11 +35,11 @@ TEST_F(BraveAdsTabManagerTest, OpenNewTab) {
       tab_manager_observer_mock_,
       OnDidOpenNewTab(TabInfo{/*id=*/1,
                               /*is_visible=*/true,
-                              /*redirect_chain=*/{GURL("https://brave.com")},
+                              /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                               /*is_playing_media=*/false}));
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 }
 
@@ -48,13 +48,13 @@ TEST_F(BraveAdsTabManagerTest, DoNotChangeOccludedTabIfMatchingRedirectChain) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/false);
 
   // Act & Assert
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChange).Times(0);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/false);
 }
 
@@ -63,13 +63,13 @@ TEST_F(BraveAdsTabManagerTest, DoNotChangeVisibleTabIfMatchingRedirectChain) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChange).Times(0);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 }
 
@@ -79,7 +79,7 @@ TEST_F(BraveAdsTabManagerTest, DoNotNotifyForRestoredTabs) {
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChange).Times(0);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus).Times(0);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/true, /*is_visible=*/true);
 }
 
@@ -88,7 +88,7 @@ TEST_F(BraveAdsTabManagerTest,
   // Act & Assert
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChange).Times(0);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/false, /*is_restoring=*/true, /*is_visible=*/true);
 }
 
@@ -97,13 +97,13 @@ TEST_F(BraveAdsTabManagerTest, ChangeTabFocusToOccluded) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus(/*tab_id=*/1));
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/false);
 }
 
@@ -112,13 +112,13 @@ TEST_F(BraveAdsTabManagerTest, ChangeTabFocusToVisible) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/false);
 
   // Act & Assert
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus(/*tab_id=*/1));
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 }
 
@@ -127,7 +127,7 @@ TEST_F(BraveAdsTabManagerTest, ChangeOccudedTabIfMismatchingRedirectChain) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/false);
 
   // Act & Assert
@@ -149,7 +149,7 @@ TEST_F(BraveAdsTabManagerTest, ChangeVisibleTabIfMismatchingRedirectChain) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
@@ -171,7 +171,7 @@ TEST_F(BraveAdsTabManagerTest, CloseTab) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
@@ -184,7 +184,7 @@ TEST_F(BraveAdsTabManagerTest, IsPlayingMedia) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   EXPECT_CALL(tab_manager_observer_mock_,
@@ -200,7 +200,7 @@ TEST_F(BraveAdsTabManagerTest, IsNotPlayingMedia) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
@@ -212,7 +212,7 @@ TEST_F(BraveAdsTabManagerTest, StartPlayingMedia) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
@@ -226,7 +226,7 @@ TEST_F(BraveAdsTabManagerTest, DoNotStartPlayingMediaIfAlreadyPlaying) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false,
       /*is_visible=*/true);
   EXPECT_CALL(tab_manager_observer_mock_,
@@ -242,7 +242,7 @@ TEST_F(BraveAdsTabManagerTest, StopPlayingMedia) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   EXPECT_CALL(tab_manager_observer_mock_,
@@ -260,12 +260,12 @@ TEST_F(BraveAdsTabManagerTest, GetVisibleTab) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert
   const TabInfo tab{/*id=*/1, /*is_visible=*/true,
-                    /*redirect_chain=*/{GURL("https://brave.com")},
+                    /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                     /*is_playing_media=*/
                     false};
   EXPECT_EQ(tab, TabManager::GetInstance().MaybeGetVisible());
@@ -281,7 +281,7 @@ TEST_F(BraveAdsTabManagerTest, GetTabForId) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
@@ -305,7 +305,7 @@ TEST_F(BraveAdsTabManagerTest, DoNotGetIfMissingTab) {
   EXPECT_CALL(tab_manager_observer_mock_, OnDidOpenNewTab);
   EXPECT_CALL(tab_manager_observer_mock_, OnTabDidChangeFocus);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/true, /*is_restoring=*/false, /*is_visible=*/true);
 
   // Act & Assert

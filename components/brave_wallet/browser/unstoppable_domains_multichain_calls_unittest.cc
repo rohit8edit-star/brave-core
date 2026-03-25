@@ -19,7 +19,7 @@ class MultichainCallsUnitTest : public testing::Test {
  public:
   using CallbackType = MultichainCalls<std::string, std::string>::CallbackType;
 
-  std::string domain() const { return "brave.com"; }
+  std::string domain() const { return "nixbrowser.in"; }
 
   MultichainCalls<std::string, std::string>& chain_calls() {
     return chain_calls_;

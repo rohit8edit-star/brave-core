@@ -62,7 +62,7 @@ TEST_F(NTPBackgroundImagesSourceTest, BackgroundImagesTest) {
             "name": "background-1.jpg",
             "source": "brave-bg-1.webp",
             "author": "Brave software",
-            "link": "https://www.brave.com/",
+            "link": "https://www.nixbrowser.in/",
             "originalUrl": "Contributor sent the hi-res version",
             "license": "used with permission"
           },
@@ -70,7 +70,7 @@ TEST_F(NTPBackgroundImagesSourceTest, BackgroundImagesTest) {
             "name": "background-2.jpg",
             "source": "brave-bg-2.webp",
             "author": "Brave software",
-            "link": "https://www.brave.com/",
+            "link": "https://www.nixbrowser.in/",
             "originalUrl": "Contributor sent the hi-res version",
             "license": "used with permission"
           },
@@ -78,7 +78,7 @@ TEST_F(NTPBackgroundImagesSourceTest, BackgroundImagesTest) {
             "name": "background-3.jpg",
             "source": "brave-bg-3.webp",
             "author": "Brave software",
-            "link": "https://www.brave.com/",
+            "link": "https://www.nixbrowser.in/",
             "originalUrl": "Contributor sent the hi-res version",
             "license": "used with permission"
           },
@@ -86,7 +86,7 @@ TEST_F(NTPBackgroundImagesSourceTest, BackgroundImagesTest) {
             "name": "background-4.jpg",
             "source": "brave-bg-4.webp",
             "author": "Brave software",
-            "link": "https://www.brave.com/",
+            "link": "https://www.nixbrowser.in/",
             "originalUrl": "Contributor sent the hi-res version",
             "license": "used with permission"
           }

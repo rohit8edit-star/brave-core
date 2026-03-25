@@ -137,7 +137,7 @@ std::string GetDescriptionFromAppcastItem(id item) {
 }
 
 - (void)registerWithSparkle {
-  // This can be called by BraveBrowserMainPartsMac::PreMainMessageLoopStart()
+  // This can be called by NixBrowserMainPartsMac::PreMainMessageLoopStart()
   // again when browser is relaunched.
   if (_registered) {
     return;

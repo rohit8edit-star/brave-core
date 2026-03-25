@@ -15,7 +15,7 @@
 #include "components/prefs/pref_service.h"
 #include "components/search_engines/search_engines_pref_names.h"
 
-// Use Brave's lists of per-country engines.
+// Use Nix's lists of per-country engines.
 #define GetPrepopulatedEngines GetPrepopulatedEngines_UnUsed
 #include <components/regional_capabilities/regional_capabilities_utils.cc>
 #undef GetPrepopulatedEngines

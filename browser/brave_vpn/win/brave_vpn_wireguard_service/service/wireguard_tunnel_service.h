@@ -16,7 +16,7 @@ namespace brave_vpn {
 
 namespace wireguard {
 
-// Functions used from BraveWireguardManager to create and launch a new service.
+// Functions used from NixWireguardManager to create and launch a new service.
 bool LaunchWireguardService(const std::wstring& config);
 bool RemoveExistingWireguardService();
 bool CreateAndRunBraveWireguardService(const std::wstring& config);

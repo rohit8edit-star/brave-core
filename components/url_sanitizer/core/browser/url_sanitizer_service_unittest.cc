@@ -92,7 +92,7 @@ TEST_F(URLSanitizerServiceUnitTest, StripQueryParameter) {
 
 TEST_F(URLSanitizerServiceUnitTest, ClearURLS) {
   // The service has not yet been initialized.
-  EXPECT_EQ(SanitizeURL(GURL("https://brave.com")), GURL("https:/brave.com"));
+  EXPECT_EQ(SanitizeURL(GURL("https://nixbrowser.in")), GURL("https:/nixbrowser.in"));
   WaitInitialization(kTestPatterns);
 
   EXPECT_EQ(
@@ -116,8 +116,8 @@ TEST_F(URLSanitizerServiceUnitTest, ClearURLS) {
     { "include": [ "*://*/*"], "params": ["query"] }
   ])");
 
-  EXPECT_EQ(SanitizeURL(GURL("https://brave.com/?query=removethis")),
-            GURL("https://brave.com/"));
+  EXPECT_EQ(SanitizeURL(GURL("https://nixbrowser.in/?query=removethis")),
+            GURL("https://nixbrowser.in/"));
 
   EXPECT_EQ(
       SanitizeURL(GURL("http://twitter.com/post/?query=removethis#ref=1")),

@@ -89,7 +89,7 @@ void RasConnectionAPIImplWin::CheckConnectionImpl(const std::string& name) {
 void RasConnectionAPIImplWin::OnRasConnectionStateChanged() {
   DCHECK(!manager_->target_vpn_entry_name().empty());
 
-  // Check connection state for BraveVPN entry again when connected or
+  // Check connection state for NixVPN entry again when connected or
   // disconnected events are arrived because we can get both event from any os
   // vpn entry. All other events are sent by our code at utils_win.cc.
   CheckConnectionImpl(manager_->target_vpn_entry_name());

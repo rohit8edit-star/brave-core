@@ -114,9 +114,9 @@ TEST_F(HistoryUIHandlerTest, GetMultipleHistoryEntries) {
 
 TEST_F(HistoryUIHandlerTest, SearchWithQuery) {
   // Add history entries with different titles
-  AddTestHistoryEntry("Brave Browser", GURL("https://brave.com"));
+  AddTestHistoryEntry("Nix Browser", GURL("https://nixbrowser.in"));
   AddTestHistoryEntry("Google Search", GURL("https://google.com"));
-  AddTestHistoryEntry("Brave Search", GURL("https://search.brave.com"));
+  AddTestHistoryEntry("Brave Search", GURL("https://search.nixbrowser.in"));
 
   // Search for "Brave"
   auto history = GetHistory("Brave");
@@ -129,8 +129,8 @@ TEST_F(HistoryUIHandlerTest, SearchWithQuery) {
     titles.push_back(entry->title);
   }
 
-  ExpectResults(FROM_HERE, {"Brave Browser", "Brave Search"},
-                {GURL("https://brave.com"), GURL("https://search.brave.com")},
+  ExpectResults(FROM_HERE, {"Nix Browser", "Brave Search"},
+                {GURL("https://nixbrowser.in"), GURL("https://search.nixbrowser.in")},
                 history);
 }
 

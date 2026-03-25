@@ -93,7 +93,7 @@ net::NetworkTrafficAnnotationTag AnonymousStatsAnnotation() {
       sender:
         "Brave Stats Updater"
       description:
-        "This service sends anonymous usage statistics to Brave."
+        "This service sends anonymous usage statistics to Nix."
       trigger:
         "Stats are automatically sent at intervals while Brave "
         "is running."

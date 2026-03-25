@@ -13,37 +13,37 @@ TEST(SubscriptionRenderFrameObserverTest, ExtractParam) {
   SubscriptionRenderFrameObserver observer(nullptr, 0);
   EXPECT_EQ(
       observer.ExtractParam(
-          GURL("https://account.brave.com/?intent=connect-receipt&product=vpn"),
+          GURL("https://account.nixbrowser.in/?intent=connect-receipt&product=vpn"),
           "intent"),
       "connect-receipt");
   EXPECT_EQ(
       observer.ExtractParam(
-          GURL("https://account.brave.com/"
+          GURL("https://account.nixbrowser.in/"
                "?intent=connect-receipt1&product=vpn&intent=connect-receipt2"),
           "intent"),
       "connect-receipt1");
   EXPECT_EQ(
       observer.ExtractParam(
-          GURL("https://account.brave.com/?intent=connect-receipt&product=vpn"),
+          GURL("https://account.nixbrowser.in/?intent=connect-receipt&product=vpn"),
           "product"),
       "vpn");
   EXPECT_EQ(
       observer.ExtractParam(
-          GURL("https://account.brave.com/?intent=connect-receipt&product=leo"),
+          GURL("https://account.nixbrowser.in/?intent=connect-receipt&product=leo"),
           "product"),
       "leo");
   EXPECT_TRUE(observer
-                  .ExtractParam(GURL("https://account.brave.com/"
+                  .ExtractParam(GURL("https://account.nixbrowser.in/"
                                      "?intent=connect-receipt&product=vpn"),
                                 "")
                   .empty());
   EXPECT_TRUE(observer
-                  .ExtractParam(GURL("https://account.brave.com/"
+                  .ExtractParam(GURL("https://account.nixbrowser.in/"
                                      "?intent=connect-receipt&product=vpn"),
                                 "somekey")
                   .empty());
   EXPECT_TRUE(
-      observer.ExtractParam(GURL("https://account.brave.com/"), "intent")
+      observer.ExtractParam(GURL("https://account.nixbrowser.in/"), "intent")
           .empty());
   EXPECT_TRUE(observer.ExtractParam(GURL(""), "intent").empty());
 }

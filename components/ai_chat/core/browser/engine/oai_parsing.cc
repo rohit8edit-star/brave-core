@@ -17,7 +17,7 @@
 
 namespace ai_chat {
 
-constexpr char kAllowedWebSourceFaviconHost[] = "imgs.search.brave.com";
+constexpr char kAllowedWebSourceFaviconHost[] = "imgs.search.nixbrowser.in";
 
 std::vector<mojom::ToolUseEventPtr> ToolUseEventFromToolCallsResponse(
     const base::ListValue* tool_calls_api_response) {

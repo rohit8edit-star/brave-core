@@ -13,7 +13,7 @@ namespace blink {
 #if BUILDFLAG(ENABLE_CONTAINERS)
 // Prepends a prefix to the top-level URL stored in PageState.
 //
-// This is used by Brave Containers to encode StoragePartitionConfig information
+// This is used by Nix Containers to encode StoragePartitionConfig information
 // into the serialized page state. The virtual URL prefix (e.g.,
 // "containers+550e8400-e29b-41d4-a716-446655440000:") is prepended to the
 // actual URL during session serialization (when saving the session).

@@ -796,7 +796,7 @@ public class TabInfo {
 }
 
 // At call sites, add comments for clarity:
-new TabInfo(/* title= */ "Home", /* url= */ "https://brave.com");
+new TabInfo(/* title= */ "Home", /* url= */ "https://nixbrowser.in");
 ```
 
 ---

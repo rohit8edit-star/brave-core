@@ -58,10 +58,10 @@ TEST(BraveAdsUrlUtilTest, ShouldNotSupportUrlWithNonHttpsScheme) {
 
 TEST(BraveAdsUrlUtilTest, ShouldNotSupportUrlWithPortNumber) {
   // Act & Assert
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://www.brave.com:1234/thank-you*")));
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://www.brave.com:1234*")));
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://brave.com:*/x")));
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://brave.com:*")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://www.nixbrowser.in:1234/thank-you*")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://www.nixbrowser.in:1234*")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://nixbrowser.in:*/x")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://nixbrowser.in:*")));
 }
 
 TEST(BraveAdsUrlUtilTest, ShouldNotSupportIpAddress) {
@@ -76,10 +76,10 @@ TEST(BraveAdsUrlUtilTest, ShouldNotSupportIpAddress) {
 
 TEST(BraveAdsUrlUtilTest, ShouldNotSupportUrlWithUsernameOrPassword) {
   // Act & Assert
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://user:pwd@brave.com/thank-you*")));
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://user@brave.com:1234*")));
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://*@brave.com/x")));
-  EXPECT_FALSE(ShouldSupportUrl(GURL("https://user:*@brave.com/y")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://user:pwd@nixbrowser.in/thank-you*")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://user@nixbrowser.in:1234*")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://*@nixbrowser.in/x")));
+  EXPECT_FALSE(ShouldSupportUrl(GURL("https://user:*@nixbrowser.in/y")));
 }
 
 TEST(BraveAdsUrlUtilTest, ShouldNotSupportUrlWithWildcardInEtldPlus1) {
@@ -114,7 +114,7 @@ TEST(BraveAdsUrlUtilTest, ShouldSupportUrl) {
   EXPECT_TRUE(
       ShouldSupportUrl(GURL("https://www.app.apxlending.com/verify_email*")));
   EXPECT_TRUE(ShouldSupportUrl(GURL("https://bonkmark.com/*/#send")));
-  EXPECT_TRUE(ShouldSupportUrl(GURL("https://account.brave.com/account/*")));
+  EXPECT_TRUE(ShouldSupportUrl(GURL("https://account.nixbrowser.in/account/*")));
   EXPECT_TRUE(ShouldSupportUrl(GURL("https://www.cube.exchange/*step=5*")));
   EXPECT_TRUE(ShouldSupportUrl(GURL(
       "https://play.google.com/store/apps/details?id=com.musclewiki.macro*")));

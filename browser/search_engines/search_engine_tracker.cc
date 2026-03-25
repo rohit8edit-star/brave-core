@@ -41,12 +41,12 @@ constexpr char kSwitchSearchEngineP3AStorage[] =
 constexpr base::TimeDelta kReportInterval = base::Hours(1);
 // Minimum time between reports (1 day)
 constexpr base::TimeDelta kMinReportInterval = base::Days(1);
-constexpr char kBraveDomain[] = "brave.com";
+constexpr char kBraveDomain[] = "nixbrowser.in";
 constexpr char kGoogleDomain[] = "google.com";
 constexpr char kDDGDomain[] = "duckduckgo.com";
 
 // Deduces the search engine from |type|, if nothing is found - from |url|.
-// Not all engines added by Brave are present in |SearchEngineType| enumeration.
+// Not all engines added by Nix are present in |SearchEngineType| enumeration.
 SearchEngineP3A GetSearchEngineProvider(const GURL& search_engine_url,
                                         SearchEngineType type) {
   SearchEngineP3A result = SearchEngineP3A::kOther;
@@ -74,7 +74,7 @@ SearchEngineP3A GetSearchEngineProvider(const GURL& search_engine_url,
   } else if (type == SEARCH_ENGINE_STARTPAGE) {
     result = SearchEngineP3A::kStartpage;
   } else if (type == SEARCH_ENGINE_OTHER) {
-    if (base::EndsWith(search_engine_url.host(), "brave.com",
+    if (base::EndsWith(search_engine_url.host(), "nixbrowser.in",
                        base::CompareCase::INSENSITIVE_ASCII)) {
       result = SearchEngineP3A::kBrave;
     }
@@ -90,7 +90,7 @@ SearchEngineSwitchP3A SearchEngineSwitchP3AMapAnswer(const GURL& to,
   DCHECK(to.is_valid());
 
   if (from.DomainIs(kBraveDomain)) {
-    // Switching away from Brave Search.
+    // Switching away from Nix Search.
     if (to.DomainIs(kGoogleDomain)) {
       answer = SearchEngineSwitchP3A::kBraveToGoogle;
     } else if (to.DomainIs(kDDGDomain)) {
@@ -99,7 +99,7 @@ SearchEngineSwitchP3A SearchEngineSwitchP3AMapAnswer(const GURL& to,
       answer = SearchEngineSwitchP3A::kBraveToOther;
     }
   } else if (to.DomainIs(kBraveDomain)) {
-    // Switching to Brave Search.
+    // Switching to Nix Search.
     if (from.DomainIs(kGoogleDomain)) {
       answer = SearchEngineSwitchP3A::kGoogleToBrave;
     } else if (from.DomainIs(kDDGDomain)) {

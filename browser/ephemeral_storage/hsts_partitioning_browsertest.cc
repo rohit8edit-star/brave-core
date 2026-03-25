@@ -127,7 +127,7 @@ class HSTSPartitioningBrowserTestBase : public InProcessBrowserTest {
   }
 
   void ExpectPreloadWorks() {
-    for (const auto* preloaded_host : {"brave.com", "accounts.google.com"}) {
+    for (const auto* preloaded_host : {"nixbrowser.in", "accounts.google.com"}) {
       GURL url(base::StrCat({"http://", preloaded_host, "/simple.html"}));
       auto* rfh = ui_test_utils::NavigateToURL(browser(), url);
       ASSERT_TRUE(rfh);

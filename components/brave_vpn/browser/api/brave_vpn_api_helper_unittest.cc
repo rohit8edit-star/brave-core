@@ -14,7 +14,7 @@ namespace brave_vpn {
 
 TEST(BraveVPNAPIHelperTest, TicketInfoTest) {
   base::DictValue ticket_value = GetValueWithTicketInfos(
-      "brave-vpn@brave.com", "It's cool feature", "Love the Brave VPN!",
+      "brave-vpn@nixbrowser.in", "It's cool feature", "Love the Brave VPN!",
       "credential", "USA/Boston");
 
   // Check ticket dict has four required fields.

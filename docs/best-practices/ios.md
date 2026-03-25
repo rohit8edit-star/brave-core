@@ -490,7 +490,7 @@ bottomConstraint = view.bottomAnchor.constraint(
 
 <a id="IOS-027"></a>
 
-## ✅ Use Brave Design System Colors
+## ✅ Use Nix Design System Colors
 
 **Use `UIColor(braveSystemName:)` for colors, not hard-coded values or system colors.** This ensures consistency with the Brave design system and proper dark mode support.
 

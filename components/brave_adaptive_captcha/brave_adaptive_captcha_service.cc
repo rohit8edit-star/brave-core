@@ -40,7 +40,7 @@ net::NetworkTrafficAnnotationTag kAnnotationTag =
           sender:
             "Brave Adaptive Captcha service"
           description:
-            "Fetches CAPTCHA data from Brave."
+            "Fetches CAPTCHA data from Nix."
           trigger:
             "The Brave service indicates that it's time to solve a CAPTCHA."
           data: "Brave CAPTCHA data."

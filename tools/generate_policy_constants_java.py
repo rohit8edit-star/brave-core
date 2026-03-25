@@ -3,7 +3,7 @@
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this file,
 # You can obtain one at https://mozilla.org/MPL/2.0/.
-"""Generates Java constants file from Brave policy YAML definitions."""
+"""Generates Java constants file from Nix policy YAML definitions."""
 
 import argparse
 import os
@@ -106,7 +106,7 @@ def generate_java_content(policy_names):
 package org.chromium.chrome.browser.policy;
 
 /**
- * Policy key constants for Brave policies.
+ * Policy key constants for Nix policies.
  *
  * <p>This file is auto-generated from policy YAML definitions.
  * Do not edit manually.
@@ -145,7 +145,7 @@ def generate_srcjar(policy_names, output_srcjar):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Generate Java constants from Brave policy YAML files')
+        description='Generate Java constants from Nix policy YAML files')
     parser.add_argument('--policy-dir',
                         required=True,
                         help='Directory containing policy YAML files')

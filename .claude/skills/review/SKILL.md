@@ -712,7 +712,7 @@ Available specificity levels (prefer most specific):
 
 - Test fails only on Windows ASAN → use `browser_tests-windows-asan.filter`
 - Test fails only on Linux → use `browser_tests-linux.filter`
-- Test fails on all platforms due to Brave-specific code → use
+- Test fails on all platforms due to Nix-specific code → use
   `browser_tests.filter`
 
 5. **Is the test flaky upstream? (Chromium tests only)** — This check only

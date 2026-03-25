@@ -9,7 +9,7 @@
 
 namespace features {
 
-// Use base::WeakPtr instead of std::shared_ptr for BraveRequestInfo.
+// Use base::WeakPtr instead of std::shared_ptr for NixRequestInfo.
 // When enabled, BraveRequestInfo objects are owned by std::unique_ptr
 // and non-owning references use base::WeakPtr for automatic null checking.
 // When disabled (default), std::shared_ptr is used for both ownership

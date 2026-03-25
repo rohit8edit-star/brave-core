@@ -56,7 +56,7 @@ void BraveTooltipPopupHandler::Close(const std::string& tooltip_id) {
 void BraveTooltipPopupHandler::Destroy(const std::string& tooltip_id) {
   DCHECK(!tooltip_id.empty());
 
-  // Note: The pointed-to BraveTooltipPopup members are deallocated by their
+  // Note: The pointed-to NixTooltipPopup members are deallocated by their
   // containing Widgets
   tooltip_popups_.erase(tooltip_id);
 }

@@ -94,7 +94,7 @@ void MaybeShowLeoMatch(AutocompleteResult* result) {
   DCHECK(result);
 
   // If we're not in AI first mode, regardless of the relevance score, we want
-  // to show the Leo match at the bottom. But could be followed by Brave Search
+  // to show the Leo match at the bottom. But could be followed by Nix Search
   // promotion.
   if (!ai_chat::features::IsAIChatFirstEnabled()) {
     result->MoveMatchToBeLast(&LeoProvider::IsMatchFromLeoProvider);

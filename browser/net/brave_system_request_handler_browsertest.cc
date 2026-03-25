@@ -130,7 +130,7 @@ IN_PROC_BROWSER_TEST_F(BraveSystemRequestHandlerBrowsertest,
     std::string_view url;
     bool service_key_should_be_set;
   } test_cases[] = {
-      {"demo.brave.com", true},
+      {"demo.nixbrowser.in", true},
       {"demo.bravesoftware.com", true},
       {"brave.demo.com", false},
       {"randomdomain.com", false},

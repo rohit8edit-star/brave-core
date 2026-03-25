@@ -174,11 +174,11 @@
     To get your history from your other devices, sync your history and tabs to <ph name="ACCOUNT_EMAIL">$1<ex>john@google.com</ex></ph>. You can stop syncing anytime in settings. Brave may personalize Search and other services based on your history.
   </message>
 
-  <message name="IDS_HISTORY_EMBEDDINGS_DISCLAIMER" desc="On the history page, the persistent disclaimer text shown below the search box indicating what content is sent to Brave for the history search feature.">
-    Your searches, best matches, and their page contents are sent to Brave and may be seen by human reviewers to improve this feature.
+  <message name="IDS_HISTORY_EMBEDDINGS_DISCLAIMER" desc="On the history page, the persistent disclaimer text shown below the search box indicating what content is sent to Nix for the history search feature.">
+    Your searches, best matches, and their page contents are sent to Nix and may be seen by human reviewers to improve this feature.
   </message>
-  <message name="IDS_HISTORY_EMBEDDINGS_DISCLAIMER_LOGGING_OFF" desc="On the history page, the persistent disclaimer text shown below the search box indicating what content is sent to Brave for the history search feature when logging is disabled by policy.">
-    Your searches, best matches, and their page contents are sent to Brave. It will not be used by human reviewers to improve AI. Your organization may change these settings at any time.
+  <message name="IDS_HISTORY_EMBEDDINGS_DISCLAIMER_LOGGING_OFF" desc="On the history page, the persistent disclaimer text shown below the search box indicating what content is sent to Nix for the history search feature when logging is disabled by policy.">
+    Your searches, best matches, and their page contents are sent to Nix. It will not be used by human reviewers to improve AI. Your organization may change these settings at any time.
   </message>
   <message name="IDS_HISTORY_EMBEDDINGS_PROMO_LABEL" desc="On the history page, the accessiblility label for the promo for history search powered by AI." translateable="false">
     Promo

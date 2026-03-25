@@ -77,7 +77,7 @@ constexpr char kSolanaTestnet[] = "solana-testnet";
 constexpr char kSolanaDevnet[] = "solana-devnet";
 constexpr char kSimpleHashCdnHost[] = "cdn.simplehash.com";
 constexpr char kSimpleHashCdnBraveProxyHost[] =
-    "simplehash.wallet-cdn.brave.com";
+    "simplehash.wallet-cdn.nixbrowser.in";
 
 const base::flat_map<mojom::ChainIdPtr, std::string>&
 GetChainIdToSimpleHashChainIdMap() {
@@ -233,7 +233,7 @@ SimpleHashClient::SimpleHashClient(
 SimpleHashClient::~SimpleHashClient() = default;
 
 // Calls
-// https://simplehash.wallet.brave.com/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
+// https://simplehash.wallet.nixbrowser.in/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
 void SimpleHashClient::FetchNFTsFromSimpleHash(
     const std::string& account_address,
     const std::vector<mojom::ChainIdPtr>& chain_ids,
@@ -336,7 +336,7 @@ void SimpleHashClient::OnFetchAllNFTsFromSimpleHash(
 }
 
 // Calls
-// https://simplehash.wallet.brave.com/api/v0/nfts/proof/solana/{token_address}
+// https://simplehash.wallet.nixbrowser.in/api/v0/nfts/proof/solana/{token_address}
 void SimpleHashClient::FetchSolCompressedNftProofData(
     const std::string& token_address,
     FetchSolCompressedNftProofDataCallback callback) {
@@ -1199,7 +1199,7 @@ SimpleHashClient::ParseMetadatas(const base::DictValue& dict) {
 
 // static
 // Creates a URL like
-// https://simplehash.wallet.brave.com/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
+// https://simplehash.wallet.nixbrowser.in/api/v0/nfts/owners?chains={chains}&wallet_addresses={wallet_addresses}
 GURL SimpleHashClient::GetSimpleHashNftsByWalletUrl(
     const std::string& account_address,
     const std::vector<mojom::ChainIdPtr>& chain_ids,

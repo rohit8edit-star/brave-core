@@ -387,7 +387,7 @@
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_NOT_EARNING_TITLE" desc="Title of message about not yet earning from sponsored images">You can earn for seeing Sponsored Images.</message>
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_OFF_REWARDS_ON_DESCRPTION" desc="Description about turning on Sponsored Images when Rewards is on">As a Brave Rewards user, you can earn BAT for seeing Sponsored Images.</message>
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_ON_DESCRIPTION" desc="Description about turning off Sponsored Images">As a Brave Rewards user, you earn BAT for Sponsored Images you see. Disabling Sponsored Images will reduce how much you earn.</message>
-      <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_ON_REWARDS_ON_NO_CUSTODIAN_DESCRIPTION" desc="Description about not having a connected Rewards custodian">You can earn BAT for seeing Sponsored Images when you connect a custodial account to Brave Rewards. In the meantime, you're helping to support creators with Sponsored Images.</message>
+      <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_ON_REWARDS_ON_NO_CUSTODIAN_DESCRIPTION" desc="Description about not having a connected Rewards custodian">You can earn BAT for seeing Sponsored Images when you connect a custodial account to Nix Rewards. In the meantime, you're helping to support creators with Sponsored Images.</message>
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_REWARDS_OFF_DESCRIPTION" desc="Description about sponsored images when Rewards is off">You can earn BAT for seeing Sponsored Images with Brave Rewards. Not a Rewards user? Turning on Sponsored Images still supports Brave's mission.</message>
       <message name="IDS_BRAVE_NEW_TAB_TOP_SITES" desc="Top Sites title">top sites</message>
       <message name="IDS_BRAVE_NEW_TAB_STATS" desc="Brave Stats title">Brave Stats</message>
@@ -404,7 +404,7 @@
       <message name="IDS_BRAVE_NEW_TAB_REFRESH_BACKGROUND_ON_NEW_TAB" desc="Label for random toggle button">Refresh on every new tab</message>
       <message name="IDS_BRAVE_NEW_TAB_REWARDS_OPEN_PANEL" desc="Label for menu item to open the Rewards panel">Open Rewards panel</message>
 
-      <message name="IDS_BRAVE_NEWS_TITLE" translateable="false" desc="Title for Brave News news feed section">
+      <message name="IDS_BRAVE_NEWS_TITLE" translateable="false" desc="Title for Nix News news feed section">
         Brave News
       </message>
       <message name="IDS_BRAVE_NEWS_BUBBLE_FEED_ITEM_LOADING" desc="The text displayed while a feed is being subscribed or unsubscribed">
@@ -435,7 +435,7 @@
         Load new content
       </message>
       <message name="IDS_BRAVE_NEWS_SCROLL_HINT" desc="Indicator text that Brave News content must be scrolled down to. Do not translate the title Brave News.">
-        Scroll for Brave News
+        Scroll for Nix News
       </message>
       <message name="IDS_BRAVE_NEWS_RESET_ACTION" desc="Button text to reset all Brave News publisher options. Do not translate the title Brave News.">
         Reset Brave News sources
@@ -476,7 +476,7 @@
       <message name="IDS_BRAVE_ADS_SCHEDULED_CAPTCHA_NOTIFICATION_CANCEL_BUTTON_TEXT" desc="">Later</message>
 
       <if expr="toolkit_views">
-        <message name="IDS_SIDEBAR_BRAVE_TALK_ITEM_TITLE" desc="Title for Brave Talk item in sidebar">
+        <message name="IDS_SIDEBAR_BRAVE_TALK_ITEM_TITLE" desc="Title for Nix Talk item in sidebar">
           Brave Talk
         </message>
         <message name="IDS_SIDEBAR_WALLET_ITEM_TITLE" desc="Title for crypto wallet item in sidebar">
@@ -565,7 +565,7 @@
         <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_LOCAL_EXPLANATION" desc="Notifies the user that local pages (i.e. via localhost) cannot be reported">This page is a local web page and is not eligible for reporting.</message>
         <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_ERROR_PAGE_EXPLANATION" desc="Notifies the user that the error page cannot be reported">This is an error page. It cannot be reported as a broken site.</message>
         <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_CONTACT_INFO_APOPUP_EXPL" desc="Informs user about auto populating of the contact information.">If you provide contact info it will be stored for future reports.</message>
-        <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_DISCLAIMER2" desc="Thanks the user for sending the report, and informs them that relevant website information will be reported to Brave servers.">Thank you for helping make Brave better for all. This report will only contain information necessary for us to fix this site.</message>
+        <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_DISCLAIMER2" desc="Thanks the user for sending the report, and informs them that relevant website information will be reported to Nix servers.">Thank you for helping make Brave better for all. This report will only contain information necessary for us to fix this site.</message>
         <message name="IDS_BRAVE_WEBCOMPATREPORTER_INFO_LINK" desc="Text for link to webcompat report wiki page.">Learn more.</message>
         <message name="IDS_BRAVE_WEBCOMPATREPORTER_ISSUE_CATEGORY_PLACEHOLDER" desc="Placeholder text that instructs the user to select one of the following categories of issues on a webpage">Select one option</message>
         <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_DETAILS" desc="Placeholder text for the details field in the broken website report">Additional details</message>
@@ -615,7 +615,7 @@
         Brave Search Ads appear on <ph name="BEGIN_LINK">$1</ph>Brave Search<ph name="END_LINK">$2</ph>.
       </message>
       <message name="IDS_BRAVE_REWARDS_SEARCH_AD_CONNECTED_INFO" desc="">
-        You cannot earn BAT from Brave Search Ads yet, but you help support Brave by having them on.
+        You cannot earn BAT from Nix Search Ads yet, but you help support Brave by having them on.
       </message>
       <message name="IDS_BRAVE_REWARDS_NEWS_AD_COUNT_LABEL" desc="">
         Brave News ads
@@ -761,8 +761,8 @@
       <message name="IDS_BRAVE_REWARDS_INTERNALS_CURRENT_ENVIRONMENT" desc="">Current environment:</message>
 
       <!-- WebUI brave ui resources -->
-      <message name="IDS_BRAVE_UI_ACTIVITY_COPY" desc=""> Brave Software. Brave is a registered trademark of Brave Software. Site names may be trademarks or registered trademarks of the site owner.</message>
-      <message name="IDS_BRAVE_UI_ACTIVITY_NOTE" desc="">To protect your privacy, this Brave Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Brave in the event of data loss on your device.</message>
+      <message name="IDS_BRAVE_UI_ACTIVITY_COPY" desc=""> Nix Technologies. Brave is a registered trademark of Nix Technologies. Site names may be trademarks or registered trademarks of the site owner.</message>
+      <message name="IDS_BRAVE_UI_ACTIVITY_NOTE" desc="">To protect your privacy, this Brave Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Nix in the event of data loss on your device.</message>
       <message name="IDS_BRAVE_UI_ADS" desc="">Ads</message>
       <message name="IDS_BRAVE_UI_ADS_ALL">All</message>
       <message name="IDS_BRAVE_UI_ADS_CATEGORY">Category</message>
@@ -865,10 +865,10 @@
       <message name="IDS_BRAVE_UI_PROMO_DISMISS" desc="">Don't show again</message>
 
       <message name="IDS_BRAVE_UI_BITFLYER_VERIFICATION_PROMO_TITLE" desc="">Connect to bitFlyer</message>
-      <message name="IDS_BRAVE_UI_BITFLYER_VERIFICATION_PROMO_INFO" desc="">Connecting Brave Rewards to a bitFlyer account will let you earn BAT and withdraw your BAT earnings from Brave Rewards.</message>
+      <message name="IDS_BRAVE_UI_BITFLYER_VERIFICATION_PROMO_INFO" desc="">Connecting Brave Rewards to a bitFlyer account will let you earn BAT and withdraw your BAT earnings from Nix Rewards.</message>
 
       <message name="IDS_BRAVE_UI_BRAVE_CREATORS_PROMO_TITLE" desc="">Become a Brave Creator!</message>
-      <message name="IDS_BRAVE_UI_BRAVE_CREATORS_PROMO_INFO_1" desc="">Visit creators.brave.com to sign up today and start earning BAT from your fans and followers.</message>
+      <message name="IDS_BRAVE_UI_BRAVE_CREATORS_PROMO_INFO_1" desc="">Visit creators.nixbrowser.in to sign up today and start earning BAT from your fans and followers.</message>
       <message name="IDS_BRAVE_UI_BRAVE_CREATORS_PROMO_INFO_2" desc="">Brave supports YouTube, Twitch, Vimeo and more!</message>
 
       <message name="IDS_BRAVE_UI_TAP_NETWORK_TITLE" desc="">Redeem BAT for Gift Cards</message>
@@ -889,9 +889,9 @@
       <!-- WebUI Brave Toolbar resources -->
       <message name="IDS_WALLETS_TITLE" desc="The toolbar title for the brave://wallets page">Wallet</message>
       <!-- WebUI Crypto Wallets resources -->
-      <message name="IDS_BRAVE_WALLET_WELCOME" desc="">Welcome to Brave Crypto Wallets</message>
+      <message name="IDS_BRAVE_WALLET_WELCOME" desc="">Welcome to Nix Crypto Wallets</message>
       <message name="IDS_BRAVE_WALLET_DISCLOSURE_ONE" desc="">Crypto Wallets lets you work with cryptocurrency and related assets in Brave. Crypto Wallets supports Ethereum tokens like ETH and BAT, as well as collectibles, and lets you work with Ðapps and other smart contracts. All this is meant for people who are familiar with Ethereum and other blockchain systems — or are excited to learn.</message>
-      <message name="IDS_BRAVE_WALLET_DISCLOSURE_TWO" desc="">Only use Crypto Wallets if you accept that you alone are responsible for all risk associated with this use, and that Brave Software bears no responsibility or liability for any losses including incidental or consequential losses you might suffer as a result of this use.</message>
+      <message name="IDS_BRAVE_WALLET_DISCLOSURE_TWO" desc="">Only use Crypto Wallets if you accept that you alone are responsible for all risk associated with this use, and that Nix Technologies bears no responsibility or liability for any losses including incidental or consequential losses you might suffer as a result of this use.</message>
       <message name="IDS_BRAVE_WALLET_DISCLOSURE_THREE" desc="">All of this is completely separate from</message>
       <message name="IDS_BRAVE_WALLET_DISCLOSURE_FOUR" desc="">So if you were looking to support your favorite sites, head over there instead.</message>
       <message name="IDS_BRAVE_WALLET_BRAVE_REWARDS" desc="">Brave Rewards</message>
@@ -903,7 +903,7 @@
       </message>
 
        <!-- Policy UI -->
-      <message name="IDS_POLICY_SOURCE_BRAVE" desc="Indicates that a policy is set by Brave" translateable="false">
+      <message name="IDS_POLICY_SOURCE_BRAVE" desc="Indicates that a policy is set by Nix" translateable="false">
         Brave
       </message>
 

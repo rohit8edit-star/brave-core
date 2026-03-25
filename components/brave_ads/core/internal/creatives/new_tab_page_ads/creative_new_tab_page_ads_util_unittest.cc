@@ -48,7 +48,7 @@ CreativeNewTabPageAdList BuildCreativeNewTabPageAds() {
     creative_ad.wallpaper_type = CreativeNewTabPageAdWallpaperType::kRichMedia;
     creative_ad.company_name = "Rich Media NTT Creative 1";
     creative_ad.alt = "Some rich content 1";
-    creative_ad.target_url = GURL("https://brave.com/1");
+    creative_ad.target_url = GURL("https://nixbrowser.in/1");
     creative_ad.condition_matchers = {
         {/*pref_path*/ "uninstall_metrics.installation_date2",
          /*condition*/ "[T<]:7"},
@@ -124,7 +124,7 @@ CreativeNewTabPageAdList BuildCreativeNewTabPageAds() {
     creative_ad.wallpaper_type = CreativeNewTabPageAdWallpaperType::kRichMedia;
     creative_ad.company_name = "Rich Media NTT Creative 2";
     creative_ad.alt = "Some rich content 2";
-    creative_ad.target_url = GURL("https://brave.com/2");
+    creative_ad.target_url = GURL("https://nixbrowser.in/2");
     creative_ads.push_back(creative_ad);
   }
 
@@ -207,7 +207,7 @@ TEST_F(BraveAdsCreativeNewTabPageAdsUtilTest, ParseAndSaveAds) {
                     "creativeInstanceId": "aa0b561e-9eed-4aaa-8999-5627bc6b14fd",
                     "companyName": "Rich Media NTT Creative 1",
                     "alt": "Some rich content 1",
-                    "targetUrl": "https://brave.com/1",
+                    "targetUrl": "https://nixbrowser.in/1",
                     "conditionMatchers": [
                       {
                         "condition": "[T<]:7",
@@ -252,7 +252,7 @@ TEST_F(BraveAdsCreativeNewTabPageAdsUtilTest, ParseAndSaveAds) {
                 "conversions": [
                   {
                     "observationWindow": 7,
-                    "urlPattern": "https://www.brave.com/1/*"
+                    "urlPattern": "https://www.nixbrowser.in/1/*"
                   }
                 ],
                 "segments": [
@@ -300,7 +300,7 @@ TEST_F(BraveAdsCreativeNewTabPageAdsUtilTest, ParseAndSaveAds) {
                     "creativeInstanceId": "5c2cf7fa-fc3f-4b1e-939a-7ac9fd2a128a",
                     "companyName": "Rich Media NTT Creative 2",
                     "alt": "Some rich content 2",
-                    "targetUrl": "https://brave.com/2",
+                    "targetUrl": "https://nixbrowser.in/2",
                     "conditionMatchers": [
                       {
                         "condition": "[T<]:3",
@@ -345,7 +345,7 @@ TEST_F(BraveAdsCreativeNewTabPageAdsUtilTest, ParseAndSaveAds) {
                 "conversions": [
                   {
                     "observationWindow": 30,
-                    "urlPattern": "https://www.brave.com/2/*"
+                    "urlPattern": "https://www.nixbrowser.in/2/*"
                   }
                 ],
                 "segments": [

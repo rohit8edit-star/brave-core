@@ -11,7 +11,7 @@ CreateBraveProfilePolicyProvider();
 }  // namespace brave_policy
 
 // Create and Init the Brave Profile Policy Provider which is used
-// for Brave Origin and other Brave specific policies.
+// for Nix Origin and other Brave specific policies.
 // We do not need to define a patch for Shutdown since anything in
 // wrapped_policy_providers_ will automatically call Shutdown.
 #define BRAVE_PROFILE_POLICY_CONNECTOR_INIT                         \

@@ -35,7 +35,7 @@ void AIChatIAPSubscription::GetPurchaseTokenOrderId(
   std::string product_id_string = kProductId;
 
   // Get the Android purchase token (for Google Play Store).
-  // The value for this is validated on the account.brave.com side
+  // The value for this is validated on the account.nixbrowser.in side
   auto* purchase_token =
       prefs_->FindPreference(prefs::kBraveChatPurchaseTokenAndroid);
   if (purchase_token && !purchase_token->IsDefaultValue()) {

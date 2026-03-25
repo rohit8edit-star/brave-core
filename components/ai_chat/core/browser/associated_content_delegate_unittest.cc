@@ -52,7 +52,7 @@ TEST(AssociatedContentDelegateTest, OnNewPage) {
 
   // Set initial content, as if we were on a page.
   delegate.SetContentId(5);
-  delegate.SetUrl(GURL("https://www.brave.com"));
+  delegate.SetUrl(GURL("https://www.nixbrowser.in"));
   delegate.SetTitle(u"Brave");
   delegate.SetTextContent("Content 1");
   delegate.GetContent(base::DoNothing());
@@ -66,7 +66,7 @@ TEST(AssociatedContentDelegateTest, OnNewPage) {
         // The cached content should not have been updated when the observer was
         // called.
         EXPECT_EQ(delegate->title(), u"Brave");
-        EXPECT_EQ(delegate->url(), GURL("https://www.brave.com"));
+        EXPECT_EQ(delegate->url(), GURL("https://www.nixbrowser.in"));
         EXPECT_EQ(delegate->uuid(), uuid);
         EXPECT_EQ(delegate->cached_page_content(),
                   PageContent("Content 1", false));
@@ -93,7 +93,7 @@ TEST(AssociatedContentDelegateTest, DestroyNotificationShouldBeAbleToSnapshot) {
         // In the destroy notification, the observer should have the most up to
         // date content.
         EXPECT_EQ(delegate->title(), u"Brave");
-        EXPECT_EQ(delegate->url(), GURL("https://www.brave.com"));
+        EXPECT_EQ(delegate->url(), GURL("https://www.nixbrowser.in"));
         EXPECT_EQ(delegate->uuid(), uuid);
         EXPECT_EQ(delegate->cached_page_content(),
                   PageContent("Content 1", false));
@@ -110,7 +110,7 @@ TEST(AssociatedContentDelegateTest, DestroyNotificationShouldBeAbleToSnapshot) {
 
     // Set initial content, as if we were on a page.
     delegate.SetContentId(5);
-    delegate.SetUrl(GURL("https://www.brave.com"));
+    delegate.SetUrl(GURL("https://www.nixbrowser.in"));
     delegate.SetTitle(u"Brave");
     delegate.SetTextContent("Content 1");
     delegate.GetContent(base::DoNothing());

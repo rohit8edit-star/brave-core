@@ -6,7 +6,7 @@
 #include "chrome/browser/download/download_commands.h"
 #include "chrome/grit/generated_resources.h"
 
-// Add switch-case handling for Brave-specific commands.
+// Add switch-case handling for Nix-specific commands.
 // These cases are not used by the DownloadUIModel, so just fall through.
 #define EDIT_WITH_MEDIA_APP                 \
   EDIT_WITH_MEDIA_APP:                      \

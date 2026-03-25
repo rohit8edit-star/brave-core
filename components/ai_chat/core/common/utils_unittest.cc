@@ -13,25 +13,25 @@
 namespace ai_chat {
 
 TEST(AIChatCommonUtilsUnitTest, IsBraveSearchURL) {
-  EXPECT_TRUE(IsBraveSearchURL(GURL("https://search.brave.com")));
-  EXPECT_FALSE(IsBraveSearchURL(GURL("http://search.brave.com")));
-  EXPECT_FALSE(IsBraveSearchURL(GURL("https://test.brave.com/")));
-  EXPECT_FALSE(IsBraveSearchURL(GURL("https://brave.com/")));
+  EXPECT_TRUE(IsBraveSearchURL(GURL("https://search.nixbrowser.in")));
+  EXPECT_FALSE(IsBraveSearchURL(GURL("http://search.nixbrowser.in")));
+  EXPECT_FALSE(IsBraveSearchURL(GURL("https://test.nixbrowser.in/")));
+  EXPECT_FALSE(IsBraveSearchURL(GURL("https://nixbrowser.in/")));
   EXPECT_FALSE(IsBraveSearchURL(GURL()));
 }
 
 TEST(AIChatCommonUtilsUnitTest, IsOpenAIChatButtonFromBraveSearchURL) {
   EXPECT_TRUE(IsOpenAIChatButtonFromBraveSearchURL(
-      GURL("https://search.brave.com/leo#5566")));
+      GURL("https://search.nixbrowser.in/leo#5566")));
   EXPECT_FALSE(IsOpenAIChatButtonFromBraveSearchURL(GURL()));
   EXPECT_FALSE(
-      IsOpenAIChatButtonFromBraveSearchURL(GURL("https://search.brave.com")));
+      IsOpenAIChatButtonFromBraveSearchURL(GURL("https://search.nixbrowser.in")));
   EXPECT_FALSE(IsOpenAIChatButtonFromBraveSearchURL(
-      GURL("https://search.brave.com/leo")));
+      GURL("https://search.nixbrowser.in/leo")));
   EXPECT_FALSE(IsOpenAIChatButtonFromBraveSearchURL(
-      GURL("https://search.brave.com/leo#")));
+      GURL("https://search.nixbrowser.in/leo#")));
   EXPECT_FALSE(
-      IsOpenAIChatButtonFromBraveSearchURL(GURL("https://brave.com/leo#5566")));
+      IsOpenAIChatButtonFromBraveSearchURL(GURL("https://nixbrowser.in/leo#5566")));
 }
 
 }  // namespace ai_chat

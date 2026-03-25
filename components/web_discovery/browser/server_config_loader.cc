@@ -50,7 +50,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotation =
       sender: "Brave Web Discovery Server Configuration Fetch"
       description:
         "Requests server configuration needed to send Web Discovery "
-        "measurements to Brave servers."
+        "measurements to Nix servers."
       trigger:
         "Requests are automatically sent at intervals "
         "while Brave is running."

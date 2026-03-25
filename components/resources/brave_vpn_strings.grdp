@@ -60,7 +60,7 @@
     Start 7-day free trial
   </message>
 
-  <message name="IDS_BRAVE_VPN_HAS_PURCHASED" desc="Link text to redirect the user to Brave account login page. Do not translate VPN." formatter_data="webui=Vpn">Already purchased Brave VPN?</message>
+  <message name="IDS_BRAVE_VPN_HAS_PURCHASED" desc="Link text to redirect the user to Nix account login page. Do not translate VPN." formatter_data="webui=Vpn">Already purchased Brave VPN?</message>
 
   <message name="IDS_BRAVE_VPN_POWERED_BY" desc="Label to show next to Guardian logo" formatter_data="webui=Vpn">
     Powered by
@@ -329,8 +329,8 @@
     Learn more.
   </message>
 
-  <message name="IDS_SETTINGS_SECURE_DNS_DISABLED_BY_BRAVE_VPN" desc="A text shown to user on settings page for DNS setting when it is blocked by BraveVPN" formatter_data="webui=Vpn">
-    The setting is locked by BraveVPN while it is connected
+  <message name="IDS_SETTINGS_SECURE_DNS_DISABLED_BY_BRAVE_VPN" desc="A text shown to user on settings page for DNS setting when it is blocked by NixVPN" formatter_data="webui=Vpn">
+    The setting is locked by NixVPN while it is connected
   </message>
 
   <message name="IDS_BRAVE_VPN_DNS_SETTINGS_NOTIFICATION_DIALOG_TEXT" desc="A text shown to user when he enabled Brave VPN without DoH and we override settings" formatter_data="webui=Vpn">

@@ -35,7 +35,7 @@ TEST_F(BraveAdsCreativeAdCacheTest, AddCreativeAd) {
           /*use_random_uuids=*/true);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   // Act
@@ -50,7 +50,7 @@ TEST_F(BraveAdsCreativeAdCacheTest, AddCreativeAd) {
 TEST_F(BraveAdsCreativeAdCacheTest, DoNotAddCreativeAd) {
   // Arrange
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   // Act
@@ -66,7 +66,7 @@ TEST_F(BraveAdsCreativeAdCacheTest, DoNotAddCreativeAd) {
 TEST_F(BraveAdsCreativeAdCacheTest, DoNotAddInvalidCreativeAd) {
   // Arrange
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   CreativeAdVariant creative_ad_variant;
@@ -121,12 +121,12 @@ TEST_F(BraveAdsCreativeAdCacheTest, GetCreativeAdsAcrossMultipleTabs) {
 
   // Act
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
   creative_ad_cache_->MaybeAdd(test::kPlacementId, mojom_creative_ad->Clone());
 
   SimulateOpeningNewTab(/*tab_id=*/2,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
   creative_ad_cache_->MaybeAdd(test::kAnotherPlacementId,
                                mojom_creative_ad->Clone());
@@ -147,12 +147,12 @@ TEST_F(BraveAdsCreativeAdCacheTest, PurgePlacementsOnTabDidClose) {
           /*use_random_uuids=*/true);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
   creative_ad_cache_->MaybeAdd(test::kPlacementId, mojom_creative_ad->Clone());
 
   SimulateOpeningNewTab(/*tab_id=*/2,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
   creative_ad_cache_->MaybeAdd(test::kAnotherPlacementId,
                                mojom_creative_ad->Clone());

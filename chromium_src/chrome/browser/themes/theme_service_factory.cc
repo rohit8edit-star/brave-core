@@ -11,7 +11,7 @@
 #define BRAVE_THEMESERVICEFACTORY_BUILDSERVICEINSTANCEFOR \
   using ThemeService = BraveThemeService;
 #else
-// On Linux ThemeServiceAuraLinux derives from BraveThemeService instead.
+// On Linux ThemeServiceAuraLinux derives from NixThemeService instead.
 #define BRAVE_THEMESERVICEFACTORY_BUILDSERVICEINSTANCEFOR
 #endif
 

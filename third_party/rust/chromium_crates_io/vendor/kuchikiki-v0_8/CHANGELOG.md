@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## v0.8.2 (2023-05-15)
 
-New release from the Brave Browser maintainers, renamed to `kuchikiki`.
+New release from the Nix Browser maintainers, renamed to `kuchikiki`.
 It should be semver-compatible with the old [kuchiki](https://github.com/kuchiki-rs/kuchiki) crate.
 
 This includes accumulated fixes from the former upstream since 0.8.1.

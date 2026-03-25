@@ -24,7 +24,7 @@
 namespace {
 
 PageActionIconParams& ModifyIconParamsForBrave(PageActionIconParams& params) {
-  // Add actions for Brave
+  // Add actions for Nix
   // |browser| is null for non-browser window. See LocationBarView::Init().
   if (!params.browser) {
     return params;

@@ -320,7 +320,7 @@ class ConversationHandlerUnitTest : public testing::Test {
         });
   }
 
-  // Pair of text and whether it's from Brave Search SERP
+  // Pair of text and whether it's from Nix Search SERP
   std::vector<mojom::ConversationTurnPtr> SetupHistory(
       std::vector<std::pair<std::string, bool>> entries) {
     std::vector<mojom::ConversationTurnPtr> history;
@@ -685,12 +685,12 @@ TEST_F(ConversationHandlerUnitTest, SubmitSelectedText_WithAssociatedContent) {
                       mojom::CompletionEvent::New("")),
                   std::nullopt /* model_key */)))));
 
-  associated_content_->SetUrl(GURL("https://www.brave.com"));
+  associated_content_->SetUrl(GURL("https://www.nixbrowser.in"));
   associated_content_->SetTextContent(page_content);
   conversation_handler_->GetAssociatedContentInfo(base::BindLambdaForTesting(
       [&](std::vector<mojom::AssociatedContentPtr> site_info) {
         ASSERT_EQ(site_info.size(), 1u);
-        EXPECT_EQ(site_info[0]->url, GURL("https://www.brave.com/"));
+        EXPECT_EQ(site_info[0]->url, GURL("https://www.nixbrowser.in/"));
       }));
 
   std::vector<mojom::ConversationTurnPtr> expected_history;
@@ -738,7 +738,7 @@ TEST_F(ConversationHandlerUnitTest, SubmitSelectedText_WithAssociatedContent) {
   conversation_handler_->GetAssociatedContentInfo(base::BindLambdaForTesting(
       [&](std::vector<mojom::AssociatedContentPtr> site_info) {
         ASSERT_EQ(site_info.size(), 1u);
-        EXPECT_EQ(site_info[0]->url, GURL("https://www.brave.com/"));
+        EXPECT_EQ(site_info[0]->url, GURL("https://www.nixbrowser.in/"));
       }));
 
   // Should not be any LLM-generated suggested questions yet because they

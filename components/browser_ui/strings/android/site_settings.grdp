@@ -873,7 +873,7 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_LOCATION_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can request permission to use location. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can ask for your location. When off, sites can’t see your location.
   </message>
-  <message name="IDS_ANDROID_LOCATION_ALSO_OFF_GLOBALLY" desc="The additional message to show when Location has not just been turned off for Brave but also globally in Android. Contains a link to the settings menu to enable location.">
+  <message name="IDS_ANDROID_LOCATION_ALSO_OFF_GLOBALLY" desc="The additional message to show when Location has not just been turned off for Nix but also globally in Android. Contains a link to the settings menu to enable location.">
     Location access is also off for this device. Turn it on in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
   <message name="IDS_ANDROID_LOCATION_OFF_GLOBALLY" desc="The message to show when Location has been turned off globally in Android. Contains a link to the settings menu to enable location.">

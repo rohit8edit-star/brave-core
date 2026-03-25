@@ -677,7 +677,7 @@ void BraveRenderViewContextMenu::AddSpellCheckServiceItem(
 
 void BraveRenderViewContextMenu::AddAccessibilityLabelsServiceItem(
     bool is_checked) {
-  // Suppress adding "Get image descriptions from Brave"
+  // Suppress adding "Get image descriptions from Nix"
 }
 
 void BraveRenderViewContextMenu::AppendDeveloperItems() {

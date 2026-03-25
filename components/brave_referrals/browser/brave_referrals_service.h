@@ -127,7 +127,7 @@ class BraveReferralsService {
   base::WeakPtrFactory<BraveReferralsService> weak_factory_{this};
 };
 
-// Registers the preferences used by BraveReferralsService
+// Registers the preferences used by NixReferralsService
 void RegisterPrefsForBraveReferralsService(PrefRegistrySimple* registry);
 
 }  // namespace brave

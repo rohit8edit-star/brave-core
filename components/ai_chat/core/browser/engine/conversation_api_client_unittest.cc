@@ -463,7 +463,7 @@ TEST_F(ConversationAPIUnitTest, PerformRequest_PremiumHeaders) {
             query.GetDict().Set("title", "Star Wars");
             query.GetDict().Set("url", "https://starwars.com");
             query.GetDict().Set(
-                "favicon", "http://imgs.search.brave.com/starwars.com/favicon");
+                "favicon", "http://imgs.search.nixbrowser.in/starwars.com/favicon");
             sources.GetList().Append(std::move(query));
           }
           {
@@ -473,7 +473,7 @@ TEST_F(ConversationAPIUnitTest, PerformRequest_PremiumHeaders) {
             query.GetDict().Set("url", "https://starwars.com");
             query.GetDict().Set(
                 "favicon",
-                "https://imgs.search.brave.com/starwars.com/favicon");
+                "https://imgs.search.nixbrowser.in/starwars.com/favicon");
             sources.GetList().Append(std::move(query));
           }
           {
@@ -483,7 +483,7 @@ TEST_F(ConversationAPIUnitTest, PerformRequest_PremiumHeaders) {
             query.GetDict().Set("url", "https://startrek.com");
             query.GetDict().Set(
                 "favicon",
-                "https://imgs.search.brave.com/startrek.com/favicon");
+                "https://imgs.search.nixbrowser.in/startrek.com/favicon");
             sources.GetList().Append(std::move(query));
           }
           result.GetDict().Set("sources", std::move(sources));
@@ -536,9 +536,9 @@ TEST_F(ConversationAPIUnitTest, PerformRequest_PremiumHeaders) {
         EXPECT_EQ(sources[0]->url.spec(), "https://starwars.com/");
         EXPECT_EQ(sources[1]->url.spec(), "https://startrek.com/");
         EXPECT_EQ(sources[0]->favicon_url.spec(),
-                  "https://imgs.search.brave.com/starwars.com/favicon");
+                  "https://imgs.search.nixbrowser.in/starwars.com/favicon");
         EXPECT_EQ(sources[1]->favicon_url.spec(),
-                  "https://imgs.search.brave.com/startrek.com/favicon");
+                  "https://imgs.search.nixbrowser.in/startrek.com/favicon");
       });
   EXPECT_CALL(mock_callbacks, OnDataReceived(_))
       .InSequence(seq)
@@ -1548,7 +1548,7 @@ TEST_F(ConversationAPIUnitTest, ParseResponseEvent_ParsesWebSourcesEvent) {
   base::DictValue source1;
   source1.Set("title", "Example 1");
   source1.Set("url", "https://example.com/1");
-  source1.Set("favicon", "https://imgs.search.brave.com/favicon.ico");
+  source1.Set("favicon", "https://imgs.search.nixbrowser.in/favicon.ico");
   sources1.Append(std::move(source1));
 
   event_with_valid_favicon.Set("sources", std::move(sources1));
@@ -1565,7 +1565,7 @@ TEST_F(ConversationAPIUnitTest, ParseResponseEvent_ParsesWebSourcesEvent) {
   EXPECT_EQ(result1->event->get_sources_event()->sources[0]->url.spec(),
             "https://example.com/1");
   EXPECT_EQ(result1->event->get_sources_event()->sources[0]->favicon_url.spec(),
-            "https://imgs.search.brave.com/favicon.ico");
+            "https://imgs.search.nixbrowser.in/favicon.ico");
   EXPECT_EQ(result1->model_key, "chat-basic");
 
   // Case 2: Missing favicon, should use default
@@ -1628,7 +1628,7 @@ TEST_F(ConversationAPIUnitTest,
       {
         "title": "Example Source",
         "url": "https://example.com",
-        "favicon": "https://imgs.search.brave.com/favicon.ico"
+        "favicon": "https://imgs.search.nixbrowser.in/favicon.ico"
       }
     ],
     "rich_results": [
@@ -1642,7 +1642,7 @@ TEST_F(ConversationAPIUnitTest,
           {
             "type": "video",
             "url": "https://video.example.com",
-            "thumbnail": "https://imgs.search.brave.com/thumb.jpg"
+            "thumbnail": "https://imgs.search.nixbrowser.in/thumb.jpg"
           }
         ]
       }
@@ -1674,7 +1674,7 @@ TEST_F(ConversationAPIUnitTest,
   EXPECT_THAT(sources_event->rich_results[1], base::test::IsJson(R"({
                 "type": "video",
                 "url": "https://video.example.com",
-                "thumbnail": "https://imgs.search.brave.com/thumb.jpg"
+                "thumbnail": "https://imgs.search.nixbrowser.in/thumb.jpg"
               })"));
 
   EXPECT_EQ(result->model_key, "chat-basic");

@@ -373,7 +373,7 @@ void AdBlockServiceTest::InstallComponent(
 void AdBlockServiceTest::InstallDefaultAdBlockComponent() {
   auto catalog_entry = brave_shields::FilterListCatalogEntry(
       "default", "", "Brave Ad Block Updater", {}, "",
-      "Default lists for Brave Browser", true, true, true, 0, {},
+      "Default lists for Nix Browser", true, true, true, 0, {},
       kDefaultAdBlockComponentTestId, kDefaultAdBlockComponentTest64PublicKey);
 
   InstallComponent(catalog_entry);

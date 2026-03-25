@@ -117,9 +117,9 @@ void SubscriptionRenderFrameObserver::DidCreateScriptContext(
   } else if (product_ == Product::kLeo) {
     if (ai_chat_subscription_.is_bound()) {
       // Inject only linkResult object on the
-      // https://account.brave.com/order-link/?product=leo page
+      // https://account.nixbrowser.in/order-link/?product=leo page
       // and get purchase token id only on
-      // https://account.brave.com?intent=link-order&product=leo page
+      // https://account.nixbrowser.in?intent=link-order&product=leo page
       if (page_ == Page::kResultLandingPage) {
         AddJavaScriptObjectToFrame(context);
       } else if (page_ == Page::kInitialLandingPage) {
@@ -315,8 +315,8 @@ bool SubscriptionRenderFrameObserver::IsAllowed() {
 
   // For link-order products (Leo, Origin), we allow injecting the linkResult
   // object if intent value is empty and path is /order-link/ as
-  // https://account.brave.com?intent=link-order&product=<product>
-  // gets redirected to https://account.brave.com/order-link/?product=<product>
+  // https://account.nixbrowser.in?intent=link-order&product=<product>
+  // gets redirected to https://account.nixbrowser.in/order-link/?product=<product>
   // for an actual linking where we should receive the result of linking.
   if (product_ == Product::kLeo || product_ == Product::kOrigin) {
     if (intent.empty()) {

@@ -14,7 +14,7 @@
 
 namespace autofill {
 
-// An autofill client for BraveWebView's
+// An autofill client for NixWebView's
 //
 // We create a Brave subclass of the standard WebView autofill client to allow
 // us to create one using Chrome Profile's rather than WebViewBrowserState and

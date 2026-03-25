@@ -47,7 +47,7 @@ constexpr char kSkusState[] = R"({
             "currency": "USD",
             "description": "brave-leo-premium",
             "id": "b9114ccc-b3a5-4951-9a5d-8b7a28732054",
-            "location": "leo.brave.com",
+            "location": "leo.nixbrowser.in",
             "order_id": "f24787ab-7bc3-46b9-bc05-65befb360cb8",
             "price": 15,
             "quantity": 1,
@@ -57,8 +57,8 @@ constexpr char kSkusState[] = R"({
           }
         ],
         "last_paid_at": "2023-11-24T17:03:59.030987",
-        "location": "leo.brave.com",
-        "merchant_id": "brave.com",
+        "location": "leo.nixbrowser.in",
+        "merchant_id": "nixbrowser.in",
         "metadata": {
           "num_intervals": 3,
           "num_per_interval": 192,

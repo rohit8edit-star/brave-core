@@ -74,7 +74,7 @@ class BraveOpenAIChatPermissionContextTest
 };
 
 TEST_F(BraveOpenAIChatPermissionContextTest, PromptForBraveSearch) {
-  GURL brave_search_url("https://search.brave.com");
+  GURL brave_search_url("https://search.nixbrowser.in");
 
   prompt_factory_->set_response_type(PermissionRequestManager::ACCEPT_ALL);
   BraveOpenAIChatPermissionContext context(browser_context());
@@ -84,7 +84,7 @@ TEST_F(BraveOpenAIChatPermissionContextTest, PromptForBraveSearch) {
 }
 
 TEST_F(BraveOpenAIChatPermissionContextTest, BlockForNonBraveSearch) {
-  GURL brave_url("https://brave.com");
+  GURL brave_url("https://nixbrowser.in");
 
   prompt_factory_->set_response_type(PermissionRequestManager::ACCEPT_ALL);
   BraveOpenAIChatPermissionContext context(browser_context());
@@ -95,8 +95,8 @@ TEST_F(BraveOpenAIChatPermissionContextTest, BlockForNonBraveSearch) {
 
 TEST_F(BraveOpenAIChatPermissionContextTest, NotAllowedInInsecureOrigins) {
   BraveOpenAIChatPermissionContext permission_context(browser_context());
-  GURL insecure_url("http://search.brave.com");
-  GURL secure_url("https://search.brave.com");
+  GURL insecure_url("http://search.nixbrowser.in");
+  GURL secure_url("https://search.nixbrowser.in");
 
   EXPECT_EQ(content::PermissionStatus::DENIED,
             permission_context

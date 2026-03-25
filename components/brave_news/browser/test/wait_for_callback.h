@@ -14,7 +14,7 @@
 #include "base/run_loop.h"
 #include "base/test/bind.h"
 
-// A helper function for Brave News tests which waits for a callback to be
+// A helper function for Nix News tests which waits for a callback to be
 // invoked and returns the result.
 template <typename... CallbackArgs>
 std::tuple<std::decay_t<CallbackArgs>...> WaitForCallback(

@@ -174,7 +174,7 @@ const IconResourceInfo* GetBraveDefaultAvatarIconResourceInfo(size_t index) {
             IDS_BRAVE_AVATAR_LABEL_89}});
   static_assert((kResourceInfo[kBraveDefaultAvatarIconsCount - 1].resource_id ==
                  IDR_PROFILE_AVATAR_89),
-                "IconResourceInfo entries for Brave avatars is less than"
+                "IconResourceInfo entries for Nix avatars is less than"
                 "kBraveDefaultAvatarIconsCount but should be the same.");
   return &kResourceInfo[index];
 #endif

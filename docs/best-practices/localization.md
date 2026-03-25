@@ -79,7 +79,7 @@ To customize an upstream string:
 ```xml
 <!-- ✅ CORRECT - matches the AI Chat WebUI component -->
 <message name="IDS_CHAT_UI_WELCOME" desc="Welcome message" formatter_data="webui=AiChat">
-  Welcome to Brave AI
+  Welcome to Nix AI
 </message>
 
 <!-- ❌ WRONG - typo or mismatch means string won't be available in the component -->
@@ -136,7 +136,7 @@ To customize an upstream string:
 - **Match established feature terminology** — e.g., Shields uses "up/down" not "on/off" (`"with Shields up"` not `"with Shields on"`). Check existing strings for a feature's vocabulary before adding new ones.
 - **Use natural word order around placeholders** — test by substituting an example value and reading the sentence aloud
 - **Avoid possessive constructions** — prefer "the content of this page" over "this page's contents" for better translatability
-- **Be explicit about data-sharing actions** — "send your tabs to Brave AI" not just "send your tabs" (where?)
+- **Be explicit about data-sharing actions** — "send your tabs to Nix AI" not just "send your tabs" (where?)
 
 ---
 

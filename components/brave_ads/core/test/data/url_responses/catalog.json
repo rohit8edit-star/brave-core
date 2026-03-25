@@ -17,7 +17,7 @@
               "payload": {
                 "body": "Test Ad 1 Campaign 1 Body",
                 "title": "Test Ad 1 Campaign 1 Title",
-                "targetUrl": "https://brave.com/1"
+                "targetUrl": "https://nixbrowser.in/1"
               }
             },
             {
@@ -31,7 +31,7 @@
               "payload": {
                 "body": "Test Ad 2 Campaign 1 Body",
                 "title": "Test Ad 2 Campaign 1 Title",
-                "targetUrl": "https://brave.com/2"
+                "targetUrl": "https://nixbrowser.in/2"
               }
             },
             {
@@ -45,10 +45,10 @@
               "payload": {
                 "title": "Inline Content 1",
                 "description": "Test Inline Content Ad Campaign 1",
-                "imageUrl": "https://www.brave.com/1/image.png",
+                "imageUrl": "https://www.nixbrowser.in/1/image.png",
                 "dimensions": "200x100",
                 "ctaText": "Call to Action Text 1",
-                "targetUrl": "https://brave.com/1/inline_content_ad"
+                "targetUrl": "https://nixbrowser.in/1/inline_content_ad"
               }
             }
           ],
@@ -62,7 +62,7 @@
           "conversions": [
             {
               "observationWindow": 30,
-              "urlPattern": "https://www.brave.com/*"
+              "urlPattern": "https://www.nixbrowser.in/*"
             }
           ],
           "creativeSetId": "340c927f-696e-4060-9933-3eafc56c3f31",
@@ -103,7 +103,7 @@
               "payload": {
                 "body": "Test Ad 1 Campaign 2 Body",
                 "title": "Test Ad 1 Campaign 2 Title",
-                "targetUrl": "https://brave.com/1"
+                "targetUrl": "https://nixbrowser.in/1"
               }
             }
           ],
@@ -117,7 +117,7 @@
           "conversions": [
             {
               "observationWindow": 7,
-              "urlPattern": "https://www.brave.com/*"
+              "urlPattern": "https://www.nixbrowser.in/*"
             }
           ],
           "creativeSetId": "3e2e503a-dd38-42d1-9e26-1e5dbb66aada",

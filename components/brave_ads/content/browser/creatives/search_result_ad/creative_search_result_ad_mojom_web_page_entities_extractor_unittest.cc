@@ -264,7 +264,7 @@ TEST(BraveAdsCreativeSearchResultAdMojomWebPageEntitiesExtractorTest,
     // Invalid "data-landing-page".
     const std::vector<schema_org::mojom::EntityPtr> mojom_web_page_entities =
         test::CreativeSearchResultAdMojomWebPageEntitiesWithProperty(
-            kCreativeAdLandingPagePropertyName, /*value=*/"http://brave.com");
+            kCreativeAdLandingPagePropertyName, /*value=*/"http://nixbrowser.in");
 
     const std::vector<mojom::CreativeSearchResultAdInfoPtr>
         creative_search_result_ads =

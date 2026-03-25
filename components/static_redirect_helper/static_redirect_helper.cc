@@ -112,35 +112,35 @@ void StaticRedirectHelper(const GURL& request_url, GURL* new_url) {
   }
 
   if (favicon_pattern->MatchesURL(request_url)) {
-    replacements.SetHostStr("favicons.proxy.brave.com");
+    replacements.SetHostStr("favicons.proxy.nixbrowser.in");
     *new_url = request_url.ReplaceComponents(replacements);
     return;
   }
 
   if (crlSet_pattern1->MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("redirector.nixbrowser.in");
     *new_url = request_url.ReplaceComponents(replacements);
     return;
   }
 
   if (crlSet_pattern2->MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("redirector.nixbrowser.in");
     *new_url = request_url.ReplaceComponents(replacements);
     return;
   }
 
   if (crlSet_pattern3->MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("redirector.nixbrowser.in");
     *new_url = request_url.ReplaceComponents(replacements);
     return;
   }
 
   if (crlSet_pattern4->MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("redirector.nixbrowser.in");
     *new_url = request_url.ReplaceComponents(replacements);
     return;
   }

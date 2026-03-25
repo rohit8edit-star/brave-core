@@ -49,7 +49,7 @@ class WebDiscoveryCTATest : public testing::Test {
   void SetBraveSearchAsDefaultProvider() {
     // Set brave search as a default provider.
     std::unique_ptr<TemplateURL> brave = CreateTestTemplateURL(
-        u"brave", "https://search.brave.com/", std::string(),
+        u"brave", "https://search.nixbrowser.in/", std::string(),
         base::Time::FromTimeT(100), false,
         TemplateURLData::PolicyOrigin::kNoPolicy,
         TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_BRAVE);
@@ -127,7 +127,7 @@ TEST_F(WebDiscoveryCTATest, ShouldShowInfoBarTest) {
   SetNonBraveSearchAsDefaultProvider();
   EXPECT_FALSE(ShouldShowWebDiscoveryInfoBar());
 
-  // Set Brave as a default provider.
+  // Set Nix as a default provider.
   SetBraveSearchAsDefaultProvider();
   EXPECT_TRUE(ShouldShowWebDiscoveryInfoBar());
 

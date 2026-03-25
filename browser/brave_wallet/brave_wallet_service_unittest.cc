@@ -163,7 +163,7 @@ const char interface_not_supported_response[] = R"({
       "result":"0x0000000000000000000000000000000000000000000000000000000000000000"
   })";
 
-constexpr char kBraveUrl[] = "https://brave.com";
+constexpr char kBraveUrl[] = "https://nixbrowser.in";
 
 class MockDataRemovalObserver : public StoragePartition::DataRemovalObserver {
  public:
@@ -2006,7 +2006,7 @@ TEST_F(BraveWalletServiceUnitTest, MigrateEip1559ForCustomNetworks) {
                 "name": "Ether",
                 "symbol": "ETH"
             },
-            "rpcUrls": [ "https://mainnet-aurora.brave.com/" ]
+            "rpcUrls": [ "https://mainnet-aurora.nixbrowser.in/" ]
           }, {
             "activeRpcEndpointIndex": 0,
             "blockExplorerUrls": [ "https://etherscan.io" ],
@@ -2020,7 +2020,7 @@ TEST_F(BraveWalletServiceUnitTest, MigrateEip1559ForCustomNetworks) {
                 "name": "Ethereum",
                 "symbol": "ETH"
             },
-            "rpcUrls": [ "https://mainnet-infura.brave.com/" ]
+            "rpcUrls": [ "https://mainnet-infura.nixbrowser.in/" ]
           }, {
             "activeRpcEndpointIndex": 0,
             "blockExplorerUrls": [ "https://lineascan.build" ],
@@ -2216,7 +2216,7 @@ TEST_F(BraveWalletServiceUnitTest, SignMessageHardware) {
   SetupWallet();
 
   mojom::OriginInfoPtr origin_info =
-      MakeOriginInfo(url::Origin::Create(GURL("https://brave.com")));
+      MakeOriginInfo(url::Origin::Create(GURL("https://nixbrowser.in")));
   auto expected_signature =
       mojom::EthereumSignatureBytes::New(std::vector<uint8_t>{1, 2, 3, 4, 5});
   // That should be hw account per test name.
@@ -2276,7 +2276,7 @@ TEST_F(BraveWalletServiceUnitTest, SignMessage) {
   SetupWallet();
 
   mojom::OriginInfoPtr origin_info =
-      MakeOriginInfo(url::Origin::Create(GURL("https://brave.com")));
+      MakeOriginInfo(url::Origin::Create(GURL("https://nixbrowser.in")));
   std::string expected_signature = std::string("0xSiGnEd");
   auto account_id = GetAccountUtils().EnsureEthAccount(0)->account_id.Clone();
   std::string domain = "{}";
@@ -2478,7 +2478,7 @@ TEST_F(BraveWalletServiceUnitTest, Reset) {
   EXPECT_TRUE(GetPrefs()->HasPrefPath(kDefaultBaseCurrency));
   EXPECT_TRUE(GetPrefs()->HasPrefPath(kDefaultBaseCryptocurrency));
   mojom::OriginInfoPtr origin_info =
-      MakeOriginInfo(url::Origin::Create(GURL("https://brave.com")));
+      MakeOriginInfo(url::Origin::Create(GURL("https://nixbrowser.in")));
   auto account_id = GetAccountUtils().EnsureEthAccount(0)->account_id.Clone();
   std::string domain = "{}";
   std::string message = "0xAB";
@@ -2752,7 +2752,7 @@ TEST_F(BraveWalletServiceUnitTest, GetSimpleHashSpamNFTs) {
   })";
 
   GURL url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   std::map<GURL, std::string> responses;
@@ -2997,7 +2997,7 @@ TEST_F(BraveWalletServiceUnitTest, MaybeMigrateCompressedNfts) {
   // Add it, but mock simple hash response saying it's not compressed
   std::map<GURL, std::string> responses;
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.AM1EG2tuxB8TS6HMwEPNztegr9qio5EyuJA1KgDWcpeW")] =
       R"({
     "nfts": [
@@ -3061,7 +3061,7 @@ TEST_F(BraveWalletServiceUnitTest, MaybeMigrateCompressedNfts) {
 
   // Add it, but mock simple hash response saying it's not compressed
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.BM1EG2tuxB8TS6HMwEPNztegr9qio5EyuJA1KgDWcpeW")] =
       R"({
     "nfts": [
@@ -3109,7 +3109,7 @@ TEST_F(BraveWalletServiceUnitTest, MaybeMigrateCompressedNfts) {
 
   // Now mock the response saying it's compressed (note compression field).
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.AM1EG2tuxB8TS6HMwEPNztegr9qio5EyuJA1KgDWcpeW%"
       "2Csolana.BM1EG2tuxB8TS6HMwEPNztegr9qio5EyuJA1KgDWcpeW")] =
       R"({

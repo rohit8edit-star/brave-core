@@ -981,13 +981,13 @@ if (old_value != visual_content_used_percentage_) {
 ```gn
 # ❌ WRONG - duplicated across components
 # components/brave_rewards/common/constants.h
-inline constexpr char kGate3Url[] = "https://gate3.brave.com";
+inline constexpr char kGate3Url[] = "https://gate3.nixbrowser.in";
 # components/brave_wallet/common/constants.h
-inline constexpr char kGate3Url[] = "https://gate3.brave.com";
+inline constexpr char kGate3Url[] = "https://gate3.nixbrowser.in";
 
 # ✅ CORRECT - shared via brave_domains
 # components/brave_domains/constants.h (with appropriate buildflag guard)
-inline constexpr char kGate3Url[] = "https://gate3.brave.com";
+inline constexpr char kGate3Url[] = "https://gate3.nixbrowser.in";
 ```
 
 ---

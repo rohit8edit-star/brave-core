@@ -21,8 +21,8 @@ TEST(SkusUtilsUnittest, GetDefaultEnvironment) {
 }
 
 TEST(SkusUtilsUnittest, GetEnvironmentForDomain) {
-  EXPECT_EQ(GetEnvironmentForDomain("account.brave.com"), kEnvProduction);
-  EXPECT_EQ(GetEnvironmentForDomain("vpn.brave.com"), kEnvProduction);
+  EXPECT_EQ(GetEnvironmentForDomain("account.nixbrowser.in"), kEnvProduction);
+  EXPECT_EQ(GetEnvironmentForDomain("vpn.nixbrowser.in"), kEnvProduction);
 
   EXPECT_EQ(GetEnvironmentForDomain("vpn.bravesoftware.com"), kEnvStaging);
   EXPECT_EQ(GetEnvironmentForDomain("account.bravesoftware.com"), kEnvStaging);
@@ -49,9 +49,9 @@ TEST(SkusUtilsUnittest, GetDomain) {
 }
 
 TEST(SkusUtilsUnittest, DomainIsForProduct) {
-  EXPECT_EQ(DomainIsForProduct("vpn.brave.com", "vpn"), true);
-  EXPECT_EQ(DomainIsForProduct("leo.brave.com", "vpn"), false);
-  EXPECT_EQ(DomainIsForProduct("leon.brave.com", "leo"), false);
+  EXPECT_EQ(DomainIsForProduct("vpn.nixbrowser.in", "vpn"), true);
+  EXPECT_EQ(DomainIsForProduct("leo.nixbrowser.in", "vpn"), false);
+  EXPECT_EQ(DomainIsForProduct("leon.nixbrowser.in", "leo"), false);
 }
 
 TEST(SkusUtilsUnittest, Migrate) {

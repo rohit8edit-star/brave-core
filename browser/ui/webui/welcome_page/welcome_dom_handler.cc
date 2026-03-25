@@ -81,7 +81,7 @@ WelcomeDOMHandler::WelcomeDOMHandler(Profile* profile)
       brave_education_server_checker_(*profile->GetPrefs(),
                                       profile->GetURLLoaderFactory()) {
   base::MakeRefCounted<shell_integration::DefaultSchemeClientWorker>(
-      GURL("https://browser-education.brave.com"))
+      GURL("https://browser-education.nixbrowser.in"))
       ->StartCheckIsDefaultAndGetDefaultClientName(
           base::BindOnce(&WelcomeDOMHandler::OnGetDefaultBrowser,
                          weak_ptr_factory_.GetWeakPtr()));

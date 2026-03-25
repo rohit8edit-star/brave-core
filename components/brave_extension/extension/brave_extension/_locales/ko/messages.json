@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "작동이 멈춘 사이트 보고",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "항목 차단됨",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave에 추가",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave에서 제거",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Chrome에 추가",

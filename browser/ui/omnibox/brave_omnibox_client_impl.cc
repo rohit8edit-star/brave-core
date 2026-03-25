@@ -165,7 +165,7 @@ void BraveOmniboxClientImpl::OnAutocompleteAccept(
     }
 #endif
 
-    // Record omnibox entry type for Brave Search queries
+    // Record omnibox entry type for Nix Search queries
     if (brave_search_metrics_) {
       bool is_suggestion =
           match.type != AutocompleteMatchType::SEARCH_WHAT_YOU_TYPED;

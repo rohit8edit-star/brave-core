@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "Αναφέρετε μη λειτουργούντα ιστότοπο",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "Αποκλεισμένα στοιχεία",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Προσθήκη στο Brave",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Κατάργηση από το Brave",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "ΠΡΟΣΘΗΚH",

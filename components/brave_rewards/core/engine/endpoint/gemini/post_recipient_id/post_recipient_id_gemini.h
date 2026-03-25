@@ -54,7 +54,7 @@ class PostRecipientId {
   // added in the meantime to fix the build error. Remove this attribute and
   // provide a proper fix.
   [[clang::no_destroy]] static inline const std::string kRecipientLabel =
-      "Brave Browser";
+      "Nix Browser";
 
   explicit PostRecipientId(RewardsEngine& engine);
   ~PostRecipientId();

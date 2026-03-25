@@ -1,6 +1,6 @@
 # Brave docs
 
-This directory contains documentation for the Brave Browser. For additional resources outside this repository, go to:
+This directory contains documentation for the Nix Browser. For additional resources outside this repository, go to:
 
  * [brave-browser/wiki](https://github.com/brave/brave-browser/wiki)
 

@@ -201,7 +201,7 @@ GOOGLESOURCE_COMMIT_LINK = f'{versioning.GOOGLESOURCE_LINK}' '/+/{commit}'
 
 # A basic url to the rust toolchain that can be used to check for the toolchain
 # availability for a given version.
-RUST_TOOLCHAIN_URL = 'https://brave-build-deps-public.s3.brave.com/rust-toolchain-aux/linux-x64-rust-toolchain-{revision}.tar.xz'
+RUST_TOOLCHAIN_URL = 'https://brave-build-deps-public.s3.nixbrowser.in/rust-toolchain-aux/linux-x64-rust-toolchain-{revision}.tar.xz'
 
 # Google dash link used to check the latest version for a given channel
 CHROMIUMDASH_LATEST_RELEASE = 'https://chromiumdash.appspot.com/fetch_releases?channel={channel}&platform={platform}&num=1'
@@ -1308,7 +1308,7 @@ class Upgrade(Versioned):
             'current': get_rust_clang_revision(self.working_version),
             'target': updated_version,
             'description': 'The rust toolchain has been updated.',
-            'advice': 'Run the jobs in https://ci.brave.com/view/rust to generate a new Rust toolchain.',
+            'advice': 'Run the jobs in https://ci.nixbrowser.in/view/rust to generate a new Rust toolchain.',
             'commit': {
                 'hash': commit_hash,
                 'message': commit_message
@@ -1326,7 +1326,7 @@ class Upgrade(Versioned):
         * The rust toolchain has been updated.
             CL: Roll clang+rust llvmorg-21-init-1655-g7b473dfe-1 : llvmorg-2...
                 https://chromium.googlesource.com/chromium/src/+/f9fada98083846
-            Run the jobs in https://ci.brave.com/view/rust to generate a new...
+            Run the jobs in https://ci.nixbrowser.in/view/rust to generate a new...
 
     Returns:
         True if all checks pass, and False otherwise.

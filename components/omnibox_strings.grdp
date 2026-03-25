@@ -537,7 +537,7 @@
   <message name="IDS_ACC_CHROME_TIP" desc="Announcement that is read after the last suggestion when the IPH row is present in the Omnibox.">
     Role: Brave tip. Accessibility label: <ph name="CHROME_TIP">$1<ex>Type @gemini to Chat with Gemini</ex></ph>
   </message>
-  <message name="IDS_ACC_DISMISS_CHROME_TIP_SUFFIX" desc="Suffix for Brave Tip IPH rows with a dismiss button to explain keystroke used to dismiss the tip.">
+  <message name="IDS_ACC_DISMISS_CHROME_TIP_SUFFIX" desc="Suffix for Nix Tip IPH rows with a dismiss button to explain keystroke used to dismiss the tip.">
     <ph name="CHROME_TIP">$1<ex>Type @gemini to Chat with Gemini</ex></ph>, press Tab then Enter to Dismiss Brave Tip.
   </message>
   <message name="IDS_ACC_DISMISS_CHROME_TIP_FOCUSED_PREFIX" desc="Announcement when dismiss chrome tip button is focused.">
@@ -624,10 +624,10 @@
     History search, powered by AI
   </message>
 
-  <message name="IDS_OMNIBOX_HISTORY_EMBEDDINGS_DISCLAIMER_IPH" desc="The string displayed as the last row in the Omnibox as IPH informing them their info is sent to Brave.">
-    Your searches, best matches, and their page contents are sent to Brave and may be seen by human reviewers to improve this feature. This is an experimental feature and won't always get it right.
+  <message name="IDS_OMNIBOX_HISTORY_EMBEDDINGS_DISCLAIMER_IPH" desc="The string displayed as the last row in the Omnibox as IPH informing them their info is sent to Nix.">
+    Your searches, best matches, and their page contents are sent to Nix and may be seen by human reviewers to improve this feature. This is an experimental feature and won't always get it right.
   </message>
-  <message name="IDS_OMNIBOX_HISTORY_EMBEDDINGS_DISCLAIMER_IPH_LINK_TEXT" desc="The link displayed on the last row in the Omnibox as IPH informing them their info is sent to Brave.">
+  <message name="IDS_OMNIBOX_HISTORY_EMBEDDINGS_DISCLAIMER_IPH_LINK_TEXT" desc="The link displayed on the last row in the Omnibox as IPH informing them their info is sent to Nix.">
     Learn more
   </message>
   <message name="IDS_ACC_OMNIBOX_IPH_LINK_SELECTED" desc="Announcement when an IPH Brave Tip link is selected.">

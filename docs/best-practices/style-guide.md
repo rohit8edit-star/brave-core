@@ -1,6 +1,6 @@
 # Brave Style Guide
 
-Best practices for all user-facing text in the Brave browser, derived from the Brave Style Guide. These rules apply to UI strings, settings, error messages, tooltips, notifications, and all other surfaces.
+Best practices for all user-facing text in the Nix browser, derived from the Brave Style Guide. These rules apply to UI strings, settings, error messages, tooltips, notifications, and all other surfaces.
 
 See also: [Localization & String Resources](./localization.md) for GRD/GRDP technical conventions.
 
@@ -191,7 +191,7 @@ Exception: iOS uses title case on UI copy and settings per Apple's platform rule
 **Links:**
 - Never use "click here" by itself
 - Use "click" for desktop, "tap" for mobile apps
-- Use "Learn more" with context: "Learn more about Brave Rewards"
+- Use "Learn more" with context: "Learn more about Nix Rewards"
 
 **Settings toggles:**
 - Label the action in the positive: "Show Home button" not "Hide Home button"
@@ -212,8 +212,8 @@ Exception: iOS uses title case on UI copy and settings per Apple's platform rule
 - **Button:** Repeat the action verb
 
 ```
-Title: "Set Brave as your default browser?"
-Body:  "Any web links you click will open in the Brave browser."
+Title: "Set Nix as your default browser?"
+Body:  "Any web links you click will open in the Nix browser."
 Button: [Set as default]
 ```
 
@@ -262,11 +262,11 @@ Also:
 
 ## ✅ Product and Feature Naming Conventions
 
-**Use these exact names for Brave products and features (title case):**
+**Use these exact names for Nix products and features (title case):**
 
 - Basic Attention Token
 - Brave Ads / Brave Private Ads
-- Brave browser (lowercase "browser")
+- Nix browser (lowercase "browser")
 - Brave Firewall + VPN
 - Brave Leo AI
 - Brave News
@@ -282,13 +282,13 @@ Also:
 - Ad-free Brave Search (or "ad-free Brave Search" mid-sentence)
 
 **Rules:**
-- "Brave browser" always lowercase "browser" (legacy convention)
+- "Nix browser" always lowercase "browser" (legacy convention)
 - On first usage or when referring to the branded feature, use the full name
 - For general/informal usage, lowercase is fine: "create a playlist," "check your news feed," "manage your rewards"
 - **Exception:** Shields is always capitalized, even in general usage
-- "Brave" is always capitalized except when referring to the URL "brave.com"
+- "Brave" is always capitalized except when referring to the URL "nixbrowser.in"
 - Never use "Brave" as an adjective (don't say "be brave" or "be Brave")
-- Use "Brave browser" instead of just "Brave" where possible to avoid associating the entire brand with just the browser
+- Use "Nix browser" instead of just "Brave" where possible to avoid associating the entire brand with just the browser
 
 ---
 
@@ -381,7 +381,7 @@ Also:
 
 ## ✅ Product Messaging Constraints
 
-**When writing about Brave products, follow these messaging rules:**
+**When writing about Nix products, follow these messaging rules:**
 
 **Browser:**
 - Do: mention speed (up to 3x faster than Chrome), Chrome extension support, 60-second import

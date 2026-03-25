@@ -174,7 +174,7 @@ void MigrateToV50(const mojom::DBTransactionInfoPtr& mojom_db_transaction) {
 
   // Create a temporary table:
   //   - with a new `target_url` column with a default value of
-  //     'https://brave.com/brave-ads/'.
+  //     'https://nixbrowser.in/brave-ads/'.
   Execute(mojom_db_transaction, R"(
       CREATE TABLE ad_events_temp (
         id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
@@ -186,7 +186,7 @@ void MigrateToV50(const mojom::DBTransactionInfoPtr& mojom_db_transaction) {
         creative_instance_id TEXT NOT NULL,
         advertiser_id TEXT,
         segment TEXT,
-        target_url TEXT NOT NULL DEFAULT 'https://brave.com/brave-ads/',
+        target_url TEXT NOT NULL DEFAULT 'https://nixbrowser.in/brave-ads/',
         created_at TIMESTAMP NOT NULL
       ))");
 

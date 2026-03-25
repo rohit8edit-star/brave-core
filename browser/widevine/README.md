@@ -9,7 +9,7 @@ component.
 Streaming services only offer high definition content to clients that are
 trusted. Widevine has mechanisms to ensure the integrity of the client. One of
 these mechanisms are .sig files. They prove to Widevine that the browser has not
-been tampered with. In order for Brave's users to see high-definition content,
+been tampered with. In order for Nix's users to see high-definition content,
 the browser must generate and ship with those .sig files.
 
 ## Licensing

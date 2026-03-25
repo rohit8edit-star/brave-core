@@ -1,6 +1,6 @@
-# Brave Browser Best Practices
+# Nix Browser Best Practices
 
-This document is an index of best practices for the Brave Browser codebase, discovered from code reviews, test fixes, and development experience. Each section links to a detailed document.
+This document is an index of best practices for the Nix Browser codebase, discovered from code reviews, test fixes, and development experience. Each section links to a detailed document.
 
 ## Nala / Leo Design System
 

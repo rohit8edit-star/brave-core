@@ -196,7 +196,7 @@ class SerpMetricsTabHelperTest : public PlatformBrowserTest {
     host_resolver()->AddRule("*", "127.0.0.1");
     https_server_ =
         TestHttpsServerBuilder()
-            .WithCertHostnames({"www.google.com", "search.brave.com",
+            .WithCertHostnames({"www.google.com", "search.nixbrowser.in",
                                 "duckduckgo.com", "www.startpage.com",
                                 "plugh.xyzzy.com"})
             .Build();
@@ -250,7 +250,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        RecordBraveSearchEngineResultsPage) {
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   EXPECT_EQ(1U,
             GetSerpMetrics()->GetSearchCountForTesting(SerpMetricType::kBrave));
@@ -298,12 +298,12 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        RecordWhenNavigatingViaLinkClick) {
   const auto https_server =
       TestHttpsServerBuilder()
-          .WithCertHostnames({"search.brave.com", "plugh.xyzzy.com"})
+          .WithCertHostnames({"search.nixbrowser.in", "plugh.xyzzy.com"})
           .WithContentOverrideForPath(
               "/thud",
               absl::StrFormat(
                   kHtmlWithAnchorLinkContent,
-                  https_server_->GetURL("search.brave.com", "/search?q=test")
+                  https_server_->GetURL("search.nixbrowser.in", "/search?q=test")
                       .spec()))
           .Build();
   ASSERT_TRUE(https_server);
@@ -324,14 +324,14 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
 IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest, RecordForHttp4xxResponse) {
   const auto https_server = TestHttpsServerBuilder()
                                 .WithStatusCode(net::HTTP_NOT_FOUND)
-                                .WithCertHostnames({"search.brave.com"})
+                                .WithCertHostnames({"search.nixbrowser.in"})
                                 .Build();
   ASSERT_TRUE(https_server);
   ASSERT_TRUE(https_server->Start());
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server->GetURL("search.brave.com", "/search?q=test"),
+      https_server->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   EXPECT_EQ(1U,
             GetSerpMetrics()->GetSearchCountForTesting(SerpMetricType::kBrave));
@@ -384,7 +384,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        DoNotRecordRedirectNavigationForSameSearch) {
   const auto https_server =
       TestHttpsServerBuilder()
-          .WithCertHostnames({"search.brave.com"})
+          .WithCertHostnames({"search.nixbrowser.in"})
           .WithRedirect(/*source_path=*/"/search?q=test",
                         /*destination_path=*/"/search?q=test&t=web")
           .Build();
@@ -393,7 +393,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server->GetURL("search.brave.com", "/search?q=test"),
+      https_server->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1,
       /*ignore_uncommitted_navigations=*/true);
 
@@ -405,7 +405,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        RecordAfterRedirectNavigation) {
   const auto https_server =
       TestHttpsServerBuilder()
-          .WithCertHostnames({"search.brave.com"})
+          .WithCertHostnames({"search.nixbrowser.in"})
           .WithRedirect(/*source_path=*/"/a/redirect",
                         /*destination_path=*/"/search?q=test")
           .Build();
@@ -413,7 +413,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
   ASSERT_TRUE(https_server->Start());
 
   content::NavigateToURLBlockUntilNavigationsComplete(
-      GetWebContents(), https_server->GetURL("search.brave.com", "/a/redirect"),
+      GetWebContents(), https_server->GetURL("search.nixbrowser.in", "/a/redirect"),
       /*number_of_navigations=*/1,
       /*ignore_uncommitted_navigations=*/true);
 
@@ -425,12 +425,12 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        DoNotRecordPagingThroughSameSearchResults) {
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test&page=2"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test&page=2"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
 
   EXPECT_EQ(1U,
@@ -527,12 +527,12 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        RecordSameSearchAfterReloadNavigationAndLinkClick) {
   const auto https_server =
       TestHttpsServerBuilder()
-          .WithCertHostnames({"search.brave.com", "plugh.xyzzy.com"})
+          .WithCertHostnames({"search.nixbrowser.in", "plugh.xyzzy.com"})
           .WithContentOverrideForPath(
               "/thud",
               absl::StrFormat(
                   kHtmlWithAnchorLinkContent,
-                  https_server_->GetURL("search.brave.com", "/search?q=test")
+                  https_server_->GetURL("search.nixbrowser.in", "/search?q=test")
                       .spec()))
           .Build();
   ASSERT_TRUE(https_server);
@@ -544,7 +544,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server->GetURL("search.brave.com", "/search?q=test"),
+      https_server->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   ASSERT_EQ(1U,
             GetSerpMetrics()->GetSearchCountForTesting(SerpMetricType::kBrave));
@@ -574,7 +574,7 @@ IN_PROC_BROWSER_TEST_F(
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
 
   EXPECT_EQ(1U,
@@ -675,12 +675,12 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
                        RecordSameSearchAfterBackForwardNavigationAndLinkClick) {
   const auto https_server =
       TestHttpsServerBuilder()
-          .WithCertHostnames({"search.brave.com", "plugh.xyzzy.com"})
+          .WithCertHostnames({"search.nixbrowser.in", "plugh.xyzzy.com"})
           .WithContentOverrideForPath(
               "/thud",
               absl::StrFormat(
                   kHtmlWithAnchorLinkContent,
-                  https_server_->GetURL("search.brave.com", "/search?q=test")
+                  https_server_->GetURL("search.nixbrowser.in", "/search?q=test")
                       .spec()))
           .Build();
   ASSERT_TRUE(https_server);
@@ -692,7 +692,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server->GetURL("search.brave.com", "/search?q=test"),
+      https_server->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   ASSERT_EQ(1U,
             GetSerpMetrics()->GetSearchCountForTesting(SerpMetricType::kBrave));
@@ -726,7 +726,7 @@ IN_PROC_BROWSER_TEST_F(
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
 
   EXPECT_EQ(1U,
@@ -750,7 +750,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest,
 
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   EXPECT_EQ(0U,
             GetSerpMetrics()->GetSearchCountForTesting(SerpMetricType::kBrave));
@@ -844,7 +844,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest, RecordIfTabWasRestored) {
 IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest, RecordForMultipleProfiles) {
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   content::NavigateToURLBlockUntilNavigationsComplete(
       GetWebContents(),
@@ -855,7 +855,7 @@ IN_PROC_BROWSER_TEST_F(SerpMetricsTabHelperTest, RecordForMultipleProfiles) {
   ASSERT_TRUE(other_browser);
   content::NavigateToURLBlockUntilNavigationsComplete(
       other_browser->tab_strip_model()->GetActiveWebContents(),
-      https_server_->GetURL("search.brave.com", "/search?q=test"),
+      https_server_->GetURL("search.nixbrowser.in", "/search?q=test"),
       /*number_of_navigations=*/1, /*ignore_uncommitted_navigations=*/true);
   content::NavigateToURLBlockUntilNavigationsComplete(
       other_browser->tab_strip_model()->GetActiveWebContents(),

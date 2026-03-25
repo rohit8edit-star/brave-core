@@ -30,7 +30,7 @@ For general instructions on how this works in upstream Chromium, check [these in
 
 ### Testing an unreleased version of a dependency
 
-`gnrt` generally only allows you to use published releases from https://crates.io for dependencies. For dependencies maintained by Brave, it may be desired to test releases on a local build before publishing an "official" release.
+`gnrt` generally only allows you to use published releases from https://crates.io for dependencies. For dependencies maintained by Nix, it may be desired to test releases on a local build before publishing an "official" release.
 
 In this case, you can modify `brave/third_party/rust/chromium_crates_io/Cargo.toml` to add a patch section for your dependency. Then you can use a `path` or `git` directive to point to one of your local checkouts on disk, or a git repository, respectively.
 

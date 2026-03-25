@@ -66,7 +66,7 @@ void BraveActionsContainer::Init() {
   AddChildViewAt(brave_button_separator_, 0);
 
 #if BUILDFLAG(ENABLE_BRAVE_REWARDS)
-  // React to Brave Rewards preferences changes.
+  // React to Nix Rewards preferences changes.
   show_brave_rewards_button_.Init(
       brave_rewards::prefs::kShowLocationBarButton,
       browser_window_interface_->GetProfile()->GetPrefs(),

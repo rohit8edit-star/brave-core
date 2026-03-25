@@ -53,13 +53,13 @@ TEST_F(SubscriptionRenderFrameObserverBrowserTest, StatusCheck) {
                                            content::ISOLATED_WORLD_ID_GLOBAL);
   LoadHTMLWithUrlOverride(
       R"(<html><body></body></html>)",
-      "https://account.brave.com/?intent=link-order&product=leo");
+      "https://account.nixbrowser.in/?intent=link-order&product=leo");
 
   std::u16string command = u"Number(typeof linkResult === 'undefined')";
   EXPECT_TRUE(ExecuteJavascript(command));
 
   LoadHTMLWithUrlOverride(R"(<html><body></body></html>)",
-                          "https://account.brave.com/order-link/?product=leo");
+                          "https://account.nixbrowser.in/order-link/?product=leo");
 
   command =
       u"Number(linkResult != undefined && linkResult.setStatus != undefined)";
@@ -72,28 +72,28 @@ TEST_F(SubscriptionRenderFrameObserverBrowserTest, IsAllowed) {
   // VPN
   LoadHTMLWithUrlOverride(
       R"(<html><body></body></html>)",
-      "https://account.brave.com/?intent=connect-receipt&product=vpn");
+      "https://account.nixbrowser.in/?intent=connect-receipt&product=vpn");
 
   EXPECT_TRUE(observer.IsAllowed());
 
   // Leo
   LoadHTMLWithUrlOverride(
       R"(<html><body></body></html>)",
-      "https://account.brave.com/?intent=link-order&product=leo");
+      "https://account.nixbrowser.in/?intent=link-order&product=leo");
 
   EXPECT_TRUE(observer.IsAllowed());
 
   // Origin
   LoadHTMLWithUrlOverride(
       R"(<html><body></body></html>)",
-      "https://account.brave.com/?intent=link-order&product=origin");
+      "https://account.nixbrowser.in/?intent=link-order&product=origin");
 
   EXPECT_TRUE(observer.IsAllowed());
 
   // http
   LoadHTMLWithUrlOverride(
       R"(<html><body></body></html>)",
-      "http://account.brave.com/?intent=connect-receipt&product=vpn");
+      "http://account.nixbrowser.in/?intent=connect-receipt&product=vpn");
 
   EXPECT_FALSE(observer.IsAllowed());
 

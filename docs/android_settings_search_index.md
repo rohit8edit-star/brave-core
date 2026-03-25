@@ -5,7 +5,7 @@ by name or summary. Every concrete `PreferenceFragment` subclass must declare a
 `SEARCH_INDEX_DATA_PROVIDER` field and register it in the central registry. A presubmit check
 enforcing this was added in Chromium cr146.
 
-This document explains how to implement this for Brave-specific fragments.
+This document explains how to implement this for Nix-specific fragments.
 
 ## Overview
 

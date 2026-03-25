@@ -76,7 +76,7 @@ inline constexpr net::NetworkTrafficAnnotationTag kTrafficAnnotation =
   policy {
     cookies_allowed: NO
     policy_exception_justification:
-      "These requests are essential for Brave Account creation and sign-in "
+      "These requests are essential for Nix Account creation and sign-in "
       "and cannot be disabled by policy."
   }
 )");

@@ -6,7 +6,7 @@
 #ifndef BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_VIEWS_FRAME_LAYOUT_BROWSER_VIEW_LAYOUT_DELEGATE_H_
 #define BRAVE_CHROMIUM_SRC_CHROME_BROWSER_UI_VIEWS_FRAME_LAYOUT_BROWSER_VIEW_LAYOUT_DELEGATE_H_
 
-// Add methods for BraveBrowserViewLayout to BrowserViewLayoutDelegate.
+// Add methods for NixBrowserViewLayout to BrowserViewLayoutDelegate.
 #define GetExtraInfobarOffset()                                            \
   GetExtraInfobarOffset() const = 0;                                       \
   virtual bool ShouldShowVerticalTabs() const = 0;                         \

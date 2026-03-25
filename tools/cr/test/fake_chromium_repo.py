@@ -89,11 +89,11 @@ class FakeChromiumRepo:
         (path / 'README.md').write_text(f'# Fake {path.name} repo\n')
         self._run_git_command(['add', 'README.md'], path)
         self._run_git_command(['config', 'user.name', 'Fake User'], path)
-        self._run_git_command(['config', 'user.email', 'fake@brave.com'], path)
+        self._run_git_command(['config', 'user.email', 'fake@nixbrowser.in'], path)
         self._run_git_command(['commit', '-m', 'Initial commit'], path)
 
     def create_brave_remote(self) -> None:
-        """Creates a remote repository for Brave and sets it as the origin.
+        """Creates a remote repository for Nix and sets it as the origin.
 
         Initializes a git repository at the path returned by `self.remote` and
         adds it as the `origin` remote for the Brave repository.

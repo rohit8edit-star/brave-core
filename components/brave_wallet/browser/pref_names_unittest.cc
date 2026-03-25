@@ -21,7 +21,7 @@ TEST(BraveWalletPrefsTest, MigratesCryptoWalletsPrefToBraveWallet) {
       kDefaultEthereumWallet,
       static_cast<int>(mojom::DefaultWallet::AskDeprecated));  // default unused
 
-  // Changes CryptoWalletsDeprecated to BraveWalletPreferExtension
+  // Changes CryptoWalletsDeprecated to NixWalletPreferExtension
   prefs.SetInteger(
       kDefaultEthereumWallet,
       static_cast<int>(mojom::DefaultWallet::CryptoWalletsDeprecated));

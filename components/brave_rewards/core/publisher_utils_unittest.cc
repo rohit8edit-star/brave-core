@@ -24,9 +24,9 @@ std::optional<std::string> GetPublisherId(const std::string& url) {
 class RewardsPublisherUtilsTest : public testing::Test {};
 
 TEST(RewardsPublisherUtilsTest, IsMediaPlatformURL) {
-  EXPECT_FALSE(IsMediaPlatformURL(GURL("https://brave.com")));
-  EXPECT_FALSE(IsMediaPlatformURL(GURL("http://brave.com")));
-  EXPECT_FALSE(IsMediaPlatformURL(GURL("https://search.brave.com")));
+  EXPECT_FALSE(IsMediaPlatformURL(GURL("https://nixbrowser.in")));
+  EXPECT_FALSE(IsMediaPlatformURL(GURL("http://nixbrowser.in")));
+  EXPECT_FALSE(IsMediaPlatformURL(GURL("https://search.nixbrowser.in")));
 
   EXPECT_FALSE(IsMediaPlatformURL(GURL("https://brave.co.uk")));
   EXPECT_FALSE(IsMediaPlatformURL(GURL("https://www.brave.co.uk")));
@@ -64,10 +64,10 @@ TEST(RewardsPublisherUtilsTest, GetMediaPlatformFromPublisherId) {
 }
 
 TEST(RewardsPublisherUtilsTest, GetPublisherIdFromURL) {
-  EXPECT_EQ(GetPublisherId("https://brave.com"), "brave.com");
-  EXPECT_EQ(GetPublisherId("http://brave.com"), "brave.com");
-  EXPECT_EQ(GetPublisherId("https://search.brave.com"), "brave.com");
-  EXPECT_EQ(GetPublisherId("http://search.brave.com"), "brave.com");
+  EXPECT_EQ(GetPublisherId("https://nixbrowser.in"), "nixbrowser.in");
+  EXPECT_EQ(GetPublisherId("http://nixbrowser.in"), "nixbrowser.in");
+  EXPECT_EQ(GetPublisherId("https://search.nixbrowser.in"), "nixbrowser.in");
+  EXPECT_EQ(GetPublisherId("http://search.nixbrowser.in"), "nixbrowser.in");
 
   EXPECT_EQ(GetPublisherId("https://brave.co.uk"), "brave.co.uk");
   EXPECT_EQ(GetPublisherId("https://www.brave.co.uk"), "brave.co.uk");

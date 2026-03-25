@@ -1085,7 +1085,7 @@ TEST_F(AssetDiscoveryTaskUnitTest, DiscoverNFTs) {
   addresses[mojom::CoinType::ETH] = {
       "0x0000000000000000000000000000000000000000"};
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum%2Cpolygon&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   json = R"({
@@ -1129,7 +1129,7 @@ TEST_F(AssetDiscoveryTaskUnitTest, DiscoverNFTs) {
   addresses[mojom::CoinType::ETH].push_back(
       "0xB4B2802129071b2B9eBb8cBB01EA1E4D14B34961");
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0xB4B2802129071b2B9eBb8cBB01EA1E4D14B34961");
   json = R"({
@@ -1206,7 +1206,7 @@ TEST_F(AssetDiscoveryTaskUnitTest, DiscoverNFTs) {
   addresses[mojom::CoinType::ETH].push_back(
       "0x16e4476c8fDDc552e3b1C4b8b56261d85977fE52");
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x16e4476c8fDDc552e3b1C4b8b56261d85977fE52");
   json2 = R"({

@@ -40,25 +40,25 @@ void VerifySerpClassifierExpectation(
 
 TEST(SerpClassifierTest, IsSameSearchQuery) {
   EXPECT_TRUE(IsSameSearchQuery(
-      GURL(R"(https://search.brave.com/search?q=foobar)"),
-      GURL(R"(https://search.brave.com/search?q=foobar&t=web)")));
+      GURL(R"(https://search.nixbrowser.in/search?q=foobar)"),
+      GURL(R"(https://search.nixbrowser.in/search?q=foobar&t=web)")));
 }
 
 TEST(SerpClassifierTest, IsSameSearchQueryWithDifferentParamOrder) {
   EXPECT_TRUE(IsSameSearchQuery(
-      GURL(R"(https://search.brave.com/search?q=foobar)"),
-      GURL(R"(https://search.brave.com/search?t=web&q=foobar)")));
+      GURL(R"(https://search.nixbrowser.in/search?q=foobar)"),
+      GURL(R"(https://search.nixbrowser.in/search?t=web&q=foobar)")));
 }
 
 TEST(SerpClassifierTest, IsNotSameSearchQuery) {
   EXPECT_FALSE(IsSameSearchQuery(
-      GURL(R"(https://search.brave.com/search?q=foo&t=web)"),
-      GURL(R"(https://search.brave.com/search?q=bar&t=web)")));
+      GURL(R"(https://search.nixbrowser.in/search?q=foo&t=web)"),
+      GURL(R"(https://search.nixbrowser.in/search?q=bar&t=web)")));
 }
 
 TEST(SerpClassifierTest, IsNotSameSearchQueryWithInvalidUrl) {
   EXPECT_FALSE(IsSameSearchQuery(
-      GURL(R"(https://search.brave.com/search?q=foobar)"), GURL("invalid")));
+      GURL(R"(https://search.nixbrowser.in/search?q=foobar)"), GURL("invalid")));
 }
 
 TEST(SerpClassifierTest, IsNotSameSearchQueryWithStartpage) {
@@ -66,7 +66,7 @@ TEST(SerpClassifierTest, IsNotSameSearchQueryWithStartpage) {
       IsSameSearchQuery(GURL(R"(https://www.startpage.com/sp/search)"),
                         GURL(R"(https://www.startpage.com/sp/search)")));
   EXPECT_FALSE(
-      IsSameSearchQuery(GURL(R"(https://search.brave.com/search?q=foobar)"),
+      IsSameSearchQuery(GURL(R"(https://search.nixbrowser.in/search?q=foobar)"),
                         GURL(R"(https://www.startpage.com/sp/search)")));
 }
 
@@ -92,7 +92,7 @@ TEST(SerpClassifierTest, ClassifyStartpageSearchEngine) {
 TEST(SerpClassifierTest, DoNotClassifyNonSearchEngine) {
   EXPECT_FALSE(MaybeClassifySearchEngine(
       GURL(R"(https://www.perplexity.ai/search/new/foo)")));
-  EXPECT_FALSE(MaybeClassifySearchEngine(GURL(R"(https://brave.com/)")));
+  EXPECT_FALSE(MaybeClassifySearchEngine(GURL(R"(https://nixbrowser.in/)")));
   EXPECT_FALSE(MaybeClassifySearchEngine(GURL(R"(https://bar.com/baz)")));
   EXPECT_FALSE(
       MaybeClassifySearchEngine(GURL(R"(https://qux.quux.com/corge)")));

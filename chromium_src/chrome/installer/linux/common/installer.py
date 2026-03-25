@@ -13,13 +13,13 @@ import override_utils
 @override_utils.override_function(globals())
 def normalize_channel(original_function, channel):
     if channel == "stable":
-        return "stable", "https://brave.com/latest/"
+        return "stable", "https://nixbrowser.in/latest/"
     if channel in ["beta", "testing"]:
-        return "beta", "https://brave.com/latest/"
+        return "beta", "https://nixbrowser.in/latest/"
     if channel in ["dev", "unstable", "alpha"]:
-        return "dev", "https://brave.com/latest/"
+        return "dev", "https://nixbrowser.in/latest/"
     if channel == "nightly":
-        return "nightly", "https://brave.com/latest/"
+        return "nightly", "https://nixbrowser.in/latest/"
     return original_function(channel)
 
 
@@ -72,7 +72,7 @@ def get_resource_artifacts(self, original_method) -> list[Artifact]:
             ArtifactType.RESOURCE,
             StandardPermissions.REGULAR,
         ))
-    # localization files for Brave extension
+    # localization files for Nix extension
     locales_dir = self.output_dir / pathlib.Path(
         "resources/brave_extension/_locales")
     for locale in locales_dir.iterdir():

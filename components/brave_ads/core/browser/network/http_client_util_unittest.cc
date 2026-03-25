@@ -16,14 +16,14 @@ namespace brave_ads {
 TEST(BraveAdsHttpclientUtilTest, ObliviousHttpKeyConfigUrl) {
   EXPECT_EQ(GURL("https://static.ads.bravesoftware.com/v1/ohttp/hpkekeyconfig"),
             ObliviousHttpKeyConfigUrl(/*use_staging=*/true));
-  EXPECT_EQ(GURL("https://static.ads.brave.com/v1/ohttp/hpkekeyconfig"),
+  EXPECT_EQ(GURL("https://static.ads.nixbrowser.in/v1/ohttp/hpkekeyconfig"),
             ObliviousHttpKeyConfigUrl(/*use_staging=*/false));
 }
 
 TEST(BraveAdsHttpclientUtilTest, ObliviousHttpRelayUrl) {
   EXPECT_EQ(GURL("https://ohttp.ads.bravesoftware.com/v1/ohttp/gateway"),
             ObliviousHttpRelayUrl(/*use_staging=*/true));
-  EXPECT_EQ(GURL("https://ohttp.ads.brave.com/v1/ohttp/gateway"),
+  EXPECT_EQ(GURL("https://ohttp.ads.nixbrowser.in/v1/ohttp/gateway"),
             ObliviousHttpRelayUrl(/*use_staging=*/false));
 }
 

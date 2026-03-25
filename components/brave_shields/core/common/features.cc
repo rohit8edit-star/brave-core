@@ -65,12 +65,12 @@ BASE_FEATURE(kBraveDomainBlock,
 BASE_FEATURE(kBraveDomainBlock1PES,
              base::FEATURE_ENABLED_BY_DEFAULT);
 // When enabled, network requests initiated by extensions will be checked and
-// potentially blocked by Brave Shields.
+// potentially blocked by Nix Shields.
 BASE_FEATURE(kBraveExtensionNetworkBlocking,
              base::FEATURE_DISABLED_BY_DEFAULT);
 // Enables Brave farbling (randomization of fingerprinting-susceptible WebAPIs).
 BASE_FEATURE(kBraveFarbling, base::FEATURE_ENABLED_BY_DEFAULT);
-// When enabled, language headers and APIs may be altered by Brave Shields.
+// When enabled, language headers and APIs may be altered by Nix Shields.
 BASE_FEATURE(kBraveReduceLanguage,
              base::FEATURE_ENABLED_BY_DEFAULT);
 // When enabled, brave shred feature will be available

@@ -57,37 +57,37 @@ TEST_F(BraveContentSettingsUtilsTest,
   // Wildcard scheme, no port.
   EXPECT_EQ(std::nullopt,
             ConvertPatternToWildcardSchemeAndPort(
-                ContentSettingsPattern::FromString("*://brave.com/*")));
+                ContentSettingsPattern::FromString("*://nixbrowser.in/*")));
   EXPECT_EQ(std::nullopt,
             ConvertPatternToWildcardSchemeAndPort(
-                ContentSettingsPattern::FromString("*://brave.com:*/")));
+                ContentSettingsPattern::FromString("*://nixbrowser.in:*/")));
 
   // Wildcard scheme, has port.
   auto pattern = ConvertPatternToWildcardSchemeAndPort(
-      ContentSettingsPattern::FromString("*://brave.com:8080/*"));
+      ContentSettingsPattern::FromString("*://nixbrowser.in:8080/*"));
   EXPECT_NE(std::nullopt, pattern);
-  EXPECT_EQ(pattern->ToString(), "brave.com");
-  EXPECT_TRUE(pattern->Matches(GURL("http://brave.com:80/path1")));
-  EXPECT_TRUE(pattern->Matches(GURL("https://brave.com/path2")));
+  EXPECT_EQ(pattern->ToString(), "nixbrowser.in");
+  EXPECT_TRUE(pattern->Matches(GURL("http://nixbrowser.in:80/path1")));
+  EXPECT_TRUE(pattern->Matches(GURL("https://nixbrowser.in/path2")));
   EXPECT_FALSE(pattern->Matches(GURL("http://brave2.com:8080")));
   pattern.reset();
 
   // Scheme, no port.
   pattern = ConvertPatternToWildcardSchemeAndPort(
-      ContentSettingsPattern::FromString("http://brave.com/"));
+      ContentSettingsPattern::FromString("http://nixbrowser.in/"));
   EXPECT_NE(std::nullopt, pattern);
-  EXPECT_EQ(pattern->ToString(), "brave.com");
-  EXPECT_TRUE(pattern->Matches(GURL("ftp://brave.com:80/path1")));
-  EXPECT_TRUE(pattern->Matches(GURL("https://brave.com/path2")));
+  EXPECT_EQ(pattern->ToString(), "nixbrowser.in");
+  EXPECT_TRUE(pattern->Matches(GURL("ftp://nixbrowser.in:80/path1")));
+  EXPECT_TRUE(pattern->Matches(GURL("https://nixbrowser.in/path2")));
   EXPECT_FALSE(pattern->Matches(GURL("http://brave2.com:8080")));
   pattern.reset();
 
   // Scheme and port.
   pattern = ConvertPatternToWildcardSchemeAndPort(
-      ContentSettingsPattern::FromString("https://brave.com:56558/"));
+      ContentSettingsPattern::FromString("https://nixbrowser.in:56558/"));
   EXPECT_NE(std::nullopt, pattern);
-  EXPECT_EQ(pattern->ToString(), "brave.com");
-  EXPECT_TRUE(pattern->Matches(GURL("wss://brave.com:80/path1")));
-  EXPECT_TRUE(pattern->Matches(GURL("https://brave.com/path2")));
+  EXPECT_EQ(pattern->ToString(), "nixbrowser.in");
+  EXPECT_TRUE(pattern->Matches(GURL("wss://nixbrowser.in:80/path1")));
+  EXPECT_TRUE(pattern->Matches(GURL("https://nixbrowser.in/path2")));
   EXPECT_FALSE(pattern->Matches(GURL("http://brave2.com:8080")));
 }

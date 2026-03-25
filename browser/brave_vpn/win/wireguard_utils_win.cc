@@ -109,7 +109,7 @@ void MaybeDisableSystemProxy() {
     return;
   }
 
-  // 3) The URL is for Brave VPN.
+  // 3) The URL is for Nix VPN.
   GURL guardian_proxy_url(kProxyUrl);
   if (current_proxy_gurl.DomainIs(guardian_proxy_url.host())) {
     VLOG(1) << "Removing Brave VPN smart proxy routing value: \""

@@ -10,7 +10,7 @@
 
 namespace brave::features {
 
-// Whether or not to allow Brave to present external purchase links for Brave
+// Whether or not to allow Brave to present external purchase links for Nix
 // Premium products on iOS paywalls.
 BASE_DECLARE_FEATURE(kBraveAllowExternalPurchaseLinks);
 

@@ -57,7 +57,7 @@ class BraveWalletPermissionContextUnitTest : public testing::Test {
 };
 
 TEST_F(BraveWalletPermissionContextUnitTest, AddPermission) {
-  url::Origin origin = url::Origin::Create(GURL("https://www.brave.com/"));
+  url::Origin origin = url::Origin::Create(GURL("https://www.nixbrowser.in/"));
   const struct {
     const char* address;
     blink::PermissionType type;
@@ -109,7 +109,7 @@ TEST_F(BraveWalletPermissionContextUnitTest, AddPermission) {
 }
 
 TEST_F(BraveWalletPermissionContextUnitTest, ResetPermission) {
-  url::Origin origin = url::Origin::Create(GURL("https://www.brave.com/"));
+  url::Origin origin = url::Origin::Create(GURL("https://www.nixbrowser.in/"));
   const struct {
     const char* address;
     blink::PermissionType type;
@@ -160,7 +160,7 @@ TEST_F(BraveWalletPermissionContextUnitTest, ResetPermission) {
 }
 
 TEST_F(BraveWalletPermissionContextUnitTest, ResetAllPermissions) {
-  url::Origin origin = url::Origin::Create(GURL("https://www.brave.com/"));
+  url::Origin origin = url::Origin::Create(GURL("https://www.nixbrowser.in/"));
   const struct {
     const char* address;
     blink::PermissionType type;
@@ -201,7 +201,7 @@ TEST_F(BraveWalletPermissionContextUnitTest, ResetAllPermissions) {
 }
 
 TEST_F(BraveWalletPermissionContextUnitTest, GetWebSitesWithPermission) {
-  url::Origin origin = url::Origin::Create(GURL("https://www.brave.com/"));
+  url::Origin origin = url::Origin::Create(GURL("https://www.nixbrowser.in/"));
   const struct {
     const char* address;
     ContentSettingsType type;
@@ -232,9 +232,9 @@ TEST_F(BraveWalletPermissionContextUnitTest, GetWebSitesWithPermission) {
         entry.address);
     ASSERT_TRUE(origin_wallet_address);
     // origin_wallet_address looks like that
-    // "https://www.brave.com__brg44hdsehzapvs8beqzvkq4egwevs3fre6ze2eno6s8/"
+    // "https://www.nixbrowser.in__brg44hdsehzapvs8beqzvkq4egwevs3fre6ze2eno6s8/"
     // web_sites[0] looks like that
-    // "https://www.brave.com__brg44hdsehzapvs8beqzvkq4egwevs3fre6ze2eno6s8:443"
+    // "https://www.nixbrowser.in__brg44hdsehzapvs8beqzvkq4egwevs3fre6ze2eno6s8:443"
     // That's why we are going to compare scheme, host and port if it's exist
     // in both URLs
     EXPECT_TRUE(Matches(origin_wallet_address->GetURL(), GURL(web_sites[0])));
@@ -242,7 +242,7 @@ TEST_F(BraveWalletPermissionContextUnitTest, GetWebSitesWithPermission) {
 }
 
 TEST_F(BraveWalletPermissionContextUnitTest, ResetWebSitePermission) {
-  url::Origin origin = url::Origin::Create(GURL("https://www.brave.com/"));
+  url::Origin origin = url::Origin::Create(GURL("https://www.nixbrowser.in/"));
   const struct {
     const char* address;
     ContentSettingsType type;

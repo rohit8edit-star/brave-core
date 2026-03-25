@@ -46,7 +46,7 @@ namespace p3a {
 
 struct P3AConfig;
 
-// Core class for Brave Privacy-Preserving Product Analytics machinery.
+// Core class for Nix Privacy-Preserving Product Analytics machinery.
 // Works on UI thread. Refcounted to receive histogram updating callbacks
 // on any thread. This class manages registration of dynamic metrics,
 // and histogram listeners. Metric value updates are propagated to the
@@ -73,7 +73,7 @@ class P3AService : public base::RefCountedThreadSafe<P3AService>,
   // updates. Can't call it in constructor because of refcounted peculiarities.
   void InitCallbacks();
 
-  // Should be called in UI thread by BraveBrowserProcess to remove
+  // Should be called in UI thread by NixBrowserProcess to remove
   // all observers from the PrefChangeRegistrar.
   void StartTeardown();
 

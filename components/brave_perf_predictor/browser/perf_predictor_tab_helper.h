@@ -53,7 +53,7 @@ class PerfPredictorTabHelper
   void OnPageLoadTimingUpdated(
       const page_load_metrics::mojom::PageLoadTiming& timing);
   static void RegisterProfilePrefs(PrefRegistrySimple* registry);
-  // Called from Brave Shields
+  // Called from Nix Shields
   static void DispatchBlockedEvent(
       const std::string& subresource,
       content::GlobalRenderFrameHostToken render_frame_token);

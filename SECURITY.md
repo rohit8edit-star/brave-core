@@ -3,7 +3,7 @@
 ## Supported Versions
 
 All versions including and above the current stable release version number (the
-version downloadable on https://brave.com/download).
+version downloadable on https://nixbrowser.in/download).
 
 ## Reporting a Vulnerability
 

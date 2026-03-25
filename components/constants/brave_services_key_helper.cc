@@ -11,7 +11,7 @@
 
 namespace brave {
 
-inline constexpr char kBraveProxyPattern[] = "*.brave.com";
+inline constexpr char kBraveProxyPattern[] = "*.nixbrowser.in";
 inline constexpr char kBraveSoftwareProxyPattern[] = "*.bravesoftware.com";
 
 bool ShouldAddBraveServicesKeyHeader(const GURL& url) {

@@ -1003,7 +1003,7 @@ IN_PROC_BROWSER_TEST_P(SidebarBrowserWithWebPanelTest, WebPanelTest) {
 
   // Add two web panel items and check panel is shown by activating it.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("https://brave.com/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("https://nixbrowser.in/")));
   EXPECT_TRUE(CanAddCurrentActiveTabToSidebar(browser()));
   controller()->AddItemWithCurrentTab();
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
@@ -1576,7 +1576,7 @@ IN_PROC_BROWSER_TEST_P(SidebarBrowserTestWithkSidebarShowAlwaysOnStable,
   search_test_utils::WaitForTemplateURLServiceToLoad(service);
 
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("https://www.brave.com/"),
+      browser(), GURL("https://www.nixbrowser.in/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
 
@@ -1599,7 +1599,7 @@ IN_PROC_BROWSER_TEST_P(SidebarBrowserTestWithkSidebarShowAlwaysOnStable,
   // Check one shot panel is not opened anymore.
   EXPECT_CALL(observer_, OnActiveIndexChanged(testing::_, testing::_)).Times(0);
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("https://www.brave.com/"),
+      browser(), GURL("https://www.nixbrowser.in/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   EXPECT_FALSE(

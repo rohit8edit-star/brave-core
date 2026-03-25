@@ -98,7 +98,7 @@ constexpr char16_t kBraveSyncGuideUrl[] =
 constexpr char16_t kDeAmpLearnMoreUrl[] =
     u"https://support.brave.app/hc/en-us/articles/8611298579981";
 constexpr char16_t kDebounceLearnMoreUrl[] =
-    u"https://brave.com/privacy-updates/11-debouncing/";
+    u"https://nixbrowser.in/privacy-updates/11-debouncing/";
 constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
     u"https://github.com/brave/brave-browser/wiki/"
     u"NFT-Discovery";
@@ -119,7 +119,7 @@ constexpr char16_t kLeoMemoryLearnMoreURL[] =
     u"https://support.brave.app/hc/en-us/articles/38441287509261";
 
 constexpr char16_t kLeoPrivacyPolicyURL[] =
-    u"https://brave.com/privacy/browser/#brave-leo";
+    u"https://nixbrowser.in/privacy/browser/#brave-leo";
 #endif
 
 constexpr char16_t kAdBlockOnlyModeLearnMoreURL[] =
@@ -129,7 +129,7 @@ constexpr char16_t kSurveyPanelistLearnMoreURL[] =
     u"https://support.brave.app/hc/en-us/articles/36550092449165";
 
 constexpr char16_t kExtensionsV2LearnMoreURL[] =
-    u"https://brave.com/blog/brave-shields-manifest-v3/";
+    u"https://nixbrowser.in/blog/brave-shields-manifest-v3/";
 
 void BraveAddCommonStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {

@@ -40,7 +40,7 @@ class BraveShieldsP3ATest : public testing::Test {
 TEST_F(BraveShieldsP3ATest, RecordGlobalAdBlockSetting) {
   auto* map = HostContentSettingsMapFactory::GetForProfile(GetProfile());
   SetCosmeticFilteringControlType(map, ControlType::BLOCK,
-                                  GURL("https://brave.com"));
+                                  GURL("https://nixbrowser.in"));
   // Should not report to histogram if not a global change
   histogram_tester_->ExpectTotalCount(kAdsSettingHistogramName, 0);
 
@@ -59,7 +59,7 @@ TEST_F(BraveShieldsP3ATest, RecordGlobalAdBlockSetting) {
 TEST_F(BraveShieldsP3ATest, RecordGlobalFingerprintBlockSetting) {
   auto* map = HostContentSettingsMapFactory::GetForProfile(GetProfile());
   SetFingerprintingControlType(map, ControlType::BLOCK,
-                               GURL("https://brave.com"));
+                               GURL("https://nixbrowser.in"));
   // Should not report to histogram if not a global change
   histogram_tester_->ExpectTotalCount(kFingerprintSettingHistogramName, 0);
 
@@ -81,7 +81,7 @@ TEST_F(BraveShieldsP3ATest, RecordDomainAdBlockCounts) {
 
   SetCosmeticFilteringControlType(map, ControlType::BLOCK_THIRD_PARTY, GURL());
   SetCosmeticFilteringControlType(map, ControlType::BLOCK,
-                                  GURL("https://brave.com"));
+                                  GURL("https://nixbrowser.in"));
 
   // Test initial count
   MaybeRecordInitialShieldsSettings(
@@ -95,7 +95,7 @@ TEST_F(BraveShieldsP3ATest, RecordDomainAdBlockCounts) {
 
   // Test delta counting
   SetCosmeticFilteringControlType(map, ControlType::ALLOW,
-                                  GURL("https://brave.com"), nullptr, prefs);
+                                  GURL("https://nixbrowser.in"), nullptr, prefs);
   histogram_tester_->ExpectBucketCount(kDomainAdsSettingsAboveHistogramName, 0,
                                        1);
   histogram_tester_->ExpectBucketCount(kDomainAdsSettingsBelowHistogramName, 1,
@@ -117,7 +117,7 @@ TEST_F(BraveShieldsP3ATest, RecordDomainAdBlockCounts) {
                                        6);
 
   SetCosmeticFilteringControlType(map, ControlType::BLOCK,
-                                  GURL("https://brave.com"), nullptr, prefs);
+                                  GURL("https://nixbrowser.in"), nullptr, prefs);
   histogram_tester_->ExpectBucketCount(kDomainAdsSettingsAboveHistogramName, 2,
                                        1);
   histogram_tester_->ExpectBucketCount(kDomainAdsSettingsBelowHistogramName, 0,
@@ -149,7 +149,7 @@ TEST_F(BraveShieldsP3ATest, RecordDomainFingerprintBlockCounts) {
 
   SetFingerprintingControlType(map, ControlType::DEFAULT, GURL());
   SetFingerprintingControlType(map, ControlType::BLOCK,
-                               GURL("https://brave.com"));
+                               GURL("https://nixbrowser.in"));
 
   // Test initial count
   MaybeRecordInitialShieldsSettings(
@@ -163,7 +163,7 @@ TEST_F(BraveShieldsP3ATest, RecordDomainFingerprintBlockCounts) {
 
   // Test delta counting
   SetFingerprintingControlType(map, ControlType::ALLOW,
-                               GURL("https://brave.com"), nullptr, prefs);
+                               GURL("https://nixbrowser.in"), nullptr, prefs);
   histogram_tester_->ExpectBucketCount(kDomainFPSettingsAboveHistogramName, 0,
                                        1);
   histogram_tester_->ExpectBucketCount(kDomainFPSettingsBelowHistogramName, 1,
@@ -185,7 +185,7 @@ TEST_F(BraveShieldsP3ATest, RecordDomainFingerprintBlockCounts) {
                                        6);
 
   SetFingerprintingControlType(map, ControlType::BLOCK,
-                               GURL("https://brave.com"), nullptr, prefs);
+                               GURL("https://nixbrowser.in"), nullptr, prefs);
   histogram_tester_->ExpectBucketCount(kDomainFPSettingsAboveHistogramName, 2,
                                        1);
   histogram_tester_->ExpectBucketCount(kDomainFPSettingsBelowHistogramName, 0,
@@ -237,7 +237,7 @@ TEST_F(BraveShieldsP3ATest, RecordHTTPSUpgradePerSiteStrict) {
 
   // Add a per-site strict setting
   SetHttpsUpgradeControlType(map, ControlType::BLOCK,
-                             GURL("https://brave.com"));
+                             GURL("https://nixbrowser.in"));
   histogram_tester_->ExpectBucketCount(kUpgradeHTTPSPerSiteHistogramName, 1, 1);
 
   // Add another per-site strict setting - still reports 1
@@ -247,7 +247,7 @@ TEST_F(BraveShieldsP3ATest, RecordHTTPSUpgradePerSiteStrict) {
 
   // Change one to standard - other is still strict, should still report 1
   SetHttpsUpgradeControlType(map, ControlType::BLOCK_THIRD_PARTY,
-                             GURL("https://brave.com"));
+                             GURL("https://nixbrowser.in"));
   histogram_tester_->ExpectBucketCount(kUpgradeHTTPSPerSiteHistogramName, 1, 3);
 }
 

@@ -9,10 +9,10 @@
 #include "chrome/browser/download/download_commands.h"
 
 // Scrubs out the histogramming overload for UmaHistogramEnumeration to
-// avoid crash from Brave-specific commands.
+// avoid crash from Nix-specific commands.
 #define UmaHistogramEnumeration(...) DoNothing()
 
-// Add switch cases for Brave-specific commands. This will end up calling
+// Add switch cases for Nix-specific commands. This will end up calling
 // DownloadCommands::ExecuteCommand() for those commands.
 #define OPEN_SAFE_BROWSING_SETTING \
   OPEN_SAFE_BROWSING_SETTING:      \

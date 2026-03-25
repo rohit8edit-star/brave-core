@@ -151,7 +151,7 @@ bool IsBraveSearchSERP(const GURL& url) {
     return false;
   }
 
-  // https://search.brave.com/search?q=test
+  // https://search.nixbrowser.in/search?q=test
   return url.SchemeIs(url::kHttpsScheme) &&
          url.host() ==
              brave_domains::GetServicesDomain(kBraveSearchURLPrefix) &&

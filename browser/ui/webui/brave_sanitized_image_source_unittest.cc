@@ -59,7 +59,7 @@ class BraveSanitizedImageSourceTest : public testing::Test {
             &profile_,
             base::MakeRefCounted<network::WeakWrapperSharedURLLoaderFactory>(
                 &test_url_loader_factory_)) {
-    source_.set_pcdn_domain_for_testing("pcdn.brave.com");
+    source_.set_pcdn_domain_for_testing("pcdn.nixbrowser.in");
   }
   ~BraveSanitizedImageSourceTest() override = default;
 
@@ -142,7 +142,7 @@ TEST_F(BraveSanitizedImageSourceTest, ImageIsDecodedAndResized) {
 }
 
 TEST_F(BraveSanitizedImageSourceTest, PaddedImageIsDecoded) {
-  auto url = GURL("https://pcdn.brave.com/image.png.pad");
+  auto url = GURL("https://pcdn.nixbrowser.in/image.png.pad");
   EXPECT_TRUE(Decode(url, kPaddedImage));
 }
 
@@ -152,7 +152,7 @@ TEST_F(BraveSanitizedImageSourceTest, InvalidPaddedImageIsNotDecoded) {
 }
 
 TEST_F(BraveSanitizedImageSourceTest, PaddedImageWithoutDotPadIsNotDecoded) {
-  auto url = GURL("https://pcdn.brave.com/image.png");
+  auto url = GURL("https://pcdn.nixbrowser.in/image.png");
   EXPECT_FALSE(Decode(url, kPaddedImage));
 }
 

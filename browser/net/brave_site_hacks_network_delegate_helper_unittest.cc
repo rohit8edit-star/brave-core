@@ -174,7 +174,7 @@ TYPED_TEST(BraveSiteHacksNetworkDelegateHelperTest, OnionReferrerStripped) {
   const GURL original_referrer(
       "https://"
       "brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/");
-  const GURL destination("https://brave.com");
+  const GURL destination("https://nixbrowser.in");
 
   // Cross-origin request from a .onion gets empty referrer.
   auto url1 = net::URLRequestJob::ComputeReferrerForPolicy(
@@ -316,7 +316,7 @@ TYPED_TEST(BraveSiteHacksNetworkDelegateHelperTest, QueryStringFiltered) {
        // Conditional query parameter stripping
        {"https://example.com/?igshid=1234", ""},
        {"https://www.instagram.com/?igshid=1234", "https://www.instagram.com/"},
-       {"https://brave.com/?ref_src=example.com", ""},
+       {"https://nixbrowser.in/?ref_src=example.com", ""},
        {"https://twitter.com/?ref_src=example.com", "https://twitter.com/"},
        {"https://x.com/?ref_src=example.com", "https://x.com/"},
        {"https://example.com/?mkt_tok=123&foo=bar&mkt_unsubscribe=1", ""},

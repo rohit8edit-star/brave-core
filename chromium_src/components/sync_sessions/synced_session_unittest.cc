@@ -13,7 +13,7 @@ namespace sync_sessions {
 
 // Test that virtual_url_prefix is correctly prepended to virtual_url when
 // converting a SerializedNavigationEntry to sync protocol buffer.
-// This is used by Brave Containers to encode StoragePartitionConfig info
+// This is used by Nix Containers to encode StoragePartitionConfig info
 // in the URL for session persistence and sync.
 TEST(SyncedSessionTest, VirtualUrlPrefixIncludedInSyncData) {
   using sessions::SerializedNavigationEntry;

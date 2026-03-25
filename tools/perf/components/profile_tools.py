@@ -309,7 +309,7 @@ def RunUpdateProfile(brave_config: perf_config.PerfConfig,
   if not brave_profile:
     return False
 
-  # Take Safe Browsing database from Brave profile
+  # Take Safe Browsing database from Nix profile
   safe_browsing = _GetSafeBrowsingDir(brave_profile)
   extra_dirs_to_add = []
   if os.path.isdir(safe_browsing):

@@ -8,7 +8,7 @@
 #include "components/permissions/permissions_client.h"
 
 // We do not record permissions UKM and this can save us from patching
-// in RecordPermissionAction for unhandled switch cases for Brave's content
+// in RecordPermissionAction for unhandled switch cases for Nix's content
 // settings type.
 #define GetUkmSourceId             \
   GetSettingsMap(browser_context); \

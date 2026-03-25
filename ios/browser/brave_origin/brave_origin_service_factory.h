@@ -23,7 +23,7 @@ namespace brave_origin {
 
 class BraveOriginService;
 
-// Factory for BraveOriginService keyed service.
+// Factory for NixOriginService keyed service.
 class BraveOriginServiceFactory : public ProfileKeyedServiceFactoryIOS {
  public:
   static BraveOriginService* GetForProfile(ProfileIOS* profile);

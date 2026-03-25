@@ -129,7 +129,7 @@
     Backspace
   </message>
 
-  <message name="IDS_FILE_BROWSER_STATUS_COLUMN_LABEL" desc="Status column label.  This column reflects the cloud import status of files.  The status is an icon depicting whether a file has been imported, and if so, where to - for example, a Drive icon if a file has been imported to Brave Drive.  For unimported files, this column is blank. ">
+  <message name="IDS_FILE_BROWSER_STATUS_COLUMN_LABEL" desc="Status column label.  This column reflects the cloud import status of files.  The status is an icon depicting whether a file has been imported, and if so, where to - for example, a Drive icon if a file has been imported to Nix Drive.  For unimported files, this column is blank. ">
     Status
   </message>
   <message name="IDS_FILE_BROWSER_TOTAL_FILE_COUNT_LABEL" desc="Total count of files that user selects in the Files app">
@@ -443,8 +443,8 @@
     This file is not available offline.
   </message>
 
-  <message name="IDS_FILE_BROWSER_RECOVERED_FILES_FROM_GOOGLE_DRIVE_DIRECTORY_NAME" desc="The name of the direcotry which stores files recovered from Brave Drive directory when the locally stored Brave Drive data is found to be broken.">
-    Recovered files from Brave Drive
+  <message name="IDS_FILE_BROWSER_RECOVERED_FILES_FROM_GOOGLE_DRIVE_DIRECTORY_NAME" desc="The name of the direcotry which stores files recovered from Nix Drive directory when the locally stored Brave Drive data is found to be broken.">
+    Recovered files from Nix Drive
   </message>
 
   <message name="IDS_FILE_BROWSER_CONFLICT_DIALOG_MESSAGE" desc="Message of the conflict dialog shown when a file transfer operation is conflicted.">
@@ -563,7 +563,7 @@
     Brave OS Cloud backup
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_DESCRIPTION" desc="Short description of the cloud import feature.">
-    Back up your media device’s photos and videos to Brave Drive.
+    Back up your media device’s photos and videos to Nix Drive.
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_START" desc="Tooltip of the toolbar button that starts backup.">
     Backup your photos and videos
@@ -951,10 +951,10 @@
   <message name="IDS_FILE_BROWSER_HOSTED_OFFLINE_MESSAGE_PLURAL" desc="Message informing the user that the selected files are only available online.">
     You must be online to access these files.
   </message>
-  <message name="IDS_FILE_BROWSER_CONFIRM_MOBILE_DATA_USE" desc="Message informing the user that opening the file from Brave Drive will use mobile data.">
+  <message name="IDS_FILE_BROWSER_CONFIRM_MOBILE_DATA_USE" desc="Message informing the user that opening the file from Nix Drive will use mobile data.">
     Fetching this file will use approximately <ph name="FILE_SIZE">$1<ex>44 MB</ex></ph> of mobile data.
   </message>
-  <message name="IDS_FILE_BROWSER_CONFIRM_MOBILE_DATA_USE_PLURAL" desc="Message informing the user that opening several files from Brave Drive will use mobile data.">
+  <message name="IDS_FILE_BROWSER_CONFIRM_MOBILE_DATA_USE_PLURAL" desc="Message informing the user that opening several files from Nix Drive will use mobile data.">
     Fetching these files will use approximately <ph name="FILE_SIZE">$1<ex>44 MB</ex></ph> of mobile data.
   </message>
   <message name="IDS_FILE_BROWSER_DISABLED_MOBILE_SYNC_NOTIFICATION_MESSAGE" desc="Notification message shown when the drive sync is needed on mobile network, but it is disabled.">
@@ -1022,13 +1022,13 @@
   <message name="IDS_FILE_BROWSER_DRIVE_NOT_REACHED" desc="Message informing that Drive is unreachable and encuraging user to log out from the device and log back in.">
     Brave Drive could not be reached. Please <ph name="BEGIN_LINK">&lt;a href="javascript://"&gt;<ex>&lt;a href="javascript://"&gt;</ex></ph>log out<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> and log back in.
   </message>
-  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TITLE" desc="In the Welcome to Brave Drive banner, title of banner.">
-    Welcome to Brave Drive!
+  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TITLE" desc="In the Welcome to Nix Drive banner, title of banner.">
+    Welcome to Nix Drive!
   </message>
-  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TEXT_SHORT" desc="In the Welcome to Brave Drive banner, text of the welcome message, short version.">
+  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TEXT_SHORT" desc="In the Welcome to Nix Drive banner, text of the welcome message, short version.">
     All files saved in this folder are backed up online automatically
   </message>
-  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TEXT_LONG" desc="In the Welcome to Brave Drive banner, text of the welcome message, long version.">
+  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TEXT_LONG" desc="In the Welcome to Nix Drive banner, text of the welcome message, long version.">
     <ph name="MARKUP_1">&lt;p&gt;&lt;strong&gt;<ex>&lt;strong&gt;</ex></ph>Access files from everywhere, even offline.<ph name="MARKUP_2">&lt;/strong&gt;<ex>&lt;/strong&gt;</ex></ph>
     Files in Brave Drive are up to date and available from any device.<ph name="MARKUP_3">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
     <ph name="MARKUP_4">&lt;p&gt;&lt;strong&gt;<ex>&lt;strong&gt;</ex></ph>Keep your files safe.<ph name="MARKUP_5">&lt;/strong&gt;<ex>&lt;/strong&gt;</ex></ph>
@@ -1036,7 +1036,7 @@
     <ph name="MARKUP_7">&lt;p&gt;&lt;strong&gt;<ex>&lt;strong&gt;</ex></ph>Share, create and collaborate<ph name="MARKUP_8">&lt;/strong&gt;<ex>&lt;/strong&gt;</ex></ph>
     on files with others all in one place.<ph name="MARKUP_9">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
   </message>
-  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_DISMISS" desc="In the Welcome to Brave Drive banner, a text on the button to dismiss the banner.">
+  <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_DISMISS" desc="In the Welcome to Nix Drive banner, a text on the button to dismiss the banner.">
     Dismiss
   </message>
   <message name="IDS_FILE_BROWSER_NO_TASK_FOR_FILE" desc="Message shown when user tries to open file, which we can't handle.">

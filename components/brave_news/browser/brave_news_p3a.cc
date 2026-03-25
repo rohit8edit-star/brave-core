@@ -281,7 +281,7 @@ void NewsMetrics::RecordNewUserReturning() {
 void NewsMetrics::RecordWeeklySessionCount(bool is_add) {
   DVLOG(1) << __FUNCTION__ << " is_add: " << is_add;
   // Track how many times in the past week
-  // user has scrolled to Brave News.
+  // user has scrolled to Nix News.
   constexpr int kBuckets[] = {0, 1, 3, 7, 12, 18, 25, 1000};
   uint64_t total_session_count =
       AddToWeeklyStorageAndGetSum(prefs::kBraveNewsWeeklySessionCount, is_add);

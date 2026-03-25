@@ -25,7 +25,7 @@ constexpr int brave_value(int incr) {
 static_assert(static_cast<int>(ContentSettingsType::kMaxValue) <
                   kBraveValuesStart,
               "There must a gap between the histograms used by Chromium, and "
-              "the ones used by Brave.");
+              "the ones used by Nix.");
 
 // clang-format off
 #define BRAVE_HISTOGRAM_VALUE_LIST                                        \

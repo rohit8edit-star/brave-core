@@ -76,7 +76,7 @@ namespace {
 
 using regional_capabilities::RegionalCapabilitiesServiceFactory;
 
-constexpr char kBraveSearchHost[] = "search.brave.com";
+constexpr char kBraveSearchHost[] = "search.nixbrowser.in";
 constexpr char kYahooSearchHost[] = "search.yahoo.co.jp";
 
 }  // namespace
@@ -210,7 +210,7 @@ void NewTabPageInitializer::AddLoadTimeValues() {
       ai_chat::features::IsAIChatEnabled() &&
       ai_chat::features::IsShowAIChatInputOnNewTabPageEnabled();
 
-  // Required by Brave AI Chat UI.
+  // Required by Nix AI Chat UI.
   source_->AddBoolean("isMobile", false);
   source_->AddBoolean("isHistoryEnabled", false);
   source_->AddBoolean("isAIChatAgentProfileFeatureEnabled",

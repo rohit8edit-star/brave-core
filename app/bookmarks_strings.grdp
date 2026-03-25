@@ -280,20 +280,20 @@
   <message name="IDS_BOOKMARK_DICE_PROMO_SYNC_MESSAGE" desc="Text of the sync promo displayed at the bottom of the bookmark bubble asking the user to enable sync.">
     To get your bookmarks on all your devices, turn on sync.
   </message>
-  <message name="IDS_BOOKMARK_VERIFY_PROMO_SUBTITLE" desc="This is the body text of a confirmation message and means that the bookmark is in an account-pending storage. In other words, it's waiting to be uploaded to the user's Brave sync chain. It appears when the user was signed in to Brave with account storage for bookmarks enabled but their sign-in credentials have expired; now, they need to sign back in to Brave. The string is after the 'Bookmark added' string. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
+  <message name="IDS_BOOKMARK_VERIFY_PROMO_SUBTITLE" desc="This is the body text of a confirmation message and means that the bookmark is in an account-pending storage. In other words, it's waiting to be uploaded to the user's Brave sync chain. It appears when the user was signed in to Nix with account storage for bookmarks enabled but their sign-in credentials have expired; now, they need to sign back in to Nix. The string is after the 'Bookmark added' string. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
     To get this bookmark on all your devices, verify it's you
   </message>
   <!-- End of Bookmarks Promo strings for Desktop Identity Consistency. -->
 
   <!-- Begin of Desktop to iOS Promo strings. -->
   <if expr="is_win">
-    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE" desc="Title for Brave iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
+    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE" desc="Title for Nix iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Sync this bookmark to your iPhone
     </message>
-    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V2" desc="Title for Brave iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
+    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V2" desc="Title for Nix iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Get this bookmark on your iPhone
     </message>
-    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V3" desc="Title for Brave iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
+    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V3" desc="Title for Nix iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Share this bookmark with your iPhone
     </message>
     <message name="IDS_BOOKMARK_FOOTNOTE_DESKTOP_TO_IOS_PROMO_MESSAGE" desc="Text of the Brave iOS promotion displayed at the bottom of the bookmark bubble.">
@@ -303,7 +303,7 @@
   <!-- End of Desktop to iOS Promo strings. -->
 
   <!-- UNO Promo strings for bookmarks -->
-  <message name="IDS_BOOKMARK_PROMO_TITLE" desc="This is the body text of a confirmation message and means that the bookmark was either saved locally, or to the user's pending account storage if their sign-in credentials have expired. It appears after a bookmark save if the user is not signed in to Brave or their sign-in credentials have expired. If the user wants to save this data to their Brave sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
+  <message name="IDS_BOOKMARK_PROMO_TITLE" desc="This is the body text of a confirmation message and means that the bookmark was either saved locally, or to the user's pending account storage if their sign-in credentials have expired. It appears after a bookmark save if the user is not signed in to Nix or their sign-in credentials have expired. If the user wants to save this data to their Brave sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
     Use bookmarks across devices
   </message>
   <!-- End of UNO Promo strings for bookmarks -->

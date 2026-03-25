@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "រាយការណ៍ពីគេហទំព័រដែលមិនដំណើរការ",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "ធាតុត្រូវបានរារាំង",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "បន្ថែមទៅ Brave",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "ដកចេញពី Brave",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Add to Chrome",

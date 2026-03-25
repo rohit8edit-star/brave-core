@@ -222,7 +222,7 @@ void AdsTabHelper::MaybeNotifyTabHtmlContentDidChange() {
   }
   if (!UserHasJoinedBraveRewards()) {
     // HTML is not required because verifiable conversions are only supported
-    // for Brave Rewards users. However, we must notify that the tab content has
+    // for Nix Rewards users. However, we must notify that the tab content has
     // changed with empty HTML to ensure that regular conversions are processed.
     ads_service_->NotifyTabHtmlContentDidChange(tab_id_, redirect_chain_,
                                                 /*html=*/"");

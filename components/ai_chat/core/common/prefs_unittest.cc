@@ -105,7 +105,7 @@ TEST_F(AIChatPrefsTest, GetMemoriesFromPrefs_WithData) {
   auto list = base::ListValue();
   list.Append("I work as a software engineer");
   list.Append("I prefer dark mode");
-  list.Append("I use Brave browser");
+  list.Append("I use Nix browser");
   pref_service_.SetList(kBraveAIChatUserMemories, std::move(list));
 
   auto memories = GetMemoriesFromPrefs(pref_service_);
@@ -113,7 +113,7 @@ TEST_F(AIChatPrefsTest, GetMemoriesFromPrefs_WithData) {
   ASSERT_EQ(memories.size(), 3u);
   EXPECT_EQ(memories[0], "I work as a software engineer");
   EXPECT_EQ(memories[1], "I prefer dark mode");
-  EXPECT_EQ(memories[2], "I use Brave browser");
+  EXPECT_EQ(memories[2], "I use Nix browser");
 }
 
 TEST_F(AIChatPrefsTest, AddMemoryToPrefs_NewMemory) {
@@ -303,7 +303,7 @@ TEST_F(AIChatPrefsTest, GetUserMemoryDictFromPrefs_BothEnabled) {
 
   // Set up memory data
   AddMemoryToPrefs("I love creating beautiful designs", pref_service_);
-  AddMemoryToPrefs("I use Brave browser daily", pref_service_);
+  AddMemoryToPrefs("I use Nix browser daily", pref_service_);
 
   result = GetUserMemoryDictFromPrefs(pref_service_);
 
@@ -317,7 +317,7 @@ TEST_F(AIChatPrefsTest, GetUserMemoryDictFromPrefs_BothEnabled) {
   ASSERT_TRUE(memories);
   ASSERT_EQ(memories->size(), 2u);
   EXPECT_EQ((*memories)[0].GetString(), "I love creating beautiful designs");
-  EXPECT_EQ((*memories)[1].GetString(), "I use Brave browser daily");
+  EXPECT_EQ((*memories)[1].GetString(), "I use Nix browser daily");
 }
 
 TEST_F(AIChatPrefsTest, GetUserMemoryDictFromPrefs_EmptyCustomizations) {
@@ -384,7 +384,7 @@ TEST_F(AIChatPrefsTest, HasMemoryFromPrefs) {
   auto list = base::ListValue();
   list.Append("I work as a software engineer");
   list.Append("I live in San Francisco");
-  list.Append("I use Brave browser");
+  list.Append("I use Nix browser");
   pref_service_.SetList(kBraveAIChatUserMemories, std::move(list));
 
   // Test existing memory

@@ -31,7 +31,7 @@ class GetAdaptiveCaptchaChallengeTest : public testing::Test {
         get_challenge_(std::make_unique<GetAdaptiveCaptchaChallenge>(
             &api_request_helper_)) {
     brave_adaptive_captcha::ServerUtil::GetInstance()->SetServerHostForTesting(
-        "https://grants.rewards.brave.com");
+        "https://grants.rewards.nixbrowser.in");
   }
 
   void OnGetChallengeServerOK(const std::string& captcha_id) {
@@ -83,7 +83,7 @@ class GetAdaptiveCaptchaChallengeTest : public testing::Test {
 
 TEST_F(GetAdaptiveCaptchaChallengeTest, ServerOK) {
   test_url_loader_factory_.AddResponse(
-      "https://grants.rewards.brave.com/v3/captcha/challenge/payment_id",
+      "https://grants.rewards.nixbrowser.in/v3/captcha/challenge/payment_id",
       "{ \"captchaID\": \"ae07288c-d078-11eb-b8bc-0242ac130003\" }",
       net::HTTP_OK);
   get_challenge_->Request(
@@ -95,7 +95,7 @@ TEST_F(GetAdaptiveCaptchaChallengeTest, ServerOK) {
 
 TEST_F(GetAdaptiveCaptchaChallengeTest, ServerError404) {
   test_url_loader_factory_.AddResponse(
-      "https://grants.rewards.brave.com/v3/captcha/challenge/payment_id", "",
+      "https://grants.rewards.nixbrowser.in/v3/captcha/challenge/payment_id", "",
       net::HTTP_NOT_FOUND);
   get_challenge_->Request(
       "payment_id",
@@ -107,7 +107,7 @@ TEST_F(GetAdaptiveCaptchaChallengeTest, ServerError404) {
 
 TEST_F(GetAdaptiveCaptchaChallengeTest, ServerError500) {
   test_url_loader_factory_.AddResponse(
-      "https://grants.rewards.brave.com/v3/captcha/challenge/payment_id", "",
+      "https://grants.rewards.nixbrowser.in/v3/captcha/challenge/payment_id", "",
       net::HTTP_INTERNAL_SERVER_ERROR);
   get_challenge_->Request(
       "payment_id",
@@ -119,7 +119,7 @@ TEST_F(GetAdaptiveCaptchaChallengeTest, ServerError500) {
 
 TEST_F(GetAdaptiveCaptchaChallengeTest, ServerErrorRandom) {
   test_url_loader_factory_.AddResponse(
-      "https://grants.rewards.brave.com/v3/captcha/challenge/payment_id", "",
+      "https://grants.rewards.nixbrowser.in/v3/captcha/challenge/payment_id", "",
       net::HTTP_TOO_MANY_REQUESTS);
   get_challenge_->Request(
       "payment_id",

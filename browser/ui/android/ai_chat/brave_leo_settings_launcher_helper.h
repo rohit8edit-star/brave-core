@@ -18,7 +18,7 @@ namespace ai_chat {
 void ShowBraveLeoSettings(content::WebContents* web_contents);
 // Opens an OS subscription dialog.
 void GoPremium(content::WebContents* web_contents);
-// Opens Manage Subscription in case of IAP of account.brave.com
+// Opens Manage Subscription in case of IAP of account.nixbrowser.in
 void ManagePremium(content::WebContents* web_contents);
 // Opens any other URL
 void OpenURL(const std::string& url);

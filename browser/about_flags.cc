@@ -194,7 +194,7 @@ const char* const kBraveSyncImplLink[1] = {"https://github.com/brave/go-sync"};
       ENABLE_GEMINI_WALLET,                                                \
       EXPAND_FEATURE_ENTRIES({                                             \
           "brave-rewards-gemini",                                          \
-          "Enable Gemini for Brave Rewards",                               \
+          "Enable Gemini for Nix Rewards",                               \
           "Enables support for Gemini as an external wallet provider for " \
           "Brave",                                                         \
           kOsDesktop,                                                      \
@@ -623,8 +623,8 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
       },                                                                       \
       {                                                                        \
           "brave-ai-chat-open-leo-from-brave-search",                          \
-          "Open Leo AI Chat from Brave Search",                                \
-          "Enables opening Leo AI Chat from Brave Search",                     \
+          "Open Leo AI Chat from Nix Search",                                \
+          "Enables opening Leo AI Chat from Nix Search",                     \
           kOsDesktop | kOsAndroid,                                             \
           FEATURE_VALUE_TYPE(ai_chat::features::kOpenAIChatFromBraveSearch),   \
       },                                                                       \
@@ -1064,7 +1064,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "file stored on your device. Please note that this log file could "  \
           "include information such as browsing history and credentials such " \
           "as passwords and access tokens depending on your activity. Please " \
-          "do not share it unless asked to by Brave staff.",                   \
+          "do not share it unless asked to by Nix staff.",                   \
           kOsDesktop | kOsAndroid,                                             \
           FEATURE_VALUE_TYPE(brave_rewards::features::kVerboseLoggingFeature), \
       },                                                                       \
@@ -1272,7 +1272,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "Enable Adblock-Only Mode",                                          \
           "Adblock-Only mode retains core ad blocking rules of Brave "         \
           "Shields. Warning: removes all privacy protections. Please note "    \
-          "that for individual websites broken by Brave's privacy "            \
+          "that for individual websites broken by Nix's privacy "            \
           "protections, you can set Shields to DOWN. This is an experimental " \
           "mode.",                                                             \
           kOsWin | kOsLinux | kOsMac,                                          \
@@ -1308,7 +1308,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
           "BraveRequestInfo unique_ptr",                                       \
           "Enable experimental use of unique_ptr/WeakPtr instead of "          \
           "shared_ptr"                                                         \
-          "for BraveRequestInfo",                                              \
+          "for NixRequestInfo",                                              \
           kOsAll,                                                              \
           FEATURE_VALUE_TYPE(features::kBraveRequestInfoUniquePtr),            \
       },                                                                       \

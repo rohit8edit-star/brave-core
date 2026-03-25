@@ -1,8 +1,8 @@
-![Brave Browser](./docs/images/brave.svg)
+![Nix Browser](./docs/images/brave.svg)
 
 # Brave Core
 
-Brave Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Brave browser. Please also check https://github.com/brave/brave-browser which only holds the issues, releases and the wiki.
+Brave Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Nix browser. Please also check https://github.com/brave/brave-browser which only holds the issues, releases and the wiki.
 
 ## Overview
 
@@ -27,7 +27,7 @@ This repository holds the build tools needed to build the Brave desktop browser 
 
 ## Downloads
 
-You can [visit our website](https://brave.com/download) to get the latest stable release.
+You can [visit our website](https://nixbrowser.in/download) to get the latest stable release.
 
 ## Contributing
 
@@ -44,7 +44,7 @@ Please see the [security policy](./SECURITY.md).
 [Join the Q&A community](https://community.brave.app/) if you'd like to get more involved with Brave. You can [ask for help](https://community.brave.app/c/support-and-troubleshooting),
 [discuss features you'd like to see](https://community.brave.app/c/brave-feature-requests), and a lot more. We'd love to have your help so that we can continue improving Brave.
 
-You can also ask questions and interact in the [`community-guest`](https://bravesoftware.slack.com) channel on Brave Software's Slack.
+You can also ask questions and interact in the [`community-guest`](https://bravesoftware.slack.com) channel on Nix Technologies's Slack.
 
 Help us translate Brave to your language by submitting translations at https://explore.transifex.com/brave/brave_en/.
 

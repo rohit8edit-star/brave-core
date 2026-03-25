@@ -50,7 +50,7 @@ namespace {
 constexpr int kMaxTimeoutForAdsServiceInit = 10;
 constexpr int kMaxTimeoutPerLoadedURL = 30;
 constexpr char kEmbeddedTestServerDirectory[] = "brave_ads";
-constexpr char kDomain[] = "search.brave.com";
+constexpr char kDomain[] = "search.nixbrowser.in";
 constexpr char kBraveSearchPath[] = "/search_result_ad_click.html";
 
 void WaitForTimeout(int timeout) {
@@ -80,7 +80,7 @@ class BraveNetworkAuditSearchAdTest : public InProcessBrowserTest {
     search_test_utils::WaitForTemplateURLServiceToLoad(template_url_service);
 
     auto* brave_template_url =
-        template_url_service->GetTemplateURLForHost("search.brave.com");
+        template_url_service->GetTemplateURLForHost("search.nixbrowser.in");
     ASSERT_TRUE(brave_template_url);
     template_url_service->SetUserSelectedDefaultSearchProvider(
         brave_template_url);
@@ -129,10 +129,10 @@ class BraveNetworkAuditSearchAdTest : public InProcessBrowserTest {
     std::vector<std::string> allowed_prefixes;
 
     // Brave search
-    // The test simulation has a pattern https://search.brave.com:<port>
+    // The test simulation has a pattern https://search.nixbrowser.in:<port>
     // port is changed dynamically
     static constexpr char kAllowedBraveSearchTemplate[] =
-        "https://search.brave.com:%s/";
+        "https://search.nixbrowser.in:%s/";
     allowed_prefixes.push_back(
         absl::StrFormat(kAllowedBraveSearchTemplate, port));
     VerifyNetworkAuditLog(net_log_path_, audit_results_path_, allowed_prefixes);

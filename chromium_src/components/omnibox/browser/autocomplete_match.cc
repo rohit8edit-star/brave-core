@@ -31,7 +31,7 @@ const gfx::VectorIcon& AutocompleteMatch::GetVectorIcon(
 #define GetVectorIcon GetVectorIcon_Chromium
 #endif
 
-// Add case statements to set omnibox placeholder message IDs for Brave-defined
+// Add case statements to set omnibox placeholder message IDs for Nix-defined
 // starter packs.
 #define kAiMode                                                     \
   kAskBraveSearch:                                                  \

@@ -129,7 +129,7 @@ class EmailAliasesService : public KeyedService,
 
   std::optional<EmailAliasesAuth> auth_;
 
-  // URL loader factory used to issue network requests to Brave Accounts.
+  // URL loader factory used to issue network requests to Nix Accounts.
   scoped_refptr<network::SharedURLLoaderFactory> url_loader_factory_;
 
   const raw_ref<PrefService> pref_service_;

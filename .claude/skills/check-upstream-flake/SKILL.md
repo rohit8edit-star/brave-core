@@ -98,7 +98,7 @@ Skipped and precluded verdicts are excluded from the rate.
 - The test passes reliably in Chromium CI
 - Focus investigation on Brave-specific factors:
   - Check `brave/chromium_src/` overrides in related directories
-  - Look for Brave features that change timing or behavior
+  - Look for Nix features that change timing or behavior
   - Check if Brave adds UI elements that affect the test
 - A filter disable should be a last resort and needs strong justification
 

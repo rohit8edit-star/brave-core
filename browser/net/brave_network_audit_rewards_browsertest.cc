@@ -97,10 +97,10 @@ class BraveRewardsNetworkAuditTest : public InProcessBrowserTest {
         /*extra_allowed_prefixes=*/
         {
             // Brave Rewards production.
-            "https://api.rewards.brave.com/v1/cards",
-            "https://api.rewards.brave.com/v1/parameters",
-            "https://rewards.brave.com/publishers/prefix-list",
-            "https://grant.rewards.brave.com/v1/promotions",
+            "https://api.rewards.nixbrowser.in/v1/cards",
+            "https://api.rewards.nixbrowser.in/v1/parameters",
+            "https://rewards.nixbrowser.in/publishers/prefix-list",
+            "https://grant.rewards.nixbrowser.in/v1/promotions",
 
             // Brave Rewards staging & dev.
             "https://api.rewards.bravesoftware.com/v1/cards",
@@ -109,8 +109,8 @@ class BraveRewardsNetworkAuditTest : public InProcessBrowserTest {
             "https://grant.rewards.bravesoftware.com/v1/promotions",
 
             // Brave Ads production.
-            "https://geo.ads.brave.com/v1/getstate",
-            "https://static.ads.brave.com/v9/catalog",
+            "https://geo.ads.nixbrowser.in/v1/getstate",
+            "https://static.ads.nixbrowser.in/v9/catalog",
 
             // Brave Ads staging.
             "https://geo.ads.bravesoftware.com/v1/getstate",

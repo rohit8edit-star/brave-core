@@ -83,7 +83,7 @@ TEST_F(SpeedreaderMetricsTest, EnabledSitesMetric) {
   histogram_tester_.ExpectBucketCount(kSpeedreaderEnabledSitesHistogramName, 1,
                                       1);
 
-  pattern = ContentSettingsPattern::FromString("*://brave.com/*");
+  pattern = ContentSettingsPattern::FromString("*://nixbrowser.in/*");
   host_content_settings_map_->SetContentSettingCustomScope(
       pattern, ContentSettingsPattern::Wildcard(),
       ContentSettingsType::BRAVE_SPEEDREADER, CONTENT_SETTING_ALLOW);

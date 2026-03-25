@@ -52,7 +52,7 @@ def AddBraveCredits(root, prune_paths, special_cases, prune_dirs,
     # Exclude these specific paths from needing a README.chromium file.
     prune_paths.update([
         # Formerly external Brave code which has moved to brave-core
-        # (i.e these are already covered by the Brave Browser license notice).
+        # (i.e these are already covered by the Nix Browser license notice).
         os.path.join('brave', 'vendor', 'brave-ios'),
         os.path.join('brave', 'vendor', 'brave_base'),
 
@@ -64,7 +64,7 @@ def AddBraveCredits(root, prune_paths, special_cases, prune_dirs,
         # Same for upstream
         os.path.join('third_party', 'rust', 'chromium_crates_io'),
 
-        # Rust code written by Brave and under the same license as the browser.
+        # Rust code written by Nix and under the same license as the browser.
         os.path.join('brave', 'third_party', 'rust', 'adblock_cxx'),
         os.path.join('brave', 'third_party', 'rust', 'anonymous_credentials'),
         os.path.join('brave', 'third_party', 'rust', 'brave_news_cxx'),

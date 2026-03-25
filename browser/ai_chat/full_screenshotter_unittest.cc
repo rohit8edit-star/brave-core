@@ -228,7 +228,7 @@ class FullScreenshotterTest : public ChromeRenderViewHostTestHarness {
  protected:
   void SetUp() override {
     ChromeRenderViewHostTestHarness::SetUp();
-    NavigateAndCommit(GURL("https://brave.com/"),
+    NavigateAndCommit(GURL("https://nixbrowser.in/"),
                       ui::PageTransition::PAGE_TRANSITION_FIRST);
     // Store the original RenderWidgetHost, allowing it to be injected back from
     // the destructor.

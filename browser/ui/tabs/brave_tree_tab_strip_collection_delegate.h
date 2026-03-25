@@ -15,7 +15,7 @@ namespace tabs {
 class TreeTabNodeTabCollection;
 }  // namespace tabs
 
-// A delegate for BraveTabStripCollection when in tree tab mode.
+// A delegate for NixTabStripCollection when in tree tab mode.
 // This class do pre/post processing for tab manipulation methods so that we can
 // keep tabs in a valid tree tab structure.
 class BraveTreeTabStripCollectionDelegate

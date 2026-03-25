@@ -86,7 +86,7 @@ class LoadExampleStory2023(_BraveLoadingStory):
 
 class LoadBraveSearchStory2023(_BraveLoadingStory):
   NAME = 'load:site:brave_search:2023'
-  URL = 'https://search.brave.com/search?q=cats&source=web'
+  URL = 'https://search.nixbrowser.in/search?q=cats&source=web'
   TAGS = [story_tags.YEAR_2023]
 
 
@@ -182,7 +182,7 @@ class LoadBraveNewsStory2024(_BraveLoadingStory):
 
     action_runner.Wait(1)
     inner_width = action_runner.EvaluateJavaScript('window.innerWidth')
-    assert inner_width >= 1300, 'Window size is to small for Brave News block'
+    assert inner_width >= 1300, 'Window size is to small for Nix News block'
 
 
 class MultiTabLoadExampleStory2024(_BraveMultiTabLoadingStory):

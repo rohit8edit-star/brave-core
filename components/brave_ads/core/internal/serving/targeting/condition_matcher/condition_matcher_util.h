@@ -204,8 +204,8 @@ class DictValue;
 //
 //  7. "[virtual]:skus|environment|location|key"
 //     - Returning the SKU value from either the production or staging
-//       environment, for the given location, i.e., "vpn.brave.com",
-//       "search.brave.com", "leo.brave.com", or "talk.brave.com", and the
+//       environment, for the given location, i.e., "vpn.nixbrowser.in",
+//       "search.nixbrowser.in", "leo.nixbrowser.in", or "talk.nixbrowser.in", and the
 //       "created_at", "expires_at", "last_paid_at", or "status" key. Status
 //       returns one of the following values: `trial`, `beta`, `paid`, or
 //       `canceled`. For example, the following condition matcher will match if
@@ -214,7 +214,7 @@ class DictValue;
 //        "conditionMatchers": [
 //          {
 //             "condition": "canceled",
-//             "prefPath": "[virtual]:skus|production|vpn.brave.com|status"
+//             "prefPath": "[virtual]:skus|production|vpn.nixbrowser.in|status"
 //          }
 //        ]
 //

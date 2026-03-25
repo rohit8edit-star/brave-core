@@ -162,7 +162,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Import passwords
       </message>
       <message name="IDS_PASSWORD_SETTINGS_IMPORT_ACTION_DESCRIPTION" desc="Description for the password import action in Android settings">
-        Select a .csv file that contains your passwords to import them to Brave's password manager.
+        Select a .csv file that contains your passwords to import them to Nix's password manager.
       </message>
       <message name="IDS_BLOCK_SWITCH_TO_APP_NOTICES"  desc="Text for Block 'Switch to App' Notices">
         Block 'Switch to App' Notices
@@ -173,7 +173,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_RATE_BRAVE"  desc="Text for Rate Brave">
         Rate Brave
       </message>
-      <message name="IDS_BRAVE_RATING_THANKS"  desc="Text for Brave Rating Thanks">
+      <message name="IDS_BRAVE_RATING_THANKS"  desc="Text for Nix Rating Thanks">
         Thanks!
       </message>
       <message name="IDS_ADD_YOUR_SUGGESTIONS"  desc="Text for Add your suggestions">
@@ -248,11 +248,11 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_NOTIFICATION_OS_DIALOG_DESCRIPTION_ONLY_PRIVACY" desc="Text description for When ONLY Privacy Report is TURNED ON.">
         Enable device notifications to get Brave Privacy Reports.
       </message>
-      <message name="IDS_ENABLE_NOTIFICATIONS_FROM_BRAVE_TO_EARN_BRAVE_REWARDS" desc="Text description for Enable notifications from Brave to earn Brave Rewards.">
-        Enable notifications from Brave to earn Brave Rewards.
+      <message name="IDS_ENABLE_NOTIFICATIONS_FROM_BRAVE_TO_EARN_BRAVE_REWARDS" desc="Text description for Enable notifications from Nix to earn Brave Rewards.">
+        Enable notifications from Nix to earn Brave Rewards.
       </message>
-      <message name="IDS_OPEN_SETTINGS_AND_TURN_ON_DEVICE_NOTIFICATIONS_FOR_BRAVE_ADS" desc="Text description for Open Settings and turn on device notifications for Brave Ads.">
-        Open Settings and turn on device notifications for Brave Ads.
+      <message name="IDS_OPEN_SETTINGS_AND_TURN_ON_DEVICE_NOTIFICATIONS_FOR_BRAVE_ADS" desc="Text description for Open Settings and turn on device notifications for Nix Ads.">
+        Open Settings and turn on device notifications for Nix Ads.
       </message>
       <message name="IDS_TURN_ON_BRAVE_NOTIFICATIONS" desc="Text for button Turn on Brave notifications">
         Turn on Brave notifications
@@ -356,13 +356,13 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_PREFS_SUPPORT_SECTION" desc="Title for the support section ">
         Support
       </message>
-      <message name="IDS_PREFS_SECTION_FEATURES" desc="Title for Brave-specific features section">
+      <message name="IDS_PREFS_SECTION_FEATURES" desc="Title for Nix-specific features section">
         Features
       </message>
-      <message name="IDS_PREFS_SECTION_ADS" desc="Title for Brave Origin Ads section">
+      <message name="IDS_PREFS_SECTION_ADS" desc="Title for Nix Origin Ads section">
         Ads
       </message>
-      <message name="IDS_PREFS_SECTION_ANALYTICS" desc="Title for Brave Origin Analytics section">
+      <message name="IDS_PREFS_SECTION_ANALYTICS" desc="Title for Nix Origin Analytics section">
         Analytics
       </message>
       <message name="IDS_BRAVE_SHIELDS_AND_PRIVACY" desc="Label for the settings related to shields and privacy">
@@ -494,52 +494,52 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_TURN_ON_BRAVE_NEWS" desc="Text for opt in card button in settings">
         Turn on Brave News
       </message>
-      <message name="IDS_BRAVE_NEWS_SETTINGS_SEARCH" desc="Text for Brave News settings search">
+      <message name="IDS_BRAVE_NEWS_SETTINGS_SEARCH" desc="Text for Nix News settings search">
         Search for site, topic, or RSS feed
       </message>
-      <message name="IDS_POPULAR" desc="Text for Brave News settings popular sources">
+      <message name="IDS_POPULAR" desc="Text for Nix News settings popular sources">
         Popular
       </message>
-      <message name="IDS_POPULAR_SUBTITLE" desc="Text for Brave News settings popular sources subtitle">
+      <message name="IDS_POPULAR_SUBTITLE" desc="Text for Nix News settings popular sources subtitle">
         Ranked list of sources
       </message>
-      <message name="IDS_SUGGESTIONS" desc="Text for Brave News settings suggestions">
+      <message name="IDS_SUGGESTIONS" desc="Text for Nix News settings suggestions">
         Suggestions
       </message>
-      <message name="IDS_SUGGESTIONS_SUBTITLE" desc="Text for Brave News settings suggestions subtitle">
+      <message name="IDS_SUGGESTIONS_SUBTITLE" desc="Text for Nix News settings suggestions subtitle">
         Some sources you might like
       </message>
-      <message name="IDS_CHANNELS" desc="Text for Brave News settings channels">
+      <message name="IDS_CHANNELS" desc="Text for Nix News settings channels">
         Channels
       </message>
-      <message name="IDS_CHANNELS_SUBTITLE" desc="Text for Brave News settings channels subtitle">
+      <message name="IDS_CHANNELS_SUBTITLE" desc="Text for Nix News settings channels subtitle">
         Follow topics that interest you
       </message>
-      <message name="IDS_FOLLOWING" desc="Text for Brave News settings following">
+      <message name="IDS_FOLLOWING" desc="Text for Nix News settings following">
         Following
       </message>
-      <message name="IDS_FOLLOWING_SUBTITLE" desc="Text for Brave News settings following subtitle">
+      <message name="IDS_FOLLOWING_SUBTITLE" desc="Text for Nix News settings following subtitle">
         Manage sources for your feed
       </message>
-      <message name="IDS_FOLLOW" desc="Text for Brave News settings button follow">
+      <message name="IDS_FOLLOW" desc="Text for Nix News settings button follow">
         Follow
       </message>
-      <message name="IDS_UNFOLLOW" desc="Text for Brave News settings button unfollow">
+      <message name="IDS_UNFOLLOW" desc="Text for Nix News settings button unfollow">
         Unfollow
       </message>
-      <message name="IDS_GET_FEEDS" desc="Text for Brave News settings button get feeds">
+      <message name="IDS_GET_FEEDS" desc="Text for Nix News settings button get feeds">
         Get Feeds
       </message>
-      <message name="IDS_GETTING_FEEDS" desc="Text for Brave News settings button getting feeds">
+      <message name="IDS_GETTING_FEEDS" desc="Text for Nix News settings button getting feeds">
         Getting Feeds...
       </message>
-      <message name="IDS_SOURCES" desc="Text for Brave News settings sources">
+      <message name="IDS_SOURCES" desc="Text for Nix News settings sources">
         SOURCES
       </message>
-      <message name="IDS_NO_FEED_FOUND" desc="Text for Brave News settings search no found">
+      <message name="IDS_NO_FEED_FOUND" desc="Text for Nix News settings search no found">
         No feeds found at <ph name="SEARCH_URL">%1$s</ph>
       </message>
-      <message name="IDS_BRAVE_NEWS_AD" desc="Text for Brave ad logo">
+      <message name="IDS_BRAVE_NEWS_AD" desc="Text for Nix ad logo">
         Ad
       </message>
       <message name="IDS_BRAVE_NEWS_OPTIN_BUTTON" desc="Text for opt in card subtitle">
@@ -551,10 +551,10 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_NEWS_OPTIN_LEARN_MORE" desc="Text for opt in card subtitle">
         Learn more about your data
       </message>
-      <message name="IDS_BRAVE_NEWS_OPEN_NEW_TAB" desc="Text for opening the link in a new tab option for the long press on title action for Brave news">
+      <message name="IDS_BRAVE_NEWS_OPEN_NEW_TAB" desc="Text for opening the link in a new tab option for the long press on title action for Nix news">
         Open in New Tab
       </message>
-      <message name="IDS_BRAVE_NEWS_OPEN_NEW_PRIVATE_TAB" desc="Text for opening the link in a new private tab option for the long press on title action for Brave news">
+      <message name="IDS_BRAVE_NEWS_OPEN_NEW_PRIVATE_TAB" desc="Text for opening the link in a new private tab option for the long press on title action for Nix news">
         Open in New Private Tab
       </message>
       <message name="IDS_BRAVE_NEWS_DISABLE_CONTENT" desc="Text for disable content option for the long press on title action">
@@ -563,7 +563,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_NEWS_DISABLED_CONTENT" desc="Text for disabled publisher notification">
         <ph name="PUBLISHER">%1$s</ph> disabled
       </message>
-      <message name="IDS_BRAVE_NEWS_LOAD_NEW_CONTENT" desc="Text for load new content button for Brave news">
+      <message name="IDS_BRAVE_NEWS_LOAD_NEW_CONTENT" desc="Text for load new content button for Nix news">
         Load new content
       </message>
       <message name="IDS_BRAVE_NEWS_PROMOTED_TITLE" desc="Text for marking promoted cards ">
@@ -660,7 +660,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Allows Brave to show links to private surveys in the new tab page. Surveys help us build better features and measure the effectiveness of browser-based ad campaigns.
       </message>
       <message name="IDS_SURVEY_PANELIST_LEARN_MORE" desc="Title of learn more about survey panelist.">
-        Learn more about Brave surveys
+        Learn more about Nix surveys
       </message>
       <!-- AUTOPLAY SITE SETTING-->
       <message name="IDS_AUTOPLAY_TITLE" desc="Title for the Autoplay settings screen [CHAR-LIMIT=32]">
@@ -685,7 +685,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_WEBSITE_SETTINGS_GOOGLE_SIGN_IN_ALLOW_EXCEPTIONS" desc="Label for G sign-in site settings.">
         Allowed to use third-party cookies for legacy Google Sign-In
       </message>
-      <message name="IDS_PREFS_SECTION_BRAVE_SHIELDS_GLOBALS" desc="Title for Brave shields global defaults section in the privacy preferences screen">
+      <message name="IDS_PREFS_SECTION_BRAVE_SHIELDS_GLOBALS" desc="Title for Nix shields global defaults section in the privacy preferences screen">
         Brave shields global defaults
       </message>
       <message name="IDS_PREFS_SECTION_OTHER_PRIVACY_SETTINGS" desc="Title for Other privacy settings section in the privacy preferences screen">
@@ -769,7 +769,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Send diagnostic reports if you experience a crash or freeze.
       </message>
       <message name="IDS_P3A_INSIGHTS" desc="Text for p3a insights onboarding">
-        Share private and anonymous product insights about what features are being used by Brave's users.
+        Share private and anonymous product insights about what features are being used by Nix's users.
       </message>
       <message name="IDS_WDP_TITLE" desc="Text for WDP title onboarding">
         Help Brave Search grow
@@ -877,7 +877,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Brave will show your first ad in
       </message>
       <message name="IDS_BRAVE_ADS_ONBOARDING_TEXT" desc="Text for brave ads page">
-        Now you'll earn token from Brave Ads.
+        Now you'll earn token from Nix Ads.
       </message>
       <message name="IDS_THIS_IS_YOUR_FIRST_AD" desc="Text brave rewards notification.">
         This is your first Brave ad. Tap to learn more.
@@ -951,13 +951,13 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_UI_MONTH_OCT" desc="Name of a month">OCTOBER</message>
       <message name="IDS_BRAVE_UI_MONTH_NOV" desc="Name of a month">NOVEMBER</message>
       <message name="IDS_BRAVE_UI_MONTH_DEC" desc="Name of a month">DECEMBER</message>
-      <message name="IDS_BRAVE_UI_BRAVE_REWARDS" desc="Menu item and title for Brave Rewards Settings. [CHAR-LIMIT=27]">
+      <message name="IDS_BRAVE_UI_BRAVE_REWARDS" desc="Menu item and title for Nix Rewards Settings. [CHAR-LIMIT=27]">
         Brave Rewards
       </message>
-      <message name="IDS_BRAVE_VPN" desc="Title for Brave vpn settings">
+      <message name="IDS_BRAVE_VPN" desc="Title for Nix vpn settings">
         Brave VPN
       </message>
-      <message name="IDS_BRAVE_NEWS_TITLE" desc="Title for Brave news settings">
+      <message name="IDS_BRAVE_NEWS_TITLE" desc="Title for Nix news settings">
         Brave News
       </message>
       <message name="IDS_CUSTOMIZE_MENU_TITLE" desc="Title for customize menu settings">
@@ -978,22 +978,22 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_UI_SETTINGS" desc="Settings button text">
         Settings
       </message>
-      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TITLE" desc="Title for Brave Ads offer.">
+      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TITLE" desc="Title for Nix Ads offer.">
         Brave Ads are here!
       </message>
-      <message name="IDS_BRAVE_SYNC_THIS_DEVICE_TEXT" desc="Text for Brave Sync this device.">
+      <message name="IDS_BRAVE_SYNC_THIS_DEVICE_TEXT" desc="Text for Nix Sync this device.">
         (this device)
       </message>
-      <message name="IDS_BRAVE_SYNC_DEVICES_TITLE" desc="Text for Brave Sync devices title.">
+      <message name="IDS_BRAVE_SYNC_DEVICES_TITLE" desc="Text for Nix Sync devices title.">
         DEVICES ON SYNC CHAIN
       </message>
-      <message name="IDS_BRAVE_SYNC_LOADING_DEVICES_TITLE" desc="Text for Brave Sync loading devices title.">
+      <message name="IDS_BRAVE_SYNC_LOADING_DEVICES_TITLE" desc="Text for Nix Sync loading devices title.">
         LOADING DEVICES...
       </message>
-      <message name="IDS_BRAVE_SYNC_LEAVING_SYNC_CHAIN_TITLE" desc="Text for Brave Sync leaving sync chain (doing reset) title.">
+      <message name="IDS_BRAVE_SYNC_LEAVING_SYNC_CHAIN_TITLE" desc="Text for Nix Sync leaving sync chain (doing reset) title.">
         LEAVING THE SYNC CHAIN...
       </message>
-      <message name="IDS_BRAVE_SYNC_WORD_COUNT_TEXT" desc="Text for Brave Sync word count message.">
+      <message name="IDS_BRAVE_SYNC_WORD_COUNT_TEXT" desc="Text for Nix Sync word count message.">
         Word count: <ph name="WORD_COUNT">%1$d</ph>
       </message>
       <message name="IDS_BRAVE_SYNC_WRONG_CODE_ERROR" desc="Text for wrong Brave Sync code error.">
@@ -1011,19 +1011,19 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_SYNC_CODE_VALID_FOR_TOO_LONG" desc="Text for error when trying to use the sync code which is valid till the time too far in the future.">
         This code is invalid. Please check that the time and timezone are set correctly on your device.
       </message>
-      <message name="IDS_BRAVE_SYNC_OFFICIAL" desc="Text for Brave Sync preference.">
+      <message name="IDS_BRAVE_SYNC_OFFICIAL" desc="Text for Nix Sync preference.">
         Brave Sync
       </message>
-      <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1" desc="Text for Brave Sync description.">
+      <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1" desc="Text for Nix Sync description.">
         Brave Sync allows you to sync bookmarks data privately between your Nix Browsers on your various devices.\n\nSimply scan the code from your sync chain that you created on another device. Or start a new sync chain.
       </message>
-      <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE_V2" desc="Text for Brave Sync QR code message.">
+      <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE_V2" desc="Text for Nix Sync QR code message.">
         Using existing synced device, open Brave Settings and navigate to Settings > Sync. Choose "Add New Device" and scan the QR Code displayed on the screen.
       </message>
-      <message name="IDS_BRAVE_SYNC_COPIED_TEXT" desc="Text for Brave Sync copied text message.">
+      <message name="IDS_BRAVE_SYNC_COPIED_TEXT" desc="Text for Nix Sync copied text message.">
         Copied to Clipboard
       </message>
-      <message name="IDS_BRAVE_SYNC_CODE_WORDS_TITLE" desc="Text for Brave Sync code words title.">
+      <message name="IDS_BRAVE_SYNC_CODE_WORDS_TITLE" desc="Text for Nix Sync code words title.">
         Pair
       </message>
       <message name="IDS_BRAVE_SYNC_CATEGORIES_TEXT" desc="Text for button to show data types to sync. Renamed from Categories">
@@ -1033,7 +1033,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Delete Sync account
       </message>
       <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_MESSAGE" desc="Text for confirmation message for permanently delete Brave Sync account">
-        Deleting your account will remove your encrypted data from Brave servers and disable Sync on all of your connected devices. It will not however delete the data that is stored locally on those devices.\n\nThis deletion is permanent and there is no way to recover the data. Should you decide to start using Sync again, you will need to create a new account and re-add each device one by one.
+        Deleting your account will remove your encrypted data from Nix servers and disable Sync on all of your connected devices. It will not however delete the data that is stored locally on those devices.\n\nThis deletion is permanent and there is no way to recover the data. Should you decide to start using Sync again, you will need to create a new account and re-add each device one by one.
       </message>
       <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_BUTTON" desc="Text for the confirmation button which deletes all sync chain data on the server">
         Permanently delete account
@@ -1044,70 +1044,70 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_FAILED_TOAST" desc="Text for toast notification for the case when sync account deletion failed">
         Failed to delete sync account
       </message>
-      <message name="IDS_BRAVE_SYNC_REMOVE_DEVICE_TEXT" desc="Text for Brave Sync remove device message.">
+      <message name="IDS_BRAVE_SYNC_REMOVE_DEVICE_TEXT" desc="Text for Nix Sync remove device message.">
         Remove device
       </message>
-      <message name="IDS_BRAVE_SYNC_DELETE_DEVICE" desc="Text for Brave Sync delete device message.">
+      <message name="IDS_BRAVE_SYNC_DELETE_DEVICE" desc="Text for Nix Sync delete device message.">
         Are you sure you want to delete device '<ph name="DEVICE_NAME">%1$s</ph>'?
       </message>
-      <message name="IDS_BRAVE_SYNC_SCAN_CHAIN_CODE" desc="Text for Brave Sync chain code message.">
+      <message name="IDS_BRAVE_SYNC_SCAN_CHAIN_CODE" desc="Text for Nix Sync chain code message.">
         Scan or enter sync code
       </message>
-      <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN" desc="Text for Brave Sync start new chain message.">
+      <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN" desc="Text for Nix Sync start new chain message.">
         Start a new sync chain
       </message>
-      <message name="IDS_BRAVE_SYNC_BTN_MOBILE" desc="Text for Brave Sync add a mobile device button.">
+      <message name="IDS_BRAVE_SYNC_BTN_MOBILE" desc="Text for Nix Sync add a mobile device button.">
         Add a Mobile Device
       </message>
-      <message name="IDS_BRAVE_SYNC_BTN_LAPTOP" desc="Text for Brave Sync add a laptop button.">
+      <message name="IDS_BRAVE_SYNC_BTN_LAPTOP" desc="Text for Nix Sync add a laptop button.">
         Add a Computer
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_MOBILE_DEVICE_TEXT" desc="Text for Brave Sync add a mobile device description part 1.">
-        Using a second phone or tablet, navigate to Brave Settings > Sync > Scan.\n\nOn your mobile device, navigate to Brave Sync in the Settings panel and click the button "Scan Sync Code". Use your camera to scan the QR Code below.
+      <message name="IDS_BRAVE_SYNC_ADD_MOBILE_DEVICE_TEXT" desc="Text for Nix Sync add a mobile device description part 1.">
+        Using a second phone or tablet, navigate to Nix Settings > Sync > Scan.\n\nOn your mobile device, navigate to Nix Sync in the Settings panel and click the button "Scan Sync Code". Use your camera to scan the QR Code below.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT" desc="Text for Brave Sync add a laptop description.">
-        On your computer, navigate to Brave Settings > Sync. Choose "Enter a Sync Chain Code".\n\nOn your target computer, navigate to Brave Sync in settings and click the button "I have a Sync Code".\nEnter the sync chain code words shown below.
+      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT" desc="Text for Nix Sync add a laptop description.">
+        On your computer, navigate to Nix Settings > Sync. Choose "Enter a Sync Chain Code".\n\nOn your target computer, navigate to Nix Sync in settings and click the button "I have a Sync Code".\nEnter the sync chain code words shown below.
       </message>
-      <message name="IDS_BRAVE_SYNC_SCAN_SYNC_CODE" desc="Text for Brave Sync scan sync code message.">
+      <message name="IDS_BRAVE_SYNC_SCAN_SYNC_CODE" desc="Text for Nix Sync scan sync code message.">
         Scan this sync code
       </message>
-      <message name="IDS_BRAVE_SYNC_CODE_WARNING" desc="Text for Brave Sync code warning message.">
+      <message name="IDS_BRAVE_SYNC_CODE_WARNING" desc="Text for Nix Sync code warning message.">
         Treat this code like a password. If someone gets hold of it, they can read and modify your synced data.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_TITLE" desc="Text for Brave Sync add laptop title.">
+      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_TITLE" desc="Text for Nix Sync add laptop title.">
         Enter the sync chain code
       </message>
-      <message name="IDS_BRAVE_SYNC_QR_CODE" desc="Text for Brave Sync QR code.">
+      <message name="IDS_BRAVE_SYNC_QR_CODE" desc="Text for Nix Sync QR code.">
         QR Code
       </message>
-      <message name="IDS_BRAVE_SYNC_CODE_WORDS" desc="Text for Brave Sync code words.">
+      <message name="IDS_BRAVE_SYNC_CODE_WORDS" desc="Text for Nix Sync code words.">
         Code Words
       </message>
-      <message name="IDS_BRAVE_SYNC_COPY_BUTTON_TEXT" desc="Text for Brave Sync copy button.">
+      <message name="IDS_BRAVE_SYNC_COPY_BUTTON_TEXT" desc="Text for Nix Sync copy button.">
         Copy to Clipboard
       </message>
-      <message name="IDS_BRAVE_SYNC_BTN_DONE" desc="Text for Brave Sync done button.">
+      <message name="IDS_BRAVE_SYNC_BTN_DONE" desc="Text for Nix Sync done button.">
         Done
       </message>
-      <message name="IDS_BRAVE_SYNC_SETTINGS_TITLE" desc="Text for Brave Sync settings title.">
+      <message name="IDS_BRAVE_SYNC_SETTINGS_TITLE" desc="Text for Nix Sync settings title.">
         SYNC ON THIS DEVICE
       </message>
-      <message name="IDS_BRAVE_SYNC_SETTINGS_DESCRIPTION" desc="Text for Brave Sync settings description.">
+      <message name="IDS_BRAVE_SYNC_SETTINGS_DESCRIPTION" desc="Text for Nix Sync settings description.">
         Changing settings will only affect data that this device shares with others.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_DEVICE_TEXT" desc="Text for Brave Sync add device message.">
+      <message name="IDS_BRAVE_SYNC_ADD_DEVICE_TEXT" desc="Text for Nix Sync add device message.">
         Add New Device
       </message>
-      <message name="IDS_ENTER_CODE_WORDS_SYNC" desc="Text for Brave Sync enter code words message.">
+      <message name="IDS_ENTER_CODE_WORDS_SYNC" desc="Text for Nix Sync enter code words message.">
         Enter code words
       </message>
-      <message name="IDS_BRAVE_SYNC_CODEWORDS_MESSAGE" desc="Text for Brave Sync code words message.">
+      <message name="IDS_BRAVE_SYNC_CODEWORDS_MESSAGE" desc="Text for Nix Sync code words message.">
         Using existing synced device, open Brave Settings and navigate to Settings > Sync. Choose "Add New Device" then "Display code words instead".
       </message>
-      <message name="IDS_BRAVE_SYNC_CONFIRM_CODE_WORDS_TEXT" desc="Text for Brave Sync confirm code words message.">
+      <message name="IDS_BRAVE_SYNC_CONFIRM_CODE_WORDS_TEXT" desc="Text for Nix Sync confirm code words message.">
         Confirm
       </message>
-      <message name="IDS_BRAVE_SYNC_USE_CAMERA_TEXT" desc="Text for Brave Sync use camera message.">
+      <message name="IDS_BRAVE_SYNC_USE_CAMERA_TEXT" desc="Text for Nix Sync use camera message.">
         I'll use my camera...
       </message>
       <message name="IDS_BRAVE_SYNC_DEVICE" desc="Text for sync device message.">
@@ -1125,19 +1125,19 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_SETTINGS_EXIT" desc="Text for Settings exit.">
         Settings exit
       </message>
-      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_TITLE" desc="Title for Brave Ads offer.">
+      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_TITLE" desc="Title for Nix Ads offer.">
         Enable Brave Rewards
       </message>
-      <message name="IDS_BRAVE_ADS_OFFER_POSITIVE" desc="Positive button text for Brave Ads offer.">
+      <message name="IDS_BRAVE_ADS_OFFER_POSITIVE" desc="Positive button text for Nix Ads offer.">
         I'm in!
       </message>
-      <message name="IDS_BRAVE_ADS_OFFER_TEXT" desc="Text for Brave Ads offer.">
+      <message name="IDS_BRAVE_ADS_OFFER_TEXT" desc="Text for Nix Ads offer.">
         Earn Basic Attention Token for viewing privacy preserving Brave Rewards ads.
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_TITLE" desc="Title for Brave Rewards reset error dialog.">
+      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_TITLE" desc="Title for Nix Rewards reset error dialog.">
         Reset Error
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_DESCRIPTION" desc="Description for Brave Rewards reset error dialog.">
+      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_DESCRIPTION" desc="Description for Nix Rewards reset error dialog.">
         There was an error resetting Brave Rewards. Please relaunch Brave and try again.
       </message>
       <message name="IDS_SHOW_ADS_WHEN_BRAVE_IS_NOT_IN_USE_TITLE" desc="Title for Show Ads when Brave is not in use option in Brave rewards settings.">
@@ -1253,10 +1253,10 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_PRIVACY_NOTICE_URL" desc="URL for the Brave privacy notice" translateable="false">
         https://nixbrowser.in/privacy_android
       </message>
-      <message name="IDS_BRAVE_TERMS_OF_SERVICE_URL" desc="URL for Brave Terms of Service" translateable="false">
+      <message name="IDS_BRAVE_TERMS_OF_SERVICE_URL" desc="URL for Nix Terms of Service" translateable="false">
         https://nixbrowser.in/terms_of_use
       </message>
-      <message name="IDS_BRAVE_LICENSE_TEXT" desc="Title for Brave License">
+      <message name="IDS_BRAVE_LICENSE_TEXT" desc="Title for Nix License">
         Brave License
       </message>
       <message name="IDS_BRAVE_NEW_PRIVATE_TAB" desc="Text for 'New private tab'">
@@ -1286,7 +1286,7 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_NEW_TAB_PRIVATE_VPN_CTA" desc="VPN call to action text shown when a user opens a private tab explaining private mode">
         Try free for 7 days
       </message>
-      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS_BACKGROUND" desc="Label for Brave Ads in background.">
+      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS_BACKGROUND" desc="Label for Nix Ads in background.">
         Brave Ads sent when browser is in the background
       </message>
       <!-- <message name="IDS_CLEAR_DOWNLOADS_TITLE" desc="Title for Clear download in Clear Browsing Data dialog">
@@ -1978,7 +1978,7 @@ Are you sure you want to do this?
     </message>
     <!-- Stats -->
     <message name="IDS_BRAVE_STATS_USAGE_PING_TITLE" desc="Description that shows in settings for toggling stats usage pings">
-      Automatically send daily usage ping to Brave
+      Automatically send daily usage ping to Nix
     </message>
     <message name="IDS_BRAVE_STATS_USAGE_PING_SUMMARY" desc="Description that shows under main toggle setting for usage pings">
       This private ping lets Brave estimate active users.
@@ -2004,7 +2004,7 @@ Are you sure you want to do this?
     <message name="IDS_DETAILS" desc="Brave wallet accounts text">
       Details
     </message>
-    <message name="IDS_BRAVE_UI_BRAVE_WALLET" desc="Title for Brave Wallet Settings. [CHAR-LIMIT=27]">
+    <message name="IDS_BRAVE_UI_BRAVE_WALLET" desc="Title for Nix Wallet Settings. [CHAR-LIMIT=27]">
       Brave Wallet
     </message>
     <message name="IDS_BRAVE_WALLET_SHIELDING" desc="Shielding label">
@@ -2025,7 +2025,7 @@ Are you sure you want to do this?
     <message name="IDS_BRAVE_WALLET_RESET_SETTINGS_OPTION" desc="Title for preference to reset Brave Wallet.">
       Reset and clear wallet data
     </message>
-    <message name="IDS_BRAVE_WALLET_RESET_SETTINGS_CONFIRMATION" desc="Confirmation for Brave Wallet reset.">
+    <message name="IDS_BRAVE_WALLET_RESET_SETTINGS_CONFIRMATION" desc="Confirmation for Nix Wallet reset.">
       Are you sure you want to reset your Brave Wallet? If your wallet is not backed up, resetting will cause you to lose all account data (including any associated funds). Type "<ph name="CONFIRMATION_PHRASE">%1$s<ex>Yes</ex></ph>" to confirm.
     </message>
     <message name="IDS_BRAVE_WALLET_RESET_SETTINGS_CONFIRMATION_PHRASE" desc="The phrase users should type to reset Brave Wallet">
@@ -2040,7 +2040,7 @@ Are you sure you want to do this?
     <message name="IDS_BRAVE_WALLET_CLEAR_TX_AND_NONCE_DIALOG_CONFIRMATION" desc="Confirmation dialog description for transaction and nonce reset.">
       Are you sure you want to reset transaction and nonce information? This option is mostly used by developers running a local test server. Type "<ph name="CONFIRMATION_PHRASE">%1$s<ex>Yes</ex></ph>" to confirm.
     </message>
-    <message name="IDS_BRAVE_WALLET_CONFIRM_TEXT" desc="Text for Brave Wallet confirm button text.">
+    <message name="IDS_BRAVE_WALLET_CONFIRM_TEXT" desc="Text for Nix Wallet confirm button text.">
       Confirm
     </message>
     <message name="IDS_TIME_LONG_MINS" desc="Use an unabbreviated word for minute(s). [ICU Syntax]">
@@ -2448,7 +2448,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Are you using the fastest web browser?
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_BODY_1" desc="Dormant users engagement notification body">
-      3x faster internet is already on your phone. Use Brave for all your web browsing.
+      3x faster internet is already on your phone. Use Nix for all your web browsing.
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_TEXT_1" desc="Dormant users engagement text">
       Brave = 3x faster web browsing
@@ -2457,7 +2457,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Get more battery life on every charge
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_BODY_2" desc="Dormant users engagement notification body">
-      Battery savings is just a step away. Use Brave for all your web browsing.
+      Battery savings is just a step away. Use Nix for all your web browsing.
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_TEXT_2" desc="Dormant users engagement text">
       Brave = more life on every charge
@@ -2466,7 +2466,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Top up your mobile data less often
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_BODY_3" desc="Dormant users engagement notification body">
-      Fewer ads = less data on every page you load. Use Brave for all your web browsing.
+      Fewer ads = less data on every page you load. Use Nix for all your web browsing.
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_TEXT_3" desc="Dormant users engagement text">
       Brave = less mobile data on every page
@@ -2597,7 +2597,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_ACCESSIBILITY_NEW_TAB_PAGE" desc="Accessibility text to read aloud when the user focuses the new tab view.">
       New tab
     </message>
-    <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_WALLET" desc="Content description for the button that allows an access to Brave Wallet.">
+    <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_WALLET" desc="Content description for the button that allows an access to Nix Wallet.">
       Access Brave Wallet
     </message>
     <message name="IDS_DAPP_WALLET_PANEL_CONNECTIVITY_STATUS" desc="Brave wallet Dapp wallet connectivity status">
@@ -2642,10 +2642,10 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_PERMISSIONS_CONNECT_BRAVE_WALLET_WARNING_TITLE" desc="Title text for a request to connect a wallet for a warning section.">
       Only connect with sites you trust.
     </message>
-    <message name="IDS_PERMISSIONS_CONNECT_BRAVE_WALLET_CONNECT_BUTTON_TEXT" desc="Connect button text for Brave wallet permission dialog.">
+    <message name="IDS_PERMISSIONS_CONNECT_BRAVE_WALLET_CONNECT_BUTTON_TEXT" desc="Connect button text for Nix wallet permission dialog.">
       Connect
     </message>
-    <message name="IDS_PERMISSIONS_CONNECT_BRAVE_WALLET_BACK_BUTTON_TEXT" desc="Back button text for Brave wallet permission dialog.">
+    <message name="IDS_PERMISSIONS_CONNECT_BRAVE_WALLET_BACK_BUTTON_TEXT" desc="Back button text for Nix wallet permission dialog.">
       Back
     </message>
     <message name="IDS_BRAVE_WALLET_ALLOW_CHANGE_NETWORK_TITLE" desc="Change network panel title">
@@ -3146,11 +3146,11 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_ADD_WIDGET" desc="Add widget button text">
       Add widget
     </message>
-    <message name="IDS_BRAVE_QUICK_ACTION_SEARCH" desc="Description for Brave QuickActionSearchAndBookmarkWidget preview">
+    <message name="IDS_BRAVE_QUICK_ACTION_SEARCH" desc="Description for Nix QuickActionSearchAndBookmarkWidget preview">
       Brave quick action search
     </message>
     <message name="IDS_USE_BRAVE_TRANSLATE" desc="The label of the check-box that enables the prompt to translate a page.">
-      Use Brave Translate
+      Use Nix Translate
     </message>
     <message name="IDS_WALLET_NON_ASCII_CHARACTERS" desc="A warning about Non-ASCII characters detected in a message">
       NON-ASCII characters detected!
@@ -3288,7 +3288,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Brave Origin is a paid version of the browser for users who don't need all the features that support Brave as a business, but still want the privacy that only Brave offers. Origin users will continue to benefit from our industry-leading privacy, adblock, and speed (via Shields), as well as regular software updates, Chromium patches, and security and privacy improvements. Origin will remove most other features from the browser.
     </message>
     <message name="IDS_ORIGIN_DESCRIPTION_NOTE" desc="Brave Origin description note about Search Premium">
-      Note that a Brave Origin purchase will also include access to Brave Search Premium, as Origin will remove ads from the Brave Search results page.
+      Note that a Brave Origin purchase will also include access to Nix Search Premium, as Origin will remove ads from the Brave Search results page.
     </message>
     <message name="IDS_ORIGIN_CHANGING_BRAVE_FEATURES_TITLE" desc="Title for the snackbar shown when toggling a Brave Origin feature">
       Changing Brave features
@@ -3368,7 +3368,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_MANAGE_SUBSCRIPTION_LEO" desc="Brave Leo settings section text">
       Manage Subscription
     </message>
-    <message name="IDS_BRAVE_LEO_PREMIUM" desc="Title for Brave Leo plans dialog">
+    <message name="IDS_BRAVE_LEO_PREMIUM" desc="Title for Nix Leo plans dialog">
       Leo AI Premium
     </message>
     <message name="IDS_ONE_YEAR_SUBSCRIPTION" desc="Brave Leo and Origin yearly plan text">
@@ -3484,7 +3484,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Add media
     </message>
     <message name="IDS_PLAYLIST_ONBOARDING_TITLE_1" desc="Playlist onboarding text">
-      Add videos to Brave Playlist. Playback anytime. Even offline.
+      Add videos to Nix Playlist. Playback anytime. Even offline.
     </message>
     <message name="IDS_PLAYLIST_ONBOARDING_TEXT_1" desc="Playlist onboarding text">
       Make playlists of your favorite content. Save mobile data. And playback ad-free.
@@ -3565,37 +3565,37 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Up next
     </message>
     <!-- End of Playlist strings -->
-    <message name="IDS_LEO_UNLEASH_POWER" desc="Title for Brave Leo subscription purchase">
+    <message name="IDS_LEO_UNLEASH_POWER" desc="Title for Nix Leo subscription purchase">
       Unleash Leo AI's full powers with Premium:
     </message>
-    <message name="IDS_LEO_TIP_EXPLORE_TITLE" desc="Title for Brave Leo subscription Explore tip">
+    <message name="IDS_LEO_TIP_EXPLORE_TITLE" desc="Title for Nix Leo subscription Explore tip">
       Explore different AI models
     </message>
-    <message name="IDS_LEO_TIP_EXPLORE_DESCRIPTION" desc="Description for Brave Leo subscription Explore tip">
+    <message name="IDS_LEO_TIP_EXPLORE_DESCRIPTION" desc="Description for Nix Leo subscription Explore tip">
       Priority access to powerful models with different skills.
     </message>
-    <message name="IDS_LEO_TIP_UNLOCK_TITLE" desc="Title for Brave Leo subscription Unlock tip">
+    <message name="IDS_LEO_TIP_UNLOCK_TITLE" desc="Title for Nix Leo subscription Unlock tip">
       Unlock your creativity
     </message>
-    <message name="IDS_LEO_TIP_UNLOCK_DESCRIPTION" desc="Description for Brave Leo subscription Unlock tip">
+    <message name="IDS_LEO_TIP_UNLOCK_DESCRIPTION" desc="Description for Nix Leo subscription Unlock tip">
       Access models better suited for creative tasks and content generation.
     </message>
-    <message name="IDS_LEO_TIP_STAY_TITLE" desc="Title for Brave Leo subscription Stay on topic tip">
+    <message name="IDS_LEO_TIP_STAY_TITLE" desc="Title for Nix Leo subscription Stay on topic tip">
       Stay on topic
     </message>
-    <message name="IDS_LEO_TIP_STAY_DESCRIPTION" desc="Description for Brave Leo subscription Stay on topic tip">
+    <message name="IDS_LEO_TIP_STAY_DESCRIPTION" desc="Description for Nix Leo subscription Stay on topic tip">
       Get more accurate answers for more nuanced conversations.
     </message>
-    <message name="IDS_LEO_TIP_CHAT_TITLE" desc="Title for Brave Leo subscription Chat for longer tip">
+    <message name="IDS_LEO_TIP_CHAT_TITLE" desc="Title for Nix Leo subscription Chat for longer tip">
       Chat for longer
     </message>
-    <message name="IDS_LEO_TIP_CHAT_DESCRIPTION" desc="Description for Brave Leo subscription Chat for longer tip">
+    <message name="IDS_LEO_TIP_CHAT_DESCRIPTION" desc="Description for Nix Leo subscription Chat for longer tip">
       Get higher rate limits for longer conversations.
     </message>
-    <message name="IDS_LEO_SUBSCRIPTION_DISCLAIMER" desc="Disclaimer for Brave Leo subscription">
+    <message name="IDS_LEO_SUBSCRIPTION_DISCLAIMER" desc="Disclaimer for Nix Leo subscription">
       All subscriptions are auto-renewed but can be\ncancelled at any time before renewal.
     </message>
-    <message name="IDS_LEO_SUBSCRIPTION_TRY_FREE_TRIAL" desc="Try free trial now button for Brave Leo subscription">
+    <message name="IDS_LEO_SUBSCRIPTION_TRY_FREE_TRIAL" desc="Try free trial now button for Nix Leo subscription">
       Try 7 days free
     </message>
     <message name="IDS_LEO_SUBSCRIPTION_PREF" desc="Brave Leo Subscription section">
@@ -3714,7 +3714,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_BRAVE_ORIGIN_PREMIUM" desc="Title for Origin Premium">
       Origin
     </message>
-    <message name="IDS_ORIGIN_BUY_NOW" desc="Buy now button for Brave Origin one-time purchase">
+    <message name="IDS_ORIGIN_BUY_NOW" desc="Buy now button for Nix Origin one-time purchase">
       Buy now
     </message>
     <message name="IDS_ORIGIN_PAYWALL_TEXT_1" desc="Brave Origin paywall text">

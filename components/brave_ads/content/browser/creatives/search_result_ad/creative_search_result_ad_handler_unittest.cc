@@ -29,8 +29,8 @@ namespace brave_ads {
 
 namespace {
 
-constexpr std::string_view kAllowedDomain = "https://search.brave.com";
-constexpr std::string_view kDisallowedDomain = "https://brave.com";
+constexpr std::string_view kAllowedDomain = "https://search.nixbrowser.in";
+constexpr std::string_view kDisallowedDomain = "https://nixbrowser.in";
 
 }  // namespace
 

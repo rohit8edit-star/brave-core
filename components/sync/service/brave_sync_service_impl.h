@@ -144,7 +144,7 @@ class BraveSyncServiceImpl : public SyncServiceImpl {
 
   // This flag is used to separate cases of normal leave the chain procedure and
   // delete account case. When it's a normal leave procedure, we must not call
-  // BraveSyncServiceImpl::StopAndClear from BraveSyncServiceImpl::ResetEngine
+  // BraveSyncServiceImpl::StopAndClear from NixSyncServiceImpl::ResetEngine
   bool initiated_self_device_info_deleted_ = false;
 
   int completed_cycles_count_ = 0;

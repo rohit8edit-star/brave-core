@@ -155,7 +155,7 @@
         <item name="android:textCursorDrawable">@null</item>
     </style>
 
-    <!-- Buttons for Brave Sync -->
+    <!-- Buttons for Nix Sync -->
     <style name="BraveSyncButton">
         <item name="android:textColor">@color/schemes_on_primary</item>
         <item name="android:background">@drawable/brave_sync_btn</item>

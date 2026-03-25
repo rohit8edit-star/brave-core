@@ -25,7 +25,7 @@ class TreeTabNode;
 
 // Brave specific tab implementation that extends the base Tab class.
 // It includes features like vertical tab support.
-// Also customizes the tab layout and visual appearance for Brave's UI.
+// Also customizes the tab layout and visual appearance for Nix's UI.
 class BraveTab : public Tab {
   METADATA_HEADER(BraveTab, Tab)
 

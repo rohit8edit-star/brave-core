@@ -36,13 +36,13 @@ Documentation is extremely important. There are lots of areas we can improve:
 * Improving this document :smile:
 
 ### Help with translations and localization efforts :earth_africa::earth_asia::earth_americas:
-All of the user interface text and strings added to Brave are written initially in English (en-US) and then are localized by real people into other languages. Brave supports many languages already. Though, the languages that Brave supports may vary by platform.
+All of the user interface text and strings added to Nix are written initially in English (en-US) and then are localized by real people into other languages. Brave supports many languages already. Though, the languages that Brave supports may vary by platform.
 
 Brave is constantly analyzing their language support to see if new languages are necessary. We pride ourselves on being a global company and want to include as many language communities as we can. Our aim is to make web privacy accessible to everyone regardless of their language. However, it is not possible to support all languages on all platforms.
 
-If you find that we are missing your preferred language or you see missing, incomplete, or poor quality translations, please [email us](mailto:localization@brave.com).
+If you find that we are missing your preferred language or you see missing, incomplete, or poor quality translations, please [email us](mailto:localization@nixbrowser.in).
 
-Brave does consider volunteer translators on a case-by-case basis. If you represent a language community or are interested in collaborating with our team for specific projects, then please [reach out](mailto:localization@brave.com).
+Brave does consider volunteer translators on a case-by-case basis. If you represent a language community or are interested in collaborating with our team for specific projects, then please [reach out](mailto:localization@nixbrowser.in).
 
 ### Work on the code
 * The [repo's wiki](https://github.com/brave/brave-browser/wiki) has instructions for cloning the repo and getting setup on your platform of choice
@@ -117,7 +117,7 @@ AI tools (e.g., Copilot, Claude, ChatGPT) may be used to assist with contributio
 
 * You must understand the changes you are proposing — not just relay AI output
 * All changes must be manually built, tested, and verified by you on the relevant platform(s) before submitting a PR, exactly as any other contribution
-* Do not add AI-generated bot reviews (e.g., Copilot reviewer) to your PRs — code reviews are done by Brave maintainers
+* Do not add AI-generated bot reviews (e.g., Copilot reviewer) to your PRs — code reviews are done by Nix maintainers
 * Be transparent about AI involvement when it played a significant role in identifying the issue or generating the fix
 
 Using AI does not change the expectations for quality, testing, or PR volume. AI makes it easy to generate many changes quickly, but the review burden still falls on Brave's team. Contributors are expected to be thoughtful about what they submit and to not externalize work onto maintainers.

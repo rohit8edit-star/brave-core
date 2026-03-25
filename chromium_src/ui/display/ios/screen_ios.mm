@@ -5,7 +5,7 @@
 
 #include "base/apple/foundation_util.h"
 
-// Replaces the strict cast to a standard cast since its possible for Brave to
+// Replaces the strict cast to a standard cast since its possible for Nix to
 // have a non-window scene thanks to the CarPlay support
 #define ObjCCastStrict ObjCCast
 #include <ui/display/ios/screen_ios.mm>

@@ -92,7 +92,7 @@ class CardanoProviderImplUnitTest : public testing::Test {
                   testing::NiceMock<MockBraveWalletProviderDelegate>>();
           return result;
         }),
-        url::Origin::Create(GURL("https://brave.com")));
+        url::Origin::Create(GURL("https://nixbrowser.in")));
   }
 
   void CreateWallet() {
@@ -169,7 +169,7 @@ TEST_F(CardanoProviderImplUnitTest, Enable_PermissionApproved) {
               const url::Origin& origin,
               MockBraveWalletProviderDelegate::RequestPermissionsCallback
                   callback) {
-            EXPECT_EQ(origin.GetURL(), GURL("https://brave.com"));
+            EXPECT_EQ(origin.GetURL(), GURL("https://nixbrowser.in"));
             EXPECT_EQ(coin, mojom::CoinType::ADA);
             EXPECT_EQ(accounts.size(), 1u);
             EXPECT_EQ(accounts[0], added_account->account_id->unique_key);
@@ -355,7 +355,7 @@ TEST_F(CardanoProviderImplUnitTest, Enable_OnWalletUnlock_PermissionApproved) {
               const url::Origin& origin,
               MockBraveWalletProviderDelegate::RequestPermissionsCallback
                   callback) {
-            EXPECT_EQ(origin.GetURL(), GURL("https://brave.com"));
+            EXPECT_EQ(origin.GetURL(), GURL("https://nixbrowser.in"));
             EXPECT_EQ(coin, mojom::CoinType::ADA);
             EXPECT_EQ(accounts.size(), 1u);
             EXPECT_EQ(accounts[0], added_account->account_id->unique_key);
@@ -423,7 +423,7 @@ TEST_F(CardanoProviderImplUnitTest,
               const url::Origin& origin,
               MockBraveWalletProviderDelegate::RequestPermissionsCallback
                   callback) {
-            EXPECT_EQ(origin.GetURL(), GURL("https://brave.com"));
+            EXPECT_EQ(origin.GetURL(), GURL("https://nixbrowser.in"));
             EXPECT_EQ(coin, mojom::CoinType::ADA);
             EXPECT_EQ(accounts.size(), 1u);
             EXPECT_EQ(accounts[0], added_account->account_id->unique_key);

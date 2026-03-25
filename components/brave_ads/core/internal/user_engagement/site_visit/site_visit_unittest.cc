@@ -64,7 +64,7 @@ TEST_F(BraveAdsSiteVisitTest, LandOnNewTabPageAdPage) {
   const AdInfo ad = test::BuildAd(mojom::AdType::kNewTabPageAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -83,7 +83,7 @@ TEST_F(BraveAdsSiteVisitTest,
   const AdInfo ad = test::BuildAd(mojom::AdType::kNewTabPageAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -100,7 +100,7 @@ TEST_F(BraveAdsSiteVisitTest, DoNotLandOnNewTabPageAdPageForNonRewardsUser) {
   const AdInfo ad = test::BuildAd(mojom::AdType::kNewTabPageAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -115,7 +115,7 @@ TEST_F(BraveAdsSiteVisitTest, LandOnNotificationAdPage) {
   const AdInfo ad = test::BuildAd(mojom::AdType::kNotificationAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -134,7 +134,7 @@ TEST_F(BraveAdsSiteVisitTest,
   const AdInfo ad = test::BuildAd(mojom::AdType::kNotificationAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -151,7 +151,7 @@ TEST_F(BraveAdsSiteVisitTest, DoNotLandOnNotificationAdPageForNonRewardsUser) {
   const AdInfo ad = test::BuildAd(mojom::AdType::kNotificationAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -185,11 +185,11 @@ TEST_F(BraveAdsSiteVisitTest, DoNotLandOnPageIfTheSameTabIsAlreadyLanding) {
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   SimulateNavigateToURL(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com/about")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in/about")},
                         net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -212,7 +212,7 @@ TEST_F(
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad_1, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad_1, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -229,7 +229,7 @@ TEST_F(
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad_2, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad_2, /*tab_id=*/2,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -282,7 +282,7 @@ TEST_F(
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -323,7 +323,7 @@ TEST_F(
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -363,7 +363,7 @@ TEST_F(BraveAdsSiteVisitTest, DoNotSuspendOrResumePageLand) {
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -400,7 +400,7 @@ TEST_F(
   // Act & Assert
   EXPECT_CALL(site_visit_observer_mock_, OnMaybeLandOnPage).Times(0);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   EXPECT_EQ(0U, GetPendingTaskCount());
 }
@@ -416,7 +416,7 @@ TEST_F(BraveAdsSiteVisitTest,
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad_1, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad_1, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -431,7 +431,7 @@ TEST_F(BraveAdsSiteVisitTest,
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad_2, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad_2, /*tab_id=*/2,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -475,7 +475,7 @@ TEST_F(
   EXPECT_CALL(site_visit_observer_mock_,
               OnMaybeLandOnPage(ad, /*after=*/kPageLandAfter.Get()));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
   ASSERT_EQ(1U, GetPendingTaskCount());
 
@@ -502,7 +502,7 @@ TEST_F(
               OnDidLandOnPage(
                   /*tab_id=*/1, net::HTTP_BAD_REQUEST, ad));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_BAD_REQUEST);
 }
 
@@ -523,7 +523,7 @@ TEST_F(
               OnDidLandOnPage(
                   /*tab_id=*/1, net::HTTP_INTERNAL_SERVER_ERROR, ad));
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_INTERNAL_SERVER_ERROR);
 }
 
@@ -534,13 +534,13 @@ TEST_F(BraveAdsSiteVisitTest, DoNotLandOnPageIfTheTabIsOccluded) {
   const AdInfo ad = test::BuildAd(mojom::AdType::kNotificationAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
   EXPECT_CALL(site_visit_observer_mock_, OnDidLandOnPage).Times(0);
   NotifyTabDidChange(
-      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://brave.com")},
+      /*tab_id=*/1, /*redirect_chain=*/{GURL("https://nixbrowser.in")},
       /*is_new_navigation=*/false, /*is_restoring=*/false,
       /*is_visible=*/false);
   FastForwardClockBy(kPageLandAfter.Get());
@@ -572,7 +572,7 @@ TEST_F(BraveAdsSiteVisitTest,
   const AdInfo ad = test::BuildAd(mojom::AdType::kNotificationAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert
@@ -591,7 +591,7 @@ TEST_F(BraveAdsSiteVisitTest, CancelPageLandIfTheTabIsClosed) {
   const AdInfo ad = test::BuildAd(mojom::AdType::kNotificationAd,
                                   /*use_random_uuids=*/true);
   SimulateClickingAd(ad, /*tab_id=*/1,
-                     /*redirect_chain=*/{GURL("https://brave.com")},
+                     /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                      net::HTTP_OK);
 
   // Act & Assert

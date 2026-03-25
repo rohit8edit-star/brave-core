@@ -18,7 +18,7 @@ class RewardsEngine;
 
 namespace uphold {
 
-inline constexpr char kCardName[] = "Brave Browser";
+inline constexpr char kCardName[] = "Nix Browser";
 
 using CreateCardCallback =
     base::OnceCallback<void(mojom::Result, std::string&& id)>;

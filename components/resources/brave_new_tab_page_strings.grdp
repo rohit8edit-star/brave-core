@@ -13,7 +13,7 @@
     Background Image
   </message>
 
-  <message name="IDS_NEW_TAB_BRAVE_BACKGROUND_LABEL" desc="Label for Brave background option" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_BRAVE_BACKGROUND_LABEL" desc="Label for Nix background option" formatter_data="webui=BraveNewTabPage">
     Brave backgrounds
   </message>
 
@@ -97,11 +97,11 @@
     Hide News
   </message>
 
-  <message name="IDS_NEW_TAB_NEWS_WIDGET_TITLE" desc="Title for Brave News widget" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_NEWS_WIDGET_TITLE" desc="Title for Nix News widget" formatter_data="webui=BraveNewTabPage">
     NEWS
   </message>
 
-  <message name="IDS_NEW_TAB_PHOTO_CREDITS_TEXT" desc="Photographer credits for Brave background images" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_PHOTO_CREDITS_TEXT" desc="Photographer credits for Nix background images" formatter_data="webui=BraveNewTabPage">
     Photo by <ph name="AUTHOR">$1</ph>
   </message>
 
@@ -273,7 +273,7 @@
     Time saved
   </message>
 
-  <message name="IDS_NEW_TAB_STATS_TITLE" desc="Title for Brave Stats widget" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_STATS_TITLE" desc="Title for Nix Stats widget" formatter_data="webui=BraveNewTabPage">
     STATS
   </message>
 
@@ -281,11 +281,11 @@
     About your data
   </message>
 
-  <message name="IDS_NEW_TAB_TALK_DESCRIPTION_TEXT" desc="Description text for Brave Talk widget" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_TALK_DESCRIPTION_TEXT" desc="Description text for Nix Talk widget" formatter_data="webui=BraveNewTabPage">
     Encrypted video calls with Brave Talk
   </message>
 
-  <message name="IDS_NEW_TAB_TALK_DESCRIPTION_TITLE" desc="Description title for Brave Talk widget" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_TALK_DESCRIPTION_TITLE" desc="Description title for Nix Talk widget" formatter_data="webui=BraveNewTabPage">
     Privacy-First Calls
   </message>
 
@@ -293,7 +293,7 @@
     Start call
   </message>
 
-  <message name="IDS_NEW_TAB_TALK_WIDGET_TITLE" desc="Title for Brave Talk NTP widget" formatter_data="webui=BraveNewTabPage">
+  <message name="IDS_NEW_TAB_TALK_WIDGET_TITLE" desc="Title for Nix Talk NTP widget" formatter_data="webui=BraveNewTabPage">
     TALK
   </message>
 

@@ -22,10 +22,10 @@ TEST(BraveWaybackMachineUtilsTest, DisabledURLTest) {
   EXPECT_FALSE(
       IsWaybackMachineEnabledFor(GURL("http://127.0045.1.2:8080/index.html")));
   EXPECT_FALSE(
-      IsWaybackMachineEnabledFor(GURL("view-source:https://www.brave.com")));
+      IsWaybackMachineEnabledFor(GURL("view-source:https://www.nixbrowser.in")));
   EXPECT_TRUE(IsWaybackMachineEnabledFor(GURL("http://www.local-news.com")));
   EXPECT_TRUE(IsWaybackMachineEnabledFor(GURL("http://www.onion-news.com")));
-  EXPECT_TRUE(IsWaybackMachineEnabledFor(GURL("http://www.brave.com")));
+  EXPECT_TRUE(IsWaybackMachineEnabledFor(GURL("http://www.nixbrowser.in")));
   EXPECT_TRUE(
       IsWaybackMachineEnabledFor(GURL("https://archive.org/foobar.html")));
 }

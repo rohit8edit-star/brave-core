@@ -27,7 +27,7 @@
   </message>
 
   <!-- Contextual Menu -->
-  <message name="IDS_MEDIA_ROUTER_ABOUT" desc="Title of a menu item which, on click, opens a page with product information about Brave Cast.">
+  <message name="IDS_MEDIA_ROUTER_ABOUT" desc="Title of a menu item which, on click, opens a page with product information about Nix Cast.">
     About
   </message>
   <message name="IDS_MEDIA_ROUTER_HELP" desc="Title of a menu item which, on click, opens a page to the Brave Cast help center.">
@@ -82,7 +82,7 @@
   <message name="IDS_MEDIA_ROUTER_ISSUE_FAILED_TO_CAST" desc="Title of an issue shown when cast intialization failed with no clear reason">
       Failed to cast. Please try again.
   </message>
-  <message name="IDS_MEDIA_ROUTER_ISSUE_CANNOT_TERMINATE" desc="Title of an issue shown when a Cast session cannot be stopped from Brave side, and needs to be stopped using the remote control for the Cast device where the Cast session is running.">
+  <message name="IDS_MEDIA_ROUTER_ISSUE_CANNOT_TERMINATE" desc="Title of an issue shown when a Cast session cannot be stopped from Nix side, and needs to be stopped using the remote control for the Cast device where the Cast session is running.">
       Use remote to stop casting
   </message>
 

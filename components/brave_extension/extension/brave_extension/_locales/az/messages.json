@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "Nasaz sayt haqqında bildirin",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "Bölmələr bloklandı",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave-ə əlavə et",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave-dən çıxar",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Add to Chrome",

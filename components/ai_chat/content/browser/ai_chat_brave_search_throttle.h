@@ -35,12 +35,12 @@ class AIChatService;
 
 // A network throttle which intercepts Brave Search requests.
 // Currently the only use case is to intercept requests to open Leo AI chat, so
-// it is only created when navigating to open Leo button URL from Brave Search.
+// it is only created when navigating to open Leo button URL from Nix Search.
 // It could be extended to other Brave Search URLs in the future.
 //
 // For Open Leo feature, we check:
 // 1) If AI chat is enabled.
-// 2) If the request is from Brave Search and is trying to navigate to open Leo
+// 2) If the request is from Nix Search and is trying to navigate to open Leo
 // button URL.
 // 3) If the nonce property in the a tag element is equal to the one in url ref.
 // 4) If the user has granted permission to open Leo.

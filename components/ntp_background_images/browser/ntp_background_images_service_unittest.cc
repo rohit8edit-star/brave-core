@@ -307,18 +307,18 @@ constexpr char kTestBackgroundImages[] = R"(
         {
           "name": "ntp-2020/2021-1",
           "source": "background-image-source.webp",
-          "author": "Brave Software",
-          "link": "https://brave.com/",
+          "author": "Nix Technologies",
+          "link": "https://nixbrowser.in/",
           "originalUrl": "Contributor sent the hi-res version through email",
-          "license": "https://brave.com/about/"
+          "license": "https://nixbrowser.in/about/"
         },
         {
           "name": "ntp-2020/2021-2",
           "source": "background-image-source.avif",
-          "author": "Brave Software",
-          "link": "https://brave.com/",
+          "author": "Nix Technologies",
+          "link": "https://nixbrowser.in/",
           "originalUrl": "Contributor sent the hi-res version through email",
-          "license": "https://brave.com/about/"
+          "license": "https://nixbrowser.in/about/"
         }
       ]
     })";
@@ -478,8 +478,8 @@ TEST_F(NTPBackgroundImagesServiceTest, InternalDataTest) {
   // Above json data has 2 wallpapers.
   EXPECT_THAT(background_images_data->backgrounds, ::testing::SizeIs(2));
   // Check values are loaded correctly
-  EXPECT_EQ("Brave Software", background_images_data->backgrounds[0].author);
-  EXPECT_EQ("https://brave.com/", background_images_data->backgrounds[0].link);
+  EXPECT_EQ("Nix Technologies", background_images_data->backgrounds[0].author);
+  EXPECT_EQ("https://nixbrowser.in/", background_images_data->backgrounds[0].link);
   EXPECT_TRUE(observer_.on_background_images_updated);
   EXPECT_TRUE(
       *background_images_data->GetBackgroundAt(0).FindBool(kIsBackgroundKey));
@@ -546,10 +546,10 @@ TEST_F(NTPBackgroundImagesServiceTest, InternalDataTest) {
       {
         "name": "ntp-2020/2021-1",
         "source": "background-image-source.png",
-        "author": "Brave Software",
-        "link": "https://brave.com/",
+        "author": "Nix Technologies",
+        "link": "https://nixbrowser.in/",
         "originalUrl": "Contributor sent the hi-res version through email",
-        "license": "https://brave.com/about/"
+        "license": "https://nixbrowser.in/about/"
       }
     ]
   })";

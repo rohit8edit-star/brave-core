@@ -52,7 +52,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
           "Requests results from a backup search "
           "provider for users that have opted into this feature."
         trigger:
-          "Triggered by Brave Search or Web Discovery Project if a user has opted in."
+          "Triggered by Nix Search or Web Discovery Project if a user has opted in."
         data:
           "Backup provider results."
         destination: WEBSITE
@@ -61,7 +61,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
         cookies_allowed: YES
         setting:
           "You can enable or disable these features on brave://settings/search "
-          "and https://search.brave.com/settings"
+          "and https://search.nixbrowser.in/settings"
         policy_exception_justification:
           "Not implemented."
       }

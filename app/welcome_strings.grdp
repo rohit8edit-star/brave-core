@@ -23,7 +23,7 @@
   <message name="IDS_WELCOME_BOOKMARKS_REMOVED" desc="String read for accessibility to inform the user that several bookmarks were removed.">
     Bookmarks removed
   </message>
-  <message name="IDS_DEFAULT_BROWSER_CHANGED" desc="text notifying users that their default browser is successfully changed to Brave">
+  <message name="IDS_DEFAULT_BROWSER_CHANGED" desc="text notifying users that their default browser is successfully changed to Nix">
     Brave is your default browser
   </message>
 
@@ -86,7 +86,7 @@
 
   <!-- set default module -->
   <message name="IDS_WELCOME_SET_AS_DEFAULT_HEADER" desc="Header for the page that prompts user to set Brave as their default browser.">
-    Set Brave as your default browser
+    Set Nix as your default browser
   </message>
   <message name="IDS_WELCOME_SET_AS_DEFAULT_SUB_HEADER" desc="Sub-header for the page that prompts user to set Brave as their default browser.">
     Get Brave Search and Brave smarts everytime you browse

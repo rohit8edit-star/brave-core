@@ -26,7 +26,7 @@ IN_PROC_BROWSER_TEST_F(BraveSettingsUIBrowserTest, GuestProfileLoadsSettings) {
   ASSERT_NE(guest_browser, nullptr);
 
   // Navigate to settings - this should trigger all BindInterface calls
-  // including the one for BraveOriginSettingsHandler which needs to handle
+  // including the one for NixOriginSettingsHandler which needs to handle
   // a null service for guest profiles
   ASSERT_TRUE(
       ui_test_utils::NavigateToURL(guest_browser, GURL("chrome://settings/")));

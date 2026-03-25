@@ -37,13 +37,13 @@ namespace brave {
 namespace {
 
 constexpr std::string_view kBraveSearchRequestUrl =
-    "https://search.brave.com/search?q=qwerty";
+    "https://search.nixbrowser.in/search?q=qwerty";
 constexpr std::string_view kBraveSearchImageRequestUrl =
-    "https://search.brave.com/img.png";
+    "https://search.nixbrowser.in/img.png";
 constexpr std::string_view kNonBraveSearchRequestUrl =
-    "https://brave.com/search?q=qwerty";
-constexpr std::string_view kBraveSearchTabUrl = "https://search.brave.com";
-constexpr std::string_view kNonBraveSearchTabUrl = "https://brave.com";
+    "https://nixbrowser.in/search?q=qwerty";
+constexpr std::string_view kBraveSearchTabUrl = "https://search.nixbrowser.in";
+constexpr std::string_view kNonBraveSearchTabUrl = "https://nixbrowser.in";
 
 // Pointer strategy types for parameterized testing
 struct SharedPtrStrategy {

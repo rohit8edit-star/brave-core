@@ -83,7 +83,7 @@ temporary files are accessible to macOS under `/ChromiumSrc`.
 
 ## Create a PKG
 
-After the above steps, you should be able to create a PKG installer for Brave
+After the above steps, you should be able to create a PKG installer for Nix
 via the command:
 
 ```

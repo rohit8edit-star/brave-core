@@ -68,8 +68,8 @@ TEST(DebounceRuleUnitTest, CheckBaseCase) {
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
     CheckApplyResult(rule.get(),
-                     GURL("https://test.com/https://brave.com/test/abc.jpg"),
-                     "https://brave.com/test/abc.jpg", false);
+                     GURL("https://test.com/https://nixbrowser.in/test/abc.jpg"),
+                     "https://nixbrowser.in/test/abc.jpg", false);
   }
 }
 
@@ -88,7 +88,7 @@ TEST(DebounceRuleUnitTest, MalformedParam) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://nixbrowser.in"), "",
                      true);
   }
 }
@@ -102,13 +102,13 @@ TEST(DebounceRuleUnitTest, ParamCapturesNoStrings) {
           "exclude": [
           ],
           "action": "regex-path",
-          "param": "brave.com"
+          "param": "nixbrowser.in"
       }]
       )json";
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://nixbrowser.in"), "",
                      true);
   }
 }
@@ -128,7 +128,7 @@ TEST(DebounceRuleUnitTest, ParamCapturesMoreThanOneString) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://nixbrowser.in"), "",
                      true);
   }
 }
@@ -148,7 +148,7 @@ TEST(DebounceRuleUnitTest, ParamCapturesNonURLNoPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", true);
+    CheckApplyResult(rule.get(), GURL("https://test.com/nixbrowser.in"), "", true);
   }
 }
 
@@ -168,8 +168,8 @@ TEST(DebounceRuleUnitTest, ParamCapturesNonURLWithPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"),
-                     "http://brave.com/", false);
+    CheckApplyResult(rule.get(), GURL("https://test.com/nixbrowser.in"),
+                     "http://nixbrowser.in/", false);
   }
 }
 
@@ -189,8 +189,8 @@ TEST(DebounceRuleUnitTest, TwoCaptureGroups) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com/xyz/abc.jpg"),
-                     "https://brave.com/abc.jpg", false);
+    CheckApplyResult(rule.get(), GURL("https://test.com/nixbrowser.in/xyz/abc.jpg"),
+                     "https://nixbrowser.in/abc.jpg", false);
   }
 }
 
@@ -230,8 +230,8 @@ TEST(DebounceRuleUnitTest, ThreeCaptureGroups) {
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
     CheckApplyResult(
         rule.get(),
-        GURL("https://test.com/turbo/brave.com/xyz/2022/xyzzy/abc.jpg"),
-        "https://brave.com/2022/abc.jpg", false);
+        GURL("https://test.com/turbo/nixbrowser.in/xyz/2022/xyzzy/abc.jpg"),
+        "https://nixbrowser.in/2022/abc.jpg", false);
   }
 }
 
@@ -251,7 +251,7 @@ TEST(DebounceRuleUnitTest, ParamCapturesURLWithPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/https://brave.com"), "",
+    CheckApplyResult(rule.get(), GURL("https://test.com/https://nixbrowser.in"), "",
                      true);
   }
 }
@@ -272,7 +272,7 @@ TEST(DebounceRuleUnitTest, IncorrectPrependScheme) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", true);
+    CheckApplyResult(rule.get(), GURL("https://test.com/nixbrowser.in"), "", true);
   }
 }
 
@@ -294,14 +294,14 @@ TEST(DebounceRuleUnitTest, PrefToggle) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", &prefs,
+    CheckApplyResult(rule.get(), GURL("https://test.com/nixbrowser.in"), "", &prefs,
                      true);
   }
   prefs.SetBoolean("brave.de_amp.enabled", true);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/http://brave.com"),
-                     "http://brave.com/", &prefs, false);
+    CheckApplyResult(rule.get(), GURL("https://test.com/http://nixbrowser.in"),
+                     "http://nixbrowser.in/", &prefs, false);
   }
 }
 
@@ -321,7 +321,7 @@ TEST(DebounceRuleUnitTest, PrefDoesNotExist) {
   std::vector<std::unique_ptr<DebounceRule>> rules = StringToRules(contents);
 
   for (const std::unique_ptr<DebounceRule>& rule : rules) {
-    CheckApplyResult(rule.get(), GURL("https://test.com/brave.com"), "", true);
+    CheckApplyResult(rule.get(), GURL("https://test.com/nixbrowser.in"), "", true);
   }
 }
 
@@ -472,8 +472,8 @@ TEST(DebounceRuleUnitTest, RejectUrlsWithoutValidEtldPlusOne) {
 
     // Valid eTLD+1 should still work
     CheckApplyResult(rule.get(),
-                     GURL("https://example.ampproject.org/c/s/brave.com"),
-                     "https://brave.com/", false);
+                     GURL("https://example.ampproject.org/c/s/nixbrowser.in"),
+                     "https://nixbrowser.in/", false);
   }
 }
 

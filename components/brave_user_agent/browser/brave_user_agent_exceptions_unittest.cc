@@ -31,7 +31,7 @@ TEST_F(BraveUserAgentExceptionsUnitTest, TestCanShowBraveDomainsNotLoaded) {
 
   auto* brave_user_agent_exceptions = BraveUserAgentExceptions::GetInstance();
   // Excepted domains not loaded; default to true.
-  GURL url = GURL("https://brave.com");
+  GURL url = GURL("https://nixbrowser.in");
   ASSERT_TRUE(brave_user_agent_exceptions->CanShowBrave(url));
 }
 
@@ -44,7 +44,7 @@ TEST_F(BraveUserAgentExceptionsUnitTest, TestCanShowBraveDomainsLoaded) {
 
   // Load excepted domains to hide brave
   const char* excepted_domains = R""""(
-    brave.com
+    nixbrowser.in
     site.example
     )"""";
   base::ScopedTempDir temp_dir_;
@@ -59,9 +59,9 @@ TEST_F(BraveUserAgentExceptionsUnitTest, TestCanShowBraveDomainsLoaded) {
 
   // Test excepted domains (hide we are Brave)
   ASSERT_FALSE(
-      brave_user_agent_exceptions->CanShowBrave(GURL("https://brave.com")));
+      brave_user_agent_exceptions->CanShowBrave(GURL("https://nixbrowser.in")));
   ASSERT_FALSE(brave_user_agent_exceptions->CanShowBrave(
-      GURL("https://brave.com/privacy")));
+      GURL("https://nixbrowser.in/privacy")));
   ASSERT_FALSE(
       brave_user_agent_exceptions->CanShowBrave(GURL("https://site.example")));
   // Test other domains (show we are Brave)

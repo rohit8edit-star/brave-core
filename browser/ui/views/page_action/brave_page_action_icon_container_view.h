@@ -13,7 +13,7 @@ class BravePageActionIconContainerView : public PageActionIconContainerView {
  public:
 
   // Unfortunately, |PageActionIconParams| can't not be copied or moved. So drop
-  // const qualifier to modify |param| for Brave.
+  // const qualifier to modify |param| for Nix.
   explicit BravePageActionIconContainerView(PageActionIconParams& param);
   ~BravePageActionIconContainerView() override;
 };

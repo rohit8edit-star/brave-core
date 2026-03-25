@@ -68,11 +68,11 @@ class BraveServiceKeyNetworkDelegateBrowserTest : public InProcessBrowserTest {
 
 IN_PROC_BROWSER_TEST_F(BraveServiceKeyNetworkDelegateBrowserTest,
                        NotIncludesBraveServiceKey) {
-  GURL target = https_server().GetURL("notbrave.com", "/index.html");
+  GURL target = https_server().GetURL("notnixbrowser.in", "/index.html");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), target));
   EXPECT_FALSE(header_result());
 
-  target = https_server().GetURL("brave.com", "/index.html");
+  target = https_server().GetURL("nixbrowser.in", "/index.html");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), target));
   EXPECT_FALSE(header_result());
 
@@ -84,7 +84,7 @@ IN_PROC_BROWSER_TEST_F(BraveServiceKeyNetworkDelegateBrowserTest,
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), target));
   EXPECT_FALSE(header_result());
 
-  target = https_server().GetURL("demo.brave.com", "/index.html");
+  target = https_server().GetURL("demo.nixbrowser.in", "/index.html");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), target));
   EXPECT_FALSE(header_result());
 

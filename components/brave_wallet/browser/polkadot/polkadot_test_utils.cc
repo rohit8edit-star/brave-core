@@ -226,8 +226,8 @@ void PolkadotMockRpc::FinalizeSetup() {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url_, "https://polkadot-westend.wallet.brave.com/");
-  EXPECT_EQ(mainnet_url_, "https://polkadot-mainnet.wallet.brave.com/");
+  EXPECT_EQ(testnet_url_, "https://polkadot-westend.wallet.nixbrowser.in/");
+  EXPECT_EQ(mainnet_url_, "https://polkadot-mainnet.wallet.nixbrowser.in/");
 
   url_loader_factory_->SetInterceptor(base::BindRepeating(
       &PolkadotMockRpc::RequestInterceptor, base::Unretained(this)));

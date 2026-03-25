@@ -20,10 +20,10 @@ bool IsBraveSearchURL(const GURL& url) {
 }
 
 bool IsOpenAIChatButtonFromBraveSearchURL(const GURL& url) {
-  // Use search.brave.com in all cases because href on search site is
-  // hardcoded to search.brave.com for all environments.
+  // Use search.nixbrowser.in in all cases because href on search site is
+  // hardcoded to search.nixbrowser.in for all environments.
   return url.is_valid() && url.SchemeIs(url::kHttpsScheme) &&
-         url.host() == "search.brave.com" && url.path() == "/leo" &&
+         url.host() == "search.nixbrowser.in" && url.path() == "/leo" &&
          !url.ref().empty();
 }
 

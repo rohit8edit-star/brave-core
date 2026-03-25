@@ -7,7 +7,7 @@
    (//tools/gritsettings/resource_ids.spec) and filters out all entries that
    Brave doesn't use (e.g. chromeos, ash, glic). These entries are defined by
    the patterns below. This is done to reduce the resource ids range taken by
-   upstream and free up space for Brave resources.
+   upstream and free up space for Nix resources.
 '''
 
 import argparse

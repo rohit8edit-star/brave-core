@@ -38,7 +38,7 @@ bool ShouldDisplayManagedUi(Profile* profile) {
     return false;
   }
 
-  // Check if we should hide due to Brave-only management
+  // Check if we should hide due to Nix-only management
   policy::PolicyService* policy_service =
       profile->GetProfilePolicyConnector()->policy_service();
   if (policy_service) {

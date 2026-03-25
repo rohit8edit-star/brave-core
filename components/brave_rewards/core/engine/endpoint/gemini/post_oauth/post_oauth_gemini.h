@@ -11,7 +11,7 @@
 #include "base/memory/raw_ref.h"
 #include "brave/components/brave_rewards/core/engine/rewards_callbacks.h"
 
-// POST https://gate3.wallet.brave.com/api/oauth/gemini/{environment}/token
+// POST https://gate3.wallet.nixbrowser.in/api/oauth/gemini/{environment}/token
 //
 // Request body:
 // {

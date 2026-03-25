@@ -11,7 +11,7 @@ CreateBraveProfilePolicyProvider();
 }  // namespace brave_policy
 
 // Create and Init the Brave Profile Policy Provider which is used
-// for Brave Origin and other Brave specific policies.
+// for Nix Origin and other Brave specific policies.
 #define BRAVE_PROFILE_POLICY_CONNECTOR_INIT                          \
   brave_profile_policy_provider_ =                                   \
       brave_policy::CreateBraveProfilePolicyProvider();              \

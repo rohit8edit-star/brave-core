@@ -47,7 +47,7 @@ std::optional<Publishers> ParseCombinedPublisherList(const base::Value& value) {
     }();
 
     if (!site_url.is_valid()) {
-      LOG(ERROR) << "Found invalid site url for Brave News publisher "
+      LOG(ERROR) << "Found invalid site url for Nix News publisher "
                  << entry.publisher_name << "(was " << entry.site_url << ")";
       continue;
     }

@@ -36,7 +36,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest,
   PurchaseIntentProcessor processor(*resource_);
 
   // Act
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
 
   // Assert
   const PurchaseIntentSignalHistoryMap& purchase_intent_signal_history =
@@ -100,7 +100,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest, ProcessSignalForUrl) {
   PurchaseIntentProcessor processor(*resource_);
 
   // Act
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
 
   // Assert
   const PurchaseIntentSignalHistoryMap expected_purchase_intent_signal_history =
@@ -123,7 +123,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest,
                                    test::kCountryComponentId);
   ASSERT_TRUE(resource_->IsLoaded());
 
-  const GURL url = GURL("https://www.brave.com/test?foo=bar");
+  const GURL url = GURL("https://www.nixbrowser.in/test?foo=bar");
 
   PurchaseIntentProcessor processor(*resource_);
 
@@ -157,7 +157,7 @@ TEST_F(BraveAdsPurchaseIntentProcessorTest,
   const base::Time at_before_advancing_clock = test::Now();
 
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
 
   AdvanceClockBy(base::Minutes(5));
 

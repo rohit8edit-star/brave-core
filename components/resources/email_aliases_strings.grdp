@@ -133,13 +133,13 @@
     No email provided
   </message>
   <message name="IDS_EMAIL_ALIASES_ERROR_INVALID_RESPONSE_BODY">
-    Invalid response from Brave Accounts service
+    Invalid response from Nix Accounts service
   </message>
   <message name="IDS_EMAIL_ALIASES_ERROR_NO_VERIFICATION_TOKEN">
-    No verification token received from Brave Accounts service
+    No verification token received from Nix Accounts service
   </message>
   <message name="IDS_EMAIL_ALIASES_ERROR_NO_RESPONSE_BODY">
-    No response from Brave Accounts service
+    No response from Nix Accounts service
   </message>
   <message name="IDS_EMAIL_ALIASES_ERROR_VERIFICATION_FAILED">
     Email verification failed

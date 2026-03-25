@@ -375,7 +375,7 @@ TEST(OaiParsingTest, ParseToolCallResult_WebSourcesOutput) {
           {
             "title": "Example Site",
             "url": "https://example.com",
-            "favicon": "https://imgs.search.brave.com/icon.png"
+            "favicon": "https://imgs.search.nixbrowser.in/icon.png"
           }
         ],
         "query": "test search"
@@ -404,7 +404,7 @@ TEST(OaiParsingTest, ParseToolCallResult_WebSourcesOutput) {
   EXPECT_EQ(sources_event->sources[0]->title, "Example Site");
   EXPECT_EQ(sources_event->sources[0]->url.spec(), "https://example.com/");
   EXPECT_EQ(sources_event->sources[0]->favicon_url.spec(),
-            "https://imgs.search.brave.com/icon.png");
+            "https://imgs.search.nixbrowser.in/icon.png");
 
   // Third event: SearchQueriesEvent
   ASSERT_TRUE(events[2]->is_search_queries_event());
@@ -531,7 +531,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesType) {
       {
         "title": "Site 1",
         "url": "https://site1.com",
-        "favicon": "https://imgs.search.brave.com/favicon1.png",
+        "favicon": "https://imgs.search.nixbrowser.in/favicon1.png",
         "page_content": "page content",
         "extra_snippets": ["snippet 1", "snippet 2"]
       },
@@ -566,7 +566,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesType) {
   EXPECT_EQ(web_sources->sources[0]->title, "Site 1");
   EXPECT_EQ(web_sources->sources[0]->url.spec(), "https://site1.com/");
   EXPECT_EQ(web_sources->sources[0]->favicon_url.spec(),
-            "https://imgs.search.brave.com/favicon1.png");
+            "https://imgs.search.nixbrowser.in/favicon1.png");
   EXPECT_EQ(web_sources->sources[0]->page_content, "page content");
   ASSERT_TRUE(web_sources->sources[0]->extra_snippets.has_value());
   EXPECT_EQ(web_sources->sources[0]->extra_snippets->size(), 2u);
@@ -597,7 +597,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesInvalidFavicon) {
       {
         "title": "Valid Source",
         "url": "https://valid.com",
-        "favicon": "https://imgs.search.brave.com/valid.png"
+        "favicon": "https://imgs.search.nixbrowser.in/valid.png"
       },
       {
         "title": "Invalid Favicon Host",
@@ -607,7 +607,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesInvalidFavicon) {
       {
         "title": "Invalid Favicon Scheme",
         "url": "https://another.com",
-        "favicon": "http://imgs.search.brave.com/insecure.png"
+        "favicon": "http://imgs.search.nixbrowser.in/insecure.png"
       }
     ]
   })";
@@ -826,7 +826,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesWithRichResults) {
       {
         "title": "Example Source",
         "url": "https://example.com",
-        "favicon": "https://imgs.search.brave.com/favicon.ico"
+        "favicon": "https://imgs.search.nixbrowser.in/favicon.ico"
       }
     ],
     "query": "test query",
@@ -839,7 +839,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesWithRichResults) {
       {
         "type": "video",
         "url": "https://video.example.com",
-        "thumbnail": "https://imgs.search.brave.com/thumb.jpg"
+        "thumbnail": "https://imgs.search.nixbrowser.in/thumb.jpg"
       }
     ]
   })";
@@ -864,7 +864,7 @@ TEST(OaiParsingTest, ParseContentBlockFromDict_WebSourcesWithRichResults) {
   EXPECT_THAT(web_sources->rich_results[1], base::test::IsJson(R"({
     "type": "video",
     "url": "https://video.example.com",
-    "thumbnail": "https://imgs.search.brave.com/thumb.jpg"
+    "thumbnail": "https://imgs.search.nixbrowser.in/thumb.jpg"
   })"));
 }
 
@@ -1468,7 +1468,7 @@ TEST(OaiParsingTest, ParseToolCallsFromOAIResponse_ToolResult) {
                     {
                       "title": "Weather.com",
                       "url": "https://weather.com",
-                      "favicon": "https://imgs.search.brave.com/weather.ico"
+                      "favicon": "https://imgs.search.nixbrowser.in/weather.ico"
                     }
                   ],
                   %s
@@ -1490,7 +1490,7 @@ TEST(OaiParsingTest, ParseToolCallsFromOAIResponse_ToolResult) {
     std::vector<mojom::WebSourcePtr> sources;
     sources.push_back(
         mojom::WebSource::New("Weather.com", GURL("https://weather.com"),
-                              GURL("https://imgs.search.brave.com/weather.ico"),
+                              GURL("https://imgs.search.nixbrowser.in/weather.ico"),
                               std::nullopt, std::nullopt));
     std::vector<mojom::ContentBlockPtr> output;
     output.push_back(mojom::ContentBlock::NewWebSourcesContentBlock(
@@ -1507,7 +1507,7 @@ TEST(OaiParsingTest, ParseToolCallsFromOAIResponse_ToolResult) {
     std::vector<mojom::WebSourcePtr> expected_sources;
     expected_sources.push_back(
         mojom::WebSource::New("Weather.com", GURL("https://weather.com"),
-                              GURL("https://imgs.search.brave.com/weather.ico"),
+                              GURL("https://imgs.search.nixbrowser.in/weather.ico"),
                               std::nullopt, std::nullopt));
     auto expected_sources_event =
         mojom::ConversationEntryEvent::NewSourcesEvent(

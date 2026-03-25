@@ -116,7 +116,7 @@ std::unique_ptr<StateProvider> CreateBraveStateProvider(
     return std::make_unique<BraveGuestStateProvider>(profile, state_observer);
   }
 
-  NOTREACHED() << "Unsupported profile type for BraveStateProvider";
+  NOTREACHED() << "Unsupported profile type for NixStateProvider";
 }
 
 }  // namespace

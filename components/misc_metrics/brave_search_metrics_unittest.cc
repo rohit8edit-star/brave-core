@@ -63,7 +63,7 @@ class BraveSearchMetricsUnitTest : public testing::Test {
   base::HistogramTester histogram_tester_;
   std::unique_ptr<BraveSearchMetrics> brave_search_metrics_;
 
-  const GURL brave_search_url_{"https://search.brave.com/search?q=test"};
+  const GURL brave_search_url_{"https://search.nixbrowser.in/search?q=test"};
   const GURL empty_url_;
 };
 
@@ -164,7 +164,7 @@ TEST_F(BraveSearchMetricsUnitTest, DailyQueriesEngineSwitch) {
   histogram_tester_.ExpectTotalCount(
       kSearchDailyQueriesYahooDefaultHistogramName, 0);
 
-  // Switch to Brave Search.
+  // Switch to Nix Search.
   SetDefaultSearchEngine(TemplateURLPrepopulateData::brave_search);
 
   // Record 8 queries under Brave default.

@@ -42,7 +42,7 @@
     Skills isn't available
   </message>
   <message name="IDS_SKILLS_ERROR_PAGE_DESCRIPTION" desc="Description of the error page that occurs when chrome://skills is not accessible" translateable="false">
-    To use Skills, sign in to Brave with a Brave account that has Gemini in Brave enabled
+    To use Skills, sign in to Nix with a Brave account that has Gemini in Brave enabled
   </message>
   <message name="IDS_SKILLS_NO_SEARCH_RESULT_TITLE" desc="Title of the page that occurs when chrome://skills has no search results" translateable="false">
     No search results

@@ -195,7 +195,7 @@
   },
   {
     "include": [
-      "*://brave.com/*"
+      "*://nixbrowser.in/*"
     ],
     "pref": "brave.de_amp.enabled",
     "exclude": [

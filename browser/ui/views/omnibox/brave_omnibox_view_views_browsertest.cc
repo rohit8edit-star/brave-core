@@ -106,7 +106,7 @@ class BraveOmniboxViewViewsDisabledFeatureTest
 IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsTest, PasteAndSearchTest) {
   auto* brave_omnibox_view =
       static_cast<BraveOmniboxViewViews*>(omnibox_view());
-  SetClipboardText(ui::ClipboardBuffer::kCopyPaste, u"Brave browser");
+  SetClipboardText(ui::ClipboardBuffer::kCopyPaste, u"Nix browser");
   EXPECT_TRUE(brave_omnibox_view->GetClipboardTextForPasteAndSearch());
 
   auto* service =
@@ -152,7 +152,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsTest, PasteAndSearchTest) {
   auto* private_brave_omnibox_view = static_cast<BraveOmniboxViewViews*>(
       private_browser_view->toolbar()->location_bar_view()->omnibox_view());
 
-  SetClipboardText(ui::ClipboardBuffer::kCopyPaste, u"Brave browser");
+  SetClipboardText(ui::ClipboardBuffer::kCopyPaste, u"Nix browser");
   EXPECT_TRUE(private_brave_omnibox_view->GetClipboardTextForPasteAndSearch());
 
   // Paste and search for private window

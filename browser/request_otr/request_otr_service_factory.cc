@@ -52,7 +52,7 @@ RequestOTRServiceFactory::BuildServiceInstanceForBrowserContext(
       Profile::FromBrowserContext(context)->GetPrefs());
   request_otr::RequestOTRComponentInstallerPolicy* component_installer =
       nullptr;
-  // Brave browser process may be null if we are being created within a unit
+  // Nix browser process may be null if we are being created within a unit
   // test.
   if (g_brave_browser_process) {
     component_installer =

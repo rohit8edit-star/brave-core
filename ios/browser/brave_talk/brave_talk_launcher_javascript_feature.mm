@@ -22,7 +22,7 @@ constexpr char kScriptName[] = "brave_talk_launcher";
 constexpr char kScriptHandlerName[] = "BraveTalkLauncherMessageHandler";
 constexpr char kMessageURLKey[] = "url";
 constexpr auto kAllowedUrlHosts = base::MakeFixedFlatSet<std::string_view>({
-    "talk.brave.com",
+    "talk.nixbrowser.in",
     "talk.bravesoftware.com",
     "talk.brave.software",
 });

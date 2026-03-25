@@ -6,7 +6,7 @@
 #include "base/metrics/histogram_functions.h"
 
 // Scrubs out the histogramming overload for UmaHistogramEnumeration to
-// avoid crash from Brave-specific commands.
+// avoid crash from Nix-specific commands.
 #define UmaHistogramEnumeration(...) DoNothing()
 
 #include <chrome/browser/ui/views/download/download_ui_context_menu_view.cc>

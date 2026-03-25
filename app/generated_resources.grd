@@ -489,13 +489,13 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_HISTORY_OPEN_TABS_MENU_ITEM" desc="Label displayed in history sidebar button to display synced tabs from other devices.">
         Tabs from other devices
       </message>
-      <message name="IDS_HISTORY_TURN_ON_SYNC_BUTTON" desc="Label displayed on a button to let user turn on sync or sign in to Brave to get synced tab history.">
+      <message name="IDS_HISTORY_TURN_ON_SYNC_BUTTON" desc="Label displayed on a button to let user turn on sync or sign in to Nix to get synced tab history.">
         Turn on sync
       </message>
       <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO" desc="Text of the turn on sync/sign-in promo. This will show up if a user is not logged in and has no synced tabs.">
         Continue from another device
       </message>
-      <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO_DESC" desc="Description of the turn on sync/sign-in promo. Further tells users to turn o sync/sign in to Brave to see synced tabs from other devices.">
+      <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO_DESC" desc="Description of the turn on sync/sign-in promo. Further tells users to turn o sync/sign in to Nix to see synced tabs from other devices.">
         To get your tabs from your other devices, turn on sync
       </message>
 
@@ -514,7 +514,7 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_RECENT_TABS_SYNC_HISTORY_PROMO_BODY_SIGNED_IN_SYNC_OFF" desc="Body of the sync hystory promo for signed in users with sync turned off.">
         To get your tabs from your other devices, sync your history and tabs to <ph name="ACCOUNT_EMAIL">$1<ex>john@google.com</ex></ph>. You can stop syncing anytime in settings. Brave may personalize Search and other services based on your history.
       </message>
-      <message name="IDS_HISTORY_SYNC_HISTORY_BUTTON" desc="Label displayed on a button to let user turn on sync history or sign in to Brave to get synced tab history.">
+      <message name="IDS_HISTORY_SYNC_HISTORY_BUTTON" desc="Label displayed on a button to let user turn on sync history or sign in to Nix to get synced tab history.">
         Sync history
       </message>
 
@@ -587,8 +587,8 @@ are declared in tools/grit/grit_args.gni.
         <message name="IDS_CONTENT_CONTEXT_INSPECTELEMENT_WITH_DEVTOOLS" desc="Context menu item for inspecting the element with DevTools.">
           With DevTools
         </message>
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_DIALOG_TITLE" desc="The title of a dialog that asks whether to integrate the accessibility image labeling service of Brave to Brave.">
-          Get image descriptions from Brave?
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_DIALOG_TITLE" desc="The title of a dialog that asks whether to integrate the accessibility image labeling service of Brave to Nix.">
+          Get image descriptions from Nix?
         </message>
         <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_ENABLE" desc="The button text that allows integrating the accessibility labels service of Brave. This should use the same verb as IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND.">
           Yes, I'm in
@@ -842,19 +842,19 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_CONTENT_CONTEXT_ADD_TO_DICTIONARY" desc="The name of the Add to dictionary command in the content area context menu">
             &amp;Add to dictionary
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Brave to Brave.">
-            Get image descriptions from Brave
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Brave to Nix.">
+            Get image descriptions from Nix
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Brave always.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Nix always.">
             Always
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND_ONCE" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Brave, for a single use.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND_ONCE" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Nix, for a single use.">
             Just once
           </message>
           <message name="IDS_CONTENT_CONTEXT_RUN_LAYOUT_EXTRACTION" desc="The context-menu item that runs a local machine intelligence model to extract visual layout semantics.">
            Recognize visual layout semantics
           </message>
-          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="The context-menu item that asks whether to integrate the spelling service of Brave to Brave.">
+          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="The context-menu item that asks whether to integrate the spelling service of Brave to Nix.">
             Use enhanced spell check
           </message>
           <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TITLE" desc="The title of the confirmation modal that pops up when the user turns on 'Use enhanced spell check'">
@@ -870,7 +870,7 @@ are declared in tools/grit/grit_args.gni.
             Loading suggestion
           </message>
           <message name="IDS_CONTENT_CONTEXT_SPELLING_NO_SUGGESTIONS_FROM_GOOGLE" desc="The message shown when we cannot get any more suggestions from the Spelling service">
-            No more suggestions from Brave
+            No more suggestions from Nix
           </message>
           <message name="IDS_CONTENT_CONTEXT_SELECTALL" desc="The name of the Select All command in the content area context menu">
             Select &amp;all
@@ -1175,13 +1175,13 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_CONTENT_CONTEXT_ADD_TO_DICTIONARY" desc="In Title Case: The name of the Add to dictionary command in the content area context menu">
             &amp;Add to Dictionary
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Brave to Brave.">
-            Get Image Descriptions from Brave
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_MENU_OPTION" desc="The context-menu item that asks whether to integrate the accessibility image labeling service of Brave to Nix.">
+            Get Image Descriptions from Nix
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Brave always.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Nix always.">
             Always
           </message>
-          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND_ONCE" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Brave, for a single use.">
+          <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_SEND_ONCE" desc="The context-menu sub-item that asks whether to integrate the accessibility image labeling service of Brave to Nix, for a single use.">
             Just Once
           </message>
           <message name="IDS_CONTENT_CONTEXT_PDF_OCR_MENU_OPTION" desc="The context-menu item that asks whether to use the PDF OCR service to convert image to text.">
@@ -1190,7 +1190,7 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_CONTENT_CONTEXT_RUN_LAYOUT_EXTRACTION" desc="In Title Case: The context-menu item that runs a local machine intelligence model to extract visual layout semantics.">
            Recognize Visual Layout Semantics
           </message>
-          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="In Title Case: The context-menu item that asks whether to integrate the spelling service of Brave to Brave.">
+          <message name="IDS_CONTENT_CONTEXT_SPELLING_ASK_GOOGLE" desc="In Title Case: The context-menu item that asks whether to integrate the spelling service of Brave to Nix.">
             Use Enhanced Spell Check
           </message>
           <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TITLE" desc="The title of the confirmation modal that pops up when the user turns on 'Use enhanced spell check'">
@@ -1206,7 +1206,7 @@ are declared in tools/grit/grit_args.gni.
             Loading suggestion
           </message>
           <message name="IDS_CONTENT_CONTEXT_SPELLING_NO_SUGGESTIONS_FROM_GOOGLE" desc="The message shown when we cannot get any more suggestions from the Spelling service">
-            No more suggestions from Brave
+            No more suggestions from Nix
           </message>
           <message name="IDS_CONTENT_CONTEXT_SELECTALL" desc="In Title Case: The name of the Select All command in the content area context menu">
             Select &amp;All
@@ -2223,22 +2223,22 @@ are declared in tools/grit/grit_args.gni.
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> can't be downloaded securely
       </message>
       <message name="IDS_PROMPT_APP_DEEP_SCANNING" desc="Message shown in the download shelf when Brave recommends uploading the file for additional scanning">
-        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Brave Advanced Protection for scanning?
+        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Nix Advanced Protection for scanning?
       </message>
         <message name="IDS_PROMPT_DEEP_SCANNING" desc="Message shown in the download shelf for all Advanced Protection and Enhanced Safe Browsing users when Brave recommends uploading the file for additional scanning.">
-        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Brave for scanning?
+        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Nix for scanning?
       </message>
       <message name="IDS_BLOCK_REASON_UNCOMMON_DOWNLOAD_IN_ADVANCED_PROTECTION" desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is uncommon. This variant is shown when the user is enrolled in the Advanced Protection program.">
         This file was blocked by Advanced Protection.
       </message>
       <message name="IDS_BLOCK_REASON_DEEP_SCANNING_UPDATED" desc="Message shown on chrome://downloads when a download is being scanned">
-        This file might be a virus or malware. You can send it to Brave to check if it's unsafe.
+        This file might be a virus or malware. You can send it to Nix to check if it's unsafe.
       </message>
       <message name="IDS_BLOCK_REASON_DEEP_SCANNING_SECOND_UPDATED" desc="Second line of the message shown on chrome://downloads when a download is being scanned. Follows IDS_BLOCK_REASON_DEEP_SCANNING_UPDATED">
         Scanning for malware...
       </message>
       <message name="IDS_BLOCK_REASON_PROMPT_FOR_SCANNING_UPDATED" desc="Message shown to the user on chrome://downloads page to explain that this download is recommended to be scanned.">
-        This file might be a virus or malware. You can send it to Brave to check if it's unsafe.
+        This file might be a virus or malware. You can send it to Nix to check if it's unsafe.
       </message>
       <message name="IDS_BLOCK_REASON_PROMPT_FOR_LOCAL_PASSWORD_SCANNING" desc="Message shown to the user on chrome://downloads page to explain that this download is recommended to be scanned.">
         This file may be dangerous
@@ -2296,7 +2296,7 @@ are declared in tools/grit/grit_args.gni.
       </if>
 
       <if expr="is_chromeos">
-        <message name="IDS_PROMPT_SEND_TO_SAFEBROWSING_DOWNLOAD_TITLE" desc="In the download notification, a title of message shown indicating that the file may be malicious and Safe Browsing recommends sending the file to Brave">
+        <message name="IDS_PROMPT_SEND_TO_SAFEBROWSING_DOWNLOAD_TITLE" desc="In the download notification, a title of message shown indicating that the file may be malicious and Safe Browsing recommends sending the file to Nix">
           Scan file before opening?
         </message>
       </if>
@@ -2510,10 +2510,10 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DOWNLOAD_PAUSED_ACCESSIBLE_ALERT" desc="The title of a download notification: the current download status is paused. This message is for screen reader users.">
                 Download paused: <ph name="FILE_NAME">$1<ex>somedocument.pdf</ex></ph>.
       </message>
-      <message name="IDS_PROMPT_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious and Safe Browsing recommends sending the file to Brave. This message is for screen reader users">
-        <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> may be dangerous. Send to Brave for scanning?
+      <message name="IDS_PROMPT_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious and Safe Browsing recommends sending the file to Nix. This message is for screen reader users">
+        <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> may be dangerous. Send to Nix for scanning?
       </message>
-      <message name="IDS_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Brave. This message is for screen reader users">
+      <message name="IDS_DEEP_SCANNING_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the file may be malicious, and the Advanced Protection Program recommends sending the file to Nix. This message is for screen reader users">
         <ph name="FILE_NAME">$1<ex>file.exe</ex></ph> is being scanned.
       </message>
       <message name="IDS_PROMPT_DOWNLOAD_INSECURE_BLOCKED_ACCESSIBLE_ALERT" desc="The title of a download notification indicating that the download was delivered insecurely. This message is for screen reader users">
@@ -3057,10 +3057,10 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW" desc="Text shown on the download bubble to allow users to never show the bubble at download completion">
         Don't show when downloads finish
       </message>
-      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER" desc="Text shown on the download bubble to remind users they can customize whether the bubble appears from Brave settings">
+      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER" desc="Text shown on the download bubble to remind users they can customize whether the bubble appears from Nix settings">
         You can change this anytime in <ph name="SETTINGS_LINK">$1<ex>settings</ex></ph>
       </message>
-      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_LINK" desc="Link text to Brave settings in the download bubble, within IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER">
+      <message name="IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_LINK" desc="Link text to Nix settings in the download bubble, within IDS_DOWNLOAD_BUBBLE_SUPPRESS_PARTIAL_VIEW_SETTINGS_REMINDER">
         settings
       </message>
       <message name="IDS_DOWNLOAD_BUBBLE_TOOLTIP_IN_PROGRESS_COUNT" desc="Tooltip text for the download toolbar button, displayed when there are one or more downloads in progress.">
@@ -3734,16 +3734,16 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_EARLY_PROMO" desc="Text of the blocked notifications indicator promo, that shows under the blocked notifications indicator in the address bar. The promo follows the user action of blocking notifications for the site they are visiting, and informs the user that we (Brave) understood that they do not usually accept notification prompts, and we will automatically block notification prompts in the future.">
         Got it. By default, new sites that you visit won't send you notifications.
       </message>
-      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Subtitle for the Notifications permission prompt, shown when a user clicks on a site's notifications permission request that is automatically blocked by Brave, as this permission prompt is often denied by other users for this site.">
+      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Subtitle for the Notifications permission prompt, shown when a user clicks on a site's notifications permission request that is automatically blocked by Nix, as this permission prompt is often denied by other users for this site.">
         Most people block notifications from this site
       </message>
-      <message name="IDS_GEOLOCATION_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Subtitle for the Geolocation permission prompt, shown when a user clicks on a site's geolocation permission request that is automatically blocked by Brave, as this permission prompt is often denied by other users for this site.">
+      <message name="IDS_GEOLOCATION_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Subtitle for the Geolocation permission prompt, shown when a user clicks on a site's geolocation permission request that is automatically blocked by Nix, as this permission prompt is often denied by other users for this site.">
         Most people block sharing precise location for this site
       </message>
-      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_ABUSIVE_DESCRIPTION" desc="Subtitle for the Notifications permission prompt, shown when a user clicks on a site's notifications permission request that is automatically blocked by Brave because the site is known to employ dark patterns to trick users into accepting the permission.">
+      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_ABUSIVE_DESCRIPTION" desc="Subtitle for the Notifications permission prompt, shown when a user clicks on a site's notifications permission request that is automatically blocked by Nix because the site is known to employ dark patterns to trick users into accepting the permission.">
         This site may be trying to trick you into allowing intrusive notifications
       </message>
-      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_DISRUPTIVE_DESCRIPTION" desc="Subtitle for the Notifications permission prompt, shown when a user clicks on a site's notifications permission request that was automatically blocked by Brave because the site may engage in disruptive notification permission usage practices.">
+      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_DISRUPTIVE_DESCRIPTION" desc="Subtitle for the Notifications permission prompt, shown when a user clicks on a site's notifications permission request that was automatically blocked by Nix because the site may engage in disruptive notification permission usage practices.">
         Notifications from this site may be disruptive
       </message>
       <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_PREDICTION_SERVICE_DESCRIPTION" desc="Text used as notification message when requesting permission for Web Notifications via a notification. Used when the prediction service has decided that the user will be very unlikely to grant this permission.">
@@ -4639,7 +4639,7 @@ are declared in tools/grit/grit_args.gni.
         <message name="IDS_TASK_MANAGER_JAVASCRIPT_MEMORY_ALLOCATED_COLUMN" desc="Task manager JavaScript memory allocated column.  Shows the amount of memory used by JavaScript within a process">
           JavaScript memory
         </message>
-        <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to Brave extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
+        <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to Nix extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
           Keepalive count
         </message>
       </if>
@@ -4713,7 +4713,7 @@ are declared in tools/grit/grit_args.gni.
         <message name="IDS_TASK_MANAGER_JAVASCRIPT_MEMORY_ALLOCATED_COLUMN" desc="Task manager JavaScript memory allocated column.  Shows the amount of memory used by JavaScript within a process">
           JavaScript Memory
         </message>
-        <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to Brave extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
+        <message name="IDS_TASK_MANAGER_KEEPALIVE_COUNT_COLUMN" desc="Task manager keepalive count column.  Specific to Nix extension processes, and only to those which use 'lazy' event pages, this indicates how many activities are making use of the extension, and therefore causing it to be kept alive.">
           Keepalive Count
         </message>
       </if>
@@ -4948,10 +4948,10 @@ are declared in tools/grit/grit_args.gni.
       </if>
 
       <!-- Extension/App install prompt -->
-      <message name="IDS_APP_UNINSTALL_PROMPT_TITLE" desc="Titlebar of the non-platform app and ARC(App Runtime for Brave) app uninstallation prompt window">
+      <message name="IDS_APP_UNINSTALL_PROMPT_TITLE" desc="Titlebar of the non-platform app and ARC(App Runtime for Nix) app uninstallation prompt window">
         Uninstall app?
       </message>
-      <message name="IDS_ARC_APP_UNINSTALL_PROMPT_DATA_REMOVAL_WARNING" desc="Line in the content area of the ARC(App Runtime for Brave) app uninstallation prompt. Tells the user that local data associated with the app will be removed from this device.">
+      <message name="IDS_ARC_APP_UNINSTALL_PROMPT_DATA_REMOVAL_WARNING" desc="Line in the content area of the ARC(App Runtime for Nix) app uninstallation prompt. Tells the user that local data associated with the app will be removed from this device.">
         Data associated with this app will be removed from this device.
       </message>
       <message name="IDS_EXTENSION_UNINSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app uninstallation prompt window">
@@ -5544,9 +5544,9 @@ are declared in tools/grit/grit_args.gni.
         </message>
       </if>
 
-      <!-- Extension requests sign in to Brave through chrome.identity API -->
+      <!-- Extension requests sign in to Nix through chrome.identity API -->
       <if expr="enable_extensions">
-        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_BODY_PART_2" desc="This string is the second paragraph of the body of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Brave to be able to use their Brave sync chain.">
+        <message name="IDS_EXTENSION_ASKS_IDENTITY_WHILE_SIGNED_IN_WEB_ONLY_BODY_PART_2" desc="This string is the second paragraph of the body of a dialog intended to inform the user that one of their installed extensions wants them to sign in to Nix to be able to use their Brave sync chain.">
           You’ll also get your passwords and more from your Brave sync chain.
         </message>
       </if>
@@ -5605,7 +5605,7 @@ are declared in tools/grit/grit_args.gni.
         </message>
         <!-- End of Sync Promo strings for Desktop Identity Consistency. -->
 
-        <message name="IDS_EXTENSION_VERIFY_PROMO_SUBTITLE" desc="This is the body text of a confirmation message and means that the extension is in an account-pending storage. In other words, it's waiting to be uploaded to the user's Brave sync chain. It appears when the user was signed in to Brave with account storage for extensions enabled but their sign-in credentials have expired; now, they need to sign back in to Brave. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
+        <message name="IDS_EXTENSION_VERIFY_PROMO_SUBTITLE" desc="This is the body text of a confirmation message and means that the extension is in an account-pending storage. In other words, it's waiting to be uploaded to the user's Brave sync chain. It appears when the user was signed in to Nix with account storage for extensions enabled but their sign-in credentials have expired; now, they need to sign back in to Nix. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
           To get this extension on all your computers, verify it’s you
         </message>
       </if>
@@ -6007,7 +6007,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_EXTENSION_PROMPT_UNINSTALL_TITLE" desc="Title text for removing an extension.">
         Remove "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?
       </message>
-      <message name="IDS_EXTENSION_PROMPT_UNINSTALL_APP_BUTTON" desc="Text for the uninstall button on the non-platform app and ARC(App Runtime for Brave) app uninstall prompt">
+      <message name="IDS_EXTENSION_PROMPT_UNINSTALL_APP_BUTTON" desc="Text for the uninstall button on the non-platform app and ARC(App Runtime for Nix) app uninstall prompt">
         Uninstall
       </message>
       <!-- Remove multiple extension dialog extension name bullet poinit -->
@@ -6095,7 +6095,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Another program on your computer added a theme that may change the way Brave works.
       </message>
 
-      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Brave without the user's knowledge">
+      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Nix without the user's knowledge">
         This extension is not listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
       </message>
       <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE_LEARN_MORE" desc="Text read by screen readers for a link labeled 'Learn more' that links to a Help article about disabled extensions.">
@@ -6141,8 +6141,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_EXTENSION_NTP_OVERRIDDEN_DIALOG_TITLE_GENERIC" desc="The title of the dialog informing the user that the new tab page has been overridden by an extension.">
         Did you mean to change this page?
       </message>
-      <message name="IDS_EXTENSION_NTP_OVERRIDDEN_DIALOG_TITLE_BACK_TO_GOOGLE" desc="The title of the dialog informing the user that the new tab page has been overridden by an extension, and asking if they want to change back to Brave.">
-        Change back to Brave?
+      <message name="IDS_EXTENSION_NTP_OVERRIDDEN_DIALOG_TITLE_BACK_TO_GOOGLE" desc="The title of the dialog informing the user that the new tab page has been overridden by an extension, and asking if they want to change back to Nix.">
+        Change back to Nix?
       </message>
       <message name="IDS_EXTENSION_NTP_OVERRIDDEN_DIALOG_BODY_GENERIC" desc="The body of the dialog informing the user that the new tab page has been overridden by an extension, indicating which extension now controls it.">
         This page was changed by the "<ph name="EXTENSION_NAME">$1<ex>Brave Arts and Culture</ex></ph>" extension
@@ -6150,8 +6150,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_EXTENSION_SEARCH_OVERRIDDEN_DIALOG_TITLE_GENERIC" desc="The title of the dialog informing the user that the default search engine has been overridden by an extension.">
         Did you mean to change your search provider?
       </message>
-      <message name="IDS_EXTENSION_SEARCH_OVERRIDDEN_DIALOG_TITLE_BACK_TO_GOOGLE" desc="The title of the dialog informing the user that the default search engine has been overridden by an extension, and asking if they want to change back to Brave.">
-        Change back to Brave Search?
+      <message name="IDS_EXTENSION_SEARCH_OVERRIDDEN_DIALOG_TITLE_BACK_TO_GOOGLE" desc="The title of the dialog informing the user that the default search engine has been overridden by an extension, and asking if they want to change back to Nix.">
+        Change back to Nix Search?
       </message>
       <message name="IDS_EXTENSION_SEARCH_OVERRIDDEN_DIALOG_TITLE_BACK_TO_OTHER" desc="The title of the dialog informing the user that the default search engine has been overridden by an extension, and asking if they want to change back to their old provider.">
         Change back to <ph name="OLD_SEARCH_PROVIDER">$1<ex>DuckDuckGo</ex></ph>?
@@ -6622,7 +6622,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <message name="IDS_APP_HOME_REMOVE_APP" desc="Menu entry label for removing an app from context menu on App Home that isn't locally installed">
-        Remove from Brave
+        Remove from Nix
       </message>
 
       <message name="IDS_APP_HOME_APP_SETTINGS" desc="Menu entry label for navigation to App Settings page for an app from context menu on App Home">
@@ -6804,7 +6804,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_UPDATE_PASSWORD_DIFFERENT_DOMAINS_TITLE" desc="The title of the update password bubble when the submitted form origin isn't equal to saved credentials origin.">
         Update password for <ph name="ORIGIN">$1<ex>example.com</ex></ph>?
       </message>
-      <message name="IDS_SAVE_PASSWORD_FOOTER" desc="The footer text of the bubble that offers user to save a password to Brave.">
+      <message name="IDS_SAVE_PASSWORD_FOOTER" desc="The footer text of the bubble that offers user to save a password to Nix.">
         Passwords are saved in your Brave sync chain so you can use them on any device
       </message>
       <message name="IDS_PASSWORD_BUBBLES_PASSWORD_MANAGER_LINK_TEXT_SYNCED_TO_ACCOUNT" desc="The text of the Brave Password Manager links displayed on Password Manager bubbles footer when the credentials are synced to the Brave account.">
@@ -7230,8 +7230,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
         <message name="IDS_ABOUT_BOX_ERROR_DURING_UPDATE_CHECK" desc="The error label for errors that occurred while checking for updates in the About box.">
           An error occurred while checking for updates: <ph name="ERROR">$1<ex>Unable to contact Brave Update</ex></ph>
         </message>
-        <message name="IDS_ABOUT_BOX_GOOGLE_UPDATE_ERROR" desc="An error message from Brave Update with details.">
-          <ph name="ERROR">$1<ex>An error message from Brave Update.</ex></ph> (error code <ph name="ERROR_CODE">$2<ex>7: 0x80000005</ex></ph>).
+        <message name="IDS_ABOUT_BOX_GOOGLE_UPDATE_ERROR" desc="An error message from Nix Update with details.">
+          <ph name="ERROR">$1<ex>An error message from Nix Update.</ex></ph> (error code <ph name="ERROR_CODE">$2<ex>7: 0x80000005</ex></ph>).
         </message>
       </if>
       <if expr="is_win">
@@ -8648,7 +8648,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         You can manage settings from the card menu or see more options in Customize Brave.
       </message>
       <message name="IDS_NTP_MODULES_GOOGLE_CALENDAR_MORE_ACTIONS" desc="Text shown on the tooltip for the 3 dot menu on the Brave Calendar card on the NTP.">
-        More actions for Brave Calendar
+        More actions for Nix Calendar
       </message>
       <message name="IDS_NTP_MODULES_GOOGLE_CALENDAR_TITLE" desc="Title of the Brave Calendar module shown in various UIs for Customize Brave and the NTP." meaning="Title of feature for showing a glimpse of a user's Google Calendar.">
         Brave Calendar
@@ -10620,7 +10620,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
          Enhance your browser with extensions
       </message>
       <message name="IDS_EXTENSIONS_ZERO_STATE_PROMO_CUSTOM_ACTION_IPH_DESCRIPTION" desc="Body text shown on the promotional UI appearing when the user has no extensions installed.">
-         Extensions are add-ons to Brave that can help you stay organized, simplify tasks, and customize your browsing
+         Extensions are add-ons to Nix that can help you stay organized, simplify tasks, and customize your browsing
       </message>
       <message name="IDS_EXTENSIONS_ZERO_STATE_PROMO_CUSTOM_ACTION_IPH_ACCEPT" desc="Text on the custom action button that opens a new tab to the Web Store.">
          Discover extensions
@@ -11080,22 +11080,22 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           You can save this password in your Brave sync chain or only on this device
         </message>
         <message name="IDS_PASSWORDS_SAVE_PRIMING_PROMO_BODY_TEMPLATE" is_accessibility_with_no_ui="true" desc="Placeholder for string to be shown for IPH prompting users to consider saving passwords">
-          <ph name="message">$1<ex>Use Brave Password Manager to sign in faster</ex></ph>
+          <ph name="message">$1<ex>Use Nix Password Manager to sign in faster</ex></ph>
         </message>
         <message name="IDS_PASSWORDS_SAVE_PRIMING_PROMO_BODY_SIGNED_IN" desc="Body of IPH prompting users to consider saving passwords">
-          Use Brave Password Manager to sign in faster to sites from any of your devices
+          Use Nix Password Manager to sign in faster to sites from any of your devices
         </message>
         <message name="IDS_PASSWORDS_SAVE_PRIMING_PROMO_BODY_NOT_SIGNED_IN" desc="Body of IPH prompting users to consider saving passwords">
-          To save strong passwords with Brave Password Manager, sign in to Brave
+          To save strong passwords with Brave Password Manager, sign in to Nix
         </message>
         <message name="IDS_PASSWORDS_SAVE_PRIMING_PROMO_SCREENREADER" is_accessibility_with_no_ui="true" desc="Screenreader text for IPH prompting users to consider saving passwords">
-          You can save passwords with Brave Password Manager when you are signed in to Brave
+          You can save passwords with Brave Password Manager when you are signed in to Nix
         </message>
         <message name="IDS_PASSWORDS_SAVE_RECOVERY_PROMO_BODY" desc="Body of IPH prompting users to reconsider saving passwords">
-          To save your password to Brave Password Manager, click the key
+          To save your password to Nix Password Manager, click the key
         </message>
         <message name="IDS_PASSWORDS_SAVE_RECOVERY_PROMO_SCREENREADER" is_accessibility_with_no_ui="true" desc="Screenreader text for IPH prompting users to reconsider saving passwords">
-          To save your password to Brave Password Manager, the Password Manager icon in the Location Bar
+          To save your password to Nix Password Manager, the Password Manager icon in the Location Bar
         </message>
         <message name="IDS_PASSWORD_MANAGER_TOOLTIP_BLOCKED" desc="Text for the 'Manage Passwords' when the user has blocked saving passwords for this site">
           Never for this site
@@ -11193,7 +11193,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           Use a passkey on a different device
         </message>
         <message name="IDS_PASSWORD_GENERATION_DIALOG_DESCRIPTION_BRANDED" desc="Text for password generation dialog, explaining that the password will be saved in Brave sync chain. Unified Password Manager branded variant.">
-          You won’t need to remember this password. It will be saved to Brave Password Manager for <ph name="ACCOUNT">$1<ex>user@gmail.com</ex></ph>.
+          You won’t need to remember this password. It will be saved to Nix Password Manager for <ph name="ACCOUNT">$1<ex>user@gmail.com</ex></ph>.
         </message>
         <message name="IDS_CONFIRM_USERNAME_DIALOG_TITLE" desc="The title of the confirm username dialog." formatter_data="android_java">
           Confirm your username
@@ -11280,7 +11280,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         </message>
         <if expr="use_titlecase">
           <message name="IDS_FEEDBACK_REPORT_PAGE_TITLE" desc="Label showing the title of the page that will be reported">
-            Send Feedback to Brave
+            Send Feedback to Nix
           </message>
           <message name="IDS_FEEDBACK_REPORT_PAGE_TITLE_SAD_TAB_FLOW" desc="Label showing the title of the feedback app window when the crash report has been requested from the 'Aw, Snap!' page">
             Describe What You Were Doing When The Tab Crashed
@@ -11288,7 +11288,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         </if>
         <if expr="not use_titlecase">
           <message name="IDS_FEEDBACK_REPORT_PAGE_TITLE" desc="Label showing the title of the page that will be reported">
-            Send feedback to Brave
+            Send feedback to Nix
           </message>
           <message name="IDS_FEEDBACK_REPORT_PAGE_TITLE_SAD_TAB_FLOW" desc="Label showing the title of the feedback app window when the crash report has been requested from the 'Aw, Snap!' page">
             Describe what you were doing when the tab crashed
@@ -11304,7 +11304,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           Describe the issue in detail
         </message>
         <message name="IDS_FEEDBACK_FREE_TEXT_AI_LABEL" desc="Label of the text box where users can describe a problem they are having for AI">
-          Describe the issue in detail. Feedback will be sent to Brave for human review and may be used for improving or developing Brave products and services.
+          Describe the issue in detail. Feedback will be sent to Nix for human review and may be used for improving or developing Brave products and services.
         </message>
         <message name="IDS_FEEDBACK_REPORT_URL_LABEL" desc="Label showing the URL that will be reported">
           URL
@@ -11344,7 +11344,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           </message>
         </if>
         <message name="IDS_FEEDBACK_ATTACH_FILE_NOTE" desc="Text for describing the maximum size for an attached file">
-          File will be sent to Brave for debugging
+          File will be sent to Nix for debugging
         </message>
         <message name="IDS_FEEDBACK_ATTACH_FILE_LABEL" desc="Text for the label for the attached filename">
           Attach file
@@ -11364,7 +11364,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           Include my server logs.
         </message>
         <message name="IDS_FEEDBACK_PRIVACY_NOTE" desc="Text for the privacy note included in the feedback app">
-          Go to the <ph name="BEGIN_LINK1">&lt;a href="#" id="legal-help-page-url"&gt;</ph>Legal Help page<ph name="END_LINK1">&lt;/a&gt;</ph> to request content changes for legal reasons.  Some account and system information may be sent to Brave.  We will use the information you give us to help address technical issues and to improve our services, subject to our <ph name="BEGIN_LINK2">&lt;a href="#" id="privacy-policy-url"&gt;</ph>Privacy Policy<ph name="END_LINK2">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK3">&lt;a href="#" id="terms-of-service-url"&gt;</ph>Terms of Service<ph name="END_LINK3">&lt;/a&gt;</ph>.
+          Go to the <ph name="BEGIN_LINK1">&lt;a href="#" id="legal-help-page-url"&gt;</ph>Legal Help page<ph name="END_LINK1">&lt;/a&gt;</ph> to request content changes for legal reasons.  Some account and system information may be sent to Nix.  We will use the information you give us to help address technical issues and to improve our services, subject to our <ph name="BEGIN_LINK2">&lt;a href="#" id="privacy-policy-url"&gt;</ph>Privacy Policy<ph name="END_LINK2">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK3">&lt;a href="#" id="terms-of-service-url"&gt;</ph>Terms of Service<ph name="END_LINK3">&lt;/a&gt;</ph>.
         </message>
         <message name="IDS_FEEDBACK_NO_DESCRIPTION" desc="Message shown when no text is entered before hitting send feedback">
           Please describe the problem before sending feedback.
@@ -11394,7 +11394,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         Delete browsing data
       </message>
       <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE" desc="A dialog informing the user that their Brave browsing history was deleted, but other forms of history can still be found on Brave My Activity.">
-        The selected data has been removed from Brave and synced devices. Your Brave sync chain may have other forms of browsing history like searches and activity from other Brave services at <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;</ph>.
+        The selected data has been removed from Nix and synced devices. Your Brave sync chain may have other forms of browsing history like searches and activity from other Brave services at <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;</ph>.
       </message>
       <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_NOTICE_TITLE" desc="Title of a dialog that informs the user that the deletion of Brave's browsing data has been completed.">
         Deleted Brave data
@@ -11429,7 +11429,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         A site is playing media
       </message>
 
-      <message name="IDS_ZOOMLEVELS_CHROME_ERROR_PAGES_LABEL" desc="Label for zoom level list entry for Brave error pages.">
+      <message name="IDS_ZOOMLEVELS_CHROME_ERROR_PAGES_LABEL" desc="Label for zoom level list entry for Nix error pages.">
         (Brave error pages)
       </message>
 
@@ -12073,7 +12073,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         This feature uses AI and won't always get it right
       </message>
       <message name="IDS_TAB_ORGANIZATION_NOT_STARTED_BODY_FRE_BULLET_2" desc="Text of the second bullet point in the tab organization UI first run experience not started state">
-        Your tabs, page titles, and URLs are sent to Brave
+        Your tabs, page titles, and URLs are sent to Nix
       </message>
       <message name="IDS_TAB_ORGANIZATION_NOT_STARTED_BODY_FRE_BULLET_3" desc="Text of the third bullet point in the tab organization UI first run experience not started state">
         Data may be seen by trained reviewers to improve this feature
@@ -12136,7 +12136,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         Launch tab group tutorial
       </message>
       <message name="IDS_TAB_ORGANIZATION_DISCLAIMER_1" desc="The first block of disclaimer text in the tab organization UI results state for getting more information">
-        Your tab titles and URLs are sent to Brave and may be seen by human reviewers to improve this feature.
+        Your tab titles and URLs are sent to Nix and may be seen by human reviewers to improve this feature.
       </message>
       <message name="IDS_TAB_ORGANIZATION_DISCLAIMER_2" desc="The second block of disclaimer text in the tab organization UI results state for getting more information">
         This is an experimental AI feature and won't always get it right.
@@ -12947,7 +12947,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           Collaborate with others
         </message>
         <message name="IDS_DATA_SHARING_NEED_SIGN_IN_AND_SYNC_HISTORY_BODY" desc="The body of dialog that prompts users to sign in and opt in to history sync.">
-          To share tabs and collaborate with others, sign in to Brave and sync your history and tabs. You’ll also get your passwords and more on all your devices.
+          To share tabs and collaborate with others, sign in to Nix and sync your history and tabs. You’ll also get your passwords and more on all your devices.
         </message>
         <message name="IDS_DATA_SHARING_NEED_SYNC_HISTORY_BODY" desc="The body of dialog that prompts users to sign in and opt in to history sync.">
           To share tabs and collaborate with others, sync your history and tabs to <ph name="EMAIL">$1<ex>foo@gmail.com</ex></ph>
@@ -12974,7 +12974,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           Make sure you trust the person that sent this invitation
         </message>
         <message name="IDS_DATA_SHARING_ORGANIZATION_DISALLOW_SIGN_IN_BODY" desc="The body text of the organization disallowing signin dialog.">
-          To share or join tab groups, you must be able to sign in to Brave
+          To share or join tab groups, you must be able to sign in to Nix
         </message>
         <message name="IDS_DATA_SHARING_ORGANIZATION_LIMIT_SAVE_BODY" desc="The body text of the organization limiting saving to account dialog.">
           When your organization limits saving to your Brave sync chain, you can’t share or join tab groups
@@ -12982,7 +12982,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         <message name="IDS_DATA_SHARING_SIGNED_OUT_BODY" desc="The body text of the dialog that prompts users to allow Brave sign in.">
           To share, join, and collaborate in tab groups, open settings and turn on Allow Brave sign-in
         </message>
-        <message name="IDS_DATA_SHARING_SETTINGS" desc="The generic text on buttons that take users to Brave settings page.">
+        <message name="IDS_DATA_SHARING_SETTINGS" desc="The generic text on buttons that take users to Nix settings page.">
           Settings
         </message>
         <message name="IDS_DATA_SHARING_GROUP_FULL_BODY" desc="The body text of the group being full dialog when joining.">
@@ -13266,7 +13266,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
 
       <!-- First-run dialog -->
       <message name="IDS_FR_ENABLE_LOGGING" desc="The label of the checkbox to enable/disable crash and user metrics logging">
-        Automatically send usage statistics and crash reports to Brave
+        Automatically send usage statistics and crash reports to Nix
       </message>
 
       <!-- Mac First-run dialog messages -->
@@ -13274,8 +13274,8 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         <message name="IDS_FIRSTRUN_DLG_MAC_COMPLETE_INSTALLATION_LABEL" desc="Label at top of Dialog noting what's going to happen">
           <ph name="PRODUCT_NAME">$1<ex>Nix</ex></ph> is ready to complete your installation
         </message>
-        <message name="IDS_FIRSTRUN_DLG_MAC_OPTIONS_SEND_USAGE_STATS_LABEL" desc="Label for checkbox to ask whether to send usage stats to Brave">
-          Help make <ph name="PRODUCT_NAME">$1<ex>Nix</ex></ph> better by automatically sending usage statistics and crash reports to Brave
+        <message name="IDS_FIRSTRUN_DLG_MAC_OPTIONS_SEND_USAGE_STATS_LABEL" desc="Label for checkbox to ask whether to send usage stats to Nix">
+          Help make <ph name="PRODUCT_NAME">$1<ex>Nix</ex></ph> better by automatically sending usage statistics and crash reports to Nix
         </message>
         <message name="IDS_FIRSTRUN_DLG_MAC_START_CHROME_BUTTON" desc="Button to Start Brave">
           Start <ph name="PRODUCT_NAME">$1<ex>Nix</ex></ph>
@@ -13423,7 +13423,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
           This extension violates the Web Store policy.
         </message>
         <message name="IDS_EXTENSIONS_BLOCKLISTED_POTENTIALLY_UNWANTED" desc="The text explaining the reason for disabling extension or app. The extension in question might have been installed without user consent.">
-          Disabled by Brave. This extension may be unsafe.
+          Disabled by Nix. This extension may be unsafe.
         </message>
 
         <!-- Enhanced Safe Browsing CRX allowlist warning -->
@@ -13589,10 +13589,10 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave P
         <ph name="BEGIN_LINK">$1</ph>Your devices<ph name="END_LINK">$2</ph> · <ph name="EMAIL">$3<ex>foo@gmail.com</ex></ph>
       </message>
       <message name="IDS_SEND_TAB_TO_SELF_SIGN_IN_PROMO_LABEL" desc="Text when a signed out user attempts to use send-tab-to-self, then sees a sign-in promo.">
-        To send this tab to another device, sign in to Brave on both devices
+        To send this tab to another device, sign in to Nix on both devices
       </message>
       <message name="IDS_SEND_TAB_TO_SELF_NO_TARGET_DEVICE_LABEL" desc="Text shown when a user with no available target devices attempts to use send-tab-to-self.">
-        To send this tab to another device, sign in to Brave there
+        To send this tab to another device, sign in to Nix there
       </message>
 
       <!-- Share via QR Code strings -->
@@ -14517,7 +14517,7 @@ This can include information about installed software, files, your browser, the 
             <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_STAY_HERE_BUTTON_LABEL" desc="Label of the cancel button in the web signin interception bubble">
               Stay Here
             </message>
-            <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE_SUPERVISED" desc="This string is the title of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
+            <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE_SUPERVISED" desc="This string is the title of a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
               Be Safer Online
             </message>
           </then>
@@ -14534,7 +14534,7 @@ This can include information about installed software, files, your browser, the 
             <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_STAY_HERE_BUTTON_LABEL" desc="Label of the cancel button in the web signin interception bubble">
               Stay here
             </message>
-            <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE_SUPERVISED" desc="This string is the title of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
+            <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_TITLE_SUPERVISED" desc="This string is the title of a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
               Be safer online
             </message>
           </else>
@@ -14546,10 +14546,10 @@ This can include information about installed software, files, your browser, the 
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CANCEL_SWITCH_BUTTON_LABEL" desc="Label of the cancel button in the web signin interception bubble (profile switch variant)">
           Cancel
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CREATE_BUBBLE_DESC_SUPERVISED" desc="This string is the body of a dialog about signing in to Brave with the user's Brave sync chain. It appears when a kid tries to sign in to a Brave service (like Gmail) with their account while using someone else’s Brave profile. The message explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. The body text is after the 'Sign in to Brave in a new profile?' string. We want users to understand why signing in to their own profile is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CREATE_BUBBLE_DESC_SUPERVISED" desc="This string is the body of a dialog about signing in to Nix with the user's Brave sync chain. It appears when a kid tries to sign in to a Brave service (like Gmail) with their account while using someone else’s Brave profile. The message explains the overarching user benefit of signing in: Kids of a certain age are motivated to get their parents’ help staying safer online, so the tone should be motivating. The body text is after the 'Sign in to Nix in a new profile?' string. We want users to understand why signing in to their own profile is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
           To stay safer online with your parent’s choices, sign in to your own profile as <ph name="USER_EMAIL">$1<ex>john@gmail.com</ex></ph>
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_CONTINUE_BUTTON_LABEL" desc="This string is the button for a dialog that appears when the user is already signed in to Brave, but they just tried to sign in to a Brave service (like Gmail) with a different Brave sync chain that already has its own Brave profile on this device. The button is after the 'Switch to existing Brave profile?' string. When the user clicks this button, they will open a different existing Brave profile that is already signed in to the other Brave sync chain. The tone should be inviting and helpful.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_CONTINUE_BUTTON_LABEL" desc="This string is the button for a dialog that appears when the user is already signed in to Nix, but they just tried to sign in to a Brave service (like Gmail) with a different Brave sync chain that already has its own Brave profile on this device. The button is after the 'Switch to existing Brave profile?' string. When the user clicks this button, they will open a different existing Brave profile that is already signed in to the other Brave sync chain. The tone should be inviting and helpful.">
           Continue
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_ACCEPT_TEXT" desc="Label of the Accept button of the Brave Signin Bubble intercept that is shown when a signed out user signs in on the web with it's first account. It also uses the given name of the user.">
@@ -14564,25 +14564,25 @@ This can include information about installed software, files, your browser, the 
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_MANAGED_BY_DISCLAIMER" desc="Enterprise disclaimer for a managed account in the signin interception bubble, with the manager domain name.">
           This new profile will be managed by <ph name="DOMAIN">$1<ex>example.com</ex></ph>. <ph name="BEGIN_LINK">&lt;a href="$2" target="_blank"&gt;<ex>https://help.google.com/articleLink</ex></ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
         </message>
-        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TITLE_SIGNIN_REMINDER" desc="This string is the headline of a reminder message, which is intended to help users understand that they have been signed in to Brave. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Brave as well, the user selected yes. After a period of time, this reminder message appears at the top right of Brave (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This headline string comes before the 'You’re signed in to Brave. You’ve got your passwords and more from your Brave sync chain.' string. We are focusing on the benefit that user enjoys, now that they're signed in to Brave. The tone should be welcoming.">
+        <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TITLE_SIGNIN_REMINDER" desc="This string is the headline of a reminder message, which is intended to help users understand that they have been signed in to Nix. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Nix as well, the user selected yes. After a period of time, this reminder message appears at the top right of Brave (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This headline string comes before the 'You’re signed in to Nix. You’ve got your passwords and more from your Brave sync chain.' string. We are focusing on the benefit that user enjoys, now that they're signed in to Nix. The tone should be welcoming.">
           Welcome back, <ph name="PROFILE_NAME">$1<ex>Elisa</ex></ph>
         </message>
         <if expr="use_titlecase">
-          <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_OK_BUTTON" desc="This button appears on a confirmation message, which is intended to help users understand that they have been signed in to Brave. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Brave as well, the user selected yes. Now, this confirmation appears at the top right of Brave (pointing at the Profile Menu) to confirm that their choice was effective. This button string comes after the 'Welcome, Elisa' and 'When you sign in on this device, you get your passwords and more from your Brave sync chain' strings. Users click 'Got it' to convey that they saw the message and want to hide the message.">
+          <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_OK_BUTTON" desc="This button appears on a confirmation message, which is intended to help users understand that they have been signed in to Nix. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Nix as well, the user selected yes. Now, this confirmation appears at the top right of Brave (pointing at the Profile Menu) to confirm that their choice was effective. This button string comes after the 'Welcome, Elisa' and 'When you sign in on this device, you get your passwords and more from your Brave sync chain' strings. Users click 'Got it' to convey that they saw the message and want to hide the message.">
             Got It
           </message>
         </if>
         <if expr="not use_titlecase">
-          <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_OK_BUTTON" desc="This button appears on a confirmation message, which is intended to help users understand that they have been signed in to Brave. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Brave as well, the user selected yes. Now, this confirmation appears at the top right of Brave (pointing at the Profile Menu) to confirm that their choice was effective. This button string comes after the 'Welcome, Elisa' and 'When you sign in on this device, you get your passwords and more from your Brave sync chain' strings. Users click 'Got it' to convey that they saw the message and want to hide the message.">
+          <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_OK_BUTTON" desc="This button appears on a confirmation message, which is intended to help users understand that they have been signed in to Nix. The user previously signed in to a Brave service (like Gmail or Maps), and saw the Brave Signin Bubble intercept; when asked whether the user wanted to sign in to Nix as well, the user selected yes. Now, this confirmation appears at the top right of Brave (pointing at the Profile Menu) to confirm that their choice was effective. This button string comes after the 'Welcome, Elisa' and 'When you sign in on this device, you get your passwords and more from your Brave sync chain' strings. Users click 'Got it' to convey that they saw the message and want to hide the message.">
             Got it
           </message>
         </if>
 
         <!-- Brave Signout Confirmation Prompt -->
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_TITLE" desc="This is the title of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Brave, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; but, the data has been saved locally to Brave. This title is before the 'Brave needs to verify it’s you before some data can be saved in your Brave sync chain and used on all your devices. If you sign out, this data will stay on this device.' string. The tone should be cautionary.">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_TITLE" desc="This is the title of an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Nix, but Brave wasn't able to save the data to the user's Brave sync chain due to a sign-in error; but, the data has been saved locally to Nix. This title is before the 'Brave needs to verify it’s you before some data can be saved in your Brave sync chain and used on all your devices. If you sign out, this data will stay on this device.' string. The tone should be cautionary.">
           Some data isn’t saved in your account yet
         </message>
-        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_DELETE_AND_SIGNOUT_BUTTON" desc="This string is found on a button that lets the user sign out of Brave when the user taps it. It is on an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Brave, but Brave wasn't able to save the data to the user's Brave sync chain due to a network error; but, the data has been saved locally to Brave. This text is a verb and is short for the longer phrase 'Delete data and sign out of Brave anyway.'">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_DELETE_AND_SIGNOUT_BUTTON" desc="This string is found on a button that lets the user sign out of Brave when the user taps it. It is on an error message dialog that appears when the user opens the Brave Profile Menu and chooses 'Sign out of Brave'. The error message appears when the user has saved some data (like a password or payment method) to Nix, but Brave wasn't able to save the data to the user's Brave sync chain due to a network error; but, the data has been saved locally to Nix. This text is a verb and is short for the longer phrase 'Delete data and sign out of Brave anyway.'">
           Delete and sign out
         </message>
 
@@ -15878,7 +15878,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         <message name="IDS_TURNED_OFF" desc="Description text for the state of camera or microphone or geolocation">
           Turned off
         </message>
-        <message name="IDS_OPEN_SETTINGS_LINK" desc="Title for the button that takes the user to the Security and Privacy settings in Windows or ChromeOS, in order for the user to be able to modify the ability to access camera, microphone and geolocation for Brave.">
+        <message name="IDS_OPEN_SETTINGS_LINK" desc="Title for the button that takes the user to the Security and Privacy settings in Windows or ChromeOS, in order for the user to be able to modify the ability to access camera, microphone and geolocation for Nix.">
           System settings
         </message>
       </if>
@@ -17146,7 +17146,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_REDIRECT_BLOCKED_TITLE" desc="The short message stating that a redirect (noun) was blocked on this page. Same as IDS_REDIRECT_BLOCKED_SHORT_MESSAGE but without the period.">
         Redirect blocked
     </message>
-    <message name="IDS_REDIRECT_BLOCKED_TOOLTIP" desc="Tooltip text that appears when the user hovers over the &quot;Redirect blocked&quot; icon in the address bar. It means that a redirect (noun) was blocked by Brave on this page.">
+    <message name="IDS_REDIRECT_BLOCKED_TOOLTIP" desc="Tooltip text that appears when the user hovers over the &quot;Redirect blocked&quot; icon in the address bar. It means that a redirect (noun) was blocked by Nix on this page.">
         Redirect blocked on this page.
     </message>
     <message name="IDS_ALWAYS_ALLOW_REDIRECTS" desc="The message button text allowing a user to always allow redirects (noun) after they were blocked on this page.">
@@ -17814,8 +17814,8 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_GPM_CREATE_PASSKEY_TITLE" desc="This string appears in a dialog users see after they choose to create a sign-in method called a passkey on a website. 'To sign in to' means to sign in to the site or app they are creating a passkey for. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
         Create a passkey to sign in to <ph name="APP_NAME">$1<ex>example.com</ex></ph>?
       </message>
-      <message name="IDS_WEBAUTHN_GPM_CREATE_PASSKEY_DESC" desc="This string appears in a dialog users see after they choose to create a sign-in method called a passkey on a website. The first sentence means they can sign in to the site faster on any device. The second sentence tells users that the passkey will be saved to Brave Password Manager for the Brave email address they are using. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
-        You can use this passkey to sign in faster across your devices. It will be saved to Brave Password Manager for <ph name="ACCOUNT_NAME">$1<ex>example@gmail.com</ex></ph>.
+      <message name="IDS_WEBAUTHN_GPM_CREATE_PASSKEY_DESC" desc="This string appears in a dialog users see after they choose to create a sign-in method called a passkey on a website. The first sentence means they can sign in to the site faster on any device. The second sentence tells users that the passkey will be saved to Nix Password Manager for the Brave email address they are using. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
+        You can use this passkey to sign in faster across your devices. It will be saved to Nix Password Manager for <ph name="ACCOUNT_NAME">$1<ex>example@gmail.com</ex></ph>.
       </message>
       <message name="IDS_WEBAUTHN_SAVE_ANOTHER_WAY" desc="Text link that appears on a button to save the passkey another way. For example, in their iCloud Keychain account or by using Windows Hello.">
         Save another way
@@ -17823,14 +17823,14 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_GPM_TRUST_THIS_COMPUTER_CREATION_TITLE" desc="This string appears in a dialog users see after they choose to create a sign-in method called a passkey on a website. It means that before the user can create the passkey, they need to verify their identity by, e.g., entering their Brave Password Manager PIN or the lockscreen of a phone they own. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
         To create this passkey with Brave Password Manager, verify it's you
       </message>
-      <message name="IDS_WEBAUTHN_GPM_TRUST_THIS_COMPUTER_CREATION_DESC" desc="This string appears in a dialog users see after they choose to create a sign-in method called a passkey on a website. It means that the passkey will be saved to Brave Password Manager for the Brave email address they are using. The second sentence means they only have to verify their identity once by, e.g., entering their Brave Password Manager PIN or the lockscreen of a phone they own. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
-        Your passkey will be saved to Brave Password Manager for <ph name="ACCOUNT_NAME">$1<ex>example@gmail.com</ex></ph>. You’ll only have to do this once.
+      <message name="IDS_WEBAUTHN_GPM_TRUST_THIS_COMPUTER_CREATION_DESC" desc="This string appears in a dialog users see after they choose to create a sign-in method called a passkey on a website. It means that the passkey will be saved to Nix Password Manager for the Brave email address they are using. The second sentence means they only have to verify their identity once by, e.g., entering their Brave Password Manager PIN or the lockscreen of a phone they own. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
+        Your passkey will be saved to Nix Password Manager for <ph name="ACCOUNT_NAME">$1<ex>example@gmail.com</ex></ph>. You’ll only have to do this once.
       </message>
       <message name="IDS_WEBAUTHN_GPM_TRUST_THIS_COMPUTER_ASSERTION_TITLE" desc="This string appears in a dialog users see after they use a sign-in method called a passkey. It means that before the user can create the passkey, they need to verify their identity. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
         To use your passkeys on this device, verify it's you
       </message>
       <message name="IDS_WEBAUTHN_GPM_TRUST_THIS_COMPUTER_ASSERTION_DESC" desc="This string appears in a dialog users see after they use a sign-in method called a passkey. It means that the user can allow this device to access all of their passkeys saved in Brave Password Manager on this device. The second sentence means they only have to verify their identity once. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'.">
-        You can use all of your passkeys saved to Brave Password Manager on this device. You'll only have to do this once.
+        You can use all of your passkeys saved to Nix Password Manager on this device. You'll only have to do this once.
       </message>
       <message name="IDS_WEBAUTHN_USE_A_DIFFERENT_DEVICE" desc="Text link that appears on a button that allows the user to sign in using a different device.">
         Use a different device
@@ -17853,10 +17853,10 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_GPM_ERROR_DESC" desc="The description of a dialog that is shown when an error occurs with Brave Password Manager. Since this involves communication with a server, the most likely cause of the error is a connectivity problem thus 'reach' refers to this external communication.">
         Can’t reach Brave Password Manager. Try again in a few minutes
       </message>
-      <message name="IDS_WEBAUTHN_SIGN_IN_AGAIN_TITLE" desc="The first line in a button that is shown when Sync is 'paused' and the user is trying to sign in with or create a passkey. Sync 'paused' is a state where the user has opted in to Sync, but their sign-in status has expired and they need to sign in again to restore it. Tapping this button closes the passkey window and opens a new tab where the user can sign in to Brave.">
+      <message name="IDS_WEBAUTHN_SIGN_IN_AGAIN_TITLE" desc="The first line in a button that is shown when Sync is 'paused' and the user is trying to sign in with or create a passkey. Sync 'paused' is a state where the user has opted in to Sync, but their sign-in status has expired and they need to sign in again to restore it. Tapping this button closes the passkey window and opens a new tab where the user can sign in to Nix.">
         Sign in again
       </message>
-      <message name="IDS_WEBAUTHN_SIGN_IN_AGAIN_DESCRIPTION" desc="The second line in a button that is shown when Sync is 'paused' and the user is trying to sign in with or create a passkey. Sync 'paused' is a state where the user has opted in to Sync, but their sign-in status has expired and they need to sign in again to restore it. Tapping this button closes the passkey window and opens a new tab where the user can sign in to Brave. Note that the English string only just fits within the allocated space. Longer strings will be elided at the end.">
+      <message name="IDS_WEBAUTHN_SIGN_IN_AGAIN_DESCRIPTION" desc="The second line in a button that is shown when Sync is 'paused' and the user is trying to sign in with or create a passkey. Sync 'paused' is a state where the user has opted in to Sync, but their sign-in status has expired and they need to sign in again to restore it. Tapping this button closes the passkey window and opens a new tab where the user can sign in to Nix. Note that the English string only just fits within the allocated space. Longer strings will be elided at the end.">
         To use passkeys saved in your Brave sync chain
       </message>
       <message name="IDS_WEBAUTHN_GPM_INCOGNITO_CREATE_TITLE" desc="The title of a dialog that is shown when a user is creating a Brave Password Manager passkey while browsing in Private mode. The title is asking the user to confirm that they want to perform the action, while suggesting that the new passkey will exist outside of Private mode.">
@@ -17875,13 +17875,13 @@ Please help our engineers fix this problem. Tell us what happened right before y
         Create a recovery PIN
       </message>
       <message name="IDS_WEBAUTHN_GPM_CREATE_ALPHANUMERIC_PIN_ACCESSIBILITY" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield during creation of an alphanumeric pin.">
-        Create an alphanumeric recovery PIN for Brave Password Manager
+        Create an alphanumeric recovery PIN for Nix Password Manager
       </message>
       <message name="IDS_WEBAUTHN_GPM_CREATE_SIX_DIGIT_PIN_ACCESSIBILITY" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield during creation of a 6-digit pin.">
-        Create a 6-digit recovery PIN for Brave Password Manager
+        Create a 6-digit recovery PIN for Nix Password Manager
       </message>
       <message name="IDS_WEBAUTHN_GPM_CREATE_SIX_DIGIT_PIN_ACCESSIBILITY_WITH_FOCUSED_DIGIT" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield during creation of a 6-digit pin, additionally informing which digit needs to be typed.">
-        Create a 6-digit recovery PIN for Brave Password Manager, PIN digit <ph name="NUM_DIGIT">$1<ex>3</ex></ph> of 6
+        Create a 6-digit recovery PIN for Nix Password Manager, PIN digit <ph name="NUM_DIGIT">$1<ex>3</ex></ph> of 6
       </message>
       <message name="IDS_WEBAUTHN_GPM_CREATE_PIN_DESC" desc="The description of a dialog that is shown when a user is creating a Brave Password Manager PIN explaining that it will be used to access their passkeys on all devices. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
         This helps you access your saved passkeys on any device
@@ -17890,16 +17890,16 @@ Please help our engineers fix this problem. Tell us what happened right before y
         Enter your PIN
       </message>
       <message name="IDS_WEBAUTHN_GPM_ENTER_ALPHANUMERIC_PIN_ACCESSIBILITY" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield when entering an alphanumeric pin for user verification.">
-        Enter your alphanumeric PIN for Brave Password Manager
+        Enter your alphanumeric PIN for Nix Password Manager
       </message>
       <message name="IDS_WEBAUTHN_GPM_ENTER_ALPHANUMERIC_PIN_ACCESSIBILITY_WITH_WEBSITE" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield when entering an alphanumeric pin for user verification, additionally informing about the reason for user verification.">
-        <ph name="SITE">$1<ex>example.com</ex></ph> wants to verify it's you. Enter your alphanumeric PIN for Brave Password Manager
+        <ph name="SITE">$1<ex>example.com</ex></ph> wants to verify it's you. Enter your alphanumeric PIN for Nix Password Manager
       </message>
       <message name="IDS_WEBAUTHN_GPM_ENTER_SIX_DIGIT_PIN_ACCESSIBILITY" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield when entering a 6-digit pin for user verification.">
-        Enter your 6-digit PIN for Brave Password Manager
+        Enter your 6-digit PIN for Nix Password Manager
       </message>
       <message name="IDS_WEBAUTHN_GPM_ENTER_SIX_DIGIT_PIN_ACCESSIBILITY_WITH_FOCUSED_DIGIT" desc="The accessibility label that is announced by a screen reader when a focus lands on a Brave Password Manager PIN textfield when entering a 6-digit pin for user verification, additionally informing about the reason for user verification and which digit needs to be typed.">
-        <ph name="SITE">$1<ex>example.com</ex></ph> wants to verify it's you. Enter your 6-digit PIN for Brave Password Manager, PIN digit <ph name="NUM_DIGIT">$2<ex>3</ex></ph> of 6
+        <ph name="SITE">$1<ex>example.com</ex></ph> wants to verify it's you. Enter your 6-digit PIN for Nix Password Manager, PIN digit <ph name="NUM_DIGIT">$2<ex>3</ex></ph> of 6
       </message>
       <message name="IDS_WEBAUTHN_GPM_ENTER_PIN_DESC" desc="The description of a dialog that is shown when a user is verifying their presence in passkey creation / sign-in flows explaining that the website requires that.">
         <ph name="SITE">$1<ex>example.com</ex></ph> wants to verify it's you
@@ -17921,7 +17921,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_GPM_PASSKEY_SAVED_TITLE" desc="The title of a bubble that is displayed as a confirmation that a passkey was created and saved in Brave Password Manager. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
         Passkey saved
       </message>
-      <message name="IDS_WEBAUTHN_GPM_PASSKEY_SAVED_PIN_CREATED_TITLE" desc="The title of a bubble that is displayed as a confirmation that a passkey was saved in Brave Password Manager and the recovery PIN for Brave Password Manager was also created in the same flow. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
+      <message name="IDS_WEBAUTHN_GPM_PASSKEY_SAVED_PIN_CREATED_TITLE" desc="The title of a bubble that is displayed as a confirmation that a passkey was saved in Brave Password Manager and the recovery PIN for Nix Password Manager was also created in the same flow. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
         Passkey saved and PIN created
       </message>
       <message name="IDS_WEBAUTHN_SHOW_PIN" desc="The tooltip of a button that is used to show the PIN.">
@@ -17934,7 +17934,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
         Change PIN
       </message>
       <message name="IDS_WEBAUTHN_LOCKED_GPM_PIN_TITLE" desc="The title of a dialog that is displayed when the user entered their Brave Password Manager PIN incorrectly too many times.">
-        Change your recovery PIN for Brave Password Manager
+        Change your recovery PIN for Nix Password Manager
       </message>
       <message name="IDS_WEBAUTHN_LOCKED_GPM_PIN_DESCRIPTION" desc="The description of a dialog that is displayed when the user entered their Brave Password Manager PIN incorrectly too many times.">
         You've entered the wrong PIN too many times. To access your passkeys and passwords, change your PIN.
@@ -17972,7 +17972,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_WEBAUTHN_GPM_PASSKEY_DELETED_LABEL" desc="The label in a bubble that is displayed as a confirmation that a passkey was deleted in Brave Password Manager, explaining that the passkeys can be managed in Brave Password Manager. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
         Manage your passwords &amp; passkeys in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph>
       </message>
-      <message name="IDS_WEBAUTHN_GPM_PASSKEY_DOESNT_WORK_LABEL" desc="The label in a bubble that is displayed after a passkey is deleted from a site. Since the passkey is now useless, it will be automatically removed from Brave Password Manager after about 30 days. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
+      <message name="IDS_WEBAUTHN_GPM_PASSKEY_DOESNT_WORK_LABEL" desc="The label in a bubble that is displayed after a passkey is deleted from a site. Since the passkey is now useless, it will be automatically removed from Nix Password Manager after about 30 days. Refer to Glossary for the meaning of 'passkey'; do not translate it as 'password'">
         This passkey doesn't work anymore. It will get deleted soon from <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>Brave Password Manager</ex></ph>.
       </message>
       <message name="IDS_WEBAUTHN_GPM_PASSKEY_DELETED_LINK" desc="Link text that directs the user to the Brave Password Manager passwords page within a bubble that is displayed as a confirmation that a passkey was deleted in Brave Password Manager. See IDS_WEBAUTHN_GPM_PASSKEY_DELETED_LABEL for more details.">
@@ -18287,8 +18287,8 @@ Please help our engineers fix this problem. Tell us what happened right before y
       Also delete browsing data (<ph name="URL">$1<ex>pinterest.com</ex></ph>) which will sign you out of <ph name="DOMAIN">$2<ex>Pinterest.com</ex></ph>.<ph name="LEARN_MORE">$3<ex>Learn more</ex></ph>
     </message>
 
-    <!-- App uninstall prompt for Brave -->
-    <message name="IDS_APP_UNINSTALL_PROMPT_REMOVE_DATA_CHECKBOX_FOR_GOOGLE" desc="Checkbox text to ask the user whether they want to remove associated data at uninstall time for Brave hostnames. Only used when uninstalling an app associated with a Brave hostname.">
+    <!-- App uninstall prompt for Nix -->
+    <message name="IDS_APP_UNINSTALL_PROMPT_REMOVE_DATA_CHECKBOX_FOR_GOOGLE" desc="Checkbox text to ask the user whether they want to remove associated data at uninstall time for Nix hostnames. Only used when uninstalling an app associated with a Brave hostname.">
       Also delete browsing data (<ph name="URL">$1<ex>www.google.com</ex></ph>) which may sign you out of Brave.com. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
     </message>
 
@@ -18411,12 +18411,12 @@ Please help our engineers fix this problem. Tell us what happened right before y
       Experiments
     </message>
     <if expr="use_titlecase">
-    <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="In Title Case: The label for the button that will allow users to submit feedback from Brave Labs.">
+    <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="In Title Case: The label for the button that will allow users to submit feedback from Nix Labs.">
         Send Feedback
     </message>
     </if>
     <if expr="not use_titlecase">
-      <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="The label for the button that will allow users to submit feedback from Brave Labs.">
+      <message name="IDS_CHROMELABS_SEND_FEEDBACK" desc="The label for the button that will allow users to submit feedback from Nix Labs.">
         Send feedback
     </message>
     </if>
@@ -19315,16 +19315,16 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
     </if>
 
-  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_TITLE" desc="The title for the notification sent by Brave informing the user that their decision to never show warnings for the url has been applied.">
+  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_TITLE" desc="The title for the notification sent by Nix informing the user that their decision to never show warnings for the url has been applied.">
     Always allow
   </message>
-  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_BODY" desc="The body for the notification sent by Brave informing the user that their decision to never show warnings for the url has been applied.">
+  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_BODY" desc="The body for the notification sent by Nix informing the user that their decision to never show warnings for the url has been applied.">
     Brave will stop flagging notifications from this site as spam
   </message>
-  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_TITLE_NEW" desc="The title for the notification sent by Brave informing the user that their decision to never show warnings for the url has been applied.">
+  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_TITLE_NEW" desc="The title for the notification sent by Nix informing the user that their decision to never show warnings for the url has been applied.">
     Notifications allowed from <ph name="DOMAIN">$1<ex>example.com</ex></ph>
   </message>
-  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_BODY_NEW" desc="The body for the notification sent by Brave informing the user that their decision to never show warnings for the url has been applied and they may report their notification contents to Brave.">
+  <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_BODY_NEW" desc="The body for the notification sent by Nix informing the user that their decision to never show warnings for the url has been applied and they may report their notification contents to Nix.">
     Help improve spam protection by sharing notification content and the site's URL with Brave. Content may be reviewed by humans.
   </message>
 
@@ -19408,10 +19408,10 @@ Please help our engineers fix this problem. Tell us what happened right before y
       Choose your account
     </message>
     <message name="IDS_ACCOUNT_CHOOSER_SUBTITLE" desc="Text description for saving files to Drive via Brave PDF viewer.">
-      Find your file in the <ph name="FEATURE_NAME">$1<ex>Saved from Brave</ex></ph> folder
+      Find your file in the <ph name="FEATURE_NAME">$1<ex>Saved from Nix</ex></ph> folder
     </message>
-    <message name="IDS_SAVE_TO_DRIVE_FOLDER_NAME" desc="Name of the folder in Drive where files saved from Brave are stored." meaning="Name of the folder in Drive where files saved from Chrome are stored. Please use the short version of the branded term for Google Chrome i.e. Chrome">
-      Saved from Brave
+    <message name="IDS_SAVE_TO_DRIVE_FOLDER_NAME" desc="Name of the folder in Drive where files saved from Nix are stored." meaning="Name of the folder in Drive where files saved from Chrome are stored. Please use the short version of the branded term for Google Chrome i.e. Chrome">
+      Saved from Nix
     </message>
     <message name="IDS_ACCOUNT_CHOOSER_DRIVE" desc="Google Drive product name.">
       Drive
@@ -19469,7 +19469,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_UPDATER_APP" desc="In Title Case: Title of the chip which filters logs by application (e.g. 'Brave').">
         App
       </message>
-      <message name="IDS_UPDATER_APP_COLUMN" desc="Title of a column in a table displaying the list of applications managed by Brave's updater which displays the application's name or identifier string.">
+      <message name="IDS_UPDATER_APP_COLUMN" desc="Title of a column in a table displaying the list of applications managed by Nix's updater which displays the application's name or identifier string.">
         Application
       </message>
       <message name="IDS_UPDATER_APPLY" desc="Label on a button to apply the selected filters.">
@@ -19481,7 +19481,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_UPDATER_APP_POLICIES" desc="Header for a section of the enterprise policy table detailing the policies in effect for a specific application.">
         <ph name="APP_NAME">$1<ex>Nix</ex></ph> policies
       </message>
-      <message name="IDS_UPDATER_APP_STATES_QUERY_FAILED" desc="An error message indicating that the list of installed applications could not be retrieved from Brave's updater.">
+      <message name="IDS_UPDATER_APP_STATES_QUERY_FAILED" desc="An error message indicating that the list of installed applications could not be retrieved from Nix's updater.">
         Failed to query installed applications.
       </message>
       <message name="IDS_UPDATER_CANCEL" desc="Label on a button to cancel the current action or close a menu.">
@@ -19532,7 +19532,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_UPDATER_ERROR_CORRUPT" desc="Error message indicating that an update package is invalid or corrupted.">
         The downloaded update does not contain the expected content.
       </message>
-      <message name="IDS_UPDATER_ERROR_DISABLED" desc="Error message indicating that an action recorded in the event log could not be taken by Brave's updater because it was disallowed by enterprise policy.">
+      <message name="IDS_UPDATER_ERROR_DISABLED" desc="Error message indicating that an action recorded in the event log could not be taken by Nix's updater because it was disallowed by enterprise policy.">
         The action was disallowed by the configured policies.
       </message>
       <message name="IDS_UPDATER_ERROR_DISK_FULL" desc="Error message indicating that an update could not be downloaded or applied because the disk is full.">
@@ -19559,7 +19559,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_UPDATER_ERROR_UPDATE_CHECK" desc="Generic error message indicating that an error occurred while checking for updates.">
         The update check failed.
       </message>
-      <message name="IDS_UPDATER_ERROR_UNKNOWN" desc="Generic error message indicating that an operation recorded in Brave's updater's event log failed for a reason unknown to Brave.">
+      <message name="IDS_UPDATER_ERROR_UNKNOWN" desc="Generic error message indicating that an operation recorded in Brave's updater's event log failed for a reason unknown to Nix.">
         The operation failed due to an unknown reason.
       </message>
       <message name="IDS_UPDATER_EVENT_LIST_TITLE" desc="Title for a section of the chrome://updater page which displays an event log detailing the activity of Brave's updater on a user's system.">
@@ -19703,10 +19703,10 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_UPDATER_PROCESS_SUMMARY" desc="Summary of an event that involved executing a command on the system, including the numeric exit code.">
         Process exited with code <ph name="EXIT_CODE">$1<ex>0</ex></ph>
       </message>
-      <message name="IDS_UPDATER_QUALIFICATION_FAILED" desc="Summary of an event in which the Brave Updater's self-check failed, indicating that the program is not working as intended and should not manage updates for Brave.">
+      <message name="IDS_UPDATER_QUALIFICATION_FAILED" desc="Summary of an event in which the Brave Updater's self-check failed, indicating that the program is not working as intended and should not manage updates for Nix.">
         Self test failed
       </message>
-      <message name="IDS_UPDATER_QUALIFICATION_SUCCEEDED" desc="Summary of an event in which the Brave Updater's self-check succeeded, indicating that the program is working as intended and should manage updates for Brave">
+      <message name="IDS_UPDATER_QUALIFICATION_SUCCEEDED" desc="Summary of an event in which the Brave Updater's self-check succeeded, indicating that the program is working as intended and should manage updates for Nix">
         Self test succeeded
       </message>
       <message name="IDS_UPDATER_QUERY_FAILED" desc="An error message indicating that Brave's updater's state could not be queried.">
@@ -19745,7 +19745,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_UPDATER_UPDATER_VERSION" desc="Label indicating the version of the updater itself.">
         Updater version: <ph name="VERSION">$1<ex>1.2.3.4</ex></ph>
       </message>
-      <message name="IDS_UPDATER_VERSION_COLUMN" desc="Title of the column in a table presenting the list of applications installed and managed by Brave's updater.">
+      <message name="IDS_UPDATER_VERSION_COLUMN" desc="Title of the column in a table presenting the list of applications installed and managed by Nix's updater.">
         Version
       </message>
       <message name="IDS_UPDATER_VERSION_LABEL" desc="A label for the version of the updater.">

@@ -39,7 +39,7 @@ std::string ConnectZebPayWallet::GetOAuthLoginURL() const {
 
   // Domain is arbitrary; only the path is used via PathForRequest() below.
   auto return_url =
-      GURL("https://brave.com").Resolve("/connect/authorize/callback");
+      GURL("https://nixbrowser.in").Resolve("/connect/authorize/callback");
 
   return_url = AppendOrReplaceQueryParameters(
       return_url, {{"grant_type", "authorization_code"},

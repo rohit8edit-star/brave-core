@@ -1966,7 +1966,7 @@ TEST_F(JsonRpcServiceUnitTest, SetNetwork) {
     EXPECT_EQ(
         url::Origin::Create(
             network_manager_->GetNetworkURL(mojom::CoinType::ETH, origin_a)),
-        url::Origin::Create(GURL("https://ethereum-sepolia.wallet.brave.com")));
+        url::Origin::Create(GURL("https://ethereum-sepolia.wallet.nixbrowser.in")));
     EXPECT_EQ(url::Origin::Create(network_manager_->GetNetworkURL(
                   mojom::CoinType::ETH, origin_b)),
               url::Origin::Create(GetActiveEndpointUrl(*network)));
@@ -1994,14 +1994,14 @@ TEST_F(JsonRpcServiceUnitTest, SetNetwork) {
   EXPECT_EQ(
       url::Origin::Create(GURL(
           network_manager_->GetNetworkURL(mojom::CoinType::SOL, std::nullopt))),
-      url::Origin::Create(GURL("https://solana-mainnet.wallet.brave.com")));
+      url::Origin::Create(GURL("https://solana-mainnet.wallet.nixbrowser.in")));
   EXPECT_EQ(url::Origin::Create(GURL(network_manager_->GetNetworkURL(
                 mojom::CoinType::SOL, origin_a))),
             url::Origin::Create(GURL("https://api.testnet.solana.com")));
   EXPECT_EQ(
       url::Origin::Create(GURL(
           network_manager_->GetNetworkURL(mojom::CoinType::SOL, origin_b))),
-      url::Origin::Create(GURL("https://solana-mainnet.wallet.brave.com")));
+      url::Origin::Create(GURL("https://solana-mainnet.wallet.nixbrowser.in")));
 }
 
 TEST_F(JsonRpcServiceUnitTest, SetCustomNetwork) {
@@ -2244,7 +2244,7 @@ TEST_F(JsonRpcServiceUnitTest, AddEthereumChainApprovedForOrigin) {
   SetEthChainIdInterceptor(GetActiveEndpointUrl(chain), "0x111");
   EXPECT_EQ("",
             json_rpc_service_->AddEthereumChainForOrigin(
-                chain.Clone(), url::Origin::Create(GURL("https://brave.com"))));
+                chain.Clone(), url::Origin::Create(GURL("https://nixbrowser.in"))));
   json_rpc_service_->AddEthereumChainRequestCompleted("0x111", true);
   loop.Run();
 
@@ -2281,7 +2281,7 @@ TEST_F(JsonRpcServiceUnitTest, AddEthereumChainForOriginRejected) {
   SetEthChainIdInterceptor(GetActiveEndpointUrl(chain), "0x111");
   EXPECT_EQ("",
             json_rpc_service_->AddEthereumChainForOrigin(
-                chain.Clone(), url::Origin::Create(GURL("https://brave.com"))));
+                chain.Clone(), url::Origin::Create(GURL("https://nixbrowser.in"))));
   json_rpc_service_->AddEthereumChainRequestCompleted("0x111", false);
   loop.Run();
   ASSERT_FALSE(network_manager_->GetNetworkURL("0x111", mojom::CoinType::ETH)
@@ -2502,7 +2502,7 @@ TEST_F(JsonRpcServiceUnitTest, AddEthereumChainError) {
 
 TEST_F(JsonRpcServiceUnitTest, AddEthereumChainForOriginError) {
   mojom::NetworkInfo chain = GetTestNetworkInfo1("0x1");
-  auto origin = url::Origin::Create(GURL("https://brave.com"));
+  auto origin = url::Origin::Create(GURL("https://nixbrowser.in"));
 
   // Known eth chain should be rejected.
   ASSERT_TRUE(
@@ -3284,12 +3284,12 @@ class UnstoppableDomainsUnitTest : public JsonRpcServiceUnitTest {
   std::string DnsIpfsResponse() const {
     return MakeJsonRpcStringArrayResponse(
         {"QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR", "", "", "", "",
-         "https://brave.com"});
+         "https://nixbrowser.in"});
   }
 
   std::string DnsBraveResponse() const {
     return MakeJsonRpcStringArrayResponse(
-        {"", "", "", "", "", "https://brave.com"});
+        {"", "", "", "", "", "https://nixbrowser.in"});
   }
 
   std::string DnsEmptyResponse() const {
@@ -3582,7 +3582,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_PolygonNetworkError) {
 
 TEST_F(UnstoppableDomainsUnitTest, ResolveDns_PolygonResult) {
   base::MockCallback<ResolveDnsCallback> callback;
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthTimeoutResponse();
   SetPolygonRawResponse(DnsBraveResponse());
@@ -3590,7 +3590,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_PolygonResult) {
                                                   callback.Get());
   WaitAndVerify(&callback);
 
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthRawResponse(DnsIpfsResponse());
   SetPolygonRawResponse(DnsBraveResponse());
@@ -3598,7 +3598,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_PolygonResult) {
                                                   callback.Get());
   WaitAndVerify(&callback);
 
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthRawResponse(DnsEmptyResponse());
   SetPolygonRawResponse(DnsBraveResponse());
@@ -3609,7 +3609,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_PolygonResult) {
 
 TEST_F(UnstoppableDomainsUnitTest, ResolveDns_BaseResult) {
   base::MockCallback<ResolveDnsCallback> callback;
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthTimeoutResponse();
   SetPolygonRawResponse(DnsEmptyResponse());
@@ -3618,7 +3618,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_BaseResult) {
                                                   callback.Get());
   WaitAndVerify(&callback);
 
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthRawResponse(DnsIpfsResponse());
   SetPolygonRawResponse(DnsEmptyResponse());
@@ -3627,7 +3627,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_BaseResult) {
                                                   callback.Get());
   WaitAndVerify(&callback);
 
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthRawResponse(DnsEmptyResponse());
   SetPolygonRawResponse(DnsEmptyResponse());
@@ -3650,7 +3650,7 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_FallbackToEthMainnet) {
                                                   callback.Get());
   WaitAndVerify(&callback);
 
-  EXPECT_CALL(callback, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback, Run(std::optional<GURL>("https://nixbrowser.in"),
                             mojom::ProviderError::kSuccess, ""));
   SetEthRawResponse(DnsBraveResponse());
   SetPolygonRawResponse(
@@ -3693,10 +3693,10 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_InvalidDomain) {
 
 TEST_F(UnstoppableDomainsUnitTest, ResolveDns_ManyCalls) {
   base::MockCallback<ResolveDnsCallback> callback1;
-  EXPECT_CALL(callback1, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback1, Run(std::optional<GURL>("https://nixbrowser.in"),
                              mojom::ProviderError::kSuccess, ""));
   base::MockCallback<ResolveDnsCallback> callback2;
-  EXPECT_CALL(callback2, Run(std::optional<GURL>("https://brave.com"),
+  EXPECT_CALL(callback2, Run(std::optional<GURL>("https://nixbrowser.in"),
                              mojom::ProviderError::kSuccess, ""));
   base::MockCallback<ResolveDnsCallback> callback3;
   EXPECT_CALL(
@@ -3711,18 +3711,18 @@ TEST_F(UnstoppableDomainsUnitTest, ResolveDns_ManyCalls) {
       "brave.crypto", unstoppable_domains::kRecordKeys[0],
       "QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR");
   eth_mainnet_getmany_call_handler_->AddItem(
-      "brave.crypto", unstoppable_domains::kRecordKeys[5], "https://brave.com");
+      "brave.crypto", unstoppable_domains::kRecordKeys[5], "https://nixbrowser.in");
   polygon_getmany_call_handler_->AddItem(
-      "brave.crypto", unstoppable_domains::kRecordKeys[5], "https://brave.com");
+      "brave.crypto", unstoppable_domains::kRecordKeys[5], "https://nixbrowser.in");
 
   // This will resolve brave.x requests.
   polygon_getmany_call_handler_->AddItem(
       "brave.x", unstoppable_domains::kRecordKeys[0],
       "QmbWqxBEKC3P8tqsKc98xmWNzrzDtRLMiMPL8wBuTGsMnR");
   polygon_getmany_call_handler_->AddItem(
-      "brave.x", unstoppable_domains::kRecordKeys[5], "https://brave.com");
+      "brave.x", unstoppable_domains::kRecordKeys[5], "https://nixbrowser.in");
   eth_mainnet_getmany_call_handler_->AddItem(
-      "brave.x", unstoppable_domains::kRecordKeys[5], "https://brave.com");
+      "brave.x", unstoppable_domains::kRecordKeys[5], "https://nixbrowser.in");
 
   EXPECT_EQ(0, eth_mainnet_getmany_call_handler_->calls_number());
   EXPECT_EQ(0, polygon_getmany_call_handler_->calls_number());
@@ -4518,7 +4518,7 @@ TEST_F(JsonRpcServiceUnitTest, Reset) {
       network_manager_->GetCurrentChainId(mojom::CoinType::ETH, std::nullopt),
       mojom::kLocalhostChainId);
 
-  auto origin = url::Origin::Create(GURL("https://brave.com"));
+  auto origin = url::Origin::Create(GURL("https://nixbrowser.in"));
   json_rpc_service_->AddEthereumChainForOrigin(
       GetTestNetworkInfo1("0x123").Clone(), origin);
   json_rpc_service_->AddSwitchEthereumChainRequest(
@@ -5974,7 +5974,7 @@ class ENSL2JsonRpcServiceUnitTest : public JsonRpcServiceUnitTest {
 
   std::string ens_host() { return "offchainexample.eth"; }
   std::string ens_subdomain_host() { return "test.offchainexample.eth"; }
-  GURL gateway_url() { return GURL("https://gateway.brave.com/"); }
+  GURL gateway_url() { return GURL("https://gateway.nixbrowser.in/"); }
   EthAddress resolver_address() {
     return EthAddress::From0xHex("0xc1735677a60884abbcf72295e88d47764beda282")
         .value();
@@ -6523,13 +6523,13 @@ class SnsJsonRpcServiceUnitTest : public JsonRpcServiceUnitTest {
         "Rec2Pwner1111111111111111111111111111111111");
   }
 
-  GURL UrlValueV1() const { return GURL("https://v1.brave.com"); }
+  GURL UrlValueV1() const { return GURL("https://v1.nixbrowser.in"); }
   GURL IpfsValueV1() const {
     return GURL(
         "ipfs://v1fybeibd4ala53bs26dvygofvr6ahpa7gbw4eyaibvrbivf4l5rr44yqu4");
   }
 
-  GURL UrlValueV2() const { return GURL("https://v2.brave.com"); }
+  GURL UrlValueV2() const { return GURL("https://v2.nixbrowser.in"); }
   GURL IpfsValueV2() const {
     return GURL(
         "ipfs://v2fybeibd4ala53bs26dvygofvr6ahpa7gbw4eyaibvrbivf4l5rr44yqu4");
@@ -8261,7 +8261,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftMetadatas) {
   mojom::NftMetadataPtr eth_metadata1 = mojom::NftMetadata::New();
   eth_metadata1->name = "Azuki #2767";
   eth_metadata1->description = "Azuki is a cute little bean";
-  eth_metadata1->image = "https://simplehash.wallet-cdn.brave.com/assets/1.png";
+  eth_metadata1->image = "https://simplehash.wallet-cdn.nixbrowser.in/assets/1.png";
   eth_metadata1->external_url = "";
   eth_metadata1->background_color = "";
   mojom::NftAttributePtr eth_attribute1 = mojom::NftAttribute::New();
@@ -8278,7 +8278,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftMetadatas) {
   mojom::NftMetadataPtr eth_metadata2 = mojom::NftMetadata::New();
   eth_metadata2->name = "NFT #1234";
   eth_metadata2->description = "Description of NFT #1234";
-  eth_metadata2->image = "https://simplehash.wallet-cdn.brave.com/assets/2.png";
+  eth_metadata2->image = "https://simplehash.wallet-cdn.nixbrowser.in/assets/2.png";
   eth_metadata2->external_url = "";
   eth_metadata2->background_color = "";
   mojom::NftAttributePtr eth_attribute3 = mojom::NftAttribute::New();
@@ -8289,7 +8289,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftMetadatas) {
 
   std::map<GURL, std::string> responses_eth;
   responses_eth[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=ethereum.0xED5AF388653567Af2F388E6224dC7C4b3241C544.2767%"
       "2Cethereum.0xAbc1230000000000000000000000000000000000.1234")] = R"({
     "nfts": [
@@ -8361,7 +8361,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftMetadatas) {
 
   std::map<GURL, std::string> responses_sol;
   responses_sol[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR%"
       "2Csolana.3knghmwnuaMxkiuqXrqzjL7gLDuRw6DkkZcW7F4mvkK8")] = R"({
     "nfts": [
@@ -8434,7 +8434,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftMetadatas) {
       "him move and attack quickly, and his tail like a big sword that can "
       "easily cut-off enemies into slices.";
   sol_metadata1->image =
-      "https://simplehash.wallet-cdn.brave.com/assets/"
+      "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
       "168e33bbf5276f717d8d190810ab93b4992ac8681054c1811f8248fe7636b54b.png";
   sol_metadata1->external_url = "";
   sol_metadata1->background_color = "";
@@ -8460,7 +8460,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftMetadatas) {
   sol_metadata2->name = "Sneaker #432819057";
   sol_metadata2->description = "NFT Sneaker, use it in STEPN to move2earn";
   sol_metadata2->image =
-      "https://simplehash.wallet-cdn.brave.com/assets/"
+      "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
       "8ceccddf1868cf1d3860184fab3f084049efecdbaafb4eea43a1e33823c161a1.png";
   sol_metadata2->external_url = "https://stepn.com";
   sol_metadata2->background_color = "";
@@ -8588,7 +8588,7 @@ TEST_F(JsonRpcServiceUnitTest, GetNftBalances) {
 
   std::map<GURL, std::string> responses;
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.3knghmwnuaMxkiuqXrqzjL7gLDuRw6DkkZcW7F4mvkK8%"
       "2Csolana.2izbbrgnlveezh6jdsansto66s2uxx7dtchvwku8oisr")] = json;
 

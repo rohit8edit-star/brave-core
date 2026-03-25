@@ -111,7 +111,7 @@ constexpr char kSkusStateValueTemplate[] = R"({
       ],
       "last_paid_at": "$1",
       "location": "$6",
-      "merchant_id": "brave.com",
+      "merchant_id": "nixbrowser.in",
       "metadata": {
         "num_intervals": 3,
         "num_per_interval": 192,
@@ -143,7 +143,7 @@ std::string formatSkusStateValue(const base::Time start_time,
   }
 
 #if defined(OFFICIAL_BUILD)
-  const std::string skus_domain = "leo.brave.com";
+  const std::string skus_domain = "leo.nixbrowser.in";
 #else
   const std::string skus_domain = "leo.bravesoftware.com";
 #endif

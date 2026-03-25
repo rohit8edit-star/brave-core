@@ -25,7 +25,7 @@ constexpr char kManifestVersion[] = "ManifestVersion";
 constexpr char kResourceId[] = "ResourceId";
 constexpr char kPaymentId[] = "PaymentId";
 constexpr char kRecoverySeed[] = "RecoverySeed";
-constexpr char kRedirectChainUrl[] = "https://brave.com";
+constexpr char kRedirectChainUrl[] = "https://nixbrowser.in";
 constexpr char kText[] = "Text";
 constexpr char kHtml[] = "HTML";
 

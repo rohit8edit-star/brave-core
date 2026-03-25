@@ -156,7 +156,7 @@ std::optional<GURL> GetURLForKnownChainId(std::string_view chain_id) {
     return std::nullopt;
   }
 
-  return GURL(absl::StrFormat("https://%s.wallet.brave.com", *subdomain));
+  return GURL(absl::StrFormat("https://%s.wallet.nixbrowser.in", *subdomain));
 }
 
 const mojom::NetworkInfo* GetEthMainnet() {
@@ -552,7 +552,7 @@ GURL ZCashMainnetRpcUrl() {
   if (switch_url.is_valid()) {
     return switch_url;
   }
-  return GURL("https://zcash.wallet.brave.com/");
+  return GURL("https://zcash.wallet.nixbrowser.in/");
 }
 
 GURL ZCashTestnetRpcUrl() {

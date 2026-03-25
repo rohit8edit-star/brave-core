@@ -77,7 +77,7 @@
             android:icon="@drawable/ic_brave_icon_search"
             android:defaultValue="false" />
 
-        <!-- Informational text about Brave Origin -->
+        <!-- Informational text about Nix Origin -->
         <org.chromium.chrome.browser.settings.BraveOriginDescriptionPreference
             android:key="origin_description" />
 

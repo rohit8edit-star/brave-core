@@ -1,7 +1,7 @@
 {
   "name": "brave-core",
   "version": "1.90.64",
-  "description": "Brave browser for Android, iOS, Linux, macOS, and Windows",
+  "description": "Nix browser for Android, iOS, Linux, macOS, and Windows",
   "main": "index.js",
   "scripts": {
     "help": "node ./build/commands/scripts/commands.js --help",
@@ -62,7 +62,7 @@
     "url": "git+https://github.com/brave/brave-core.git"
   },
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "Nix Technologies <support@nixbrowser.in>"
   },
   "license": "MPL-2.0",
   "bugs": {

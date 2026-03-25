@@ -6,7 +6,7 @@
 # Upstream's signing and PKG/DMG/ZIP generation logic lets embedders hook into
 # the process by providing a module named `signing.internal_config` with a class
 # named `InternalCodeSignConfig`. This file provides such code to apply
-# customizations that are necessary for Brave. It collaborates with the similar
+# customizations that are necessary for Nix. It collaborates with the similar
 # hook `internal_invoker.py` in this directory.
 
 import os

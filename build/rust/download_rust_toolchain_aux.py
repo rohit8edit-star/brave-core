@@ -77,7 +77,7 @@ def main():
                 print("If you see this error message, "
                       "it means you're likely on the rebase team "
                       "and doing a Chromium bump - please visit "
-                      "https://ci.brave.com/view/rust and use your branch "
+                      "https://ci.nixbrowser.in/view/rust and use your branch "
                       "to build the required Rust auxiliary package.")
             raise
 

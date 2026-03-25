@@ -94,16 +94,16 @@
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_V2_HINT" desc="Safety Check settings page (chrome://settings/safetyCheck) gives users an overview over their safety status about the stored passwords, extensions, permisisons and security settings. If user types any command that would trigger omnibox pedal for safety check (e.g. typing safety check to omnnibox), a pedal will be shown on the omnibox. This string is the button text contents to suggest pedal action for safety check pedal.">
-    Go to Brave safety check
+    Go to Nix safety check
   </message>
   <message name="IDS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_V2_SUGGESTION_CONTENTS" desc="Safety Check settings page (chrome://settings/safetyCheck) gives users an overview over their safety status about the stored passwords, extensions, permisisons and security settings. If user types any command that would trigger omnibox pedal for safety check (e.g. typing safety check to omnnibox), a pedal will be shown on the omnibox. This string is the button hover tooltip text to describe pedal action for safety check pedal.">
-    Go to Brave safety check page in settings
+    Go to Nix safety check page in settings
   </message>
   <message name="IDS_ACC_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_V2_SUFFIX" desc="Safety Check settings page (chrome://settings/safetyCheck) gives users an overview over their safety status about the stored passwords, extensions, permisisons and security settings. If user types any command that would trigger omnibox pedal for safety check (e.g. typing safety check to omnnibox), a pedal will be shown on the omnibox. This string is the suffix for spoken suggestion description with pedal action button, to explain keystroke used for safety check pedal.">
-    <ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Chromium Projects http://www.chromium.org bookmark</ex></ph>, press Tab then Enter to go to Brave safety check page in settings
+    <ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Chromium Projects http://www.chromium.org bookmark</ex></ph>, press Tab then Enter to go to Nix safety check page in settings
   </message>
   <message name="IDS_ACC_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_V2" desc="Safety Check settings page (chrome://settings/safetyCheck) gives users an overview over their safety status about the stored passwords, extensions, permisisons and security settings. If user types any command that would trigger omnibox pedal for safety check (e.g. typing safety check to omnnibox), a pedal will be shown on the omnibox. This string is for the announcement when pedal action button is focused for safety check pedal.">
-    Go to Brave safety check button, activate to visit Brave safety check page in settings
+    Go to Nix safety check button, activate to visit Brave safety check page in settings
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_MANAGE_SECURITY_SETTINGS_HINT" desc="The button text contents to suggest pedal action, MANAGE_SECURITY_SETTINGS">
@@ -279,13 +279,13 @@
     See Brave tips
   </message>
   <message name="IDS_OMNIBOX_PEDAL_SEE_CHROME_TIPS_SUGGESTION_CONTENTS" desc="The button hover tooltip text to describe pedal action, SEE_CHROME_TIPS">
-    Learn about Brave features
+    Learn about Nix features
   </message>
   <message name="IDS_ACC_OMNIBOX_PEDAL_SEE_CHROME_TIPS_SUFFIX" desc="Suffix for spoken suggestion description with pedal action button, to explain keystroke used to SEE_CHROME_TIPS.">
-    <ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Chromium Projects http://www.chromium.org bookmark</ex></ph>, press Tab then Enter to learn about Brave features
+    <ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Chromium Projects http://www.chromium.org bookmark</ex></ph>, press Tab then Enter to learn about Nix features
   </message>
   <message name="IDS_ACC_OMNIBOX_PEDAL_SEE_CHROME_TIPS" desc="Announcement when pedal action button is focused, SEE_CHROME_TIPS">
-    See Brave tips button, activate to learn about Brave features
+    See Brave tips button, activate to learn about Nix features
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_MANAGE_GOOGLE_ACCOUNT_HINT" desc="The button text contents to suggest pedal action, MANAGE_GOOGLE_ACCOUNT">
@@ -484,16 +484,16 @@
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_HINT" desc="The button text contents to suggest pedal action, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as default browser
+    Set Nix as default browser
   </message>
   <message name="IDS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_SUGGESTION_CONTENTS" desc="The button hover tooltip text to describe pedal action, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as the system's default browser
+    Set Nix as the system's default browser
   </message>
   <message name="IDS_ACC_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_SUFFIX" desc="Suffix for spoken suggestion description with pedal action button, to explain keystroke used to SET_CHROME_AS_DEFAULT_BROWSER.">
     <ph name="SET_CHROME_AS_DEFAULT_BROWSER_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Chromium Projects http://www.chromium.org bookmark</ex></ph>, Press tab then Enter to set Brave as the system's default browser
   </message>
   <message name="IDS_ACC_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER" desc="Announcement when pedal action button is focused, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as default browser button, activate to set Brave as the system's default browser
+    Set Nix as default browser button, activate to set Brave as the system's default browser
   </message>
 
   <!-- The IDS_ANDROID_OMNIBOX_PEDAL_* strings below are platform-specific
@@ -533,11 +533,11 @@
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_HINT, but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_HINT" desc="In Title Case: The button text contents to suggest pedal action, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as Default Browser
+    Set Nix as Default Browser
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_SUGGESTION_CONTENTS, but with iOS-specific terminology. -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_SUGGESTION_CONTENTS" desc="The button hover tooltip text to describe pedal action, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as the system's default browser in iOS settings
+    Set Nix as the system's default browser in iOS settings
   </message>
   <!-- Same as IDS_ACC_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_SUFFIX, but with iOS-specific terminology. -->
   <message name="IDS_IOS_ACC_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_SUFFIX" desc="Suffix for spoken suggestion description with pedal action button, to explain keystroke used to SET_CHROME_AS_DEFAULT_BROWSER.">
@@ -545,7 +545,7 @@
   </message>
   <!-- Same as IDS_ACC_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER, but with iOS-specific terminology. -->
   <message name="IDS_IOS_ACC_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER" desc="Announcement when pedal action button is focused, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as default browser button, press Enter to set Brave as the system's default browser in iOS settings
+    Set Nix as default browser button, press Enter to set Brave as the system's default browser in iOS settings
   </message>
 
   <!-- Same as IDS_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_HINT, but title case instead of sentence case -->

@@ -34,7 +34,7 @@ std::optional<gfx::Insets> GetBraveLayoutInsets(LayoutInset inset) {
   return std::nullopt;
 }
 
-// Returns a |nullopt| if the UI color is not handled by Brave.
+// Returns a |nullopt| if the UI color is not handled by Nix.
 std::optional<int> GetBraveLayoutConstant(LayoutConstant constant) {
   const bool touch = ui::TouchUiController::Get()->touch_ui();
   switch (constant) {

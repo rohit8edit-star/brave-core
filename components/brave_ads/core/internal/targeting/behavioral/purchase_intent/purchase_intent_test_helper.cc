@@ -17,9 +17,9 @@ PurchaseIntentHelper::~PurchaseIntentHelper() = default;
 
 void PurchaseIntentHelper::Mock() {
   const std::vector<GURL> urls = {
-      GURL("https://www.brave.com/test?foo=bar"),
+      GURL("https://www.nixbrowser.in/test?foo=bar"),
       GURL("https://basicattentiontoken.org/test?bar=foo"),
-      GURL("https://www.brave.com/test?foo=bar")};
+      GURL("https://www.nixbrowser.in/test?foo=bar")};
 
   for (const auto& url : urls) {
     processor_.Process(url);

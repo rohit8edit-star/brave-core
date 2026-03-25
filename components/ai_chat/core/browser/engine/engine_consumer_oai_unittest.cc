@@ -445,7 +445,7 @@ TEST_F(EngineConsumerOAIUnitTest,
       std::nullopt,                    // No message edits
       std::nullopt,                    // No uploaded images
       nullptr,                         // No skill
-      false,                           // Not from Brave SERP
+      false,                           // Not from Nix SERP
       std::nullopt,                    // No model_key
       nullptr                          // near_verification_status
       ));

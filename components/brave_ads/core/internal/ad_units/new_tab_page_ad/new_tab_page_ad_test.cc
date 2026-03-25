@@ -66,7 +66,7 @@ class BraveAdsNewTabPageAdIntegrationTest : public test::TestBase {
                     "creativeInstanceId": "aa0b561e-9eed-4aaa-8999-5627bc6b14fd",
                     "companyName": "Rich Media NTT Creative",
                     "alt": "Some rich content",
-                    "targetUrl": "https://brave.com",
+                    "targetUrl": "https://nixbrowser.in",
                     "wallpaper": {
                       "type": "richMedia",
                       "relativeUrl": "aa0b561e-9eed-4aaa-8999-5627bc6b14fd/index.html"
@@ -95,7 +95,7 @@ class BraveAdsNewTabPageAdIntegrationTest : public test::TestBase {
                 "conversions": [
                   {
                     "observationWindow": 30,
-                    "urlPattern": "https://www.brave.com/*"
+                    "urlPattern": "https://www.nixbrowser.in/*"
                   }
                 ],
                 "perDay": 20,

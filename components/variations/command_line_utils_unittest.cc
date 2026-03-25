@@ -57,10 +57,10 @@ TEST(VariationsCommandLineUtils, SetVariationsPrParameter) {
 
   EXPECT_EQ(command_line.GetSwitchValueASCII(
                 variations::switches::kVariationsServerURL),
-            "https://griffin.brave.com/pull/1234/seed");
+            "https://griffin.nixbrowser.in/pull/1234/seed");
   EXPECT_EQ(command_line.GetSwitchValueASCII(
                 variations::switches::kVariationsInsecureServerURL),
-            "https://griffin.brave.com/pull/1234/seed");
+            "https://griffin.nixbrowser.in/pull/1234/seed");
   EXPECT_TRUE(command_line.HasSwitch(
       variations::switches::kAcceptEmptySeedSignatureForTesting));
   EXPECT_TRUE(command_line.HasSwitch(

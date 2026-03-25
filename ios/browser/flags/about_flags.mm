@@ -70,7 +70,7 @@ const flags_ui::FeatureEntry::FeatureVariation
       {                                                                       \
           "brave-wallet-zcash",                                               \
           "Enable BraveWallet ZCash support by option",                       \
-          "Zcash support for Brave Wallet",                                   \
+          "Zcash support for Nix Wallet",                                   \
           flags_ui::kOsIos,                                                   \
           FEATURE_WITH_PARAMS_VALUE_TYPE(                                     \
               brave_wallet::features::kBraveWalletZCashFeature,               \
@@ -105,7 +105,7 @@ const flags_ui::FeatureEntry::FeatureVariation
       {                                                                       \
           "brave-wallet-enable-cardano",                                      \
           "Enable Brave Wallet(WebUI) Cardano support",                       \
-          "Cardano support for Brave Wallet(WebUI)",                          \
+          "Cardano support for Nix Wallet(WebUI)",                          \
           flags_ui::kOsIos,                                                   \
           FEATURE_VALUE_TYPE(                                                 \
               brave_wallet::features::kBraveWalletCardanoFeature),            \
@@ -235,16 +235,16 @@ const flags_ui::FeatureEntry::FeatureVariation
   EXPAND_FEATURE_ENTRIES(                                                 \
       {                                                                   \
           "brave-wallet-webui-ios",                                       \
-          "Enable WebUI for Brave Wallet iOS",                            \
-          "Enables WebUI for Brave Wallet",                               \
+          "Enable WebUI for Nix Wallet iOS",                            \
+          "Enables WebUI for Nix Wallet",                               \
           flags_ui::kOsIos,                                               \
           FEATURE_VALUE_TYPE(                                             \
               brave_wallet::features::kBraveWalletWebUIFeature),          \
       },                                                                  \
       {                                                                   \
           "brave-wallet-cardano-dapp-support-ios",                        \
-          "Enable Cardano dApp Support for Brave Wallet(WebUI) iOS",      \
-          "Enables Cardano dApp Support for Brave Wallet(WebUI)",         \
+          "Enable Cardano dApp Support for Nix Wallet(WebUI) iOS",      \
+          "Enables Cardano dApp Support for Nix Wallet(WebUI)",         \
           flags_ui::kOsIos,                                               \
           FEATURE_VALUE_TYPE(                                             \
               brave_wallet::features::kBraveWalletCardanoDAppSupportIOS), \
@@ -285,7 +285,7 @@ const flags_ui::FeatureEntry::FeatureVariation
       },                                                                       \
       {                                                                        \
           "brave-translate-enabled",                                           \
-          "Use Brave Translate",                                               \
+          "Use Nix Translate",                                               \
           "Enables page translation",                                          \
           flags_ui::kOsIos,                                                    \
           FEATURE_VALUE_TYPE(brave::features::kBraveTranslateEnabled),         \
@@ -299,7 +299,7 @@ const flags_ui::FeatureEntry::FeatureVariation
       },                                                                       \
       {                                                                        \
           "use-brave-user-agent",                                              \
-          "Use Brave user agent",                                              \
+          "Use Nix user agent",                                              \
           "Includes Brave version information in the user agent",              \
           flags_ui::kOsIos,                                                    \
           FEATURE_WITH_PARAMS_VALUE_TYPE(                                      \
@@ -342,7 +342,7 @@ const flags_ui::FeatureEntry::FeatureVariation
           "credentials such "                                                  \
           "as passwords and access tokens depending on your "                  \
           "activity. Please "                                                  \
-          "do not share it unless asked to by Brave staff.",                   \
+          "do not share it unless asked to by Nix staff.",                   \
           flags_ui::kOsIos,                                                    \
           FEATURE_VALUE_TYPE(brave_rewards::features::kVerboseLoggingFeature), \
       })                                                                       \

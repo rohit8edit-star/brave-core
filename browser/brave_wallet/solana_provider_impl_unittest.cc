@@ -503,7 +503,7 @@ TEST_F(SolanaProviderImplUnitTest, Connect) {
   auto added_account = AddAccount();
   SetSelectedAccount(added_account->account_id);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Block the site via "Block sites from accessing the Solana provider API"
@@ -592,7 +592,7 @@ TEST_F(SolanaProviderImplUnitTest, EagerlyConnect) {
   auto added_account = AddAccount();
   SetSelectedAccount(added_account->account_id);
 
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   mojom::SolanaProviderError error;
   std::string error_message;
   base::DictValue dict;
@@ -638,7 +638,7 @@ TEST_F(SolanaProviderImplUnitTest, ConnectWithNoSolanaAccount) {
   bool onboarding_callback_called = false;
   SetCallbackForNewSetupNeededForTesting(
       base::BindLambdaForTesting([&]() { onboarding_callback_called = true; }));
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
 
   mojom::SolanaProviderError error;
   std::string error_message;
@@ -682,7 +682,7 @@ TEST_F(SolanaProviderImplUnitTest, Disconnect) {
   auto added_account = AddAccount();
   SetSelectedAccount(added_account->account_id);
 
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   AddSolanaPermission(added_account->account_id);
   std::string account = Connect(std::nullopt, nullptr, nullptr);
   ASSERT_TRUE(!account.empty());
@@ -709,7 +709,7 @@ TEST_F(SolanaProviderImplUnitTest,
   observer_->WaitAndVerify();
 
   // Connect the account.
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   AddSolanaPermission(added_hw_account->account_id);
   std::string account = Connect(std::nullopt, nullptr, nullptr);
   ASSERT_TRUE(!account.empty());
@@ -738,7 +738,7 @@ TEST_F(SolanaProviderImplUnitTest, AccountChangedEvent) {
   observer_->WaitAndVerify();
 
   // connect the account
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   AddSolanaPermission(added_account->account_id);
   std::string account = Connect(std::nullopt, nullptr, nullptr);
   ASSERT_TRUE(!account.empty());
@@ -768,7 +768,7 @@ TEST_F(SolanaProviderImplUnitTest, AccountChangedEvent) {
 }
 
 TEST_F(SolanaProviderImplUnitTest, NoSelectedAccount) {
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   mojom::SolanaProviderError error;
   std::string error_message;
   // connect
@@ -799,7 +799,7 @@ TEST_F(SolanaProviderImplUnitTest, SignMessage) {
   CreateWallet();
   auto added_account = AddAccount();
   SetSelectedAccount(added_account->account_id);
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   mojom::SolanaProviderError error;
@@ -871,7 +871,7 @@ TEST_F(SolanaProviderImplUnitTest, SignMessage_Hardware) {
   CreateWallet();
   auto added_hw_account = AddHardwareAccount(kHardwareAccountAddr);
   SetSelectedAccount(added_hw_account->account_id);
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
 
   AddSolanaPermission(added_hw_account->account_id);
   Connect(std::nullopt, &error, &error_message);
@@ -944,7 +944,7 @@ TEST_F(SolanaProviderImplUnitTest, SignTransactionAPIs) {
   CreateWallet();
   auto added_account = AddAccount();
   SetSelectedAccount(added_account->account_id);
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
 
   // Disconnected state will be rejected.
   ASSERT_FALSE(IsConnected());
@@ -984,7 +984,7 @@ TEST_F(SolanaProviderImplUnitTest, SignTransactionAPIs_Hardware) {
   CreateWallet();
   auto added_hw_account = AddHardwareAccount(kHardwareAccountAddr);
   SetSelectedAccount(added_hw_account->account_id);
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   AddSolanaPermission(added_hw_account->account_id);
   Connect(std::nullopt, nullptr, nullptr);
   ASSERT_TRUE(IsConnected());

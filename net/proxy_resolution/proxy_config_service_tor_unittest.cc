@@ -165,7 +165,7 @@ TEST_F(ProxyConfigServiceTorTest, SetNewTorCircuit) {
 
 TEST_F(ProxyConfigServiceTorTest, SetProxyAuthorization) {
   const GURL site_url("https://check.torproject.org/");
-  const GURL site_url2("https://brave.com/");
+  const GURL site_url2("https://nixbrowser.in/");
   const std::string circuit_anonymization_key =
       ProxyConfigServiceTor::CircuitAnonymizationKey(site_url);
   const std::string circuit_anonymization_key2 =
@@ -238,7 +238,7 @@ TEST_F(ProxyConfigServiceTorTest, SetProxyAuthorization) {
 }
 
 TEST_F(ProxyConfigServiceTorTest, SetProxyAuthorization_Subresources) {
-  const GURL site_url1("https://brave.com/");
+  const GURL site_url1("https://nixbrowser.in/");
   const GURL site_url2("https://bravesoftware.com/");  // subresource
   const GURL site_url3("https://brave.software.com/");
   const net::SchemefulSite site1(site_url1);
@@ -274,7 +274,7 @@ TEST_F(ProxyConfigServiceTorTest, SetProxyAuthorization_Subresources) {
 }
 
 TEST_F(ProxyConfigServiceTorTest, CircuitTimeout) {
-  const GURL site_url("https://brave.com/");
+  const GURL site_url("https://nixbrowser.in/");
   const std::string circuit_anonymization_key =
       ProxyConfigServiceTor::CircuitAnonymizationKey(site_url);
   const net::SchemefulSite site(site_url);
@@ -323,7 +323,7 @@ TEST_F(ProxyConfigServiceTorTest, CircuitTimeout) {
 // checks the newest entry first and breaks immediately if it's not expired,
 // leaving older expired entries in the map. This test requires a min-heap.
 TEST_F(ProxyConfigServiceTorTest, CircuitTimeout_MultiSite) {
-  const GURL site_url1("https://brave.com/");
+  const GURL site_url1("https://nixbrowser.in/");
   const GURL site_url2("https://torproject.org/");
   const net::SchemefulSite site1(site_url1);
   const net::SchemefulSite site2(site_url2);

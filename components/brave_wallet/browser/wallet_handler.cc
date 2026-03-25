@@ -23,7 +23,7 @@ WalletHandler::WalletHandler(
 WalletHandler::~WalletHandler() = default;
 
 // TODO(apaymyshev): this is the only method in WalletHandler. Should be merged
-// into BraveWalletService.
+// into NixWalletService.
 void WalletHandler::GetWalletInfo(GetWalletInfoCallback callback) {
   if (!brave_wallet_service_) {
     std::move(callback).Run(nullptr);

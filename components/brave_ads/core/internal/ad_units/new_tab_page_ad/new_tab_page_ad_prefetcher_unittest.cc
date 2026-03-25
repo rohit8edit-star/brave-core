@@ -25,7 +25,7 @@ mojom::NewTabPageAdInfoPtr BuildNewTabPageAd() {
   mojom_ad->campaign_id = "campaign_id";
   mojom_ad->advertiser_id = "advertiser_id";
   mojom_ad->segment = "segment";
-  mojom_ad->target_url = GURL("https://brave.com");
+  mojom_ad->target_url = GURL("https://nixbrowser.in");
   mojom_ad->company_name = "company_name";
   mojom_ad->alt = "alt";
   return mojom_ad;

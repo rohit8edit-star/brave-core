@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "Laporkan situs rusak",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "Item diblokir",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Tambahkan ke Brave",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Hapus dari Brave",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Tambahkan ke Chrome",

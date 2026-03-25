@@ -95,9 +95,9 @@ class SkusUrlLoaderImplUnitTest : public testing::Test {
 
 TEST_F(SkusUrlLoaderImplUnitTest, SanitizedResponse) {
   SetResponseText("{}");
-  EXPECT_TRUE(GetRequestResponse("GET", "https://brave.com").is_dict());
+  EXPECT_TRUE(GetRequestResponse("GET", "https://nixbrowser.in").is_dict());
   SetResponseText("{,}");
-  EXPECT_TRUE(GetRequestResponse("GET", "https://brave.com").is_none());
+  EXPECT_TRUE(GetRequestResponse("GET", "https://nixbrowser.in").is_none());
 }
 
 TEST_F(SkusUrlLoaderImplUnitTest, BeginFetch) {
@@ -105,14 +105,14 @@ TEST_F(SkusUrlLoaderImplUnitTest, BeginFetch) {
   FetchResponse(
       "GET",
       rust::cxxbridge1::Box<skus::HttpRoundtripContext>::from_raw(nullptr),
-      "https://brave.com",
+      "https://nixbrowser.in",
       skus::SkusResult(skus::mojom::SkusResultCode::Ok, "{}"), "{}");
 
   SetResponseText("");
   FetchResponse(
       "GET",
       rust::cxxbridge1::Box<skus::HttpRoundtripContext>::from_raw(nullptr),
-      "https://brave.com",
+      "https://nixbrowser.in",
       skus::SkusResult(skus::mojom::SkusResultCode::Ok, ""), "");
 
   SetResponseText("");
@@ -120,6 +120,6 @@ TEST_F(SkusUrlLoaderImplUnitTest, BeginFetch) {
   FetchResponse(
       "GET",
       rust::cxxbridge1::Box<skus::HttpRoundtripContext>::from_raw(nullptr),
-      "https://brave.com",
+      "https://nixbrowser.in",
       skus::SkusResult(skus::mojom::SkusResultCode::Ok, ""), std::string());
 }

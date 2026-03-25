@@ -410,7 +410,7 @@ TEST_F(NetworkManagerUnitTest, GetNetworkURLTest) {
       chain2.rpc_endpoints.front(),
       network_manager()->GetNetworkURL(chain2.chain_id, mojom::CoinType::ETH));
 
-  EXPECT_EQ(GURL("https://solana-mainnet.wallet.brave.com"),
+  EXPECT_EQ(GURL("https://solana-mainnet.wallet.nixbrowser.in"),
             network_manager()->GetNetworkURL(mojom::kSolanaMainnet,
                                              mojom::CoinType::SOL));
   auto custom_sol_network = network_manager()->GetKnownChain(
@@ -436,7 +436,7 @@ TEST_F(NetworkManagerUnitTest, GetNetworkURLTest) {
             network_manager()->GetNetworkURL(mojom::kFilecoinMainnet,
                                              mojom::CoinType::FIL));
 
-  EXPECT_EQ(GURL("https://bitcoin-mainnet.wallet.brave.com/"),
+  EXPECT_EQ(GURL("https://bitcoin-mainnet.wallet.nixbrowser.in/"),
             network_manager()->GetNetworkURL(mojom::kBitcoinMainnet,
                                              mojom::CoinType::BTC));
   auto custom_btc_network = network_manager()->GetKnownChain(
@@ -449,7 +449,7 @@ TEST_F(NetworkManagerUnitTest, GetNetworkURLTest) {
             network_manager()->GetNetworkURL(mojom::kBitcoinMainnet,
                                              mojom::CoinType::BTC));
 
-  EXPECT_EQ(GURL("https://zcash.wallet.brave.com/"),
+  EXPECT_EQ(GURL("https://zcash.wallet.nixbrowser.in/"),
             network_manager()->GetNetworkURL(mojom::kZCashMainnet,
                                              mojom::CoinType::ZEC));
   auto custom_zec_network = network_manager()->GetKnownChain(
@@ -462,7 +462,7 @@ TEST_F(NetworkManagerUnitTest, GetNetworkURLTest) {
             network_manager()->GetNetworkURL(mojom::kZCashMainnet,
                                              mojom::CoinType::ZEC));
 
-  EXPECT_EQ(GURL("https://cardano-mainnet.wallet.brave.com/"),
+  EXPECT_EQ(GURL("https://cardano-mainnet.wallet.nixbrowser.in/"),
             network_manager()->GetNetworkURL(mojom::kCardanoMainnet,
                                              mojom::CoinType::ADA));
   auto custom_cardano_network = network_manager()->GetKnownChain(
@@ -505,7 +505,7 @@ TEST_F(NetworkManagerUnitTest, GetNetworkURLForKnownChains) {
        NetworkManager::GetAllKnownChains(mojom::CoinType::ETH)) {
     auto network_url =
         network_manager()->GetNetworkURL(chain->chain_id, mojom::CoinType::ETH);
-    EXPECT_EQ(network_url.host().ends_with(".brave.com"),
+    EXPECT_EQ(network_url.host().ends_with(".nixbrowser.in"),
               known_chains.contains(chain->chain_id));
   }
 }
@@ -568,7 +568,7 @@ TEST_F(NetworkManagerUnitTest, GetChain) {
   mojom::NetworkInfo sol_mainnet(
       brave_wallet::mojom::kSolanaMainnet, "Solana Mainnet Beta",
       {"https://explorer.solana.com/"}, {}, 0,
-      {GURL("https://solana-mainnet.wallet.brave.com")}, "SOL", "Solana", 9,
+      {GURL("https://solana-mainnet.wallet.nixbrowser.in")}, "SOL", "Solana", 9,
       brave_wallet::mojom::CoinType::SOL, {mojom::KeyringId::kSolana});
   EXPECT_FALSE(network_manager()->GetChain("0x123", mojom::CoinType::SOL));
   EXPECT_EQ(network_manager()->GetChain("0x65", mojom::CoinType::SOL),
@@ -588,7 +588,7 @@ TEST_F(NetworkManagerUnitTest, GetChain) {
   mojom::NetworkInfo btc_mainnet(
       mojom::kBitcoinMainnet, "Bitcoin Mainnet",
       {"https://www.blockchain.com/explorer"}, {}, 0,
-      {GURL("https://bitcoin-mainnet.wallet.brave.com/")}, "BTC", "Bitcoin", 8,
+      {GURL("https://bitcoin-mainnet.wallet.nixbrowser.in/")}, "BTC", "Bitcoin", 8,
       mojom::CoinType::BTC,
       {mojom::KeyringId::kBitcoin84, mojom::KeyringId::kBitcoinImport,
        mojom::KeyringId::kBitcoinHardware});
@@ -600,7 +600,7 @@ TEST_F(NetworkManagerUnitTest, GetChain) {
   // Zcash
   mojom::NetworkInfo zec_mainnet(mojom::kZCashMainnet, "Zcash Mainnet",
                                  {"https://3xpl.com/zcash/transaction"}, {}, 0,
-                                 {GURL("https://zcash.wallet.brave.com/")},
+                                 {GURL("https://zcash.wallet.nixbrowser.in/")},
                                  "ZEC", "Zcash", 8, mojom::CoinType::ZEC,
                                  {mojom::KeyringId::kZCashMainnet});
   EXPECT_FALSE(network_manager()->GetChain("0x123", mojom::CoinType::ZEC));
@@ -610,7 +610,7 @@ TEST_F(NetworkManagerUnitTest, GetChain) {
   // Cardano
   mojom::NetworkInfo cardano_mainnet(
       mojom::kCardanoMainnet, "Cardano Mainnet", {"https://cexplorer.io"}, {},
-      0, {GURL("https://cardano-mainnet.wallet.brave.com/")}, "ADA", "Cardano",
+      0, {GURL("https://cardano-mainnet.wallet.nixbrowser.in/")}, "ADA", "Cardano",
       6, mojom::CoinType::ADA, {mojom::KeyringId::kCardanoMainnet});
   EXPECT_FALSE(network_manager()->GetChain("0x123", mojom::CoinType::ADA));
   EXPECT_EQ(
@@ -621,13 +621,13 @@ TEST_F(NetworkManagerUnitTest, GetChain) {
   mojom::NetworkInfo polkadot_mainnet(
       mojom::kPolkadotMainnet, "Polkadot Mainnet",
       {"https://polkadot.statescan.io/"}, {}, 0,
-      {GURL("https://polkadot-mainnet.wallet.brave.com/")}, "DOT", "Polkadot",
+      {GURL("https://polkadot-mainnet.wallet.nixbrowser.in/")}, "DOT", "Polkadot",
       10, mojom::CoinType::DOT,
       {mojom::KeyringId::kPolkadotMainnet, mojom::KeyringId::kPolkadotImport});
   mojom::NetworkInfo polkadot_testnet(
       mojom::kPolkadotTestnet, "Polkadot Westend",
       {"https://westend.subscan.io/"}, {}, 0,
-      {GURL("https://polkadot-westend.wallet.brave.com/")}, "WND", "Polkadot",
+      {GURL("https://polkadot-westend.wallet.nixbrowser.in/")}, "WND", "Polkadot",
       12, mojom::CoinType::DOT,
       {mojom::KeyringId::kPolkadotTestnet,
        mojom::KeyringId::kPolkadotImportTestnet});
@@ -714,7 +714,7 @@ TEST_F(NetworkManagerUnitTest, CustomNetworkMatchesKnownNetwork) {
       network_manager()
           ->GetNetworkURL(mojom::kPolygonMainnetChainId, mojom::CoinType::ETH)
           .GetWithoutFilename(),
-      GURL("https://polygon-mainnet.wallet.brave.com"));
+      GURL("https://polygon-mainnet.wallet.nixbrowser.in"));
 
   mojom::NetworkInfo chain1 =
       GetTestNetworkInfo1(mojom::kPolygonMainnetChainId);
@@ -738,7 +738,7 @@ TEST_F(NetworkManagerUnitTest, CustomNetworkMatchesKnownNetwork) {
       network_manager()
           ->GetNetworkURL(mojom::kPolygonMainnetChainId, mojom::CoinType::ETH)
           .GetWithoutFilename(),
-      GURL("https://polygon-mainnet.wallet.brave.com"));
+      GURL("https://polygon-mainnet.wallet.nixbrowser.in"));
 }
 
 TEST_F(NetworkManagerUnitTest, RemoveCustomNetwork) {
@@ -1035,20 +1035,20 @@ TEST_F(NetworkManagerUnitTest, GetCurrentChainIdFallback) {
 
 TEST_F(NetworkManagerUnitTest, GetUnstoppableDomainsRpcUrl) {
   EXPECT_EQ(
-      GURL("https://ethereum-mainnet.wallet.brave.com"),
+      GURL("https://ethereum-mainnet.wallet.nixbrowser.in"),
       NetworkManager::GetUnstoppableDomainsRpcUrl(mojom::kMainnetChainId));
-  EXPECT_EQ(GURL("https://polygon-mainnet.wallet.brave.com"),
+  EXPECT_EQ(GURL("https://polygon-mainnet.wallet.nixbrowser.in"),
             NetworkManager::GetUnstoppableDomainsRpcUrl(
                 mojom::kPolygonMainnetChainId));
 }
 
 TEST_F(NetworkManagerUnitTest, GetEnsRpcUrl) {
-  EXPECT_EQ(GURL("https://ethereum-mainnet.wallet.brave.com"),
+  EXPECT_EQ(GURL("https://ethereum-mainnet.wallet.nixbrowser.in"),
             NetworkManager::GetEnsRpcUrl());
 }
 
 TEST_F(NetworkManagerUnitTest, GetSnsRpcUrl) {
-  EXPECT_EQ(GURL("https://solana-mainnet.wallet.brave.com"),
+  EXPECT_EQ(GURL("https://solana-mainnet.wallet.nixbrowser.in"),
             NetworkManager::GetSnsRpcUrl());
 }
 

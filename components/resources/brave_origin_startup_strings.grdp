@@ -5,7 +5,7 @@
   </message>
 
   <message name="IDS_BRAVE_ORIGIN_STARTUP_DESCRIPTION" desc="First paragraph of description on the Brave Origin startup dialog" formatter_data="webui=BraveOriginStartup">
-    Welcome to Brave Origin. To continue, please buy or restore your Brave Origin purchase.
+    Welcome to Nix Origin. To continue, please buy or restore your Brave Origin purchase.
   </message>
 
   <message name="IDS_BRAVE_ORIGIN_STARTUP_DESCRIPTION2" desc="Second paragraph of description on the Brave Origin startup dialog" formatter_data="webui=BraveOriginStartup">
@@ -45,7 +45,7 @@
   </message>
 
   <message name="IDS_BRAVE_ORIGIN_STARTUP_LINUX_DESCRIPTION" desc="First paragraph of description on the Linux-specific Brave Origin startup dialog" formatter_data="webui=BraveOriginStartup">
-    Thanks for installing Brave Origin, a version of the browser for users who don't need all the features that support Brave as a business, but still want the privacy that only Brave offers. Origin users will continue to benefit from Brave's industry-leading privacy, adblock, and speed (via Shields), as well as regular software updates, Chromium patches, and security and privacy improvements. Origin will remove most other features from the browser.
+    Thanks for installing Brave Origin, a version of the browser for users who don't need all the features that support Brave as a business, but still want the privacy that only Brave offers. Origin users will continue to benefit from Nix's industry-leading privacy, adblock, and speed (via Shields), as well as regular software updates, Chromium patches, and security and privacy improvements. Origin will remove most other features from the browser.
   </message>
 
   <message name="IDS_BRAVE_ORIGIN_STARTUP_LINUX_DESCRIPTION2" desc="Second paragraph on the Linux-specific Brave Origin startup dialog with a link placeholder" formatter_data="webui=BraveOriginStartup">

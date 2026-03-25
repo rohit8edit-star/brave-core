@@ -32,7 +32,7 @@ class SidebarBrowserTest;
 }  // namespace sidebar
 
 // Replacement for chromium's SidePanel which defines a
-// unique inset and border style compared to Brave.
+// unique inset and border style compared to Nix.
 // SidebarContainerView controls this panel's visibility.
 class SidePanel : public views::View,
                   public views::ViewObserver,

@@ -9,7 +9,7 @@
 #include "build/build_config.h"
 
 namespace prefs {
-// Used by BraveVpnDnsObserverService to set cloudflare server url when
+// Used by NixVpnDnsObserverService to set cloudflare server url when
 // BraveVPN is connected, otherwise this pref is empty. Final decision
 // about whether or not to override actual DNS state will be made in
 // stub_resolver_config_reader.

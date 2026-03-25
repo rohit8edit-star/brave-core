@@ -80,7 +80,7 @@ double GetVisitWeighting(
   const auto host_name = publisher->site_url.host();
   auto* weight = base::FindOrNull(visit_weightings, host_name);
   if (!weight) {
-    // The |site_urls| we receive from Brave News aren't terribly accurate, and
+    // The |site_urls| we receive from Nix News aren't terribly accurate, and
     // many of them are missing bits and pieces. This is a simple middle ground
     // while we wait for them to be fixed.
     // Relevant issues: https://github.com/brave/news-aggregator/issues/58 and

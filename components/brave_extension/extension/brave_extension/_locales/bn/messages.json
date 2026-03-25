@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "একটি ভাঙ্গা সাইটের প্রতিবেদন করুন",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "ব্লক করা আইটেমসমূহ",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave-এ জুড়ুন",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave থেকে সরান",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Chrome এ জুড়ুন",

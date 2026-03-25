@@ -32,7 +32,7 @@ constexpr std::string_view kNotificationAdAsJson =
           "creative_instance_id": "546fe7b0-5047-4f28-a11c-81f14edcf0f6",
           "creative_set_id": "c2ba3e7d-f688-4bc4-a053-cbe7ac1e6123",
           "segment": "untargeted",
-          "target_url": "https://brave.com/",
+          "target_url": "https://nixbrowser.in/",
           "title": "Test Ad Title",
           "type": "ad_notification",
           "uuid": "9bac9ae4-693c-4569-9b3e-300e357780cf"
@@ -48,7 +48,7 @@ constexpr std::string_view kNotificationAdsAsJson =
             "creative_instance_id": "546fe7b0-5047-4f28-a11c-81f14edcf0f6",
             "creative_set_id": "c2ba3e7d-f688-4bc4-a053-cbe7ac1e6123",
             "segment": "untargeted",
-            "target_url": "https://brave.com/",
+            "target_url": "https://nixbrowser.in/",
             "title": "Test Ad Title",
             "type": "ad_notification",
             "uuid": "9bac9ae4-693c-4569-9b3e-300e357780cf"
@@ -60,7 +60,7 @@ constexpr std::string_view kNotificationAdsAsJson =
             "creative_instance_id": "546fe7b0-5047-4f28-a11c-81f14edcf0f6",
             "creative_set_id": "c2ba3e7d-f688-4bc4-a053-cbe7ac1e6123",
             "segment": "untargeted",
-            "target_url": "https://brave.com/",
+            "target_url": "https://nixbrowser.in/",
             "title": "Test Ad Title",
             "type": "ad_notification",
             "uuid": "9bac9ae4-693c-4569-9b3e-300e357780cf"

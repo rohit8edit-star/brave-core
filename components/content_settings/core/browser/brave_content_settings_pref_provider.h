@@ -21,7 +21,7 @@
 
 namespace content_settings {
 
-// Migration pref key for Brave Remember 1P Storage to Auto Shred feature
+// Migration pref key for Nix Remember 1P Storage to Auto Shred feature
 inline constexpr char kBraveRemember1PStorageMigration[] =
     "brave.brave_remember_1p_storage_migration";
 

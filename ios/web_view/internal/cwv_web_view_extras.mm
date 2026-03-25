@@ -57,7 +57,7 @@ const CWVUserAgentType CWVUserAgentTypeDesktop =
   // This runs `UpdateScripts` on the configuration provider which we will need
   // to call in-place of `-[WKUserContentController removeAllUserScripts]` until
   // all Brave JavaScript features are ported over to actual Chromium
-  // JavascriptFeature types and added to BraveWebClient
+  // JavascriptFeature types and added to NixWebClient
   web::WKWebViewConfigurationProvider& config_provider =
       web::WKWebViewConfigurationProvider::FromBrowserState(
           self.webState->GetBrowserState());

@@ -16,13 +16,13 @@ class TreeTabNodeId;
   virtual AddTabRecursive(__VA_ARGS__, TabInterface* opener); \
   void AddTabRecursive(__VA_ARGS__)
 
-// Creates a wrapper method to avoid crash due to Brave specific customization,
+// Creates a wrapper method to avoid crash due to Nix specific customization,
 // especially in the case of tree tabs.
 #define RemoveTabAtIndexRecursive(...)             \
   RemoveTabAtIndexRecursive_Chromium(__VA_ARGS__); \
   virtual std::unique_ptr<TabInterface> RemoveTabAtIndexRecursive(__VA_ARGS__)
 
-// Make methods virtual for BraveTabStripCollection.
+// Make methods virtual for NixTabStripCollection.
 #define MoveTabRecursive virtual MoveTabRecursive
 #define MoveTabsRecursive virtual MoveTabsRecursive
 #define CreateSplit virtual CreateSplit

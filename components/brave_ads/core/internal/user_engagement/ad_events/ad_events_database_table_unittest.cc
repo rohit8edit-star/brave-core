@@ -233,7 +233,7 @@ TEST_F(BraveAdsAdEventsDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion =
       test::BuildCreativeSetConversion(
           ad.creative_set_id,
-          /*url_pattern=*/"https://www.brave.com/signup/*",
+          /*url_pattern=*/"https://www.nixbrowser.in/signup/*",
           /*observation_window=*/base::Days(30));
   creative_set_conversions.push_back(creative_set_conversion);
   database::SaveCreativeSetConversions(creative_set_conversions);
@@ -358,7 +358,7 @@ TEST_F(BraveAdsAdEventsDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion =
       test::BuildCreativeSetConversion(
           ad_1.creative_set_id,
-          /*url_pattern=*/"https://www.brave.com/signup/*",
+          /*url_pattern=*/"https://www.nixbrowser.in/signup/*",
           /*observation_window=*/base::Days(30));
   creative_set_conversions.push_back(creative_set_conversion);
   database::SaveCreativeSetConversions(creative_set_conversions);
@@ -479,7 +479,7 @@ TEST_F(BraveAdsAdEventsDatabaseTableTest,
   const CreativeSetConversionInfo creative_set_conversion =
       test::BuildCreativeSetConversion(
           ad.creative_set_id,
-          /*url_pattern=*/"https://www.brave.com/signup/*",
+          /*url_pattern=*/"https://www.nixbrowser.in/signup/*",
           /*observation_window=*/base::Days(30));
   creative_set_conversions.push_back(creative_set_conversion);
   database::SaveCreativeSetConversions(creative_set_conversions);

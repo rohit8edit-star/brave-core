@@ -40,7 +40,7 @@ constexpr char kAccountId[] =
 
 constexpr char kAccountEmail[] =
     "502042270C8145247ED70A18F87022A3 "
-    "9886900AB36F2FFF655635DBE516765E @brave.com";
+    "9886900AB36F2FFF655635DBE516765E @nixbrowser.in";
 
 class MockDelegate : public SyncAuthManager::Delegate {
  public:

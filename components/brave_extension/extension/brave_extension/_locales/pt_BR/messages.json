@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "Relate um site quebrado",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "Itens bloqueados",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Adicionar ao Brave",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
-    "message": "Remover do Brave Software Brave",
-    "description": "Message for removing an extension from Brave"
+    "message": "Remover do Nix Technologies Brave",
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Usar no Chrome",

@@ -926,7 +926,7 @@ class EthereumProviderImplUnitTest : public testing::Test {
 };
 
 TEST_F(EthereumProviderImplUnitTest, ValidateBrokenPayloads) {
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   ValidateErrorCode(provider(), R"({"params": []})",
@@ -955,7 +955,7 @@ TEST_F(EthereumProviderImplUnitTest, ValidateBrokenPayloads) {
 TEST_F(EthereumProviderImplUnitTest, EmptyDelegate) {
   EthereumProviderImpl provider_impl(
       host_content_settings_map(), brave_wallet_service_.get(), nullptr,
-      prefs(), url::Origin::Create(GURL("https://brave.com")));
+      prefs(), url::Origin::Create(GURL("https://nixbrowser.in")));
   ValidateErrorCode(&provider_impl,
                     R"({"params": [{
         "chainId": "0x111",
@@ -966,7 +966,7 @@ TEST_F(EthereumProviderImplUnitTest, EmptyDelegate) {
 }
 
 TEST_F(EthereumProviderImplUnitTest, OnAddEthereumChain) {
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   base::RunLoop run_loop;
 
@@ -994,7 +994,7 @@ TEST_F(EthereumProviderImplUnitTest, OnAddEthereumChain) {
 }
 
 TEST_F(EthereumProviderImplUnitTest, OnAddEthereumChainRequestCompletedError) {
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   base::RunLoop run_loop;
   provider()->AddEthereumChain(
@@ -1025,7 +1025,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApproveTransaction) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
 
@@ -1096,7 +1096,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApproveTransactionError) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
   // Bad address
@@ -1131,7 +1131,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApproveTransactionError) {
 TEST_F(EthereumProviderImplUnitTest, AddAndApproveTransactionNoPermission) {
   bool callback_called = false;
   CreateWallet();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
@@ -1170,7 +1170,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApprove1559Transaction) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
   std::string normalized_json_request =
@@ -1234,7 +1234,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApprove1559TransactionNoChainId) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   SetNetwork(mojom::kSepoliaChainId, GetOrigin());
   // Wait for EthTxStateManager::ChainChangedEvent to be called.
@@ -1300,7 +1300,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApprove1559TransactionError) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
   std::string normalized_json_request =
@@ -1337,7 +1337,7 @@ TEST_F(EthereumProviderImplUnitTest, AddAndApprove1559TransactionNoPermission) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   std::string normalized_json_request =
@@ -1376,7 +1376,7 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionNotNewSetup) {
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
   auto address_0 = base::ToLowerASCII(account_0->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   AddEthereumPermission(account_0->account_id);
@@ -1393,7 +1393,7 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionsNoPermission) {
   CreateWallet();
   GetAccountUtils().EnsureEthAccount(0);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Block the site via "Block sites from accessing the Ethereum provider API"
@@ -1423,7 +1423,7 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionsNoPermission) {
 }
 
 TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionsNoWallet) {
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   bool new_setup_callback_called = false;
@@ -1475,7 +1475,7 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionsWithAccounts) {
   auto address_0 = base::ToLowerASCII(account_0->address);
   auto address_1 = base::ToLowerASCII(account_1->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Allowing 1 account should return that account for allowed accounts
@@ -1529,7 +1529,7 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionsLocked) {
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
   auto address_0 = base::ToLowerASCII(account_0->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Allowing 1 account should return that account for allowed accounts
@@ -1570,11 +1570,11 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthereumPermissionsLocked) {
 TEST_F(EthereumProviderImplUnitTest, SignMessage) {
   CreateWallet();
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   for (const auto& message : {
            std::string("0x1234"),
-           ToHex(GetSIWEMessage("https://brave.com", account_0->address,
-                                "https://brave.com/login", "1")),
+           ToHex(GetSIWEMessage("https://nixbrowser.in", account_0->address,
+                                "https://nixbrowser.in/login", "1")),
        }) {
     SCOPED_TRACE(message);
     std::string signature;
@@ -1639,7 +1639,7 @@ TEST_F(EthereumProviderImplUnitTest, SignMessage) {
 
 TEST_F(EthereumProviderImplUnitTest, SignMessageWithTypedDataStructure) {
   CreateWallet();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
   for (const auto& method : {"personal_sign", "eth_sign"}) {
@@ -1704,7 +1704,7 @@ TEST_F(EthereumProviderImplUnitTest, SigninWithEthereumError) {
   std::string error_message;
   CreateBraveWalletTabHelper();
   brave_wallet_tab_helper()->SetSkipDelegateForTesting(true);
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   AddEthereumPermission(account_0->account_id);
 
   struct {
@@ -1718,7 +1718,7 @@ TEST_F(EthereumProviderImplUnitTest, SigninWithEthereumError) {
     mojom::ProviderError provider_err;
     std::string provider_err_msg;
   } cases[]{
-      {"https://brave.com", account_0->address, "https://brave.com/login",
+      {"https://nixbrowser.in", account_0->address, "https://nixbrowser.in/login",
        "5566", mojom::SignMessageErrorType::kChainIdMismatched,
        l10n_util::GetStringFUTF8(
            IDS_BRAVE_WALLET_SIGN_MESSAGE_MISMATCH_ERR,
@@ -1728,7 +1728,7 @@ TEST_F(EthereumProviderImplUnitTest, SigninWithEthereumError) {
        std::string("5566"), mojom::ProviderError::kInternalError,
        l10n_util::GetStringFUTF8(
            IDS_BRAVE_WALLET_SIGN_MESSAGE_CHAIN_ID_MISMATCH, u"5566")},
-      {"https://brave.com", account_1->address, "https://brave.com/login", "1",
+      {"https://nixbrowser.in", account_1->address, "https://nixbrowser.in/login", "1",
        mojom::SignMessageErrorType::kAccountMismatched,
        l10n_util::GetStringFUTF8(
            IDS_BRAVE_WALLET_SIGN_MESSAGE_MISMATCH_ERR,
@@ -1737,7 +1737,7 @@ TEST_F(EthereumProviderImplUnitTest, SigninWithEthereumError) {
        std::nullopt, mojom::ProviderError::kInternalError,
        l10n_util::GetStringFUTF8(IDS_BRAVE_WALLET_SIGN_MESSAGE_ACCOUNT_MISMATCH,
                                  base::ASCIIToUTF16(account_1->address))},
-      {"https://example.com", account_0->address, "https://brave.com/login",
+      {"https://example.com", account_0->address, "https://nixbrowser.in/login",
        "1", mojom::SignMessageErrorType::kDomainMismatched,
        l10n_util::GetStringFUTF8(
            IDS_BRAVE_WALLET_SIGN_MESSAGE_MISMATCH_ERR,
@@ -1782,7 +1782,7 @@ TEST_F(EthereumProviderImplUnitTest, RecoverAddress) {
   const std::vector<std::string> addresses = GetAddresses();
 
   std::string message = "0x68656c6c6f20776f726c64";
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
   SignMessage(true, addresses[0], message, &signature, &error, &error_message);
@@ -1831,7 +1831,7 @@ TEST_F(EthereumProviderImplUnitTest, SignTypedMessage) {
       json_rpc_service()->GetChainIdSync(mojom::CoinType::ETH, std::nullopt),
       "0x1");
   CreateWallet();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
@@ -1917,7 +1917,7 @@ TEST_F(EthereumProviderImplUnitTest, SignMessageRequestQueue) {
   std::string hardware = "0xA99D71De40D67394eBe68e4D0265cA6C9D421029";
   auto account_hw = AddHardwareAccount(hardware);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   AddEthereumPermission(account_0->account_id);
@@ -2039,7 +2039,7 @@ TEST_F(EthereumProviderImplUnitTest, SignMessageRequestQueue) {
 }
 
 TEST_F(EthereumProviderImplUnitTest, ChainChangedEvent) {
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   EXPECT_CALL(*observer_, ChainChangedEvent(mojom::kSepoliaChainId)).Times(1);
@@ -2072,7 +2072,7 @@ TEST_F(EthereumProviderImplUnitTest, AccountsChangedEvent) {
   auto account_1 = GetAccountUtils().EnsureEthAccount(1);
   auto address_0 = base::ToLowerASCII(account_0->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   EXPECT_FALSE(observer_->AccountsChangedFired());
   AddEthereumPermission(account_0->account_id);
@@ -2103,7 +2103,7 @@ TEST_F(EthereumProviderImplUnitTest, AccountsChangedEvent) {
 
 TEST_F(EthereumProviderImplUnitTest, EthSubscribe) {
   CreateWallet();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Unsupported subscription type
@@ -2185,7 +2185,7 @@ TEST_F(EthereumProviderImplUnitTest, EthSubscribe) {
 
 TEST_F(EthereumProviderImplUnitTest, EthSubscribeLogs) {
   CreateWallet();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Unsupported subscription type
@@ -2266,7 +2266,7 @@ TEST_F(EthereumProviderImplUnitTest, EthSubscribeLogs) {
 
 TEST_F(EthereumProviderImplUnitTest, EthSubscribeLogsFiltered) {
   CreateWallet();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   url_loader_factory_.SetInterceptor(
       base::BindLambdaForTesting([&](const network::ResourceRequest& request) {
@@ -2333,7 +2333,7 @@ TEST_F(EthereumProviderImplUnitTest, Web3ClientVersion) {
   std::string version;
   mojom::ProviderError error = mojom::ProviderError::kUnknown;
   std::string error_message;
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   Web3ClientVersion(&version, &error, &error_message);
   EXPECT_EQ(version, expected_version);
@@ -2350,7 +2350,7 @@ TEST_F(EthereumProviderImplUnitTest, AccountsChangedEventSelectedAccount) {
   auto address_0 = base::ToLowerASCII(account_0->address);
   auto address_1 = base::ToLowerASCII(account_1->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Multiple accounts can be returned
@@ -2399,7 +2399,7 @@ TEST_F(EthereumProviderImplUnitTest, GetAllowedAccounts) {
   auto account_1 = GetAccountUtils().EnsureEthAccount(1);
   auto account_2 = GetAccountUtils().EnsureEthAccount(2);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   auto address_0 = base::ToLowerASCII(account_0->address);
@@ -2463,7 +2463,7 @@ TEST_F(EthereumProviderImplUnitTest, SignMessageHardware) {
           std::vector<uint8_t>{1, 2, 3, 4, 5, 6});
   mojom::ProviderError error = mojom::ProviderError::kUnknown;
   std::string error_message;
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   AddEthereumPermission(added_hw_account->account_id);
@@ -2565,7 +2565,7 @@ TEST_F(EthereumProviderImplUnitTest, AddEthereumChainSwitchesForInactive) {
   std::string params = R"({"params": [{
         "chainId": "0xaa36a7",
         "chainName": "Sepolia",
-        "rpcUrls": ["https://ethereum-sepolia.wallet.brave.com"]
+        "rpcUrls": ["https://ethereum-sepolia.wallet.nixbrowser.in"]
       }]})";
   base::RunLoop run_loop;
   provider()->AddEthereumChain(
@@ -2594,7 +2594,7 @@ TEST_F(EthereumProviderImplUnitTest, AddEthereumChainSwitchesForInactive) {
 
 TEST_F(EthereumProviderImplUnitTest, AddSuggestToken) {
   CreateBraveWalletTabHelper();
-  Navigate(GURL("https://brave.com"));
+  Navigate(GURL("https://nixbrowser.in"));
   brave_wallet_tab_helper()->SetSkipDelegateForTesting(true);
 
   mojom::BlockchainTokenPtr token = mojom::BlockchainToken::New(
@@ -2625,7 +2625,7 @@ TEST_F(EthereumProviderImplUnitTest, GetEncryptionPublicKey) {
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
 
   CreateBraveWalletTabHelper();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
   brave_wallet_tab_helper()->SetSkipDelegateForTesting(true);
@@ -2678,7 +2678,7 @@ TEST_F(EthereumProviderImplUnitTest, Decrypt) {
   auto address_0 = account_0->address;
 
   CreateBraveWalletTabHelper();
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
   AddEthereumPermission(account_0->account_id);
   brave_wallet_tab_helper()->SetSkipDelegateForTesting(true);
@@ -2800,7 +2800,7 @@ TEST_F(EthereumProviderImplUnitTest, RequestEthCoinbase) {
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
   auto address_0 = base::ToLowerASCII(account_0->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Fresh wallet should return empty base::Value for eth_coinbase
@@ -2918,7 +2918,7 @@ TEST_F(EthereumProviderImplUnitTest, ProviderResponseFormat) {
   auto account_0 = GetAccountUtils().EnsureEthAccount(0);
   auto address_0 = base::ToLowerASCII(account_0->address);
 
-  GURL url("https://brave.com");
+  GURL url("https://nixbrowser.in");
   Navigate(url);
 
   // Success case:

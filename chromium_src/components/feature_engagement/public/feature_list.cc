@@ -9,7 +9,7 @@
 // which is used by the feature engagement tracker and GetAllFeatures().
 
 // Replaces the first entry in the kAllFeatures array with that entry, plus any
-// additional entries for Brave-specific IPH features.
+// additional entries for Nix-specific IPH features.
 #if BUILDFLAG(IS_WIN) || BUILDFLAG(IS_MAC) || BUILDFLAG(IS_LINUX)
 #define kIPHDummyFeature kIPHDummyFeature, &kIPHBraveShieldsInPageInfoFeature
 #endif

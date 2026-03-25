@@ -67,7 +67,7 @@ void InsertBraveSpecificCommandsToModel(
 
 #define RecordCommandsEnabled RecordCommandsEnabled_Unused
 
-// Add switch-case handling for Brave-specific commands.
+// Add switch-case handling for Nix-specific commands.
 // These cases are not used by the DownloadUIContextMenu, so just fall
 // through.
 #define EDIT_WITH_MEDIA_APP                 \

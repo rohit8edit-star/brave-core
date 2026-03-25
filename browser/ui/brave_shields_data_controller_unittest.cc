@@ -135,7 +135,7 @@ class BraveShieldsDataControllerTest : public testing::Test {
 };
 
 TEST_F(BraveShieldsDataControllerTest, RegularVsIncognitoContentSettings) {
-  const GURL url("http://brave.com");
+  const GURL url("http://nixbrowser.in");
   SetLastCommittedUrl(url);
 
   Profile* otr_profile =
@@ -147,7 +147,7 @@ TEST_F(BraveShieldsDataControllerTest, RegularVsIncognitoContentSettings) {
   auto* incognito_controller =
       BraveShieldsTabHelper::GetOrCreateForWebContents(otr_web_contents.get());
   content::WebContentsTester::For(otr_web_contents.get())
-      ->SetLastCommittedURL(GURL("http://brave.com"));
+      ->SetLastCommittedURL(GURL("http://nixbrowser.in"));
 
   incognito_controller->SetAdBlockMode(AdBlockMode::ALLOW);
 
@@ -159,7 +159,7 @@ TEST_F(BraveShieldsDataControllerTest, RegularVsIncognitoContentSettings) {
 
 TEST_F(BraveShieldsDataControllerTest, SetAdBlockMode_ForOrigin_1) {
   auto* controller = GetShieldsDataController();
-  SetLastCommittedUrl(GURL("http://brave.com"));
+  SetLastCommittedUrl(GURL("http://nixbrowser.in"));
 
   /* DEFAULT */
   EXPECT_EQ(GetContentSettingFor(profile(), ContentSettingsType::BRAVE_ADS),
@@ -199,7 +199,7 @@ TEST_F(BraveShieldsDataControllerTest, SetAdBlockMode_ForOrigin_1) {
 
 TEST_F(BraveShieldsDataControllerTest, SetAdBlockMode_ForOrigin_2) {
   auto* controller = GetShieldsDataController();
-  SetLastCommittedUrl(GURL("http://brave.com"));
+  SetLastCommittedUrl(GURL("http://nixbrowser.in"));
 
   /* DEFAULT */
   EXPECT_EQ(GetContentSettingFor(profile(), ContentSettingsType::BRAVE_ADS),
@@ -239,7 +239,7 @@ TEST_F(BraveShieldsDataControllerTest, SetAdBlockMode_ForOrigin_2) {
 
 TEST_F(BraveShieldsDataControllerTest, SetAdBlockMode_ForOrigin_3) {
   auto* controller = GetShieldsDataController();
-  SetLastCommittedUrl(GURL("http://brave.com"));
+  SetLastCommittedUrl(GURL("http://nixbrowser.in"));
 
   /* DEFAULT */
   EXPECT_EQ(GetContentSettingFor(profile(), ContentSettingsType::BRAVE_ADS),
@@ -279,7 +279,7 @@ TEST_F(BraveShieldsDataControllerTest, SetAdBlockMode_ForOrigin_3) {
 
 TEST_F(BraveShieldsDataControllerTest, GetAdBlockMode_ForOrigin) {
   auto* controller = GetShieldsDataController();
-  SetLastCommittedUrl(GURL("http://brave.com"));
+  SetLastCommittedUrl(GURL("http://nixbrowser.in"));
 
   /* DEFAULT */
   EXPECT_EQ(controller->GetAdBlockMode(), AdBlockMode::STANDARD);
@@ -301,7 +301,7 @@ TEST_F(BraveShieldsDataControllerTest, GetAdBlockMode_ForOrigin) {
 
 TEST_F(BraveShieldsDataControllerTest, Observer_OnShieldsEnabledChangedTest) {
   // Set url for default web contents.
-  SetLastCommittedUrl(GURL("http://brave.com"));
+  SetLastCommittedUrl(GURL("http://nixbrowser.in"));
 
   // Create another web contents for testing whether its
   // OnShieldsEnabledChanged() callback is called when shields enabled is
@@ -316,7 +316,7 @@ TEST_F(BraveShieldsDataControllerTest, Observer_OnShieldsEnabledChangedTest) {
   auto* ctrl_2 = BraveShieldsTabHelper::FromWebContents(web_contents_2.get());
   ctrl_2->AddObserver(&observer_2);
   content::WebContentsTester::For(web_contents_2.get())
-      ->SetLastCommittedURL(GURL("http://brave.com"));
+      ->SetLastCommittedURL(GURL("http://nixbrowser.in"));
 
   // Create another web contents for testing whether its
   // OnShieldsEnabledChanged() callback is *not* called when shields enabled is
@@ -343,7 +343,7 @@ TEST_F(BraveShieldsDataControllerTest, Observer_OnShieldsEnabledChangedTest) {
 
 TEST_F(BraveShieldsDataControllerTest, SetBraveShieldsEnabledAsDefaultValue) {
   // Set url for default web contents.
-  SetLastCommittedUrl(GURL("http://brave.com"));
+  SetLastCommittedUrl(GURL("http://nixbrowser.in"));
   auto* map = HostContentSettingsMapFactory::GetForProfile(profile());
   EXPECT_EQ(map->GetDefaultContentSetting(ContentSettingsType::BRAVE_SHIELDS,
                                           nullptr),

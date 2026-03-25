@@ -10,7 +10,7 @@ namespace brave_domains {
 
 // Gate3 is a Brave backend service used by both rewards (OAuth authentication)
 // and wallet (pricing, swap, token management, etc.).
-inline constexpr char kGate3URL[] = "https://gate3.wallet.brave.com";
+inline constexpr char kGate3URL[] = "https://gate3.wallet.nixbrowser.in";
 
 }  // namespace brave_domains
 

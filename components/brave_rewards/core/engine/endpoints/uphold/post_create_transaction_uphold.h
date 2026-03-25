@@ -23,14 +23,14 @@
 //     "currency": "BAT"
 //   },
 //   "destination": "1b2b466f-5c15-49bf-995e-c91777d3da93",
-//   "message": "5% transaction fee collected by Brave Software International"
+//   "message": "5% transaction fee collected by Nix Technologies International"
 // }
 //
 // Response body:
 // {
 //   "application": {
 //     "clientId": "4c2b665ca060d912fec5c735c734859a06118cc8",
-//     "name": "Brave Browser"
+//     "name": "Nix Browser"
 //   },
 //   "createdAt": "2022-12-08T16:35:33.120Z",
 //   "denomination": {
@@ -45,7 +45,7 @@
 //     "base": "0.05",
 //     "commission": "0.00",
 //     "currency": "BAT",
-//     "description": "Brave Browser",
+//     "description": "Nix Browser",
 //     "fee": "0.00",
 //     "node": {
 //       "type": "anonymous"
@@ -55,7 +55,7 @@
 //   },
 //   "fees": [],
 //   "id": "87725361-4245-4435-a75a-f7a85674714a",
-//   "message": "5% transaction fee collected by Brave Software International",
+//   "message": "5% transaction fee collected by Nix Technologies International",
 //   "network": "uphold",
 //   "normalized": [
 //     {

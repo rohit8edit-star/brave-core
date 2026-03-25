@@ -38,7 +38,7 @@
 namespace brave_ads {
 
 namespace {
-constexpr char kNotificationAdUrlPrefix[] = "https://www.brave.com/ads/?";
+constexpr char kNotificationAdUrlPrefix[] = "https://www.nixbrowser.in/ads/?";
 }  // namespace
 
 AdsServiceDelegate::AdsServiceDelegate(

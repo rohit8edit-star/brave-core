@@ -329,7 +329,7 @@ TEST_F(BraveStatsUpdaterTest, GetUpdateURLHasFirstAndDtoi) {
   SetCurrentTimeForTest(current_time);
 
   GURL response = brave_stats_updater_params.GetUpdateURL(
-      GURL("https://demo.brave.com"), "platform id here", "channel name here",
+      GURL("https://demo.nixbrowser.in"), "platform id here", "channel name here",
       "full brave version here", /*serp_metrics_aggregator=*/nullptr);
 
   base::StringPairs kv_pairs;

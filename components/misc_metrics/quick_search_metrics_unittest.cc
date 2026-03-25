@@ -30,7 +30,7 @@ class QuickSearchMetricsTest : public testing::Test {
     TemplateURLData data;
     data.SetShortName(u"Brave Search");
     data.SetKeyword(u":br");
-    data.SetURL("https://search.brave.com/?q={searchTerms}");
+    data.SetURL("https://search.nixbrowser.in/?q={searchTerms}");
     auto* brave_search = service->Add(std::make_unique<TemplateURL>(data));
     service->SetUserSelectedDefaultSearchProvider(brave_search);
     quick_search_metrics_ = std::make_unique<QuickSearchMetrics>(

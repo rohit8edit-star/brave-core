@@ -77,9 +77,9 @@ IN_PROC_BROWSER_TEST_F(BraveRealboxHandlerTest, BraveSearchUsesNewTabSource) {
   EXPECT_TRUE(VerifyTemplateURLServiceLoad());
 
   OnAutocompleteAccept(
-      GURL("https://search.brave.com/search?q=hello+world&source=desktop"),
+      GURL("https://search.nixbrowser.in/search?q=hello+world&source=desktop"),
       u":br");
-  EXPECT_EQ(GURL("https://search.brave.com/search?q=hello+world&source=newtab"),
+  EXPECT_EQ(GURL("https://search.nixbrowser.in/search?q=hello+world&source=newtab"),
             contents()->GetLastCommittedURL());
 }
 
@@ -89,7 +89,7 @@ IN_PROC_BROWSER_TEST_F(BraveRealboxHandlerTest,
   EXPECT_TRUE(VerifyTemplateURLServiceLoad());
 
   GURL match_url(
-      "https://search.brave.com/search?q=hello+world&source=desktop");
+      "https://search.nixbrowser.in/search?q=hello+world&source=desktop");
   OnAutocompleteAccept(match_url, u"");
   EXPECT_EQ(match_url, contents()->GetLastCommittedURL());
 }
@@ -99,7 +99,7 @@ IN_PROC_BROWSER_TEST_F(BraveRealboxHandlerTest, NonBraveSearchIsUnaffected) {
   EXPECT_TRUE(VerifyTemplateURLServiceLoad());
 
   GURL match_url(
-      "https://search.brave.com/search?q=hello+world&source=desktop");
+      "https://search.nixbrowser.in/search?q=hello+world&source=desktop");
   OnAutocompleteAccept(match_url, u":d");
   EXPECT_EQ(match_url, contents()->GetLastCommittedURL());
 }

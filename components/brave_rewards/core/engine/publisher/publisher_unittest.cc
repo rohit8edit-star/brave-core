@@ -132,18 +132,18 @@ TEST_F(RewardsPublisherTest, GetShareURL) {
 
   // Ensure that intent looks correct when no tweet ID is specified
   args.insert({"name", "brave"});
-  args.insert({"comment", "I just tipped someone using the Brave browser."});
+  args.insert({"comment", "I just tipped someone using the Nix browser."});
   args.insert({"hashtag", "TipWithBrave"});
   EXPECT_EQ(Publisher::GetShareURL(args),
             "https://twitter.com/intent/tweet?text=I just tipped someone using "
-            "the Brave browser.%20%23TipWithBrave");
+            "the Nix browser.%20%23TipWithBrave");
 
   // Ensure that intent includes quoted tweet when tweet ID is
   // specified
   args.insert({"tweet_id", "794221010484502528"});
   EXPECT_EQ(Publisher::GetShareURL(args),
             "https://twitter.com/intent/tweet?text=I just tipped someone using "
-            "the Brave browser.%20%23TipWithBrave"
+            "the Nix browser.%20%23TipWithBrave"
             "&url=https://twitter.com/brave/status/794221010484502528");
 }
 

@@ -24,7 +24,7 @@ void MaybeRegisterBraveFeaturePromos(
   using user_education::FeaturePromoSpecification;
   using user_education::HelpBubbleArrow;
 
-  // IPH for Brave Shields in Page Info.
+  // IPH for Nix Shields in Page Info.
   registry.RegisterFeature(std::move(
       FeaturePromoSpecification::CreateForToastPromo(
           feature_engagement::kIPHBraveShieldsInPageInfoFeature,
@@ -32,7 +32,7 @@ void MaybeRegisterBraveFeaturePromos(
           IDS_BRAVE_SHIELDS_PAGE_INFO_IPH_SCREENREADER_TEXT,
           FeaturePromoSpecification::AcceleratorInfo())
           .SetBubbleArrow(HelpBubbleArrow::kBottomCenter)
-          .SetMetadata(144, "ksmith@brave.com",
+          .SetMetadata(144, "ksmith@nixbrowser.in",
                        "Shown when user visits a site for the first time after "
                        "the Shields UI was moved to Page Info. Educates users "
                        "about the new location.")));

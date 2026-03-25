@@ -54,92 +54,92 @@ constexpr std::string_view kBravePinsJson = R"brave_pins_json({
   ],
   "entries": [
     // Brave
-    { "name": "adblock-data.s3.brave.com", "pins": "brave"},
-    { "name": "ai-chat.bsg.brave.com", "pins": "brave"},
-    { "name": "brave-core-ext.s3.brave.com", "pins": "brave"},
-    { "name": "brave-today-cdn.brave.com", "pins": "brave"},
-    { "name": "clients4.brave.com", "pins": "brave"},
-    { "name": "componentupdater.brave.com", "pins": "brave"},
-    { "name": "crxdownload.brave.com", "pins": "brave"},
-    { "name": "devtools.brave.com", "pins": "brave"},
-    { "name": "dict.brave.com", "pins": "brave"},
-    { "name": "extensionupdater.brave.com", "pins": "brave"},
-    { "name": "feedback.brave.com", "pins": "brave"},
-    { "name": "gaia.brave.com", "pins": "brave"},
-    { "name": "go-updater.brave.com", "pins": "brave"},
-    { "name": "pcdn.brave.com", "pins": "brave"},
-    { "name": "redirector.brave.com", "pins": "brave"},
-    { "name": "safebrowsing.brave.com", "pins": "brave"},
-    { "name": "safebrowsing2.brave.com", "pins": "brave"},
-    { "name": "sb-ssl.brave.com", "pins": "brave"},
-    { "name": "static.brave.com", "pins": "brave"},
-    { "name": "static1.brave.com", "pins": "brave"},
-    { "name": "sync-v2.brave.com", "pins": "brave"},
+    { "name": "adblock-data.s3.nixbrowser.in", "pins": "brave"},
+    { "name": "ai-chat.bsg.nixbrowser.in", "pins": "brave"},
+    { "name": "brave-core-ext.s3.nixbrowser.in", "pins": "brave"},
+    { "name": "brave-today-cdn.nixbrowser.in", "pins": "brave"},
+    { "name": "clients4.nixbrowser.in", "pins": "brave"},
+    { "name": "componentupdater.nixbrowser.in", "pins": "brave"},
+    { "name": "crxdownload.nixbrowser.in", "pins": "brave"},
+    { "name": "devtools.nixbrowser.in", "pins": "brave"},
+    { "name": "dict.nixbrowser.in", "pins": "brave"},
+    { "name": "extensionupdater.nixbrowser.in", "pins": "brave"},
+    { "name": "feedback.nixbrowser.in", "pins": "brave"},
+    { "name": "gaia.nixbrowser.in", "pins": "brave"},
+    { "name": "go-updater.nixbrowser.in", "pins": "brave"},
+    { "name": "pcdn.nixbrowser.in", "pins": "brave"},
+    { "name": "redirector.nixbrowser.in", "pins": "brave"},
+    { "name": "safebrowsing.nixbrowser.in", "pins": "brave"},
+    { "name": "safebrowsing2.nixbrowser.in", "pins": "brave"},
+    { "name": "sb-ssl.nixbrowser.in", "pins": "brave"},
+    { "name": "static.nixbrowser.in", "pins": "brave"},
+    { "name": "static1.nixbrowser.in", "pins": "brave"},
+    { "name": "sync-v2.nixbrowser.in", "pins": "brave"},
     { "name": "sync-v2.brave.software", "pins": "brave"},
     { "name": "sync-v2.bravesoftware.com", "pins": "brave"},
     { "name": "tor.bravesoftware.com", "pins": "brave"},
-    { "name": "translate.brave.com", "pins": "brave"},
-    { "name": "translate-static.brave.com", "pins": "brave"},
-    { "name": "variations.brave.com", "pins": "brave"},
+    { "name": "translate.nixbrowser.in", "pins": "brave"},
+    { "name": "translate-static.nixbrowser.in", "pins": "brave"},
+    { "name": "variations.nixbrowser.in", "pins": "brave"},
 
     // P2A/P3A
-    { "name": "collector.bsg.brave.com", "pins": "brave"},
-    { "name": "star-randsrv.bsg.brave.com", "pins": "brave"},
+    { "name": "collector.bsg.nixbrowser.in", "pins": "brave"},
+    { "name": "star-randsrv.bsg.nixbrowser.in", "pins": "brave"},
 
     // Creators
     { "name": "creators.basicattentiontoken.org", "pins": "brave"},
-    { "name": "creators.brave.com", "pins": "brave"},
+    { "name": "creators.nixbrowser.in", "pins": "brave"},
     { "name": "publishers.basicattentiontoken.org", "pins": "brave"},
-    { "name": "publishers.brave.com", "pins": "brave"},
+    { "name": "publishers.nixbrowser.in", "pins": "brave"},
 
     // Wallet
-    { "name": "wallet.brave.com", "include_subdomains": true, "pins": "brave"},
-    { "name": "api.gate3.brave.com", "pins": "brave"},
-    { "name": "goerli-infura.brave.com", "pins": "brave"},
-    { "name": "sepolia-infura.brave.com", "pins": "brave"},
-    { "name": "mainnet-infura.brave.com", "pins": "brave"},
-    { "name": "mainnet-beta-solana.brave.com", "pins": "brave"},
-    { "name": "mainnet-polygon.brave.com", "pins": "brave"},
+    { "name": "wallet.nixbrowser.in", "include_subdomains": true, "pins": "brave"},
+    { "name": "api.gate3.nixbrowser.in", "pins": "brave"},
+    { "name": "goerli-infura.nixbrowser.in", "pins": "brave"},
+    { "name": "sepolia-infura.nixbrowser.in", "pins": "brave"},
+    { "name": "mainnet-infura.nixbrowser.in", "pins": "brave"},
+    { "name": "mainnet-beta-solana.nixbrowser.in", "pins": "brave"},
+    { "name": "mainnet-polygon.nixbrowser.in", "pins": "brave"},
 
     // Rewards
-    { "name": "api.rewards.brave.com", "pins": "brave"},
+    { "name": "api.rewards.nixbrowser.in", "pins": "brave"},
     { "name": "api.rewards.bravesoftware.com", "pins": "brave"},
     { "name": "api.rewards.brave.software", "pins": "brave"},
-    { "name": "grant.rewards.brave.com", "pins": "brave"},
+    { "name": "grant.rewards.nixbrowser.in", "pins": "brave"},
     { "name": "grant.rewards.bravesoftware.com", "pins": "brave"},
     { "name": "grant.rewards.brave.software", "pins": "brave"},
-    { "name": "mywallet.ads.brave.com", "pins": "brave"},
+    { "name": "mywallet.ads.nixbrowser.in", "pins": "brave"},
     { "name": "mywallet.ads.bravesoftware.com", "pins": "brave"},
-    { "name": "payment.rewards.brave.com", "pins": "brave"},
+    { "name": "payment.rewards.nixbrowser.in", "pins": "brave"},
     { "name": "payment.rewards.bravesoftware.com", "pins": "brave"},
     { "name": "payment.rewards.brave.software", "pins": "brave"},
-    { "name": "rewards.brave.com", "pins": "brave"},
+    { "name": "rewards.nixbrowser.in", "pins": "brave"},
 
     // Ads
-    { "name": "anonymous.ads.brave.com", "pins": "brave"},
+    { "name": "anonymous.ads.nixbrowser.in", "pins": "brave"},
     { "name": "anonymous.ads.bravesoftware.com", "pins": "brave"},
-    { "name": "geo.ads.brave.com", "pins": "brave"},
+    { "name": "geo.ads.nixbrowser.in", "pins": "brave"},
     { "name": "geo.ads.bravesoftware.com", "pins": "brave"},
-    { "name": "ohttp.ads.brave.com", "pins": "brave"},
+    { "name": "ohttp.ads.nixbrowser.in", "pins": "brave"},
     { "name": "ohttp.ads.bravesoftware.com", "pins": "brave"},
-    { "name": "search.anonymous.brave.com", "pins": "brave"},
+    { "name": "search.anonymous.nixbrowser.in", "pins": "brave"},
     { "name": "search.anonymous.bravesoftware.com", "pins": "brave"},
-    { "name": "static.ads.brave.com", "pins": "brave"},
+    { "name": "static.ads.nixbrowser.in", "pins": "brave"},
     { "name": "static.ads.bravesoftware.com", "pins": "brave"},
 
     // Search
-    { "name": "search.brave.com", "pins": "brave"},
-    { "name": "cdn.search.brave.com", "pins": "brave"},
-    { "name": "fg.search.brave.com", "pins": "brave"},
-    { "name": "imgs.search.brave.com", "pins": "brave"},
-    { "name": "tiles.search.brave.com", "pins": "brave"},
-    { "name": "collector.wdp.brave.com", "pins": "brave"},
-    { "name": "patterns.wdp.brave.com", "pins": "brave"},
-    { "name": "quorum.wdp.brave.com", "pins": "brave"},
-    { "name": "star.wdp.brave.com", "pins": "brave"},
+    { "name": "search.nixbrowser.in", "pins": "brave"},
+    { "name": "cdn.search.nixbrowser.in", "pins": "brave"},
+    { "name": "fg.search.nixbrowser.in", "pins": "brave"},
+    { "name": "imgs.search.nixbrowser.in", "pins": "brave"},
+    { "name": "tiles.search.nixbrowser.in", "pins": "brave"},
+    { "name": "collector.wdp.nixbrowser.in", "pins": "brave"},
+    { "name": "patterns.wdp.nixbrowser.in", "pins": "brave"},
+    { "name": "quorum.wdp.nixbrowser.in", "pins": "brave"},
+    { "name": "star.wdp.nixbrowser.in", "pins": "brave"},
 
     // Premium
-    { "name": "account.brave.com", "pins": "brave"},
+    { "name": "account.nixbrowser.in", "pins": "brave"},
     { "name": "account.bravesoftware.com", "pins": "brave"},
     { "name": "account.brave.software", "pins": "brave"},
 
@@ -162,114 +162,114 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "usage-ping.brave.com",
+      "name": "usage-ping.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
 
     // Brave
     {
-      "name": "adblock-data.s3.brave.com",
+      "name": "adblock-data.s3.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "ai-chat.bsg.brave.com",
+      "name": "ai-chat.bsg.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "brave-core-ext.s3.brave.com",
+      "name": "brave-core-ext.s3.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "brave-today-cdn.brave.com",
+      "name": "brave-today-cdn.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "clients4.brave.com",
+      "name": "clients4.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "componentupdater.brave.com",
+      "name": "componentupdater.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "crxdownload.brave.com",
+      "name": "crxdownload.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "devtools.brave.com",
+      "name": "devtools.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "dict.brave.com",
+      "name": "dict.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "extensionupdater.brave.com",
+      "name": "extensionupdater.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "feedback.brave.com",
+      "name": "feedback.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "gaia.brave.com",
+      "name": "gaia.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "go-updater.brave.com",
+      "name": "go-updater.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "pcdn.brave.com",
+      "name": "pcdn.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "redirector.brave.com",
+      "name": "redirector.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "safebrowsing.brave.com",
+      "name": "safebrowsing.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "safebrowsing2.brave.com",
+      "name": "safebrowsing2.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "sb-ssl.brave.com",
+      "name": "sb-ssl.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "static.brave.com",
+      "name": "static.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "static1.brave.com",
+      "name": "static1.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "sync-v2.brave.com",
+      "name": "sync-v2.nixbrowser.in",
       "policy": "custom",
       "mode": "force-https"
     },
@@ -289,17 +289,17 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "translate.brave.com",
+      "name": "translate.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "translate-static.brave.com",
+      "name": "translate-static.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "variations.brave.com",
+      "name": "variations.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -311,7 +311,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "creators.brave.com",
+      "name": "creators.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -321,52 +321,52 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "publishers.brave.com",
+      "name": "publishers.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
 
     // Wallet
     {
-      "name": "wallet.brave.com",
+      "name": "wallet.nixbrowser.in",
       "include_subdomains": true,
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "api.gate3.brave.com",
+      "name": "api.gate3.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "goerli-infura.brave.com",
+      "name": "goerli-infura.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "sepolia-infura.brave.com",
+      "name": "sepolia-infura.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "mainnet-infura.brave.com",
+      "name": "mainnet-infura.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "mainnet-beta-solana.brave.com",
+      "name": "mainnet-beta-solana.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "mainnet-polygon.brave.com",
+      "name": "mainnet-polygon.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
 
     // Rewards
     {
-      "name": "api.rewards.brave.com",
+      "name": "api.rewards.nixbrowser.in",
       "policy": "custom",
       "mode": "force-https"
     },
@@ -381,7 +381,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "mode": "force-https"
     },
     {
-      "name": "grant.rewards.brave.com",
+      "name": "grant.rewards.nixbrowser.in",
       "policy": "custom",
       "mode": "force-https"
     },
@@ -396,7 +396,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "mode": "force-https"
     },
     {
-      "name": "mywallet.ads.brave.com",
+      "name": "mywallet.ads.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -406,7 +406,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "payment.rewards.brave.com",
+      "name": "payment.rewards.nixbrowser.in",
       "policy": "custom",
       "mode": "force-https"
     },
@@ -421,14 +421,14 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "mode": "force-https"
     },
     {
-      "name": "rewards.brave.com",
+      "name": "rewards.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
 
     // Ads
     {
-      "name": "anonymous.ads.brave.com",
+      "name": "anonymous.ads.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -438,7 +438,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "geo.ads.brave.com",
+      "name": "geo.ads.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -448,7 +448,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "ohttp.ads.brave.com",
+      "name": "ohttp.ads.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -458,7 +458,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "search.anonymous.brave.com",
+      "name": "search.anonymous.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -468,7 +468,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
       "policy": "custom"
     },
     {
-      "name": "static.ads.brave.com",
+      "name": "static.ads.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
@@ -480,54 +480,54 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
 
     // Search
     {
-      "name": "search.brave.com",
+      "name": "search.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "cdn.search.brave.com",
+      "name": "cdn.search.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "fg.search.brave.com",
+      "name": "fg.search.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "imgs.search.brave.com",
+      "name": "imgs.search.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "tiles.search.brave.com",
+      "name": "tiles.search.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "collector.wdp.brave.com",
+      "name": "collector.wdp.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "patterns.wdp.brave.com",
+      "name": "patterns.wdp.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "quorum.wdp.brave.com",
+      "name": "quorum.wdp.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
     {
-      "name": "star.wdp.brave.com",
+      "name": "star.wdp.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },
 
     // Premium
     {
-      "name": "account.brave.com",
+      "name": "account.nixbrowser.in",
       "mode": "force-https",
       "policy": "custom"
     },

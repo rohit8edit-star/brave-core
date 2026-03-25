@@ -182,7 +182,7 @@ constexpr char kTestVpnOrders[] = R"(
                       ],
                       "last_paid_at": "2023-08-16T23:56:52.839338",
                       "location": "{domain}",
-                      "merchant_id": "brave.com",
+                      "merchant_id": "nixbrowser.in",
                       "metadata":
                       {
                           "num_intervals": 33,

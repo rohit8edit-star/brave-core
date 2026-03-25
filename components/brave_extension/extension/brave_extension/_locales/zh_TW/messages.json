@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "回報壞掉的網站",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "個已阻擋的項目",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "新增至 Brave",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "從 Brave 中移除",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "加到 Chrome",

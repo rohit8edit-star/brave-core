@@ -25,7 +25,7 @@ class DeviceInfoSyncService;
 class DeviceInfoTracker;
 class LocalDeviceInfoProvider;
 
-// Helper class to prevent pass of profile pointer into BraveSyncServiceImpl
+// Helper class to prevent pass of profile pointer into NixSyncServiceImpl
 // and to keep DeviceInfoSyncService
 class BraveSyncServiceImplDelegate
     : public SyncServiceImplDelegate,

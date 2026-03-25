@@ -58,7 +58,7 @@ TEST_F(NavigationToolTest, ValidInputHttpsUrl) {
 }
 
 TEST_F(NavigationToolTest, ValidInputComplexUrl) {
-  std::string test_url = "https://search.brave.com/search?q=test&source=web";
+  std::string test_url = "https://search.nixbrowser.in/search?q=test&source=web";
   std::string input_json = CreateToolInputJson(test_url);
 
   VerifySuccess(input_json, test_url);

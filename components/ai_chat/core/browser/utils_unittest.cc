@@ -33,18 +33,18 @@ class AIChatUtilsUnitTest : public ::testing::Test {
 };
 
 TEST_F(AIChatUtilsUnitTest, IsBraveSearchSERP) {
-  EXPECT_TRUE(IsBraveSearchSERP(GURL("https://search.brave.com/search?q=foo")));
+  EXPECT_TRUE(IsBraveSearchSERP(GURL("https://search.nixbrowser.in/search?q=foo")));
   // Missing or wrong path.
-  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://search.brave.com?q=foo")));
+  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://search.nixbrowser.in?q=foo")));
   EXPECT_FALSE(
-      IsBraveSearchSERP(GURL("https://search.brave.com/test.html?q=foo")));
+      IsBraveSearchSERP(GURL("https://search.nixbrowser.in/test.html?q=foo")));
   // Missing or wrong query parameter.
-  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://search.brave.com/search")));
-  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://search.brave.com/search?t=t")));
+  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://search.nixbrowser.in/search")));
+  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://search.nixbrowser.in/search?t=t")));
   // HTTP scheme.
-  EXPECT_FALSE(IsBraveSearchSERP(GURL("http://search.brave.com/search?q=foo")));
+  EXPECT_FALSE(IsBraveSearchSERP(GURL("http://search.nixbrowser.in/search?q=foo")));
   // Wrong host.
-  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://brave.com/search?q=foo")));
+  EXPECT_FALSE(IsBraveSearchSERP(GURL("https://nixbrowser.in/search?q=foo")));
 }
 
 TEST_F(AIChatUtilsUnitTest, ScaleDownBitmap) {

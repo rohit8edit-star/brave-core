@@ -210,9 +210,9 @@ INSTANTIATE_TEST_SUITE_P(
 
 TEST_P(AssociatedWebContentsContentUnitTest, OnNewPage) {
   EXPECT_CALL(*observer_, OnRequestArchive).Times(3);
-  NavigateTo(GURL("https://www.brave.com"));
-  NavigateTo(GURL("https://www.brave.com/1"));
-  NavigateTo(GURL("https://www.brave.com/2"));
+  NavigateTo(GURL("https://www.nixbrowser.in"));
+  NavigateTo(GURL("https://www.nixbrowser.in/1"));
+  NavigateTo(GURL("https://www.nixbrowser.in/2"));
 
   // Going back should notify navigated
   EXPECT_CALL(*observer_, OnRequestArchive).Times(1);
@@ -225,7 +225,7 @@ TEST_P(AssociatedWebContentsContentUnitTest, OnNewPage) {
   // Same-document navigation should not call OnNewPage if page title is the
   // same
   EXPECT_CALL(*observer_, OnRequestArchive).Times(0);
-  NavigateTo(GURL("https://www.brave.com/2/3"), false, true, "www.brave.com/2");
+  NavigateTo(GURL("https://www.nixbrowser.in/2/3"), false, true, "www.nixbrowser.in/2");
   testing::Mock::VerifyAndClearExpectations(&observer_);
   // ...unless the page title changes before the next navigation.
   EXPECT_CALL(*observer_, OnRequestArchive).Times(1);
@@ -242,7 +242,7 @@ TEST_P(AssociatedWebContentsContentUnitTest, OnNewPage) {
   // trigger OnNewPage.
   EXPECT_CALL(*observer_, OnRequestArchive(_)).Times(1);
   content::NavigationSimulator::NavigateAndCommitFromBrowser(
-      web_contents(), GURL("https://www.brave.com/3"));
+      web_contents(), GURL("https://www.nixbrowser.in/3"));
   testing::Mock::VerifyAndClearExpectations(&observer_);
   EXPECT_CALL(*observer_, OnRequestArchive(_)).Times(0);
   SimulateTitleChange(u"Another New Title");
@@ -254,7 +254,7 @@ TEST_P(AssociatedWebContentsContentUnitTest, GetPageContent_HasContent) {
   // Add whitespace to ensure it's trimmed
   constexpr char kSuppliedText[] = "   \n    This is the way.   \n  ";
   // A url that doesn't by itself trigger print preview extraction.
-  NavigateTo(GURL("https://www.brave.com"));
+  NavigateTo(GURL("https://www.nixbrowser.in"));
   EXPECT_CALL(*page_content_fetcher_, FetchPageContent)
       .WillOnce(base::test::RunOnceCallback<1>(kSuppliedText, false, ""));
   // Note: No need to mock CaptureImages since print preview hosts
@@ -267,7 +267,7 @@ TEST_P(AssociatedWebContentsContentUnitTest, GetPageContent_HasContent) {
 
 TEST_P(AssociatedWebContentsContentUnitTest, GetPageContent_VideoContent) {
   // A url that doesn't by itself trigger print preview extraction.
-  NavigateTo(GURL("https://www.brave.com"));
+  NavigateTo(GURL("https://www.nixbrowser.in"));
   EXPECT_CALL(*page_content_fetcher_, FetchPageContent)
       .WillOnce(base::test::RunOnceCallback<1>("", true, ""));
   // Note: No need to mock CaptureImages since print preview hosts
@@ -448,7 +448,7 @@ TEST_P(AssociatedWebContentsContentUnitTest,
 
 TEST_P(AssociatedWebContentsContentUnitTest,
        GetPageContent_NoFallbackWhenNotPDF) {
-  NavigateTo(GURL("https://www.brave.com"));
+  NavigateTo(GURL("https://www.nixbrowser.in"));
 #if BUILDFLAG(ENABLE_PDF)
   ASSERT_FALSE(pdf::PDFDocumentHelper::MaybeGetForWebContents(web_contents()));
 #endif  // BUILDFLAG(ENABLE_PDF)

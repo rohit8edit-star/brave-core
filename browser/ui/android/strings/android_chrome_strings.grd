@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- android_chrome_strings.grd contains strings for Brave for Android.
+<!-- android_chrome_strings.grd contains strings for Nix for Android.
 
 FAQ:
   - How do I add, change, or remove a string?
@@ -309,8 +309,8 @@ CHAR_LIMIT guidelines:
       <message name="IDS_PREFS_SECTION_ACCOUNT_AND_GOOGLE_SERVICES" desc="Title for the group of account-related entries and google services in Settings. [CHAR_LIMIT=32]">
         You and Brave
       </message>
-      <message name="IDS_SIGN_IN_TO_CHROME" meaning="Button" desc="Title for the button to sign in to Brave using one's Brave account. [CHAR_LIMIT=27]">
-        Sign in to Brave
+      <message name="IDS_SIGN_IN_TO_CHROME" meaning="Button" desc="Title for the button to sign in to Nix using one's Brave account. [CHAR_LIMIT=27]">
+        Sign in to Nix
       </message>
       <message name="IDS_SIGN_IN_PERSONALIZE_GOOGLE_SERVICES_TITLE" desc="This is the title of a setting that directs users to other settings where they can control how Brave history can be used to personalize other Brave services. It appears in Brave’s Advanced Sync settings and is before the “Control how browsing history is used with your other data across Brave services” string. [CHAR_LIMIT=30]">
         Personalization
@@ -328,10 +328,10 @@ CHAR_LIMIT guidelines:
       <message name="IDS_PERSONALIZED_GOOGLE_SERVICES_WAA_TITLE" desc="This string is found on a link in Brave’s Advanced Sync settings. When the user taps it, the link takes the user to “Web &amp; App Activity” in the Brave sync chain’s Activity Controls. This text should match the branded term “Web &amp; App Activity” in Glossary Manager: https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=77d3b75.">
         Web &amp; App Activity
       </message>
-      <message name="IDS_PERSONALIZED_GOOGLE_SERVICES_LINKED_SERVICES_TITLE" desc="This string is found on a subpage from Brave’s Advanced Sync settings. When the user taps it, the link takes the user to “Linked Brave services” in the Brave sync chain’s Data &amp; privacy settings. The link is on a setting that users see in Brave’s Advanced Sync settings. This text should match the branded term “linked Brave services” in Glossary Manager: https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=517bace2.">
+      <message name="IDS_PERSONALIZED_GOOGLE_SERVICES_LINKED_SERVICES_TITLE" desc="This string is found on a subpage from Nix’s Advanced Sync settings. When the user taps it, the link takes the user to “Linked Brave services” in the Brave sync chain’s Data &amp; privacy settings. The link is on a setting that users see in Brave’s Advanced Sync settings. This text should match the branded term “linked Brave services” in Glossary Manager: https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=517bace2.">
         Linked Brave services
       </message>
-      <message name="IDS_PERSONALIZED_GOOGLE_SERVICES_LINKED_SERVICES_SUMMARY" desc="This is the subtitle of a setting that links to “Linked Brave services” in the Brave sync chain’s Data &amp; privacy settings. This subtitle appears on a subpage from Brave’s Advanced Sync settings, and is after the “Linked Brave services” string.">
+      <message name="IDS_PERSONALIZED_GOOGLE_SERVICES_LINKED_SERVICES_SUMMARY" desc="This is the subtitle of a setting that links to “Linked Brave services” in the Brave sync chain’s Data &amp; privacy settings. This subtitle appears on a subpage from Nix’s Advanced Sync settings, and is after the “Linked Brave services” string.">
         Link Brave and other Brave services for personalization and other purposes
       </message>
       <!-- Unified consent preferences -->
@@ -351,7 +351,7 @@ CHAR_LIMIT guidelines:
         Allow Brave sign-in
       </message>
       <message name="IDS_ALLOW_CHROME_SIGNIN_SUMMARY" desc="Summary for a checkbox in Brave services that controls sign-in and sync prompts.">
-        Shows prompts to sign in to Brave
+        Shows prompts to sign in to Nix
       </message>
       <message name="IDS_IMPROVE_SEARCH_SUGGESTIONS_TITLE" desc="Title for a checkbox in Settings that controls URL and search autocompletion and informs the user about the data shared by this feature.">
         Improve search suggestions
@@ -435,7 +435,7 @@ CHAR_LIMIT guidelines:
         Make searches and browsing better
       </message>
       <message name="IDS_URL_KEYED_ANONYMIZED_DATA_SUMMARY" desc="Summary for a checkbox in Settings that controls non-personalized URL collection and informs the user about the data shared by this feature.">
-        Sends URLs of pages you visit to Brave
+        Sends URLs of pages you visit to Nix
       </message>
       <message name="IDS_PRIVACY_SYNC_AND_SERVICES_LINK_LEGACY" desc="The text for Privacy preferences that is shown after all preference rows.">
         For more settings that relate to privacy, security, and data collection, see <ph name="BEGIN_LINK">&lt;link&gt;</ph>Sync and Brave services<ph name="END_LINK">&lt;/link&gt;</ph>
@@ -452,7 +452,7 @@ For more settings that use data to improve your Brave experience, go to <ph name
         Help improve Brave\u2019s features and performance
       </message>
       <message name="IDS_USAGE_AND_CRASH_REPORTS_SUMMARY" desc="Description for 'Help improve Brave's features and performance' preference.">
-        Automatically sends usage statistics and crash reports to Brave
+        Automatically sends usage statistics and crash reports to Nix
       </message>
 
       <!-- Search engine settings -->
@@ -686,12 +686,12 @@ For more settings that use data to improve your Brave experience, go to <ph name
       </message>
 
        <!-- Payment Request section preview strings -->
-       <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to Brave, plus an indication of the number of additional payment methods the user has saved.         Its function is to show the user has payment methods that can be used to complete a payment, and thus doesn't have to type the entire payment method. [ICU Syntax]">
+       <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to Nix, plus an indication of the number of additional payment methods the user has saved.         Its function is to show the user has payment methods that can be used to complete a payment, and thus doesn't have to type the entire payment method. [ICU Syntax]">
         {PAYMENT_METHOD, plural,
           =1 {<ph name="PAYMENT_METHOD_PREVIEW">%1$s<ex>VISA ....1234</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS">%2$s<ex>1</ex></ph> more}
           other {<ph name="PAYMENT_METHOD_PREVIEW">%1$s<ex>VISA ....1234</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS">%2$s<ex>2</ex></ph> more}}
       </message>
-      <message name="IDS_PAYMENT_REQUEST_SHIPPING_ADDRESSES_PREVIEW" desc="This is a snippet of a shipping address a user has saved to Brave, plus an indication of the number of additional shipping addresses the user has saved. Its function is to show the user has shipping addresses that can be used to complete a purchase, and thus doesn't have to type the entire address. [ICU Syntax]">
+      <message name="IDS_PAYMENT_REQUEST_SHIPPING_ADDRESSES_PREVIEW" desc="This is a snippet of a shipping address a user has saved to Nix, plus an indication of the number of additional shipping addresses the user has saved. Its function is to show the user has shipping addresses that can be used to complete a purchase, and thus doesn't have to type the entire address. [ICU Syntax]">
       {SHIPPING_ADDRESS, plural,
         =1 {<ph name="SHIPPING_ADDRESS_PREVIEW">%1$s<ex>Jerry, 1253 Mcgill college</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES">%2$s<ex>1</ex></ph> more}
         other {<ph name="SHIPPING_ADDRESS_PREVIEW">%1$s<ex>Jerry, 1253 Mcgill college</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES">%2$s<ex>2</ex></ph> more}}
@@ -701,7 +701,7 @@ For more settings that use data to improve your Brave experience, go to <ph name
         =1 {<ph name="SHIPPING_OPTION_PREVIEW">%1$s<ex>standard shipping</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS">%2$s<ex>1</ex></ph> more}
         other {<ph name="SHIPPING_OPTION_PREVIEW">%1$s<ex>standard shipping</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS">%2$s<ex>2</ex></ph> more}}
       </message>
-      <message name="IDS_PAYMENT_REQUEST_CONTACTS_PREVIEW" desc="This is a snippet of a contact a user has saved to Brave, plus an indication of the number of additional contacts the user has saved. Its function is to show the user has contacts that can be used to complete a purchase, and thus doesn't have to type the entire contact info. [ICU Syntax]">
+      <message name="IDS_PAYMENT_REQUEST_CONTACTS_PREVIEW" desc="This is a snippet of a contact a user has saved to Nix, plus an indication of the number of additional contacts the user has saved. Its function is to show the user has contacts that can be used to complete a purchase, and thus doesn't have to type the entire contact info. [ICU Syntax]">
         {CONTACT, plural,
           =1 {<ph name="CONTACT_PREVIEW">%1$s<ex>Jerry, 438-123-1922</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS">%2$s<ex>1</ex></ph> more}
           other {<ph name="CONTACT_PREVIEW">%1$s<ex>Jerry, 438-123-1922</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS">%2$s<ex>2</ex></ph> more}}
@@ -781,10 +781,10 @@ For more settings that use data to improve your Brave experience, go to <ph name
         Keep access to your passwords
       </message>
       <message name="IDS_CSV_DOWNLOAD_DIALOG_WITH_GMS_PARAGRAPH1" desc="First paragraph of the description in the dialog shown to users when they have unmigrated passwords left over in Brave after Brave's storage has been deprecated. This text is shown to users who have Google Play Services on the device.">
-        To keep access to your passwords, export them now, update Google Play Services, and then import them back to Brave Password Manager. <ph name="BEGIN_LINK">&lt;link&gt;</ph>See full instructions<ph name="END_LINK">&lt;/link&gt;</ph>.
+        To keep access to your passwords, export them now, update Google Play Services, and then import them back to Nix Password Manager. <ph name="BEGIN_LINK">&lt;link&gt;</ph>See full instructions<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_CSV_DOWNLOAD_DIALOG_PARAGRAPH2" desc="Second paragraph of the description in the dialog shown to users when they have unmigrated passwords left over in Brave after Brave's storage has been deprecated">
-        The exported file may be accessible to others, including apps. Once you export, your passwords are deleted from Brave.
+        The exported file may be accessible to others, including apps. Once you export, your passwords are deleted from Nix.
       </message>
       <message name="IDS_CSV_DOWNLOAD_DIALOG_NO_GMS_PARAGRAPH1" desc="First paragraph of the description in the dialog shown to users when they have unmigrated passwords left over in Brave after Brave's storage has been deprecated. This text is shown to users who don't have Google Play Services.">
         To keep access to your passwords, export them now and then import them to your preferred password manager. Brave Password Manager stopped working because Google Play services isn’t available.
@@ -929,10 +929,10 @@ For example, some websites may respond to this request by showing you ads that a
       </message>
 
       <!-- Privacy Sandbox v4 - Consent & Notice Flow -->
-      <message name="IDS_PRIVACY_SANDBOX_M1_NOTICE_EEA_BULLET_2" desc="* This is 2 of 2 bullets that site beneath the sentence: 'We’re launching new ways to limit what sites can learn about you when they show you personalized ads, for example:' * 'ad measurement' is the name of a new setting we're launching and that appears on the Ad privacy page of Brave settings.  * 'limited types of data': This setting helps an advertiser associate a user's actions on one site with their actions on another. For example, a user sees an ad on one site and then later buys that product from the company that sells the product. The ad measurement setting allows Brave to help a company make the association between the two sites so that the first site can be fairly compensated for showing an ad. Compared with third-party cookies, very little info is shared between sites to support this functionality.  **** CONTEXT PRIVACY SANDBOX **** Brave’s Privacy Sandbox initiative 1) deprecates third-party cookies in Brave, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** CONTEXT EEA NOTICE **** 1) This screen provides notice to Brave users in the European Economic Area (EEA). It follows guidelines established by the GDPR.  2) This screen is the second of 2 screens. This second screen describes 2 settings: “Site-suggested ads” and “Ad measurement”. The first screen describes the “Ad topics” setting. ">
+      <message name="IDS_PRIVACY_SANDBOX_M1_NOTICE_EEA_BULLET_2" desc="* This is 2 of 2 bullets that site beneath the sentence: 'We’re launching new ways to limit what sites can learn about you when they show you personalized ads, for example:' * 'ad measurement' is the name of a new setting we're launching and that appears on the Ad privacy page of Brave settings.  * 'limited types of data': This setting helps an advertiser associate a user's actions on one site with their actions on another. For example, a user sees an ad on one site and then later buys that product from the company that sells the product. The ad measurement setting allows Brave to help a company make the association between the two sites so that the first site can be fairly compensated for showing an ad. Compared with third-party cookies, very little info is shared between sites to support this functionality.  **** CONTEXT PRIVACY SANDBOX **** Brave’s Privacy Sandbox initiative 1) deprecates third-party cookies in Brave, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** CONTEXT EEA NOTICE **** 1) This screen provides notice to Nix users in the European Economic Area (EEA). It follows guidelines established by the GDPR.  2) This screen is the second of 2 screens. This second screen describes 2 settings: “Site-suggested ads” and “Ad measurement”. The first screen describes the “Ad topics” setting. ">
         With ad measurement, limited types of data are shared between sites to measure the performance of their ads, such as whether you made a purchase after visiting a site.
       </message>
-      <message name="IDS_PRIVACY_SANDBOX_M1_NOTICE_ROW_DESCRIPTION_3" desc="A paragraph on the 'Enhanced ad privacy in Brave' page that provides notice to Brave users outside of the EEA. **** CONTEXT PRIVACY SANDBOX **** Brave’s Privacy Sandbox initiative 1) deprecates third-party cookies in Brave, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** CONTEXT ROW NOTICE **** 1) This screen provides notice to Brave users outside of the European Economic Area (EEA) (we typically refer to this screen as “Rest of World” or “ROW”). It follows guidelines established by the GDPR.  2) We’re using similar but distinct content for EEA / ROW because legal requirements differ. For ROW, we can provide notice for all 3 settings, and so all 3 settings can appear on a single screen. ">
+      <message name="IDS_PRIVACY_SANDBOX_M1_NOTICE_ROW_DESCRIPTION_3" desc="A paragraph on the 'Enhanced ad privacy in Brave' page that provides notice to Nix users outside of the EEA. **** CONTEXT PRIVACY SANDBOX **** Brave’s Privacy Sandbox initiative 1) deprecates third-party cookies in Brave, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** CONTEXT ROW NOTICE **** 1) This screen provides notice to Nix users outside of the European Economic Area (EEA) (we typically refer to this screen as “Rest of World” or “ROW”). It follows guidelines established by the GDPR.  2) We’re using similar but distinct content for EEA / ROW because legal requirements differ. For ROW, we can provide notice for all 3 settings, and so all 3 settings can appear on a single screen. ">
         To measure the performance of an ad, limited types of data are shared between sites, such as whether you made a purchase after visiting a site.
       </message>
       <message name="IDS_PRIVACY_SANDBOX_M1_NOTICE_RESTRICTED_DESCRIPTION_1_ANDROID" desc="First description in the restricted notice which applies to Android only">
@@ -1052,7 +1052,7 @@ For example, some websites may respond to this request by showing you ads that a
       <message name="IDS_SETTINGS_AD_MEASUREMENT_PAGE_CONSIDER_HEADING" desc="A label above bullet points that note things the user might want to consider when turning this setting on or off.">
         Things to consider
       </message>
-      <message name="IDS_SETTINGS_AD_MEASUREMENT_PAGE_ENABLED_BULLET_1" desc="1 of 3 bullets in the 'When on' section that describes the Ad measurement setting. * 'Limited types of data': The Ad measurement API (for developers) and the Ad measurement control (for users) is offered by Brave. But Brave is a 'pass through', helping one site communicate information to another about the performance of an ad. That's where this passive construction comes from. Brave facilitates, but shouldn't be seen as a major actor here. And we don't want to suggest anything like 'Brave limits the types of data shared between sites,' because Brave can't do that. Any 2 sites can have a side agreement to share as much info as they like. ">
+      <message name="IDS_SETTINGS_AD_MEASUREMENT_PAGE_ENABLED_BULLET_1" desc="1 of 3 bullets in the 'When on' section that describes the Ad measurement setting. * 'Limited types of data': The Ad measurement API (for developers) and the Ad measurement control (for users) is offered by Nix. But Brave is a 'pass through', helping one site communicate information to another about the performance of an ad. That's where this passive construction comes from. Brave facilitates, but shouldn't be seen as a major actor here. And we don't want to suggest anything like 'Brave limits the types of data shared between sites,' because Brave can't do that. Any 2 sites can have a side agreement to share as much info as they like. ">
         Limited types of data are shared between sites to measure the performance of their ads, such as whether you made a purchase after visiting a site
       </message>
       <message name="IDS_SETTINGS_AD_MEASUREMENT_PAGE_ENABLED_BULLET_2" desc="2 of 3 bullets in the 'When on' section that describes the Ad measurement setting.">
@@ -1122,7 +1122,7 @@ For example, some websites may respond to this request by showing you ads that a
         Deleted Brave data
       </message>
       <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_DIALOG_DATA_TEXT" desc="Text of the dialog that is shown after the deletion of browsing history items finished, indicating that the selected data has been removed, but there may be other forms of browsing history still present in user's Brave account.">
-        The selected data has been removed from Brave and your synced devices.
+        The selected data has been removed from Nix and your synced devices.
 
 Your Brave account may have other forms of browsing history like searches and activity from other Brave services at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
@@ -1261,7 +1261,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         You’ll get improved suggestions in the address bar
       </message>
       <message name="IDS_PRIVACY_GUIDE_MSBB_ITEM_THREE" desc="Third bullet point that describes the details of the MSBB toggle.">
-        URLs you visit are sent to Brave to predict what sites you might visit next
+        URLs you visit are sent to Nix to predict what sites you might visit next
       </message>
       <message name="IDS_PRIVACY_GUIDE_MSBB_ITEM_FOUR" desc="Fourth bullet point that describes the details of the MSBB toggle.">
         If you also share Brave usage reports, those reports include the URLs you visit
@@ -1580,7 +1580,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Brave’s safety tools
       </message>
       <message name="IDS_SAFETY_HUB_SAFETY_TIPS_SAFETY_TOOLS_SUMMARY" desc="Subtitle for a entry in the Safety Hub user education section. The entry leads the user to the safety section on the Brave website.">
-        With tools from Brave, you can browse safely and stay in control
+        With tools from Nix, you can browse safely and stay in control
       </message>
       <message name="IDS_SAFETY_HUB_SAFETY_TIPS_INCOGNITO_TITLE" desc="Title for a entry in the Safety Hub user education section. The entry leads the user to a help center article about Private.">
         Brave Private
@@ -1662,7 +1662,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Try again later
       </message>
       <message name="IDS_SAFETY_HUB_UNAVAILABLE_COMPROMISED_NO_REUSED_WEAK_PASSWORDS_SUMMARY" desc="Summary for the password hub row in the Safety Check page indicating that the checkup couldn't check for compromised password and asks the user to manually do so in Password Manager.">
-        To check for compromised passwords, go to Brave Password Manager
+        To check for compromised passwords, go to Nix Password Manager
       </message>
       <message name="IDS_SAFETY_HUB_NO_REUSED_WEAK_PASSWORDS_TITLE" desc="Title for the password hub row in the Safety Check page indicating that the checkup didn't found reused or weak passwords.">
         No weak or reused passwords
@@ -1738,7 +1738,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Enhanced protection
       </message>
       <message name="IDS_SAFE_BROWSING_ENHANCED_PROTECTION_SUMMARY_UPDATED" desc="Summary for Safe Browsing enhanced protection mode.">
-        Real-time, AI-powered protection against dangerous sites, downloads, and extensions that's based on your browsing data getting sent to Brave
+        Real-time, AI-powered protection against dangerous sites, downloads, and extensions that's based on your browsing data getting sent to Nix
       </message>
       <message name="IDS_SAFE_BROWSING_STANDARD_PROTECTION_TITLE" desc="Title for Safe Browsing standard protection mode. [CHAR_LIMIT=32]">
         Standard protection
@@ -1747,7 +1747,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Protects against sites, downloads, and extensions that are known to be dangerous. If a page does something suspicious, URLs and bits of page content are sent to Google Safe Browsing.
       </message>
       <message name="IDS_SAFE_BROWSING_STANDARD_PROTECTION_SUMMARY_PROXY" desc="Summary for Safe Browsing standard protection mode with proxy.">
-        Protects against sites, downloads, and extensions that are known to be dangerous. When you visit a site, Brave sends an obfuscated portion of the URL to Brave through a privacy server that hides your IP address. If a site does something suspicious, full URLs and bits of page content are also sent.
+        Protects against sites, downloads, and extensions that are known to be dangerous. When you visit a site, Brave sends an obfuscated portion of the URL to Nix through a privacy server that hides your IP address. If a site does something suspicious, full URLs and bits of page content are also sent.
       </message>
       <message name="IDS_SAFE_BROWSING_NO_PROTECTION_TITLE" desc="Title for Safe Browsing no protection mode. [CHAR_LIMIT=32]">
         No protection (not recommended)
@@ -1813,7 +1813,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Help improve security on the web for everyone
       </message>
       <message name="IDS_SAFE_BROWSING_STANDARD_PROTECTION_EXTENDED_REPORTING_SUMMARY" desc="Summary for Safe Browsing extended reporting.">
-        Sends URLs of some pages you visit, limited system information, and some page content to Brave, to help discover new threats and protect everyone on the web.
+        Sends URLs of some pages you visit, limited system information, and some page content to Nix, to help discover new threats and protect everyone on the web.
       </message>
 
       <!-- Safe Browsing no protection confirmation dialog -->
@@ -1862,7 +1862,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Offer to translate pages in other languages
       </message>
       <message name="IDS_LANGUAGES_SEND_TRANSLATE_SWITCH" desc="Appears next to the switch controlling whether or not Brave will offer to translate pages in other languages.  When enabled the Brave Translate UI will be displayed on web pages that are not in the user's preferred language(s).">
-        Offer to send pages in other languages to Brave Translate
+        Offer to send pages in other languages to Nix Translate
       </message>
       <message name="IDS_LANGUAGES_ITEM_OPTION_OFFER_TO_TRANSLATE" desc="Option in language item menu. User can click the 'Offer to translate' option to toggle whether they want Brave to translate pages in this language. [CHAR_LIMIT=32]">
         Offer to translate
@@ -2143,13 +2143,13 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_OS_VERSION_TITLE" desc="Title for operating system version">
         Operating system
       </message>
-      <message name="IDS_DEPRECATION_WARNING" desc="Warning about Brave updates no longer being supported">
+      <message name="IDS_DEPRECATION_WARNING" desc="Warning about Nix updates no longer being supported">
         Brave updates are no longer supported for this version of Android
       </message>
 
       <!-- Account management UI strings. -->
       <message name="IDS_ACCOUNT_MANAGEMENT_TITLE" desc="Header title for the account management screen. [CHAR_LIMIT=32]">
-        Signed in to Brave as
+        Signed in to Nix as
       </message>
       <message name="IDS_ACCOUNT_MANAGEMENT_SIGN_OUT" desc="Button text for signing out of Brave">
         Sign out of Brave
@@ -2225,19 +2225,19 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_OPEN_SOURCE_LICENSE_URL" desc="URL for open source license" translateable="false">
         chrome://credits
       </message>
-      <message name="IDS_GOOGLE_TERMS_OF_SERVICE_TITLE" desc="Title for Brave terms of service">
+      <message name="IDS_GOOGLE_TERMS_OF_SERVICE_TITLE" desc="Title for Nix terms of service">
         Brave Terms of Service
       </message>
-      <message name="IDS_GOOGLE_TERMS_OF_SERVICE_URL" desc="URL for Brave terms of service" translateable="false">
+      <message name="IDS_GOOGLE_TERMS_OF_SERVICE_URL" desc="URL for Nix terms of service" translateable="false">
         https://policies.google.com/terms/embedded
       </message>
-      <message name="IDS_GOOGLE_TERMS_OF_SERVICE_DARK_MODE_URL" desc="URL for Brave terms of service for dark mode" translateable="false">
+      <message name="IDS_GOOGLE_TERMS_OF_SERVICE_DARK_MODE_URL" desc="URL for Nix terms of service for dark mode" translateable="false">
         https://policies.google.com/terms/embedded?color_scheme=dark
       </message>
-      <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_TITLE" desc="Title for Brave and ChromeOS addtional terms of service">
+      <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_TITLE" desc="Title for Nix and ChromeOS addtional terms of service">
         Brave &amp; ChromeOS Additional Terms of Service
       </message>
-      <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_URL" desc="URL for Brave and ChromeOS additional terms of service" translateable="false">
+      <message name="IDS_CHROME_ADDITIONAL_TERMS_OF_SERVICE_URL" desc="URL for Nix and ChromeOS additional terms of service" translateable="false">
         https://www.google.com/chrome/terms/
       </message>
       <message name="IDS_PRIVACY_POLICY_TITLE" desc="Title for the Brave privacy policy">
@@ -2359,7 +2359,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Payment methods, offers, and addresses using Google Pay
       </message>
       <message name="IDS_SYNC_PAYMENTS_AND_INFO_INTEGRATION" desc="Title for preference which enables import of Brave Wallet data for Autofill. 'Brave Wallet' should not be translated as it is the product name.">
-        Payment methods and other info from Brave Wallet
+        Payment methods and other info from Nix Wallet
       </message>
       <message name="IDS_ACCOUNT_SETTINGS_TITLE" desc="Title for the account settings page. [CHAR_LIMIT=32]">
         Account
@@ -2391,8 +2391,8 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_ACCOUNT_SECTION_PAYMENTS_TOGGLE" desc="Google Pay data for Autofill, one of the data types that we allow syncing. 'Google Pay' should not be translated as it is the product name. Shown on next to the toggle that controls whether Google Pay data for Autofill should be saved in the Brave sync chain and synced across devices.">
         Payment methods, offers, and addresses using Google Pay
       </message>
-      <message name="IDS_ACCOUNT_SECTION_PAYMENTS_AND_INFO_TOGGLE" desc="Brave Wallet data for Autofill, one of the data types that we allow syncing. 'Brave Wallet' should not be translated as it is the product name. Shown on next to the toggle that controls whether payments and other data from Brave Wallet, for use in Autofill, should be saved in the Brave sync chain and synced across devices.">
-        Payment methods and other info from Brave Wallet
+      <message name="IDS_ACCOUNT_SECTION_PAYMENTS_AND_INFO_TOGGLE" desc="Brave Wallet data for Autofill, one of the data types that we allow syncing. 'Brave Wallet' should not be translated as it is the product name. Shown on next to the toggle that controls whether payments and other data from Nix Wallet, for use in Autofill, should be saved in the Brave sync chain and synced across devices.">
+        Payment methods and other info from Nix Wallet
       </message>
       <message name="IDS_ACCOUNT_SECTION_SETTINGS_TOGGLE" desc="Settings, one of the data types that we allow syncing. Shown on next to the toggle that controls whether Settings should be saved in the Brave sync chain and synced across devices.">
         Settings
@@ -2421,10 +2421,10 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_ACCOUNT_DATA_DASHBOARD_TITLE" desc="Title for the cell to open 'Brave and ChromeOS data in your account' web page where the user can control all their data data from sync.">
         Brave data in your account
       </message>
-      <message name="IDS_ACCOUNT_DATA_DASHBOARD_SUBTITLE" desc="Subtitle for the preference to open 'Data from Brave sync' web page where the user can control all their data data from sync.">
+      <message name="IDS_ACCOUNT_DATA_DASHBOARD_SUBTITLE" desc="Subtitle for the preference to open 'Data from Nix sync' web page where the user can control all their data data from sync.">
         Review your account data
       </message>
-      <message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Brave sync chain Page to manage account settings.">
+      <message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Nix sync chain Page to manage account settings.">
         Manage your Brave sync chain
       </message>
       <message name="IDS_ACCOUNT_ANDROID_DEVICE_ACCOUNTS" desc="Title shown on the manage accounts on this device button item.">
@@ -2433,62 +2433,62 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_SIGN_OUT" desc="Sign out button, visible if the user has authenticated. Clicking this clears authentication credentials and returns the web-app to the initial 'unauthenticated' state.">
         Sign out
       </message>
-      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_PASSWORD" desc="This message appears in a user's settings for signing in to Brave with their Brave sync chain. The text appears in a temporary card to inform them that there is some local data (passwords) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_PASSWORD" desc="This message appears in a user's settings for signing in to Nix with their Brave sync chain. The text appears in a temporary card to inform them that there is some local data (passwords) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {PASSWORDS_COUNT, plural,
           =1 {1 password is saved only to this device. To use it on your other devices, save it in your Brave sync chain.}
           other {# passwords are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_PASSWORD_AND_OTHER" desc="This message appears in a user's settings for signing in to Brave with their Brave sync chain. The text appears in a temporary card to inform them that there is some local data (bookmarks, or other data) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_PASSWORD_AND_OTHER" desc="This message appears in a user's settings for signing in to Nix with their Brave sync chain. The text appears in a temporary card to inform them that there is some local data (bookmarks, or other data) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {PASSWORDS_COUNT, plural,
           =1 {1 password and other items are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}
           other {# passwords and other items are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_OTHER" desc="This message appears either in user's account settings or bookmark manager. The text appears in a temporary card to inform them that there is some local data (in case of the account settings card the local data does not include passwords, and in case of the bookmark manager card the local data does not include bookmarks) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_OTHER" desc="This message appears either in user's account settings or bookmark manager. The text appears in a temporary card to inform them that there is some local data (in case of the account settings card the local data does not include passwords, and in case of the bookmark manager card the local data does not include bookmarks) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {ITEMS_COUNT, plural,
           =1 {1 item is saved only to this device. To use it on your other devices, save it in your Brave sync chain.}
           other {# items are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_CARD_SAVE_BUTTON" desc="This message appears on a button in a temporary card to inform the user that there is some local data saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_CARD_SAVE_BUTTON" desc="This message appears on a button in a temporary card to inform the user that there is some local data saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         Save in account
       </message>
-      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_BOOKMARK" desc="This message appears in a user's bookmark manager. The text appears in a temporary card to inform them that there is some local data (bookmarks) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_BOOKMARK" desc="This message appears in a user's bookmark manager. The text appears in a temporary card to inform them that there is some local data (bookmarks) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {BOOKMARKS_COUNT, plural,
           =1 {1 bookmark is saved only to this device. To use it on your other devices, save it in your Brave sync chain.}
           other {# bookmarks are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_BOOKMARK_AND_OTHER" desc="This message appears in a user's bookmark manager. The text appears in a temporary card to inform them that there is some local data (bookmarks and some other data) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_CARD_DESCRIPTION_BOOKMARK_AND_OTHER" desc="This message appears in a user's bookmark manager. The text appears in a temporary card to inform them that there is some local data (bookmarks and some other data) saved to their device, but the data hasn't been saved to their Brave sync chain yet. The user can click 'Save in Account' to enter a flow where they review the data and choose to save it in their account. When data is saved to the user's Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {BOOKMARKS_COUNT, plural,
           =1 {1 bookmark and other items are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}
           other {# bookmarks and other items are saved only to this device. To use them on your other devices, save them in your Brave sync chain.}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_TITLE" desc="The text appears as the title of a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_TITLE" desc="The text appears as the title of a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         Save data in your Brave sync chain
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_DESCRIPTION" desc="The text appears as a note in a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave. This note explains where the user can go to view and manage individual items. like individual bookmarks or passwords.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_DESCRIPTION" desc="The text appears as a note in a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix. This note explains where the user can go to view and manage individual items. like individual bookmarks or passwords.">
         You can choose what data to save in your Brave sync chain, <ph name="ACCOUNT_EMAIL">%1$s<ex>elisa.g.beckett@gmail.com</ex></ph>.\nYou can also view and manage these items in your bookmarks, reading list, or password manager.
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_DESCRIPTION_NON_DISPLAYABLE_PROFILE_DATA" desc="The text appears as a note in a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave. This note explains where the user can go to view and manage individual items. like individual bookmarks or passwords.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_DESCRIPTION_NON_DISPLAYABLE_PROFILE_DATA" desc="The text appears as a note in a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix. This note explains where the user can go to view and manage individual items. like individual bookmarks or passwords.">
         You can choose what data to save in your Brave sync chain.\nYou can also view and manage these items in your bookmarks, reading list, or password manager.
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_BOOKMARKS" desc="One of the data types that we allow uploading through a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_BOOKMARKS" desc="One of the data types that we allow uploading through a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {ITEMS_COUNT, plural,
           =1 {1 bookmark}
           other {# bookmarks}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_PASSWORDS" desc="One of the data types that we allow uploading through a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_PASSWORDS" desc="One of the data types that we allow uploading through a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {ITEMS_COUNT, plural,
           =1 {1 password}
           other {# passwords}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_READING_LIST" desc="One of the data types that we allow uploading through a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_READING_LIST" desc="One of the data types that we allow uploading through a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         {ITEMS_COUNT, plural,
           =1 {1 page on your reading list}
           other {# pages on your reading list}}
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_SAVE_BUTTON" desc="The text is the primary button in a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_SAVE_BUTTON" desc="The text is the primary button in a confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         Save in account
       </message>
-      <message name="IDS_BATCH_UPLOAD_DIALOG_CANCEL_BUTTON" desc="Text for the cancel button belonging to the batch upload confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Brave.">
+      <message name="IDS_BATCH_UPLOAD_DIALOG_CANCEL_BUTTON" desc="Text for the cancel button belonging to the batch upload confirmation dialog where the user can choose to save some data to their Brave sync chain. When data is saved to the Brave sync chain, it's backed up safely and is available on any device where they're signed in to Nix.">
         Cancel
       </message>
       <message name="IDS_BATCH_UPLOAD_SAVED_SNACKBAR_MESSAGE" desc="The message appears in a small confirmation bubble with limited space after the user chose to save some data to their Brave sync chain.">
@@ -2503,7 +2503,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Encryption
       </message>
       <message name="IDS_SYNC_PASSPHRASE_TYPE_KEYSTORE" desc="Option to encrypt only passwords, using your Brave credentials.">
-        Use Brave’s default encryption for the passwords in your Brave sync chain
+        Use Nix’s default encryption for the passwords in your Brave sync chain
       </message>
       <message name="IDS_SYNC_PASSPHRASE_TYPE_CUSTOM" desc="Option to encrypt sync data with a custom passphrase.">
         Use your own passphrase to encrypt all the Brave data in your Brave sync chain
@@ -2515,12 +2515,12 @@ Your Brave account may have other forms of browsing history like searches and ac
         Enter passphrase
       </message>
       <message name="IDS_SYNC_ENCRYPTION_CREATE_PASSPHRASE" desc="The message displayed when the signed in user needs to enter its sync passphrase.">
-        Payment methods and addresses won’t be encrypted. Browsing history from Brave won’t sync.
-Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Brave. If you forget your passphrase or want to change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>clear the Brave data in your account<ph name="END_LINK">END_LINK</ph>.
+        Payment methods and addresses won’t be encrypted. Browsing history from Nix won’t sync.
+Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Nix. If you forget your passphrase or want to change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>clear the Brave data in your account<ph name="END_LINK">END_LINK</ph>.
       </message>
       <message name="IDS_LEGACY_SYNC_ENCRYPTION_CREATE_PASSPHRASE" desc="Prompt user to create a custom sync password.">
-        Payment methods and addresses from Google Pay won’t be encrypted. Browsing history from Brave won’t sync.
-Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Brave. If you forget your passphrase or want to change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave data in your account<ph name="END_LINK">END_LINK</ph>.
+        Payment methods and addresses from Google Pay won’t be encrypted. Browsing history from Nix won’t sync.
+Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Nix. If you forget your passphrase or want to change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave data in your account<ph name="END_LINK">END_LINK</ph>.
       </message>
       <message name="IDS_SYNC_ENTER_CUSTOM_PASSPHRASE_HINT" desc="Hint for the passphrase field when user is to type in a passphrase. [CHAR_LIMIT=30]">
         Passphrase
@@ -2534,10 +2534,10 @@ Only someone with your passphrase can read your encrypted data. The passphrase i
       <message name="IDS_SYNC_ACCOUNT_INFO" desc="The message that appears in the options dialog indicating that the user is signed in with the given email address.">
         Signed in as <ph name="USER_EMAIL_ADDRESS">%1$s<ex>foo@gmail.com</ex></ph>.
       </message>
-      <message name="IDS_SNACKBAR_SIGNED_IN_AS" desc="This confirmation message is intended to help users understand that they have signed in to Brave with their Brave sync chain. The confirmation message appears at the bottom after users choose an account to sign in to. The tone should be informative.">
+      <message name="IDS_SNACKBAR_SIGNED_IN_AS" desc="This confirmation message is intended to help users understand that they have signed in to Nix with their Brave sync chain. The confirmation message appears at the bottom after users choose an account to sign in to. The tone should be informative.">
         Signed in as <ph name="USER_EMAIL_ADDRESS">%1$s<ex>foo@gmail.com</ex></ph>
       </message>
-      <message name="IDS_SNACKBAR_UNDO_SIGNIN" desc="This string is found on a button that signs the user out when the user taps it. It is on a confirmation message that users see when they sign in to Brave with their Brave sync chain. This text is a verb and is short for the longer phrase 'Undo my sign-in.' The tone should be informative.">
+      <message name="IDS_SNACKBAR_UNDO_SIGNIN" desc="This string is found on a button that signs the user out when the user taps it. It is on a confirmation message that users see when they sign in to Nix with their Brave sync chain. This text is a verb and is short for the longer phrase 'Undo my sign-in.' The tone should be informative.">
         Undo
       </message>
       <message name="IDS_SYNC_PASSPHRASE_CANNOT_BE_BLANK" desc="Inform user that they cannot use a blank password [CHAR_LIMIT=40]">
@@ -2977,13 +2977,13 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_CONTEXTMENU_EXIT_PICTURE_IN_PICTURE" desc="The context menu item to exit picture-in-picture mode for a video. [CHAR_LIMIT=30]">
         Exit Picture in Picture
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Brave tab from Brave Custom Tab. [CHAR_LIMIT=30]">
+      <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Brave tab from Nix Custom Tab. [CHAR_LIMIT=30]">
         Open in new Brave tab
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_WINDOW" desc="Context sensitive menu item to open the selected link in a Brave window from Brave Custom Tab. Used when there is a dedicated window for Private tabs. [CHAR_LIMIT=30]">
+      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_WINDOW" desc="Context sensitive menu item to open the selected link in a Brave window from Nix Custom Tab. Used when there is a dedicated window for Private tabs. [CHAR_LIMIT=30]">
         Open in Brave window
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave Private tab from Brave Custom Tab. [CHAR_LIMIT=30]">
+      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave Private tab from Nix Custom Tab. [CHAR_LIMIT=30]">
         Open in Private tab
       </message>
       <message name="IDS_CONTEXTMENU_OPEN_IN_EPHEMERAL_TAB" desc="Context-sensitive menu item to open a quick preview of the selected linked page.   Note that 'preview' is a verb, not a noun. We're also labeling it *New* to draw attention to it when first released. The selected link will open in an overlay panel on top of the current tab which will go away easily too. [CHAR_LIMIT=30]">
@@ -3154,7 +3154,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_NOTIFICATION_PROVISIONALLY_UNSUBSCRIBED_BODY" desc="Body text of a system notification informing the user that they have successfully unsubscribed from receiving notifications from a web site.">
         You'll no longer receive notifications from <ph name="DOMAIN">%1$s<ex>example.com</ex></ph>.
       </message>
-      <message name="IDS_NOTIFICATION_PROVISIONALLY_UNSUBSCRIBED_BODY_NEW" desc="Body text of a system notification informing the user that they can report their notification contents to Brave.">
+      <message name="IDS_NOTIFICATION_PROVISIONALLY_UNSUBSCRIBED_BODY_NEW" desc="Body text of a system notification informing the user that they can report their notification contents to Nix.">
         Help improve spam protection by sharing notification content and the site's URL with Brave. Content may be reviewed by humans.
       </message>
       <message name="IDS_NOTIFICATION_UNDO_UNSUBSCRIBE_BUTTON" desc="Label for an action button on a system notification informing the user that they have successfully unsubscribed from receiving notifications from a web site. Clicking the button allows the user to undo unsubscribing, and continue receiving notifications instead.">
@@ -3182,10 +3182,10 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_NOTIFICATION_ALWAYS_ALLOW_BUTTON" desc="Text of a button shown on original notifications that were displayed after the warning notifications. Clicking the button allows the user to always receive notifications from their origin without warning notifications.">
         Always allow
       </message>
-      <message name="IDS_NOTIFICATION_REPORT_SAFE_BUTTON" desc="Text of a button shown on always allow confirmation notification, allowing the user to report notification contents to Brave signaling that it contains safe contents.">
+      <message name="IDS_NOTIFICATION_REPORT_SAFE_BUTTON" desc="Text of a button shown on always allow confirmation notification, allowing the user to report notification contents to Nix signaling that it contains safe contents.">
         Report as not spam
       </message>
-      <message name="IDS_NOTIFICATION_REPORT_SPAM_BUTTON" desc="Text of a button shown on unsubscribe confirmation notification, allowing the user to report notification contents to Brave signaling that it contains spam contents.">
+      <message name="IDS_NOTIFICATION_REPORT_SPAM_BUTTON" desc="Text of a button shown on unsubscribe confirmation notification, allowing the user to report notification contents to Nix signaling that it contains spam contents.">
         Report spam
       </message>
 
@@ -3519,17 +3519,17 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_FRE_ACTIVITY_LABEL" desc="Label for first run dialog in Android Recents.">
         Brave First Run Experience
       </message>
-      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS" desc="Message explaining that use of Brave is governed by Brave's terms of service.">
+      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS" desc="Message explaining that use of Brave is governed by Nix's terms of service.">
         <ph name="APP_NAME">%1$s<ex>Brave Maps</ex></ph> will open in Brave. By continuing, you agree to the <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Brave Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph>, and the <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Brave and ChromeOS Additional Terms of Service<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
       </message>
-      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Brave is governed by Brave's terms of service, and the Brave Privacy Policy.">
+      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Brave is governed by Nix's terms of service, and the Brave Privacy Policy.">
         <ph name="APP_NAME">%1$s<ex>Brave Maps</ex></ph> will open in Brave. By continuing, you agree to the <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Brave Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph>, and the <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Brave and ChromeOS Additional Terms of Service<ph name="END_LINK2">&lt;/LINK2&gt;</ph>. The <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Policy<ph name="END_LINK3">&lt;/LINK3&gt;</ph> also applies.
       </message>
       <message name="IDS_FRE_ACCEPT_CONTINUE" desc="Text for first page accept and continue button [CHAR_LIMIT=20]">
         Accept &amp; continue
       </message>
       <message name="IDS_FRE_WELCOME" desc="Text for greeting the user on Brave First Run">
-        Welcome to Brave
+        Welcome to Nix
       </message>
       <message name="IDS_FRE_BROWSER_MANAGED_BY_ORGANIZATION" desc="Text that indicates the browser is managed by policy">
         Your browser is managed by your organization
@@ -3539,7 +3539,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
        </message>
 
       <!-- Signin First Run strings -->
-      <message name="IDS_SIGNIN_FRE_DISMISS_BUTTON" desc="Button on the very first screen of Brave to continue without signing into Brave. Ensure consistency with OneBrave strings while still omitting “Brave” (see e.g. TC ID 5336438894576002929).">
+      <message name="IDS_SIGNIN_FRE_DISMISS_BUTTON" desc="Button on the very first screen of Brave to continue without signing into Nix. Ensure consistency with OneBrave strings while still omitting “Brave” (see e.g. TC ID 5336438894576002929).">
         Use without an account
       </message>
       <message name="IDS_SIGNIN_FRE_STAY_SIGNED_OUT_BUTTON" desc="Button on the sign in screen of the Brave First Run Experience to stay signed out of Brave.">
@@ -3549,7 +3549,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         By continuing, you agree to the <ph name="BEGIN_TOS_LINK">&lt;TOS_LINK&gt;</ph>Terms of Service<ph name="END_TOS_LINK">&lt;/TOS_LINK&gt;</ph>.
       </message>
       <message name="IDS_SIGNIN_FRE_FOOTER_METRICS_REPORTING" desc="The text is displayed in a footer on the very first screen of Brave. Preferably, ensure consistency with the “Usage statistics and crash reports” section of the Brave Privacy Policy (google.com/chrome/privacy).">
-        To help improve the app, Brave sends usage and crash data to Brave. <ph name="BEGIN_UMA_LINK">&lt;UMA_LINK&gt;</ph>Manage<ph name="END_UMA_LINK">&lt;/UMA_LINK&gt;</ph>
+        To help improve the app, Brave sends usage and crash data to Nix. <ph name="BEGIN_UMA_LINK">&lt;UMA_LINK&gt;</ph>Manage<ph name="END_UMA_LINK">&lt;/UMA_LINK&gt;</ph>
       </message>
       <message name="IDS_SIGNIN_FRE_UMA_DIALOG_TITLE" desc="Title of the dialog where users can change their Brave metric sharing settings, like usage data. This appears when they open the Brave app for the first time on their phone.">
         Make Brave better
@@ -3564,18 +3564,18 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Things to consider
       </message>
       <message name="IDS_SIGNIN_FRE_UMA_DIALOG_SECOND_SECTION_BODY_WITH_HISTORY_SYNC" desc="Text with info about the data that users share with Brave if they turn on the metric sharing option. This version is used when the metrics sharing option is linked to history syncing, as opposed to the whole sync feature in IDS_SIGNIN_FRE_UMA_DIALOG_SECOND_SECTION_BODY.">
-        Info is sent to Brave about your Brave usage, but it isn\u2019t tied to you\n\nIf Brave crashes, details about the crash may include some personal info\n\nIf you sync your history to your Brave sync chain, metrics may also include info about URLs you visit
+        Info is sent to Nix about your Brave usage, but it isn\u2019t tied to you\n\nIf Brave crashes, details about the crash may include some personal info\n\nIf you sync your history to your Brave sync chain, metrics may also include info about URLs you visit
       </message>
-      <message name="IDS_SIGNIN_FRE_TITLE" desc="This string is the the title of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_SIGNIN_FRE_TITLE" desc="This string is the the title of a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
         Make Brave your own
       </message>
-      <message name="IDS_SIGNIN_FRE_SUBTITLE" desc="This string is the body of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_SIGNIN_FRE_SUBTITLE" desc="This string is the body of a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
         Sign in to get your bookmarks, passwords, and more on all your devices
       </message>
-      <message name="IDS_SIGNED_IN_FRE_TITLE" desc="Title welcoming signed-in user to Brave.">
+      <message name="IDS_SIGNED_IN_FRE_TITLE" desc="Title welcoming signed-in user to Nix.">
         Welcome back, <ph name="USER_NAME">%s<ex>Alice</ex></ph>!
       </message>
-      <message name="IDS_SIGNIN_FRE_SUBTITLE_WITHOUT_SYNC" desc="This string is the body of a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). However, we introduce a caveat, because the user has a managed account (such as Enterprise); this means that, depending on their organization's settings, the user might not be able to save all types of data in their Brave sync chain. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
+      <message name="IDS_SIGNIN_FRE_SUBTITLE_WITHOUT_SYNC" desc="This string is the body of a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). However, we introduce a caveat, because the user has a managed account (such as Enterprise); this means that, depending on their organization's settings, the user might not be able to save all types of data in their Brave sync chain. We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain.">
         Sign in to get the most out of Brave
       </message>
       <message name="IDS_FRE_SIGNING_IN" desc="Text to show below a progress spinner in the signin FRE to notify the user that signing in is in progress.">
@@ -3617,13 +3617,13 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_MISSING_DEVICE_LOCK_TITLE" desc="Title shown on the missing profile lock page if a user has removed a profile lock that used to be present on the device.">
         Continue without a car profile lock?
       </message>
-      <message name="IDS_MISSING_DEVICE_LOCK_DESCRIPTION" desc="Text description explaining that a profile lock is required on automotive devices, and that sensitive personal data will be deleted from the profile if the user continues to Brave without re-creating a profile lock.">
+      <message name="IDS_MISSING_DEVICE_LOCK_DESCRIPTION" desc="Text description explaining that a profile lock is required on automotive devices, and that sensitive personal data will be deleted from the profile if the user continues to Nix without re-creating a profile lock.">
         Opening Brave without a profile lock will remove your saved passwords and payment methods from the car. Using a profile lock keeps this data secure.
       </message>
       <message name="IDS_MISSING_DEVICE_LOCK_REMOVE_LOCAL_DATA" desc="Option given to the user to delete all Brave profile data, particularly mentioning bookmarks and history.">
         Also delete bookmarks, history, and more from this car
       </message>
-      <message name="IDS_DELETE_AND_CONTINUE" desc="Text for the button that will delete any sensitive data and then navigate the user back to Brave.">
+      <message name="IDS_DELETE_AND_CONTINUE" desc="Text for the button that will delete any sensitive data and then navigate the user back to Nix.">
         Delete &amp; continue
       </message>
 
@@ -3665,22 +3665,22 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         <ph name="NAME">%1$s<ex>John Doe</ex></ph>, <ph name="EMAIL">%2$s<ex>john.doe@example.com</ex></ph>.
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_TITLE_FOR_SEND_TAB_TO_SELF" meaning="Title" desc="The title for the bottom sheet that shows the list of accounts on the device and asks the user to select one of these accounts, when send-tab-to-self triggered the UI. [CHAR_LIMIT=27]">
-        Sign in to Brave
+        Sign in to Nix
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_TITLE" meaning="Title" desc="The default title for the sign-in bottom sheet that shows the list of accounts on the device and asks the user to select one of these accounts. [CHAR_LIMIT=27]">
-        Sign in to Brave
+        Sign in to Nix
       </message>
       <message name="IDS_ACCOUNT_PICKER_BOTTOM_SHEET_ACCESSIBILITY_OPENED" is_accessibility_with_no_ui="true" desc="The accessibility text to read when account picker bottom sheet is opened.">
-        Sign in to Brave, opened.
+        Sign in to Nix, opened.
       </message>
       <message name="IDS_ACCOUNT_PICKER_BOTTOM_SHEET_ACCESSIBILITY_CLOSED" is_accessibility_with_no_ui="true" desc="The accessibility text to read when account picker bottom sheet is closed.">
-        Sign in to Brave, closed.
+        Sign in to Nix, closed.
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_SUBTITLE" desc="The subtitle for the account picker bottom sheet that tells the user what happens if the button 'Continue as John Doe' is clicked">
         Sign in to this site and Brave
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_SUBTITLE_FOR_SEND_TAB_TO_SELF" desc="The subtitle for the account picker bottom sheet that tells the user what happens if the button 'Continue as John Doe' is clicked, when send-tab-to-self triggered the UI.">
-        To send this tab to another device, sign in to Brave on both devices
+        To send this tab to another device, sign in to Nix on both devices
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_SIGNIN_TITLE" desc="The title of the account picker bottom sheet tells that the user is in the process of signing in with their Brave sync chain">
         Signing in...
@@ -3701,23 +3701,23 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Try again
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_TITLE_FOR_BACK_OF_CARD_MENU_SIGNIN" meaning="Title" desc="The title for the bottom sheet that shows the list of accounts on the device and asks the user to select one of these accounts, when signin from BoC triggered the UI. [CHAR_LIMIT=27]">
-        Sign in to Brave
+        Sign in to Nix
       </message>
       <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_SUBTITLE_FOR_BACK_OF_CARD_MENU_SIGNIN" desc="The subtitle for the account picker bottom sheet that tells the user what happens if the Continue button is clicked, when signin from BoC triggered the UI.">
         Manage your interests and preferences
       </message>
-      <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_BENEFITS_SUBTITLE" desc="This string is on a sign-in page, after the user taps on a promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_BENEFITS_SUBTITLE" desc="This string is on a sign-in page, after the user taps on a promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
         Get your bookmarks, passwords, and more on all your devices
       </message>
-      <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_SUBTITLE_FOR_WEB_SIGNIN" desc="This string is on a sign-in page, after the user taps to sign in to a website with their Brave sync chain. It offers to sign the user in to both the website and to Brave with the account. It highlights the overarching user benefit of signing in to Brave (access to data from other devices like bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_SIGNIN_ACCOUNT_PICKER_BOTTOM_SHEET_SUBTITLE_FOR_WEB_SIGNIN" desc="This string is on a sign-in page, after the user taps to sign in to a website with their Brave sync chain. It offers to sign the user in to both the website and to Nix with the account. It highlights the overarching user benefit of signing in to Nix (access to data from other devices like bookmarks, passwords, history, settings, etc.). We want users to understand why signing in is beneficial, and click 'Continue as name' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
         Sign in to this site and Brave to get your bookmarks and more on all your devices
       </message>
 
       <!-- Personalized Signin Promos Strings -->
-      <message name="IDS_SYNC_PROMO_CONTINUE_AS" desc="Button to sign into Brave with the displayed account and without having to reenter a password. ‘John’ is replaced with the user’s given name, or the user’s full name if the given name is not available. Ensure consistency with related OneBrave sign-in buttons (see e.g. TC ID 5569230012177947065).">
+      <message name="IDS_SYNC_PROMO_CONTINUE_AS" desc="Button to sign into Nix with the displayed account and without having to reenter a password. ‘John’ is replaced with the user’s given name, or the user’s full name if the given name is not available. Ensure consistency with related OneBrave sign-in buttons (see e.g. TC ID 5569230012177947065).">
         Continue as <ph name="USER_FULL_NAME">%1$s<ex>John</ex></ph>
       </message>
-      <message name="IDS_SYNC_PROMO_CONTINUE" desc="Button to sign into Brave, similar to IDS_SYNC_PROMO_CONTINUE_AS. Used when the user's display names are not available and the email address cannot be displayed.">
+      <message name="IDS_SYNC_PROMO_CONTINUE" desc="Button to sign into Nix, similar to IDS_SYNC_PROMO_CONTINUE_AS. Used when the user's display names are not available and the email address cannot be displayed.">
         Continue
       </message>
       <message name="IDS_SIGNIN_PROMO_CHOOSE_ACCOUNT" desc="Button that the user can press if they are not the profile that Brave found (opposite of 'Continue as Joe Doe').">
@@ -3725,28 +3725,28 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
 
       <!-- Strings for Seamless Sign-in -->
-      <message name="IDS_SIGNIN_PROMO_TITLE_NTP_SIGN_IN_AS_BUTTON" desc="This string is the headline of a card that appears when the user visits Brave's new tab page; the user isn't signed in to Brave. The line below this string is ether 'To get your passwords and more on all your devices, sign in to Brave' or 'To get your passwords and more on all your devices, sign in to Brave as john.doe@example.com'.">
+      <message name="IDS_SIGNIN_PROMO_TITLE_NTP_SIGN_IN_AS_BUTTON" desc="This string is the headline of a card that appears when the user visits Brave's new tab page; the user isn't signed in to Nix. The line below this string is ether 'To get your passwords and more on all your devices, sign in to Nix' or 'To get your passwords and more on all your devices, sign in to Nix as john.doe@example.com'.">
         Your Brave, everywhere
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP1" desc="This string is the body of a message promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Continue as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP1" desc="This string is the body of a message promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Continue as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
         To get your passwords and more on all your devices, sign in as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP2" desc="This string is the body of a message promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Continue as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP2" desc="This string is the body of a message promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Continue as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
         Get your passwords and more on all your devices
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP3" desc="This string is the body of a message promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Sign in as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
-        To get your passwords and more on all your devices, sign in to Brave as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP3" desc="This string is the body of a message promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Sign in as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+        To get your passwords and more on all your devices, sign in to Nix as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP4" desc="This string is the body of a message promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Sign in as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
-        To get your passwords and more on all your devices, sign in to Brave
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_GROUP4" desc="This string is the body of a message promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Sign in as John' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+        To get your passwords and more on all your devices, sign in to Nix
       </message>
-      <message name="IDS_SIGNIN_PROMO_SIGN_IN_AS" desc="Button to sign into Brave with the displayed account and without having to reenter a password. ‘John’ is replaced with the user’s given name, or the user’s full name if the given name is not available.">
+      <message name="IDS_SIGNIN_PROMO_SIGN_IN_AS" desc="Button to sign into Nix with the displayed account and without having to reenter a password. ‘John’ is replaced with the user’s given name, or the user’s full name if the given name is not available.">
         Sign in as <ph name="USER_FULL_NAME">%1$s<ex>John</ex></ph>
       </message>
-      <message name="IDS_SIGNIN_PROMO_SIGN_IN" desc="Button to sign into Brave, similar to IDS_SIGNIN_PROMO_SIGN_IN_AS. Used when the user's display names are not available.">
+      <message name="IDS_SIGNIN_PROMO_SIGN_IN" desc="Button to sign into Nix, similar to IDS_SIGNIN_PROMO_SIGN_IN_AS. Used when the user's display names are not available.">
         Sign in
       </message>
-      <message name="IDS_SIGNIN_HISTORY_SYNC_PROMO_TITLE_RECENT_TABS" desc="This string is the headline of a card that appears when the user opens Brave's recent tabs. The user may be signed in to Brave, but has not opted in for syncing History and Tabs. The line below this string is 'To see tabs from your other devices, sync your tabs and history'. This headline means that the user can see some of their recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Turn on' button and turn on history and tabs syncing. The tone should be inviting.">
+      <message name="IDS_SIGNIN_HISTORY_SYNC_PROMO_TITLE_RECENT_TABS" desc="This string is the headline of a card that appears when the user opens Brave's recent tabs. The user may be signed in to Nix, but has not opted in for syncing History and Tabs. The line below this string is 'To see tabs from your other devices, sync your tabs and history'. This headline means that the user can see some of their recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Turn on' button and turn on history and tabs syncing. The tone should be inviting.">
         Browse across devices
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS_GROUP1" desc="This message means that the user can get the recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Continue as John' button and sign-in. The tone should be inviting.">
@@ -3756,22 +3756,22 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Get your tabs and more on all your devices
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS_GROUP3" desc="This message means that the user can get the recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Sign in as John' button and sign-in. The tone should be inviting.">
-        To get your tabs and more on all your devices, sign in to Brave as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
+        To get your tabs and more on all your devices, sign in to Nix as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS_GROUP4" desc="This message means that the user can get the recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Sign in as John' button and sign-in. The tone should be inviting.">
-        To get your tabs and more on all your devices, sign in to Brave
+        To get your tabs and more on all your devices, sign in to Nix
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS_GROUP1" desc="This string is the description of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Sign in to Brave'." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue as John' button and sign-in. The tone should be inviting.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS_GROUP1" desc="This string is the description of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Sign in to Nix'." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue as John' button and sign-in. The tone should be inviting.">
         To get your bookmarks and more on all your devices, sign in as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS_GROUP2" desc="This string is the description of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Sign in to Brave'." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue as John' button and sign-in. The tone should be inviting.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS_GROUP2" desc="This string is the description of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Sign in to Nix'." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue as John' button and sign-in. The tone should be inviting.">
         Get your bookmarks and more on all your devices
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS_GROUP3" desc="This string is the description of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Get all your bookmarks'." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Sign in as John' button and sign-in. The tone should be inviting.">
-        To get your bookmarks and more on all your devices, sign in to Brave as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
+        To get your bookmarks and more on all your devices, sign in to Nix as <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS_GROUP4" desc="This string is the description of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Get all your bookmarks'." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Sign in as John' button and sign-in. The tone should be inviting.">
-        To get your bookmarks and more on all your devices, sign in to Brave
+        To get your bookmarks and more on all your devices, sign in to Nix
       </message>
       <message name="IDS_HISTORY_SYNC_RECENT_TABS_TITLE" desc="Title of a page that asks users to start syncing their tabs and browsing history, so they can get back to sites they visited more quickly without having to type them, for example by seeing these sites suggested in the Omnibox. This also allows users to access their recent tabs and browsing history across all their devices.">
         Sync tabs and history
@@ -3784,7 +3784,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
 
       <!-- Strings for signin promos when Unified Consent is enabled. -->
-      <message name="IDS_SYNC_PROMO_TITLE_BOOKMARKS" desc="This string is the headline of a card that appears when the user opens Brave's bookmarks; the user may be signed in to Brave, but isn't syncing their Brave data. The line below this string is 'Sync to get your bookmarks from your other devices'. [CHAR_LIMIT=70]" meaning="This headline means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue' button and turn on sync. The tone should be inviting.">
+      <message name="IDS_SYNC_PROMO_TITLE_BOOKMARKS" desc="This string is the headline of a card that appears when the user opens Brave's bookmarks; the user may be signed in to Nix, but isn't syncing their Brave data. The line below this string is 'Sync to get your bookmarks from your other devices'. [CHAR_LIMIT=70]" meaning="This headline means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue' button and turn on sync. The tone should be inviting.">
         Get all your bookmarks
       </message>
       <message name="IDS_ACCOUNT_SETTINGS_PROMO_DESCRIPTION_BOOKMARKS" desc="This string is on a promo intended to promote reviewing the user's Brave sync chain settings page to enable bookmarks toggle. It appears on the Bookmarks page when the user is signed in and not syncing bookmarks.">
@@ -3796,22 +3796,22 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_BOOKMARKS" desc="This string is the title of a card that appears when the user opens Brave's bookmarks; the user is signed out of Brave. The headline above this string is 'Get all your bookmarks'. There's no character limit but try to keep the translation under 120 characters." meaning="This message means that the user can get the bookmarks from their computer on their phone, and their phone's bookmarks on their computer. We want users to read this card and tap the 'Continue' button and sign-in. The tone should be inviting.">
         Sign in to get your bookmarks and more on all your devices
       </message>
-      <message name="IDS_SIGNIN_PROMO_TITLE_NTP_FEED_TOP_PROMO" desc="This string is the headline of a card that appears when the user visits Brave's new tab page; the user isn't signed in to Brave. The line below this string is 'Sign in to get content based on your interests'. [CHAR_LIMIT=70]">
+      <message name="IDS_SIGNIN_PROMO_TITLE_NTP_FEED_TOP_PROMO" desc="This string is the headline of a card that appears when the user visits Brave's new tab page; the user isn't signed in to Nix. The line below this string is 'Sign in to get content based on your interests'. [CHAR_LIMIT=70]">
         Get better content
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_FEED_TOP_PROMO" desc="This string is the body of a card that appears when the user visits Brave's new tab page; the user isn't signed in to Brave. The headline above this string is 'Get better content'. There's no character limit but try to keep the translation under 120 characters." meaning="This message means that the user is missing out on more interesting and relevant news articles. We want users to read this card and tap the 'Continue' button and sign-in. The tone should be inviting.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_FEED_TOP_PROMO" desc="This string is the body of a card that appears when the user visits Brave's new tab page; the user isn't signed in to Nix. The headline above this string is 'Get better content'. There's no character limit but try to keep the translation under 120 characters." meaning="This message means that the user is missing out on more interesting and relevant news articles. We want users to read this card and tap the 'Continue' button and sign-in. The tone should be inviting.">
         Sign in to get content based on your interests
       </message>
-      <message name="IDS_SIGNIN_PROMO_TITLE_RECENT_TABS" desc="This string is the headline of a card that appears when the user opens Brave's recent tabs. The user may be signed in to Brave, but has not opted in for syncing History and Tabs. The line below this string is 'To see tabs from your other devices, sync your tabs and history'. This headline means that the user can see some of their recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Turn on' button and turn on history and tabs syncing. The tone should be inviting. [CHAR_LIMIT=70]">
+      <message name="IDS_SIGNIN_PROMO_TITLE_RECENT_TABS" desc="This string is the headline of a card that appears when the user opens Brave's recent tabs. The user may be signed in to Nix, but has not opted in for syncing History and Tabs. The line below this string is 'To see tabs from your other devices, sync your tabs and history'. This headline means that the user can see some of their recent tabs from their computer on their phone, and their phone's recent tabs on their computer. We want users to read this card and tap the 'Turn on' button and turn on history and tabs syncing. The tone should be inviting. [CHAR_LIMIT=70]">
         You’ll find your tabs from other devices here
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS" desc="This string is the body of a card that appears when the user opens Brave's recent tabs. The user may be signed in to Brave, but has not opted in for syncing History and Tabs. This message means that the user can see some of their recent tabs from their computer on their phone, and their phone's recent tabs on their computer once opted in history and tabs syncing. We want users to read this card and tap the 'Turn on' button and turn on History and Tabs syncing. The tone should be inviting. There's no character limit but try to keep the translation under 120 characters.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS" desc="This string is the body of a card that appears when the user opens Brave's recent tabs. The user may be signed in to Nix, but has not opted in for syncing History and Tabs. This message means that the user can see some of their recent tabs from their computer on their phone, and their phone's recent tabs on their computer once opted in history and tabs syncing. We want users to read this card and tap the 'Turn on' button and turn on History and Tabs syncing. The tone should be inviting. There's no character limit but try to keep the translation under 120 characters.">
         To see tabs from your other devices, sync your tabs and history
       </message>
-      <message name="IDS_SIGNIN_PROMO_TITLE_HISTORY_PAGE" desc="This string is the headline of a card that appears when the user opens Brave's history page. The user is signed in to Brave, but has not opted in for syncing History and Tabs. We want users to read this card and tap the button below to turn on history and tabs syncing. The tone should be inviting. [CHAR_LIMIT=70]">
+      <message name="IDS_SIGNIN_PROMO_TITLE_HISTORY_PAGE" desc="This string is the headline of a card that appears when the user opens Brave's history page. The user is signed in to Nix, but has not opted in for syncing History and Tabs. We want users to read this card and tap the button below to turn on history and tabs syncing. The tone should be inviting. [CHAR_LIMIT=70]">
         See your history on other devices
       </message>
-      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_HISTORY_PAGE" desc="This string is the body of a card that appears when the user opens Brave's history page. The user is signed in to Brave, but has not opted in for syncing History and Tabs. We want users to read this card and tap the button below to turn on History and Tabs syncing. The tone should be inviting. There's no character limit but try to keep the translation under 120 characters.">
+      <message name="IDS_SIGNIN_PROMO_DESCRIPTION_HISTORY_PAGE" desc="This string is the body of a card that appears when the user opens Brave's history page. The user is signed in to Nix, but has not opted in for syncing History and Tabs. We want users to read this card and tap the button below to turn on History and Tabs syncing. The tone should be inviting. There's no character limit but try to keep the translation under 120 characters.">
         To easily pick up where you left off, sync your history and tabs
       </message>
       <message name="IDS_SIGNIN_PROMO_CHOOSE_ANOTHER_ACCOUNT" desc="Button that the user can press if they want to select a different account before signing in. This button is shown below 'Continue as Joe Doe' button that signs user in with default account.">
@@ -3823,16 +3823,16 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_SIGNIN_PROMO_TURN_ON" desc="Button to turn on sync for history and tabs">
         Turn on
       </message>
-      <message name="IDS_SIGNIN_PROMO_SIGNIN" desc="Button that the user can press if they want to sign-in to Brave.">
+      <message name="IDS_SIGNIN_PROMO_SIGNIN" desc="Button that the user can press if they want to sign-in to Nix.">
         Sign in
       </message>
-      <message name="IDS_SIGNIN_SETTINGS_TITLE" desc="Title of the sign-in row in the settings page that offers the user to sign-in to Brave.">
+      <message name="IDS_SIGNIN_SETTINGS_TITLE" desc="Title of the sign-in row in the settings page that offers the user to sign-in to Nix.">
         Sign in
       </message>
       <message name="IDS_SETTINGS_SIGNIN_DISABLED_BY_ADMINISTRATOR" desc="Subtitle for when the sign-in entry point at the top of Brave settings is disabled as per an Enterprise policy">
         Turned off by your administrator
       </message>
-      <message name="IDS_SIGNIN_SETTINGS_SUBTITLE" desc="Subtitle of the sign-in row in the settings page that offers the user to sign-in to Brave. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.).">
+      <message name="IDS_SIGNIN_SETTINGS_SUBTITLE" desc="Subtitle of the sign-in row in the settings page that offers the user to sign-in to Nix. It explains the overarching user benefit of signing in (access to bookmarks, passwords, history, settings, etc.).">
         Get your bookmarks, passwords and more on all your devices
       </message>
 
@@ -4004,13 +4004,13 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Discover
       </message>
       <message name="IDS_NTP_DISCOVER_ON_BRANDED" desc="Title in the feed header when the feed is turned on and the default search engine is not Brave. Please use the branded term for Discover, as listed under Product Names in the Brave Glossary Manager (TC ID 1799975766543019278).">
-        Discover by Brave
+        Discover by Nix
       </message>
       <message name="IDS_NTP_DISCOVER_OFF" desc="Title in the feed header when the feed is turned off. Please use the branded term for Discover, as listed under Product Names in the Brave Glossary Manager (TC ID 1799975766543019278).">
         Discover - off
       </message>
       <message name="IDS_NTP_DISCOVER_OFF_BRANDED" desc="Title in the feed header when the feed is turned off and the default search engine is not Brave. Please use the branded term for Discover, as listed under Product Names in the Brave Glossary Manager (TC ID 1799975766543019278).">
-        Discover by Brave - off
+        Discover by Nix - off
       </message>
 
       <message name="IDS_NTP_FOLLOWING" meaning="Title for content - e.g. Followed sites" desc="Title in the feed header for user-customized following feed. This feed is composed of articles and content from sites that the user has followed">Following</message>
@@ -4102,7 +4102,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         New Private tab
       </message>
       <message name="IDS_CUSTOM_TAB_AMP_PUBLISHER_URL" desc="Text shown in a Custom Tab toolbar for a web page that is hosted by the Brave content delivery network but was originally published by someone else.">
-        From <ph name="PUBLISHER_ORIGIN">&lt;pub&gt;%1$s&lt;/pub&gt;<ex>example.com</ex></ph> – <ph name="BEGIN_DEEMPHASIZED">&lt;bg&gt;</ph>delivered by Brave<ph name="END_DEEMPHASIZED">&lt;/bg&gt;</ph>
+        From <ph name="PUBLISHER_ORIGIN">&lt;pub&gt;%1$s&lt;/pub&gt;<ex>example.com</ex></ph> – <ph name="BEGIN_DEEMPHASIZED">&lt;bg&gt;</ph>delivered by Nix<ph name="END_DEEMPHASIZED">&lt;/bg&gt;</ph>
       </message>
       <message name="IDS_ACCESSIBILITY_CUSTOM_TAB_DRAG_HANDLE" desc="The accesibility text for drag handle in the toolbar of the partial custom tab.">
         Drag handle
@@ -4855,15 +4855,15 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_READER_MODE_MESSAGE_BUTTON" desc="The label for the button to open the current page in reader mode.">
         View
       </message>
-      <message name="IDS_CONTENT_PROVIDER_SEARCH_DESCRIPTION" desc="Description for Brave's entry in QSB's list of search suggestion providers [CHAR_LIMIT=32]">
+      <message name="IDS_CONTENT_PROVIDER_SEARCH_DESCRIPTION" desc="Description for Nix's entry in QSB's list of search suggestion providers [CHAR_LIMIT=32]">
         Bookmarks and web history
       </message>
 
       <!-- Brave survey -->
-      <message name="IDS_CHROME_SURVEY_MESSAGE_TITLE" desc="Message shown that invites the user to take a survey about Brave. 'Help' and 'improve' are imperative verbs.">
+      <message name="IDS_CHROME_SURVEY_MESSAGE_TITLE" desc="Message shown that invites the user to take a survey about Nix. 'Help' and 'improve' are imperative verbs.">
         Help improve Brave?
       </message>
-      <message name="IDS_CHROME_SURVEY_MESSAGE_BUTTON" desc="The label for the button to open a survey for Brave.">
+      <message name="IDS_CHROME_SURVEY_MESSAGE_BUTTON" desc="The label for the button to open a survey for Nix.">
         Take survey
       </message>
 
@@ -5527,16 +5527,16 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       Search
       </message>
       <message name="IDS_GOOGLE_BOTTOM_BAR_HOME_BUTTON_DESCRIPTION" desc="Content description for home button">
-      Go to Brave App Home
+      Go to Nix App Home
       </message>
       <message name="IDS_GOOGLE_BOTTOM_BAR_SEARCHBOX_SUPER_G_BUTTON_DESCRIPTION" desc="Content description for super G button in a searchbox that opens Home tab in Brave App">
-      Go to Brave App Home
+      Go to Nix App Home
       </message>
       <message name="IDS_GOOGLE_BOTTOM_BAR_SEARCHBOX_TEXT" desc="Text used as hint text for searchbox">
       Search
       </message>
       <message name="IDS_GOOGLE_BOTTOM_BAR_SEARCHBOX_MIC_BUTTON_DESCRIPTION" desc="Content description for mic button in a searchbox that opens Voice Search in Brave App">
-      Go to Brave App Voice Search
+      Go to Nix App Voice Search
       </message>
       <message name="IDS_GOOGLE_BOTTOM_BAR_SEARCHBOX_LENS_BUTTON_DESCRIPTION" desc="Content description for lens button in searchbox that opens Lens in Brave App">
       Go to Lens
@@ -5599,7 +5599,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
 
       <!-- Storage Preference UI strings for clearing storage. -->
-      <message name="IDS_STORAGE_MANAGEMENT_ACTIVITY_LABEL" desc="Title for Brave's Manage Space Activity.">
+      <message name="IDS_STORAGE_MANAGEMENT_ACTIVITY_LABEL" desc="Title for Nix's Manage Space Activity.">
          Brave <ph name="APP_NAME">%1$s<ex>Nix</ex></ph> storage
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_UNIMPORTANT_SITE_DATA_DESCRIPTION" desc="Text to describe the data stored by unimportant or infrequent sites.">
@@ -5629,8 +5629,8 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_STORAGE_MANAGEMENT_MANAGE_SITE_DATA_BUTTON" desc="Text on the button allowing users to manage the space used by websites. [CHAR_LIMIT=30]">
         Manage
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_ALL_STORAGE_DESCRIPTION" desc="Text used to describe all storage space used by Brave.">
-        Total data used by Brave, including accounts, bookmarks, and saved settings
+      <message name="IDS_STORAGE_MANAGEMENT_ALL_STORAGE_DESCRIPTION" desc="Text used to describe all storage space used by Nix.">
+        Total data used by Nix, including accounts, bookmarks, and saved settings
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_CLEAR_ALL_DATA_BUTTON" desc="Text on the button to clear all Brave data. [CHAR_LIMIT=30]">
         Clear All Data
@@ -5678,12 +5678,12 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Brave can use <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Sogou<ph name="END_BOLD">&lt;/b&gt;</ph> for search in China. You can change this in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_KEEP_GOOGLE" desc="Text representing the option that the user wants to keep Brave as the default search engine.">
-        Keep Brave
+        Keep Nix
       </message>
       <message name="IDS_USING_SOGOU" desc="Text notifying users that the default search engine has been set to Sogou.">
         Using Sogou for search
       </message>
-      <message name="IDS_USING_GOOGLE" desc="Text notifying users that the default search engine has been set to Brave.">
+      <message name="IDS_USING_GOOGLE" desc="Text notifying users that the default search engine has been set to Nix.">
         Using Brave for search
       </message>
 
@@ -5864,22 +5864,22 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
 
       <if expr="enable_arcore">
         <!-- AR module -->
-        <message name="IDS_AR_MODULE_TITLE" desc="Text shown when the AR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Augmented Reality for Brave…').">
+        <message name="IDS_AR_MODULE_TITLE" desc="Text shown when the AR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Augmented Reality for Nix…').">
           Augmented Reality
         </message>
       </if>
 
       <!-- Dynamic feature modules -->
       <message name="IDS_MODULE_INSTALL_START_TEXT" desc="Text shown on a toast when Brave starts to download a dynamic feature module.">
-        Installing <ph name="module">%1$s<ex>augmented reality</ex></ph> for Brave…
+        Installing <ph name="module">%1$s<ex>augmented reality</ex></ph> for Nix…
       </message>
       <message name="IDS_MODULE_INSTALL_SUCCESS_TEXT" desc="Text shown on a toast when Brave successfully installed a dynamic feature module.">
         Installed
       </message>
       <message name="IDS_MODULE_INSTALL_FAILURE_TEXT" desc="Text shown on an infobar when Brave failed to install a dynamic feature module.">
-        Unable to install <ph name="module">%1$s<ex>augmented reality</ex></ph> for Brave
+        Unable to install <ph name="module">%1$s<ex>augmented reality</ex></ph> for Nix
       </message>
-      <message name="IDS_XR_MODULE_TITLE" desc="Text shown when the XR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing XR for Brave…').">
+      <message name="IDS_XR_MODULE_TITLE" desc="Text shown when the XR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing XR for Nix…').">
         XR
       </message>
 
@@ -6158,7 +6158,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Your devices<ph name="END_LINK">&lt;/link&gt;</ph> · <ph name="EMAIL">%1$s<ex>foo@gmail.com</ex></ph>
       </message>
       <message name="IDS_SEND_TAB_TO_SELF_ANDROID_NO_TARGET_DEVICE_LABEL" desc="Text shown when a user with no available target devices attempts to use send-tab-to-self.">
-        To send this tab to another device, sign in to Brave there
+        To send this tab to another device, sign in to Nix there
       </message>
 
 
@@ -6232,13 +6232,13 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       <message name="IDS_USAGE_STATS_CONSENT_PROMPT" desc="Consent prompt when authorizing Digital Wellbeing to access Brave usage data">
        You can see sites you visit in Brave and set timers for them.\n\nBrave gets info about the sites you set timers for and how long you visit them. This info is used to make Digital Wellbeing better.
       </message>
-      <message name="IDS_USAGE_STATS_SETTING_TITLE" desc="Title for setting removing Digital Wellbeing's access to Brave usage data">
+      <message name="IDS_USAGE_STATS_SETTING_TITLE" desc="Title for setting removing Digital Wellbeing's access to Nix usage data">
         Remove your Brave activity from Digital Wellbeing
       </message>
-      <message name="IDS_USAGE_STATS_REVOCATION_PROMPT" desc="Prompt for removing Digital Wellbeing's access to Brave usage data">
+      <message name="IDS_USAGE_STATS_REVOCATION_PROMPT" desc="Prompt for removing Digital Wellbeing's access to Nix usage data">
         Remove your Brave activity from Digital Wellbeing?
       </message>
-      <message name="IDS_USAGE_STATS_REVOCATION_EXPLANATION" desc="Explanation of the effect of revoking Digital Wellbeing's access to Brave usage data">
+      <message name="IDS_USAGE_STATS_REVOCATION_EXPLANATION" desc="Explanation of the effect of revoking Digital Wellbeing's access to Nix usage data">
         Sites you visit in Brave won't show. All site timers will be deleted.
       </message>
       <message name="IDS_USAGE_STATS_SITE_PAUSED" desc="Message when a website is suspended due to exceeding a user-defined limit">
@@ -6249,19 +6249,19 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
 
       <!-- Tab Group Tab Switcher strings -->
-      <message name="IDS_TAB_MANAGEMENT_MODULE_TITLE" desc="Text shown when the Tab Management module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Tab management for Brave…').">
+      <message name="IDS_TAB_MANAGEMENT_MODULE_TITLE" desc="Text shown when the Tab Management module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Tab management for Nix…').">
         Tab management
       </message>
 
-      <message name="IDS_DEV_UI_MODULE_TITLE" desc="Text shown when the Developer UI module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Developer UI for Brave…').">
+      <message name="IDS_DEV_UI_MODULE_TITLE" desc="Text shown when the Developer UI module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Developer UI for Nix…').">
         Developer UI
       </message>
 
-      <message name="IDS_TEST_DUMMY_MODULE_TITLE" translateable="false" desc="Text shown when the test dummy module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Test Dummy for Brave…').">
+      <message name="IDS_TEST_DUMMY_MODULE_TITLE" translateable="false" desc="Text shown when the test dummy module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Test Dummy for Nix…').">
         Test Dummy
       </message>
 
-      <message name="IDS_STACK_UNWINDER_MODULE_TITLE" desc="Text shown when the stack unwinder module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Stack Unwinder for Brave…').">
+      <message name="IDS_STACK_UNWINDER_MODULE_TITLE" desc="Text shown when the stack unwinder module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Stack Unwinder for Nix…').">
         Stack Unwinder
       </message>
 
@@ -6429,17 +6429,17 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       </message>
 
       <!-- Chime DFM module strings -->
-      <message name="IDS_CHIME_MODULE_TITLE" desc="Text shown when the chime module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Brave Notifications Platform for Brave…').">
+      <message name="IDS_CHIME_MODULE_TITLE" desc="Text shown when the chime module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Brave Notifications Platform for Nix…').">
         Brave Notifications Platform
       </message>
 
       <!-- Image Editor DFM module strings -->
-      <message name="IDS_IMAGE_EDITOR_MODULE_TITLE" desc="Text shown when the image editor module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Image Editor for Brave…').">
+      <message name="IDS_IMAGE_EDITOR_MODULE_TITLE" desc="Text shown when the image editor module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Image Editor for Nix…').">
         Image Editor
       </message>
 
       <!-- Survey DFM module strings -->
-      <message name="IDS_SURVEY_MODULE_TITLE" desc="Text shown when the surveys module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Surveys for Brave…').">
+      <message name="IDS_SURVEY_MODULE_TITLE" desc="Text shown when the surveys module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Surveys for Nix…').">
         Surveys
       </message>
 
@@ -6524,7 +6524,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Get image descriptions?
       </message>
       <message name="IDS_IMAGE_DESCRIPTIONS_DIALOG_CONTENT" desc="Content for confirmation dialog to enable image descriptions.">
-        Images are sent to Brave to improve descriptions for you.
+        Images are sent to Nix to improve descriptions for you.
       </message>
       <message name="IDS_IMAGE_DESCRIPTIONS_DIALOG_OPTION_ONLY_ON_WIFI" desc="Option for confirmation dialog to enable image descriptions.">
         Only on Wi-Fi
@@ -6539,7 +6539,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Get image descriptions
       </message>
       <message name="IDS_IMAGE_DESCRIPTIONS_SETTINGS_TOGGLE_CONTENT" desc="Content of the toggle to turn preference on and off for accessibility image descriptions.">
-        Some images are sent to Brave to improve descriptions for you
+        Some images are sent to Nix to improve descriptions for you
       </message>
       <message name="IDS_IMAGE_DESCRIPTIONS_SETTINGS_USE_MOBILE_DATA_TITLE" desc="Title of radio button to allow user to specify getting accessibility image descriptions while on mobile data.">
         Use mobile data
@@ -6634,14 +6634,14 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
       You can’t sign in using this account
     </message>
 
-      <message name="IDS_CUSTOM_TABS_SIGNED_OUT_MESSAGE_BUTTON" desc="This string is found on a primary action button that the user can press if they want to sign-in to Brave.">
+      <message name="IDS_CUSTOM_TABS_SIGNED_OUT_MESSAGE_BUTTON" desc="This string is found on a primary action button that the user can press if they want to sign-in to Nix.">
         Sign in
       </message>
-      <message name="IDS_CUSTOM_TABS_SIGNED_OUT_MESSAGE_SUBTITLE" desc="This string is the body of a message promotion about signing in to Brave with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Sign in' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
+      <message name="IDS_CUSTOM_TABS_SIGNED_OUT_MESSAGE_SUBTITLE" desc="This string is the body of a message promotion about signing in to Nix with the user's Brave sync chain. It explains the overarching user benefit of signing in (access to passwords, etc.). We want users to understand why signing in is beneficial, and click 'Sign in' to sign in to their Brave sync chain. The tone should be informative and lightweight.">
               Sign in to get your passwords and more on all your devices
             </message>
-      <message name="IDS_CUSTOM_TABS_SIGNED_OUT_MESSAGE_TITLE" meaning="Title" desc="This string is the title of a message promotion about signing in to Brave with the user's Brave sync chain.">
-        Sign in to Brave
+      <message name="IDS_CUSTOM_TABS_SIGNED_OUT_MESSAGE_TITLE" meaning="Title" desc="This string is the title of a message promotion about signing in to Nix with the user's Brave sync chain.">
+        Sign in to Nix
       </message>
       <message name="IDS_CUSTOM_TAB_CANT_PERFORM_ACTION_TOAST" desc="Toast displayed when the URL currently being displayed in the Custom Tab cannot be opened in the regular browser.">
         Something went wrong. Try again.
@@ -6832,10 +6832,10 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Update password?
       </message>
       <message name="IDS_PASSWORD_EDIT_DIALOG_SYNCED_FOOTER_GOOGLE" desc="Footer for a dialog which allows users to see and edit passwords while saving/updating a new credential. Displayed for users who are syncing passwords.">
-        You can use saved passwords on any device. They're saved to Brave Password Manager for <ph name="ACCOUNT">%1$s<ex>user@gmail.com</ex></ph>.
+        You can use saved passwords on any device. They're saved to Nix Password Manager for <ph name="ACCOUNT">%1$s<ex>user@gmail.com</ex></ph>.
       </message>
       <message name="IDS_PASSWORD_EDIT_DIALOG_UNSYNCED_FOOTER_GOOGLE" desc="Footer for a dialog which allows users to see and edit passwords while saving/updating a new credential. Displayed for users who are not syncing passwords.">
-        Passwords are saved to Brave Password Manager on this device
+        Passwords are saved to Nix Password Manager on this device
       </message>
       <message name="IDS_PASSWORD_EDIT_DIALOG_UNSYNCED_FOOTER" desc="Footer for a dialog which allows users to see and edit passwords while saving/updating a new credential. Displayed for users who are not syncing passwords.">
         Passwords are saved to Password Manager on this device
@@ -6935,10 +6935,10 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the Brave da
         Use suggested password?
       </message>
       <message name="IDS_PASSWORD_GENERATION_BOTTOM_SHEET_SUBTITLE" desc="The subtitle for the password generation bottom sheet.">
-        You won’t need to remember this password. It will be saved to Brave Password Manager for <ph name="USERNAME">%1$s<ex>elisa.becket@gmail.com</ex></ph>.
+        You won’t need to remember this password. It will be saved to Nix Password Manager for <ph name="USERNAME">%1$s<ex>elisa.becket@gmail.com</ex></ph>.
       </message>
       <message name="IDS_PASSWORD_GENERATION_BOTTOM_SHEET_SUBTITLE_NO_ACCOUNT" desc="The subtitle for the password generation bottom sheet.">
-        You won’t need to remember this password. It will be saved to Brave Password Manager.
+        You won’t need to remember this password. It will be saved to Nix Password Manager.
       </message>
       <message name="IDS_PASSWORD_GENERATION_BOTTOM_SHEET_USE_PASSWORD_BUTTON" desc="Appears on the button, which reflects the user agreement to user the generated strong password.">
         Use password

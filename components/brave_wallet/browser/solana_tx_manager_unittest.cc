@@ -393,7 +393,7 @@ class SolanaTxManagerUnitTest : public testing::Test {
   PrefService* prefs() { return &prefs_; }
 
   url::Origin GetOrigin() const {
-    return url::Origin::Create(GURL("https://brave.com"));
+    return url::Origin::Create(GURL("https://nixbrowser.in"));
   }
 
   void AddUnapprovedTransaction(const std::string& chain_id,
@@ -1920,7 +1920,7 @@ TEST_F(SolanaTxManagerUnitTest, MakeBubbleGumProgramTransferTxData) {
   // Invalid response JSON results in error
   std::map<GURL, std::string> responses;
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/proof/solana/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/proof/solana/"
       "2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR")] = "invalid json";
   SetInterceptors(responses);
   TestMakeBubbleGumProgramTransferTxData(
@@ -1968,10 +1968,10 @@ TEST_F(SolanaTxManagerUnitTest, MakeBubbleGumProgramTransferTxData) {
     "canopy_depth": 0
   })";
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/proof/solana/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/proof/solana/"
       "2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR")] = json;
   // Invalid get account info response results in error
-  responses[GURL("https://solana-mainnet.wallet.brave.com/")] = "invalid json";
+  responses[GURL("https://solana-mainnet.wallet.nixbrowser.in/")] = "invalid json";
   SetInterceptors(responses);
   TestMakeBubbleGumProgramTransferTxData(
       mojom::kSolanaMainnet, "2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR",
@@ -1981,7 +1981,7 @@ TEST_F(SolanaTxManagerUnitTest, MakeBubbleGumProgramTransferTxData) {
       l10n_util::GetStringUTF8(IDS_WALLET_INTERNAL_ERROR));
 
   // Valid getAccounitInfo response results in valid tx data
-  responses[GURL("https://solana-mainnet.wallet.brave.com/")] =
+  responses[GURL("https://solana-mainnet.wallet.nixbrowser.in/")] =
       base::ReplaceStringPlaceholders(
           R"({
     "jsonrpc": "2.0",

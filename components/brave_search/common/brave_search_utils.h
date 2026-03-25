@@ -17,11 +17,11 @@ namespace brave_search {
 inline constexpr auto kVettedHosts = base::MakeFixedFlatSet<std::string_view>(
     base::sorted_unique,
     {
-        "https://safesearch.brave.com",
+        "https://safesearch.nixbrowser.in",
         "https://safesearch.brave.software",
         "https://safesearch.bravesoftware.com",
-        "https://search-dev-local.brave.com",
-        "https://search.brave.com",
+        "https://search-dev-local.nixbrowser.in",
+        "https://search.nixbrowser.in",
         "https://search.brave.software",
         "https://search.bravesoftware.com",
     });

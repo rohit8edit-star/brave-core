@@ -10,7 +10,7 @@
 namespace webcompat::features {
 
 // This flag enables the webcompat exceptions service, which allows
-// a remote list to control site-specific exceptions to Brave features
+// a remote list to control site-specific exceptions to Nix features
 // when required for web compatibility.
 BASE_FEATURE(kBraveWebcompatExceptionsService,
              base::FEATURE_DISABLED_BY_DEFAULT);

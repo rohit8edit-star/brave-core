@@ -85,7 +85,7 @@ class BraveActionsContainer : public views::View {
 #if BUILDFLAG(ENABLE_BRAVE_REWARDS)
   raw_ptr<BraveRewardsActionView> rewards_action_btn_ = nullptr;
 
-  // Listen for Brave Rewards preferences changes.
+  // Listen for Nix Rewards preferences changes.
   BooleanPrefMember show_brave_rewards_button_;
 #endif
 

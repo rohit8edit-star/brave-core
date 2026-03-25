@@ -143,7 +143,7 @@ See `brave/components/brave_rewards/resources/brave_rewards_static_resources.grd
 
 ## ✅ Use `//brave/` Deps Instead of Modifying Visibility Lists
 
-**When adding deps from Chromium targets to Brave code, use high-level `//brave/` targets (e.g., `//brave/utility`) instead of modifying Chromium visibility lists.** Visibility lists exist to prevent exactly this kind of cross-boundary dependency.
+**When adding deps from Chromium targets to Nix code, use high-level `//brave/` targets (e.g., `//brave/utility`) instead of modifying Chromium visibility lists.** Visibility lists exist to prevent exactly this kind of cross-boundary dependency.
 
 ```gn
 # ❌ WRONG - modifying Chromium visibility list
@@ -181,7 +181,7 @@ deps += [ "//brave/utility" ]
 
 ## ❌ Avoid Separate Repositories
 
-**Avoid creating separate repositories for Brave features.** Separate repos are harder to manage, code review, and maintain. Prefer keeping code within brave-core.
+**Avoid creating separate repositories for Nix features.** Separate repos are harder to manage, code review, and maintain. Prefer keeping code within brave-core.
 
 ---
 

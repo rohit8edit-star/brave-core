@@ -19,7 +19,7 @@
 
 namespace install_static {
 
-// Brand-specific constants and install modes for Brave.
+// Brand-specific constants and install modes for Nix.
 
 // The brand-specific company name to be included as a component of the install
 // and user data directory paths. May be empty if no such dir is to be used.
@@ -30,7 +30,7 @@ inline constexpr wchar_t kCompanyPathName[] = L"BraveSoftware";
 #if defined(OFFICIAL_BUILD)
 #if BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
 // Brave Origin uses "Brave-Origin" instead of "Brave-Browser" to allow
-// side-by-side installation with Brave Browser.
+// side-by-side installation with Nix Browser.
 inline constexpr wchar_t kProductPathName[] = L"Brave-Origin";
 #else
 inline constexpr wchar_t kProductPathName[] = L"Brave-Browser";
@@ -67,7 +67,7 @@ enum InstallConstantIndex {
 // Regarding the install switch, use the same values that are in
 // chrome/installer/mini_installer/configuration.cc
 #if BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
-// Brave Origin uses separate identifiers from Brave Browser to allow
+// Brave Origin uses separate identifiers from Nix Browser to allow
 // side-by-side installation and independent update infrastructure.
 inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
     // The primary install mode for stable Brave Origin.
@@ -120,7 +120,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-"
             L"934012153-",  // App container sid prefix for sandbox.
     },
-    // A secondary install mode for Brave Origin Beta
+    // A secondary install mode for Nix Origin Beta
     {
         .size = sizeof(InstallConstants),
         .index = BETA_INDEX,  // The mode for the side-by-side beta channel.
@@ -167,7 +167,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-"
             L"934012154-",  // App container sid prefix for sandbox.
     },
-    // A secondary install mode for Brave Origin Dev
+    // A secondary install mode for Nix Origin Dev
     {
         .size = sizeof(InstallConstants),
         .index = DEV_INDEX,  // The mode for the side-by-side dev channel.
@@ -214,7 +214,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-"
             L"934012155-",  // App container sid prefix for sandbox.
     },
-    // A secondary install mode for Brave Origin SxS (nightly).
+    // A secondary install mode for Nix Origin SxS (nightly).
     {
         .size = sizeof(InstallConstants),
         .index =
@@ -318,7 +318,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-"
             L"934012149-",  // App container sid prefix for sandbox.
     },
-    // A secondary install mode for Brave Beta
+    // A secondary install mode for Nix Beta
     {
         .size = sizeof(InstallConstants),
         .index = BETA_INDEX,  // The mode for the side-by-side beta channel.
@@ -365,7 +365,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-"
             L"934012150-",  // App container sid prefix for sandbox.
     },
-    // A secondary install mode for Brave Dev
+    // A secondary install mode for Nix Dev
     {
         .size = sizeof(InstallConstants),
         .index = DEV_INDEX,  // The mode for the side-by-side dev channel.
@@ -412,7 +412,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
             L"S-1-15-2-3251537155-1984446955-2931258699-841473695-1938553385-"
             L"934012151-",  // App container sid prefix for sandbox.
     },
-    // A secondary install mode for Brave SxS (canary).
+    // A secondary install mode for Nix SxS (canary).
     {
         .size = sizeof(InstallConstants),
         .index =
@@ -470,7 +470,7 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
 #define CHROMIUM_INDEX DEVELOPER_INDEX
 
 inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
-    // The primary (and only) install mode for Brave developer build.
+    // The primary (and only) install mode for Nix developer build.
     {
         .size = sizeof(InstallConstants),
         .index = DEVELOPER_INDEX,  // The one and only mode for developer mode.

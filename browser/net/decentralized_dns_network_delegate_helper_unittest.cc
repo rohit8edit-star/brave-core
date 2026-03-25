@@ -272,7 +272,7 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest,
       {"https://brave.xmr", true},
       {"https://brave.zil", true},
       {"https://brave", false},
-      {"https://brave.com", false},
+      {"https://nixbrowser.in", false},
       {"", false},
   };
 
@@ -312,17 +312,17 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest,
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       polygon_spec,
       brave_wallet::MakeJsonRpcStringArrayResponse(
-          {"", "", "", "", "", "https://brave.com"}),
+          {"", "", "", "", "", "https://nixbrowser.in"}),
       net::HTTP_REQUEST_TIMEOUT);
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       eth_spec,
       brave_wallet::MakeJsonRpcStringArrayResponse(
-          {"", "", "", "", "", "https://brave.com"}),
+          {"", "", "", "", "", "https://nixbrowser.in"}),
       net::HTTP_REQUEST_TIMEOUT);
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       base_spec,
       brave_wallet::MakeJsonRpcStringArrayResponse(
-          {"", "", "", "", "", "https://brave.com"}),
+          {"", "", "", "", "", "https://nixbrowser.in"}),
       net::HTTP_REQUEST_TIMEOUT);
   this->task_environment_.RunUntilIdle();
   EXPECT_TRUE(brave_request_info->new_url_spec().empty());
@@ -334,12 +334,12 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest,
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       polygon_spec,
       brave_wallet::MakeJsonRpcStringArrayResponse(
-          {"", "", "", "", "", "https://brave.com"}),
+          {"", "", "", "", "", "https://nixbrowser.in"}),
       net::HTTP_OK);
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       base_spec,
       brave_wallet::MakeJsonRpcStringArrayResponse(
-          {"", "", "", "", "", "https://brave.com/base"}),
+          {"", "", "", "", "", "https://nixbrowser.in/base"}),
       net::HTTP_OK);
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       eth_spec,
@@ -348,7 +348,7 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest,
            ""}),
       net::HTTP_OK);
   this->task_environment_.RunUntilIdle();
-  EXPECT_EQ(brave_request_info->new_url_spec(), "https://brave.com/");
+  EXPECT_EQ(brave_request_info->new_url_spec(), "https://nixbrowser.in/");
 
   // Base result.
   EXPECT_EQ(net::ERR_IO_PENDING,
@@ -361,7 +361,7 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest,
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       base_spec,
       brave_wallet::MakeJsonRpcStringArrayResponse(
-          {"", "", "", "", "", "https://brave.com/base"}),
+          {"", "", "", "", "", "https://nixbrowser.in/base"}),
       net::HTTP_OK);
   this->test_url_loader_factory().SimulateResponseForPendingRequest(
       eth_spec,
@@ -370,7 +370,7 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest,
            ""}),
       net::HTTP_OK);
   this->task_environment_.RunUntilIdle();
-  EXPECT_EQ(brave_request_info->new_url_spec(), "https://brave.com/base");
+  EXPECT_EQ(brave_request_info->new_url_spec(), "https://nixbrowser.in/base");
 
   // Eth result.
   EXPECT_EQ(net::ERR_IO_PENDING,
@@ -481,9 +481,9 @@ TYPED_TEST(DecentralizedDnsNetworkDelegateHelperTest, SnsRedirectWork) {
 
   // Redirect for valid url.
   OnBeforeURLRequest_SnsRedirectWork(
-      base::DoNothing(), brave_request_info, GURL("https://brave.com"),
+      base::DoNothing(), brave_request_info, GURL("https://nixbrowser.in"),
       brave_wallet::mojom::SolanaProviderError::kSuccess, "");
-  EXPECT_EQ(brave_request_info->new_url_spec(), GURL("https://brave.com"));
+  EXPECT_EQ(brave_request_info->new_url_spec(), GURL("https://nixbrowser.in"));
 
   EXPECT_FALSE(brave_request_info->pending_error().has_value());
 }

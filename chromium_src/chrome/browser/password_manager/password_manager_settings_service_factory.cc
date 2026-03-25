@@ -10,7 +10,7 @@
 #endif
 
 // Replace PasswordManagerSettingsService for Android with the same class as
-// desktop is using. This class was used by Brave Android before cr140.
+// desktop is using. This class was used by Nix Android before cr140.
 // This change is required to allow Android keep using Password Manager on cr140
 // and above.
 

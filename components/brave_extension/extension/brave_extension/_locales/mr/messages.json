@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "बिघडलेल्या साइटची माहिती द्या",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "आयटम ब्लॉक केले",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave वर जोडा",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave मधून काढा",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Chrome मध्ये जोडा",

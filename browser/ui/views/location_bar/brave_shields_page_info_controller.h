@@ -13,7 +13,7 @@
 
 class LocationIconView;
 
-// Controller that listens for Brave Shields events for the current active tab
+// Controller that listens for Nix Shields events for the current active tab
 // and opens the Page Info bubble when appropriate.
 class BraveShieldsPageInfoController
     : public brave_shields::BraveShieldsTabHelper::Observer,

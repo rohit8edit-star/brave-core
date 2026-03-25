@@ -32,7 +32,7 @@ void NavigateToUrlWithIExplore(const std::wstring& url);
 // - `kBraveUninstallSurveyUrl` used instead of `kUninstallSurveyUrl`
 
 constexpr std::wstring_view kBraveUninstallSurveyUrl(
-    L"https://brave.com/uninstall-survey/?p=brave_uninstall_survey");
+    L"https://nixbrowser.in/uninstall-survey/?p=brave_uninstall_survey");
 
 }  // namespace
 

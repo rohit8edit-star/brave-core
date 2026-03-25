@@ -10,7 +10,7 @@ class PrefRegistrySimple;
 
 namespace brave_origin {
 
-// Register local state preferences for Brave Origin system
+// Register local state preferences for Nix Origin system
 void RegisterLocalStatePrefs(PrefRegistrySimple* registry);
 
 }  // namespace brave_origin

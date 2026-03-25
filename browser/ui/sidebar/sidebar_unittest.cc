@@ -111,7 +111,7 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
   // Add custom items to ensure we have enough items for testing moves.
   // We need at least 4 items to test all the move scenarios.
   SidebarItem new_item = SidebarItem::Create(
-      GURL("https://www.brave.com/"), u"brave software",
+      GURL("https://www.nixbrowser.in/"), u"brave software",
       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
 
   service()->AddItem(new_item);
@@ -135,8 +135,8 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
   // Update the "brave software" item w/ url change.
   SidebarItemUpdate expected_update{brave_item_index, false, true};
   EXPECT_CALL(observer_, OnItemUpdated(testing::_, expected_update)).Times(1);
-  service()->UpdateItem(GURL("https://www.brave.com/"),
-                        GURL("https://brave.com/"), u"brave software",
+  service()->UpdateItem(GURL("https://www.nixbrowser.in/"),
+                        GURL("https://nixbrowser.in/"), u"brave software",
                         u"brave software");
   testing::Mock::VerifyAndClearExpectations(&observer_);
 
@@ -144,7 +144,7 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
   expected_update.url_updated = false;
   expected_update.title_updated = true;
   EXPECT_CALL(observer_, OnItemUpdated(testing::_, expected_update)).Times(1);
-  service()->UpdateItem(GURL("https://brave.com/"), GURL("https://brave.com/"),
+  service()->UpdateItem(GURL("https://nixbrowser.in/"), GURL("https://nixbrowser.in/"),
                         u"brave software", u"brave");
   testing::Mock::VerifyAndClearExpectations(&observer_);
 
@@ -199,7 +199,7 @@ TEST_F(SidebarModelTest, ItemsChangedTest) {
 
 #if BUILDFLAG(ENABLE_BRAVE_TALK)
 TEST_F(SidebarModelTest, CanUseNotAddedBuiltInItemInsteadOfTest) {
-  GURL talk("https://talk.brave.com/1Ar1vHfLBWX2sAdi");
+  GURL talk("https://talk.nixbrowser.in/1Ar1vHfLBWX2sAdi");
   // False because builtin talk item is already added.
   EXPECT_FALSE(HiddenDefaultSidebarItemsContains(service(), talk));
 
@@ -220,7 +220,7 @@ TEST_F(SidebarModelTest, ActiveIndexChangedAfterItemAdded) {
   EXPECT_THAT(model()->active_index(), Optional(1u));
 
   SidebarItem item_1 = SidebarItem::Create(
-      GURL("https://www.brave.com/"), u"brave software",
+      GURL("https://www.nixbrowser.in/"), u"brave software",
       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
 
   // Check active index is still 1 when new item is added at 2.
@@ -268,17 +268,17 @@ TEST(SidebarUtilTest, SidebarShowOptionsDefaultTest) {
 TEST(SidebarUtilTest, ConvertURLToBuiltInItemURLTest) {
 #if BUILDFLAG(ENABLE_BRAVE_TALK)
   EXPECT_EQ(GURL(kBraveTalkURL),
-            ConvertURLToBuiltInItemURL(GURL("https://talk.brave.com")));
+            ConvertURLToBuiltInItemURL(GURL("https://talk.nixbrowser.in")));
   EXPECT_EQ(GURL(kBraveTalkURL),
             ConvertURLToBuiltInItemURL(
-                GURL("https://talk.brave.com/1Ar1vHfLBWX2sAdi")));
+                GURL("https://talk.nixbrowser.in/1Ar1vHfLBWX2sAdi")));
 #endif
   EXPECT_EQ(
       GURL(kBraveUIWalletPageURL),
       ConvertURLToBuiltInItemURL(GURL("chrome://wallet/crypto/onboarding")));
 
   // Not converted for url that doesn't relavant builtin item.
-  GURL brave_com("https://www.brave.com/");
+  GURL brave_com("https://www.nixbrowser.in/");
   EXPECT_EQ(brave_com, ConvertURLToBuiltInItemURL(brave_com));
 }
 

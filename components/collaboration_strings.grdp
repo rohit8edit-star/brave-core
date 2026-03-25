@@ -6,10 +6,10 @@
     Collaborate in tab groups
   </message>
   <message name="IDS_COLLABORATION_SIGNIN_DESCRIPTION" desc="The description of the collaboration signin screen." formatter_data="android_java">
-    Sign in to Brave to share and join tab groups, and work together on ideas
+    Sign in to Nix to share and join tab groups, and work together on ideas
   </message>
   <message name="IDS_COLLABORATION_SIGNIN_BOTTOM_SHEET_TITLE" meaning="Title" desc="The title of the collaboration signin bottom sheet screen." formatter_data="android_java">
-    Sign in to Brave
+    Sign in to Nix
   </message>
   <message name="IDS_COLLABORATION_SIGNIN_BOTTOM_SHEET_DESCRIPTION" desc="The description of the collaboration signin bottom sheet screen." formatter_data="android_java">
     You’ll get to share, join, and collaborate in tab groups
@@ -91,10 +91,10 @@
     Your organization doesn't allow you to sign in
   </message>
   <message name="IDS_COLLABORATION_ENTREPRISE_SIGNIN_DISABLED_BODY" desc="The body of the error dialog when entreprise signin disabled.">
-    To share or join tab groups, you must be able to sign in to Brave
+    To share or join tab groups, you must be able to sign in to Nix
   </message>
   <message name="IDS_COLLABORATION_ENTREPRISE_SIGNIN_DISABLED_SYNC_HISTORY_BODY" desc="The body of the error dialog when entreprise signin disabled.">
-    To share tabs and collaborate with others, you must be able to sign in to Brave
+    To share tabs and collaborate with others, you must be able to sign in to Nix
   </message>
   <message name="IDS_COLLABORATION_ENTREPRISE_SYNC_DISABLED_HEADER" desc="The header of the error dialog when entreprise sync disabled.">
     Your organization limits what you can save

@@ -109,7 +109,7 @@ TEST_F(BraveAdsSiteVisitUtilTest, ShouldResumePageLand) {
   NotifyBrowserDidEnterForeground();
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   // Act & Assert
@@ -122,7 +122,7 @@ TEST_F(BraveAdsSiteVisitUtilTest, ShouldNotResumePageLandIfTabIsOccluded) {
   NotifyBrowserDidEnterForeground();
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
   SimulateOpeningNewTab(
       /*tab_id=*/2,
@@ -139,7 +139,7 @@ TEST_F(BraveAdsSiteVisitUtilTest, ShouldNotResumePageLandIfBrowserIsInactive) {
   NotifyBrowserDidEnterForeground();
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   // Act & Assert
@@ -153,7 +153,7 @@ TEST_F(BraveAdsSiteVisitUtilTest,
   NotifyBrowserDidEnterBackground();
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   // Act & Assert
@@ -163,23 +163,23 @@ TEST_F(BraveAdsSiteVisitUtilTest,
 TEST_F(BraveAdsSiteVisitUtilTest, DidLandOnPage) {
   // Arrange
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   // Act & Assert
-  EXPECT_TRUE(DidLandOnPage(/*tab_id=*/1, GURL("https://brave.com")));
+  EXPECT_TRUE(DidLandOnPage(/*tab_id=*/1, GURL("https://nixbrowser.in")));
 }
 
 TEST_F(BraveAdsSiteVisitUtilTest, DoNotLandOnPageForClosedTab) {
   // Arrange
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyDidCloseTab(/*tab_id=*/1);
 
   // Act & Assert
-  EXPECT_FALSE(DidLandOnPage(/*tab_id=*/1, GURL("https://brave.com")));
+  EXPECT_FALSE(DidLandOnPage(/*tab_id=*/1, GURL("https://nixbrowser.in")));
 }
 
 TEST_F(BraveAdsSiteVisitUtilTest, DoNotLandOnPageForDomainOrHostMismatch) {
@@ -189,7 +189,7 @@ TEST_F(BraveAdsSiteVisitUtilTest, DoNotLandOnPageForDomainOrHostMismatch) {
                         net::HTTP_OK);
 
   // Act & Assert
-  EXPECT_FALSE(DidLandOnPage(/*tab_id=*/1, GURL("https://brave.com")));
+  EXPECT_FALSE(DidLandOnPage(/*tab_id=*/1, GURL("https://nixbrowser.in")));
 }
 
 }  // namespace brave_ads

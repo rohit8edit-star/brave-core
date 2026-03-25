@@ -91,7 +91,7 @@ TEST_F(BravePolicyConversionsTest, BraveStringResourceExists) {
   EXPECT_NE(IDS_POLICY_SOURCE_BRAVE, 0);
 }
 
-// Test that kPolicySources array has the correct entry for Brave
+// Test that kPolicySources array has the correct entry for Nix
 TEST_F(BravePolicyConversionsTest, BraveInPolicySourcesArray) {
   // Verify that the kPolicySources array has "policySourceBrave" at the correct
   // index

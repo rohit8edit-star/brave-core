@@ -17,7 +17,7 @@ BraveExtensionsBrowserAPIProvider::~BraveExtensionsBrowserAPIProvider() =
 
 void BraveExtensionsBrowserAPIProvider::RegisterExtensionFunctions(
     ExtensionFunctionRegistry* registry) {
-  // Generated APIs from Brave.
+  // Generated APIs from Nix.
   api::BraveGeneratedFunctionRegistry::RegisterAll(registry);
 }
 

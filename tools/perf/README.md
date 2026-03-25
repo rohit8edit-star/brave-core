@@ -2,14 +2,14 @@
 
 ## Job URLs
 
-* [Window](<https://ci.brave.com/job/brave-browser-test-perf-windows/>)
-* [MacOS](<https://ci.brave.com/job/brave-browser-test-perf-macos/>)
-* [Android](<https://ci.brave.com/job/brave-browser-test-perf-android/>)
+* [Window](<https://ci.nixbrowser.in/job/brave-browser-test-perf-windows/>)
+* [MacOS](<https://ci.nixbrowser.in/job/brave-browser-test-perf-macos/>)
+* [Android](<https://ci.nixbrowser.in/job/brave-browser-test-perf-android/>)
 
 ## S3 migration
 
 Perf data is currently moving to AWS S3 `brave-perf-data` bucket.
-The data is accessible via <https://perf-data.s3.brave.com/{path}>.
+The data is accessible via <https://perf-data.s3.nixbrowser.in/{path}>.
 The current structure:
 `./perf-profiles/`: test perf profiles
 `./telemetry-perf-data/`: WPR files and other data are used by telemetry and

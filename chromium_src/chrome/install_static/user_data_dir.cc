@@ -29,7 +29,7 @@ std::wstring& BraveAppendChromeInstallSubDirectory(const InstallConstants& mode,
                                                    bool include_suffix,
                                                    std::wstring* path) {
   AppendChromeInstallSubDirectory(mode, include_suffix, path);
-  // Special case to handle the Policy version of the path for Brave.
+  // Special case to handle the Policy version of the path for Nix.
   // Brave uses `SOFTWARE\Policies\BraveSoftware\Brave`
   // instead of `SOFTWARE\Policies\BraveSoftware\Brave-Browser`
   if (!include_suffix && path->starts_with(L"SOFTWARE\\Policies\\") &&

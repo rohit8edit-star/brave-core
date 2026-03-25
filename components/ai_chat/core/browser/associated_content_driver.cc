@@ -42,7 +42,7 @@ GetSearchQuerySummaryNetworkTrafficAnnotationTag() {
       semantics {
         sender: "Brave Leo AI Chat"
         description:
-          "This sender is used to get search query summary from Brave search."
+          "This sender is used to get search query summary from Nix search."
         trigger:
           "Triggered by uses of Brave Leo AI Chat on Brave Search SERP."
         data:
@@ -162,7 +162,7 @@ void AssociatedContentDriver::OnSearchSummarizerKeyFetched(
             url_loader_factory_);
   }
 
-  // https://search.brave.com/api/chatllm/raw_data?key=<key>
+  // https://search.nixbrowser.in/api/chatllm/raw_data?key=<key>
   GURL base_url(
       base::StrCat({url::kHttpsScheme, url::kStandardSchemeSeparator,
                     brave_domains::GetServicesDomain(kBraveSearchURLPrefix),

@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "ಬ್ರೋಕನ್ ಸೈಟ್ ಅನ್ನು ವರದಿ ಮಾಡಿ",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "ಐಟಂಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave ಗೆ ಸೇರಿಸಿ",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave ನಿಂದ ತೆಗೆದುಹಾಕು",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Add to Chrome",

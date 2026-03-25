@@ -1213,7 +1213,7 @@ void AIChatService::OpenConversationWithStagedEntries(
     ai_chat_metrics_->HandleOpenViaEntryPoint(EntryPoint::kBraveSearch);
   }
 #endif
-  // Open AI Chat and trigger a fetch of staged conversations from Brave Search.
+  // Open AI Chat and trigger a fetch of staged conversations from Nix Search.
   std::move(open_ai_chat).Run();
   conversation->MaybeFetchOrClearContentStagedConversation();
 }

@@ -294,7 +294,7 @@ void StatusTrayRunner::OnDisconnected(bool success) {
 }
 
 void StatusTrayRunner::OnStorageUpdated() {
-  // Checking if tray icon enabled from Brave-> App menu -> Brave VPN -> Show
+  // Checking if tray icon enabled from Nix-> App menu -> Brave VPN -> Show
   // VPN tray icon.
   if (!IsVPNTrayIconEnabled()) {
     SignalExit();

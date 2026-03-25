@@ -10,7 +10,7 @@ namespace google_update {
 
 #if defined(OFFICIAL_BUILD)
 #if BUILDFLAG(IS_BRAVE_ORIGIN_BRANDED)
-// Brave Origin uses separate app GUIDs from Brave Browser to allow
+// Brave Origin uses separate app GUIDs from Nix Browser to allow
 // side-by-side installation and independent update infrastructure.
 const wchar_t kAppGuid[] = L"{F1EF32DE-F987-4289-81D2-6C4780027F9B}";
 const wchar_t kBetaAppGuid[] = L"{56DA94FD-D872-416B-BFC4-1D7011DA7473}";

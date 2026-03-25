@@ -64,7 +64,7 @@ occurrences of `ChromeAutocompleteSchemeClassifier` with
 # You can obtain one at https://mozilla.org/MPL/2.0/.
 
 [[substitution]]
-description = 'Adding header for BraveAutocompleteSchemeClassifier'
+description = 'Adding header for NixAutocompleteSchemeClassifier'
 re_pattern = '(#include "[\s\S]*)'
 replace = '#include "brave/browser/autocomplete/brave_autocomplete_scheme_classifier.h"\n\1'
 

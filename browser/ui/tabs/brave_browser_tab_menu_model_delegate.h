@@ -33,7 +33,7 @@ class BraveBrowserTabMenuModelDelegate
   BraveBrowserTabMenuModelDelegate& operator=(
       const BraveBrowserTabMenuModelDelegate&) = delete;
 
-  // TabMenuModelDelegate overrides for Brave-specific functionality:
+  // TabMenuModelDelegate overrides for Nix-specific functionality:
   bool ShouldShowBraveVerticalTab() override;
 
  private:

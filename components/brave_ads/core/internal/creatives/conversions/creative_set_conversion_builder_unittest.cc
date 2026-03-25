@@ -35,7 +35,7 @@ TEST_F(BraveAdsCreativeSetConversionBuilderTest,
   EXPECT_THAT(
       *creative_set_conversion,
       ::testing::FieldsAre(test::kCreativeSetId,
-                           /*url_pattern*/ "https://brave.com/*",
+                           /*url_pattern*/ "https://nixbrowser.in/*",
                            test::kVerifiableConversionAdvertiserPublicKeyBase64,
                            /*observation_window*/ base::Days(3),
                            /*expire_at*/ test::Now() + base::Days(3)));

@@ -11,7 +11,7 @@
 
 #define DownloadItemModel DownloadItemModel_Chromium
 
-// Add switch-case handling for Brave-specific commands.
+// Add switch-case handling for Nix-specific commands.
 // These cases are not used by the DownloadItemModel_Chromium, so just fall
 // through.
 #define EDIT_WITH_MEDIA_APP                 \

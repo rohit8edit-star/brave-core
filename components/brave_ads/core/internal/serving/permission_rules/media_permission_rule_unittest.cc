@@ -29,7 +29,7 @@ TEST_F(BraveAdsMediaPermissionRuleTest,
       kPermissionRulesFeature);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);
@@ -47,7 +47,7 @@ TEST_F(BraveAdsMediaPermissionRuleTest,
       kPermissionRulesFeature);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);
@@ -67,7 +67,7 @@ TEST_F(BraveAdsMediaPermissionRuleTest,
       kPermissionRulesFeature);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);
@@ -86,7 +86,7 @@ TEST_F(BraveAdsMediaPermissionRuleTest,
       kPermissionRulesFeature);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);
@@ -105,7 +105,7 @@ TEST_F(
       {{"should_only_serve_ads_if_media_is_not_playing", "false"}});
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);
@@ -121,7 +121,7 @@ TEST_F(BraveAdsMediaPermissionRuleTest,
       kPermissionRulesFeature);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);
@@ -138,7 +138,7 @@ TEST_F(BraveAdsMediaPermissionRuleTest,
       kPermissionRulesFeature);
 
   SimulateOpeningNewTab(/*tab_id=*/1,
-                        /*redirect_chain=*/{GURL("https://brave.com")},
+                        /*redirect_chain=*/{GURL("https://nixbrowser.in")},
                         net::HTTP_OK);
 
   NotifyTabDidStartPlayingMedia(/*tab_id=*/1);

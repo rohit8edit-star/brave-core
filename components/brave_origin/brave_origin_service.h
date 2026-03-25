@@ -29,7 +29,7 @@ namespace brave_origin {
 // This keyed service will maintain the definitions/mappings of policies to
 // preferences.
 //
-// This is separate from BraveProfilePolicyProvider which handles the actual
+// This is separate from NixProfilePolicyProvider which handles the actual
 // integration with Chromium's policy framework.
 class BraveOriginService : public KeyedService {
  public:
@@ -47,7 +47,7 @@ class BraveOriginService : public KeyedService {
   // KeyedService:
   void Shutdown() override;
 
-  // Check if a policy is controlled by BraveOrigin
+  // Check if a policy is controlled by NixOrigin
   bool IsPolicyControlledByBraveOrigin(std::string_view policy_key) const;
 
   // Update the BraveOrigin policy value

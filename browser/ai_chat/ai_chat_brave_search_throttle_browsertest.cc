@@ -33,7 +33,7 @@
 
 namespace {
 
-constexpr char kBraveSearchHost[] = "search.brave.com";
+constexpr char kBraveSearchHost[] = "search.nixbrowser.in";
 constexpr char kLeoPath[] = "/leo";
 constexpr char kOpenAIChatButtonValidPath[] = "/open_ai_chat_button_valid.html";
 constexpr char kOpenAIChatButtonInvalidPath[] =
@@ -245,7 +245,7 @@ IN_PROC_BROWSER_TEST_P(AIChatBraveSearchThrottleBrowserTest,
 IN_PROC_BROWSER_TEST_P(AIChatBraveSearchThrottleBrowserTest,
                        OpenAIChat_NotBraveSearchURL) {
   // The behavior should be the same as without the throttle.
-  NavigateToTestPage(FROM_HERE, "brave.com", kOpenAIChatButtonValidPath, 0);
+  NavigateToTestPage(FROM_HERE, "nixbrowser.in", kOpenAIChatButtonValidPath, 0);
   content::TestNavigationObserver observer(GetActiveWebContents());
   ClickOpenAIChatButton();
   observer.Wait();

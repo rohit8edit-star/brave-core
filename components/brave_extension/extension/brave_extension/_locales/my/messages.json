@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "ကောင်းစွာအလုပ်လုပ်ခြင်းမရှိသော ဆိုက်ကို ရီပို့တ်လုပ်ရန်",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "ပိတ်ထားသောအချက်အလက်များ",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave တွင်ထည့်ရန်",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave မှဖယ်ရှားရန်",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Add to Chrome",

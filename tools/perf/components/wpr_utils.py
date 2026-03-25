@@ -22,9 +22,9 @@ from components.common_options import CommonOptions
 # Brave and Chromium update related-hosts.
 # Normally we don't need this in any WPR.
 _UPDATE_HOSTS = [
-    'brave-core-ext.s3.brave.com',
-    'go-updater.brave.com',
-    'componentupdater.brave.com',
+    'brave-core-ext.s3.nixbrowser.in',
+    'go-updater.nixbrowser.in',
+    'componentupdater.nixbrowser.in',
     'optimizationguide-pa.googleapis.com',
     'safebrowsingohttpgateway.googleapis.com',
     'edgedl.me.gvt1.com',
@@ -35,20 +35,20 @@ _UPDATE_HOSTS = [
 # representative. It makes sense to remove them some tests (i.e. jetstream)
 # and leave in others (i.e. system_health).
 _SERVICE_HOSTS = [
-    'redirector.brave.com',
-    'geo.ads.brave.com',
-    'static.ads.brave.com',
-    'mywallet.ads.brave.com',
-    'rewards.brave.com',
-    'api.rewards.brave.com',
-    'grant.rewards.brave.com',
-    'collector.bsg.brave.com',
-    'star-randsrv.bsg.brave.com',
-    'p3a-json.brave.com',
-    'brave-today-cdn.brave.com',
+    'redirector.nixbrowser.in',
+    'geo.ads.nixbrowser.in',
+    'static.ads.nixbrowser.in',
+    'mywallet.ads.nixbrowser.in',
+    'rewards.nixbrowser.in',
+    'api.rewards.nixbrowser.in',
+    'grant.rewards.nixbrowser.in',
+    'collector.bsg.nixbrowser.in',
+    'star-randsrv.bsg.nixbrowser.in',
+    'p3a-json.nixbrowser.in',
+    'brave-today-cdn.nixbrowser.in',
     'update.googleapis.com',
     'content-autofill.googleapis.com',
-    'usage-ping.brave.com',
+    'usage-ping.nixbrowser.in',
     'clients2.google.com',
 ]
 
@@ -125,7 +125,7 @@ def cleanup_archive(file: str, include_service_hosts: bool) -> None:
 def record_wpr(config: perf_config.PerfConfig, options: CommonOptions) -> bool:
   if len(config.runners) != 2:
     logging.warn('Normally you need specify two runners to record wpr: ' +
-                 'for Brave and Chromium')
+                 'for Nix and Chromium')
   options.do_report = False
   runable_configurations = perf_test_runner.PrepareBinariesAndDirectories(
       config.runners, config.benchmarks, options)

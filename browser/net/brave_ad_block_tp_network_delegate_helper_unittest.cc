@@ -202,7 +202,7 @@ using PtrStrategies = testing::Types<SharedPtrStrategy, WeakPtrStrategy>;
 TYPED_TEST_SUITE(BraveAdBlockTPNetworkDelegateHelperTest, PtrStrategies);
 
 TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, NoInitiatorURL) {
-  const GURL url("https://bradhatesprimes.brave.com/composite_numbers_ftw");
+  const GURL url("https://bradhatesprimes.nixbrowser.in/composite_numbers_ftw");
   auto request_info = this->MakeRequest(url);
   request_info->set_resource_type(blink::mojom::ResourceType::kScript);
 
@@ -247,9 +247,9 @@ TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, RequestDataURL) {
 }
 
 TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, SimpleBlocking) {
-  this->ResetAdblockInstance("||brave.com/test.txt");
+  this->ResetAdblockInstance("||nixbrowser.in/test.txt");
 
-  const GURL url("https://brave.com/test.txt");
+  const GURL url("https://nixbrowser.in/test.txt");
   auto request_info = this->MakeRequest(url);
   request_info->set_request_identifier(1);
   request_info->set_resource_type(blink::mojom::ResourceType::kScript);
@@ -264,13 +264,13 @@ TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, SimpleBlocking) {
 }
 
 TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, Default1pException) {
-  this->ResetAdblockInstance("||brave.com/test.txt");
+  this->ResetAdblockInstance("||nixbrowser.in/test.txt");
 
-  const GURL url("https://brave.com/test.txt");
+  const GURL url("https://nixbrowser.in/test.txt");
   auto request_info = this->MakeRequest(url);
   request_info->set_request_identifier(1);
   request_info->set_resource_type(blink::mojom::ResourceType::kScript);
-  request_info->set_initiator_url(GURL("https://brave.com"));
+  request_info->set_initiator_url(GURL("https://nixbrowser.in"));
 
   EXPECT_TRUE(this->CheckRequest(request_info));
   EXPECT_EQ(request_info->blocked_by(), brave::kNotBlocked);
@@ -279,13 +279,13 @@ TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, Default1pException) {
 }
 
 TYPED_TEST(BraveAdBlockTPNetworkDelegateHelperTest, AggressiveNo1pException) {
-  this->ResetAdblockInstance("||brave.com/test.txt");
+  this->ResetAdblockInstance("||nixbrowser.in/test.txt");
 
-  const GURL url("https://brave.com/test.txt");
+  const GURL url("https://nixbrowser.in/test.txt");
   auto request_info = this->MakeRequest(url);
   request_info->set_request_identifier(1);
   request_info->set_resource_type(blink::mojom::ResourceType::kScript);
-  request_info->set_initiator_url(GURL("https://brave.com"));
+  request_info->set_initiator_url(GURL("https://nixbrowser.in"));
   request_info->set_aggressive_blocking(true);
 
   EXPECT_TRUE(this->CheckRequest(request_info));

@@ -41,14 +41,14 @@ inline constexpr char kLeoModelSupportUrl[] =
     "What-are-the-differences-between-Leo-s-AI-Models";
 
 inline constexpr char kLeoGoPremiumUrl[] =
-    "https://account.brave.com/account/?intent=checkout&product=leo";
+    "https://account.nixbrowser.in/account/?intent=checkout&product=leo";
 
 inline constexpr char kTabOrganizationLearnMoreUrl[] =
     "https://support.brave.app/hc/en-us/articles/"
     "35200007195917-How-to-use-Tab-Focus-Mode";
 
 inline constexpr char kLeoRefreshPremiumSessionUrl[] =
-    "https://account.brave.com/?intent=recover&product=leo";
+    "https://account.nixbrowser.in/?intent=recover&product=leo";
 
 inline constexpr char kLeoStorageSupportUrl[] =
     "https://support.brave.app/hc/en-us/articles/"

@@ -30,7 +30,7 @@ NS_SWIFT_NAME(BraveOriginService)
 // Returns the cached purchase state (synchronous)
 - (BOOL)isPurchased;
 
-// Check if a policy is controlled by BraveOrigin
+// Check if a policy is controlled by NixOrigin
 - (BOOL)isPolicyControlledByBraveOrigin:(BraveOriginPolicyKey)policyKey;
 
 // Update the BraveOrigin policy value

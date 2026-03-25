@@ -98,7 +98,7 @@ views::ProposedLayout BraveMultiContentsView::CalculateProposedLayout(
       MultiContentsView::CalculateProposedLayout(new_size_bounds);
 
   // Always hide |background_view_|. Due to layered |background_view_|,
-  // our custom border drawn by BraveContentsContainerView is not visible
+  // our custom border drawn by NixContentsContainerView is not visible
   // because BraveContentsContainerView doesn't have layer and its parent
   // layer is behind the |background_view_|.
   // We can handle this by having BraveContentsContainerView's own layer but

@@ -151,7 +151,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
       return manage_url.ReplaceComponents(replacements);
     }
     case mojom::ManageURLType::PRIVACY:
-      return GURL("https://brave.com/privacy/browser/#vpn");
+      return GURL("https://nixbrowser.in/privacy/browser/#vpn");
     case mojom::ManageURLType::ABOUT:
       return GURL(brave_vpn::kAboutUrl);
     case mojom::ManageURLType::MANAGE:
@@ -263,7 +263,7 @@ std::string GetManageUrl(const std::string& env) {
 }
 
 // On desktop, the environment is tied to SKUs because you would purchase it
-// from `account.brave.com` (or similar, based on env). The credentials for VPN
+// from `account.nixbrowser.in` (or similar, based on env). The credentials for VPN
 // will always be in the same environment as the SKU environment.
 //
 // When the vendor receives a credential from us during auth, it also includes

@@ -25,14 +25,14 @@ inline constexpr char kCreativeAdCampaignId[] =
     "c2096fe1-3eb7-4096-8fca-04bca89eab35";
 inline constexpr char kCreativeAdAdvertiserId[] =
     "c7bf8cbe-01bf-48a8-8282-57b5165c986a";
-inline constexpr char kCreativeAdLandingPage[] = "https://brave.com";
+inline constexpr char kCreativeAdLandingPage[] = "https://nixbrowser.in";
 inline constexpr char kCreativeAdHeadlineText[] = "Headline text";
 inline constexpr char kCreativeAdDescription[] = "Description";
 inline constexpr double kCreativeAdRewardsValue = 0.5;
 
 // Creative set conversion.
 inline constexpr char kCreativeSetConversionUrlPattern[] =
-    "https://brave.com/*";
+    "https://nixbrowser.in/*";
 inline constexpr char kCreativeSetConversionAdvertiserPublicKey[] =
     "ofIveUY/bM7qlL9eIkAv/xbjDItFs1xRTTYKRZZsPHI=";
 inline constexpr base::TimeDelta kCreativeSetConversionObservationWindow =

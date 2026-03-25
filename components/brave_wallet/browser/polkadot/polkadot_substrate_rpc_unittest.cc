@@ -56,7 +56,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetChainName) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<const std::optional<std::string>&,
                          const std::optional<std::string>&>
@@ -131,7 +131,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetAccountBalance) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<mojom::PolkadotAccountInfoPtr,
                          const std::optional<std::string>&>
@@ -437,7 +437,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetFinalizedHead) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<
       std::optional<std::array<uint8_t, kPolkadotBlockHashSize>>,
@@ -609,7 +609,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetBlockHeader) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<std::optional<PolkadotBlockHeader>,
                          std::optional<std::string>>
@@ -1243,7 +1243,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetBlockHash) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<
       std::optional<std::array<uint8_t, kPolkadotBlockHashSize>>,
@@ -1557,7 +1557,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetRuntimeVersion) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<std::optional<PolkadotRuntimeVersion>,
                          std::optional<std::string>>
@@ -1939,7 +1939,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetMetadata) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<base::expected<std::string, std::string>> future;
 
@@ -2061,7 +2061,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, SubmitExtrinsic) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<std::optional<std::string>, std::optional<std::string>>
       future;
@@ -2191,7 +2191,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetPaymentInfo) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   std::string_view extrinsic_hex =
       R"(0x3d02840052707850d9298f5dfb0a3e5b23fcca39ea286c6def2db5716c996fb39db6477c010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010155034c00000400008eaf04151687736326c9fea17e25fc5287613693c912909cb226aa4794f26a486641f102)";
@@ -2486,7 +2486,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetBlock) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   base::test::TestFuture<std::optional<PolkadotBlock>,
                          std::optional<std::string>>
@@ -2871,7 +2871,7 @@ TEST_F(PolkadotSubstrateRpcUnitTest, GetEvents) {
           ->rpc_endpoints.front()
           .spec();
 
-  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.brave.com/");
+  EXPECT_EQ(testnet_url, "https://polkadot-westend.wallet.nixbrowser.in/");
 
   constexpr const char kBlockHashHex[] =
       "240ecc246eaeea2f75c69fde3d4ce1a7f9761eeaf0a37a9b5e0458f4da9e2819";

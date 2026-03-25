@@ -128,7 +128,7 @@ TEST_F(AssociatedContentDriverUnitTest, GetStagedEntriesFromContent) {
   SetSearchQuerySummaryInterceptor();
   // Give the function a valid URL
   associated_content_driver_->SetUrl(
-      GURL("https://search.brave.com/search?q=test"));
+      GURL("https://search.nixbrowser.in/search?q=test"));
   // Give the function a valid key
   EXPECT_CALL(*associated_content_driver_, GetSearchSummarizerKey)
       .WillOnce(base::test::RunOnceCallback<0>("key"));
@@ -152,7 +152,7 @@ TEST_F(AssociatedContentDriverUnitTest,
   SetSearchQuerySummaryInterceptor(true);
   // Fetch should not be called if page URL is not Brave Search SERP, staged
   // query and summary will be cleared.
-  associated_content_driver_->SetUrl(GURL("https://search.brave.com"));
+  associated_content_driver_->SetUrl(GURL("https://search.nixbrowser.in"));
   EXPECT_CALL(*associated_content_driver_, GetSearchSummarizerKey).Times(0);
 
   base::MockCallback<GetStagedEntriesCallback> callback;
@@ -166,7 +166,7 @@ TEST_F(AssociatedContentDriverUnitTest,
 
 TEST_F(AssociatedContentDriverUnitTest, GetStagedEntriesFromContent_NoKey) {
   associated_content_driver_->SetUrl(
-      GURL("https://search.brave.com/search?q=test"));
+      GURL("https://search.nixbrowser.in/search?q=test"));
   EXPECT_CALL(*associated_content_driver_, GetSearchSummarizerKey)
       .WillOnce(base::test::RunOnceCallback<0>(std::nullopt));
 
@@ -182,7 +182,7 @@ TEST_F(AssociatedContentDriverUnitTest, GetStagedEntriesFromContent_NoKey) {
 TEST_F(AssociatedContentDriverUnitTest, GetStagedEntriesFromContent_NoResult) {
   SetSearchQuerySummaryInterceptor(true);
   associated_content_driver_->SetUrl(
-      GURL("https://search.brave.com/search?q=test"));
+      GURL("https://search.nixbrowser.in/search?q=test"));
   EXPECT_CALL(*associated_content_driver_, GetSearchSummarizerKey)
       .WillOnce(base::test::RunOnceCallback<0>("key"));
 

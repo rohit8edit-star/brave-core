@@ -241,7 +241,7 @@ IN_PROC_BROWSER_TEST_F(TorProfileManagerTest, SwitchToTorProfileInheritPrefs) {
 
 IN_PROC_BROWSER_TEST_F(TorProfileManagerTest,
                        SwitchToTorProfileInheritContentSettings) {
-  const GURL brave_url("https://www.brave.com");
+  const GURL brave_url("https://www.nixbrowser.in");
   ProfileManager* profile_manager = g_browser_process->profile_manager();
   ASSERT_TRUE(profile_manager);
 
@@ -376,7 +376,7 @@ IN_PROC_BROWSER_TEST_F(TorProfileManagerTest, NavigateToURL) {
   for (bool connected : {false, true}) {
     EXPECT_CALL(*GetTorLauncherFactory(), IsTorConnected)
         .WillRepeatedly(testing::Return(connected));
-    const GURL url("https://brave.com");
+    const GURL url("https://nixbrowser.in");
     Browser* tor_browser = SwitchToTorProfile(browser()->profile(),
                                               GetTorLauncherFactory(), 1, url);
     Profile* tor_profile = tor_browser->profile();
@@ -396,7 +396,7 @@ IN_PROC_BROWSER_TEST_F(TorProfileManagerTest, NavigateToURLEvents) {
   testing::Mock::AllowLeak(GetTorLauncherFactory());
   EXPECT_CALL(*GetTorLauncherFactory(), IsTorConnected)
       .WillRepeatedly(testing::Return(false));
-  const GURL url("https://brave.com");
+  const GURL url("https://nixbrowser.in");
   Browser* tor_browser =
       SwitchToTorProfile(browser()->profile(), GetTorLauncherFactory(), 1, url);
   Profile* tor_profile = tor_browser->profile();

@@ -33,9 +33,9 @@
 #include "ui/base/webui/resource_path.h"
 #include "url/gurl.h"
 
-// Template base class for Brave Account WebUI controllers.
+// Template base class for Nix Account WebUI controllers.
 //
-// `BraveAccountUIBase` encapsulates shared setup logic for Brave Account WebUIs
+// `BraveAccountUIBase` encapsulates shared setup logic for Nix Account WebUIs
 // across desktop, Android, and iOS. It streamlines the creation and
 // configuration of a WebUIDataSource.
 //

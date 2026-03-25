@@ -425,7 +425,7 @@ TEST(BraveWalletUtilsUnitTest, ValueToSwapInfo_MissingRequiredFields) {
 TEST(BraveWalletUtilsTest, IsEndpointUsingBraveWalletProxy) {
   // Test with valid URLs that should match the proxy domains
   EXPECT_TRUE(IsEndpointUsingBraveWalletProxy(
-      GURL("https://ethereum-mainnet.wallet.brave.com")));
+      GURL("https://ethereum-mainnet.wallet.nixbrowser.in")));
   EXPECT_TRUE(IsEndpointUsingBraveWalletProxy(
       GURL("https://ethereum-mainnet.wallet.bravesoftware.com")));
   EXPECT_TRUE(IsEndpointUsingBraveWalletProxy(
@@ -435,7 +435,7 @@ TEST(BraveWalletUtilsTest, IsEndpointUsingBraveWalletProxy) {
   EXPECT_FALSE(IsEndpointUsingBraveWalletProxy(GURL("https://example.com")));
   EXPECT_FALSE(
       IsEndpointUsingBraveWalletProxy(GURL("https://wallet.brave.io")));
-  EXPECT_FALSE(IsEndpointUsingBraveWalletProxy(GURL("https://brave.com")));
+  EXPECT_FALSE(IsEndpointUsingBraveWalletProxy(GURL("https://nixbrowser.in")));
   EXPECT_TRUE(IsEndpointUsingBraveWalletProxy(
       GURL("https://zcash.wallet.brave.software")));
   EXPECT_FALSE(
@@ -461,13 +461,13 @@ TEST(BraveWalletUtilsUnitTest, GetPrefKeyForCoinType) {
 
 TEST(BraveWalletUtilsUnitTest, eTLDPlusOne) {
   EXPECT_EQ("", eTLDPlusOne(url::Origin()));
-  EXPECT_EQ("brave.com",
-            eTLDPlusOne(url::Origin::Create(GURL("https://blog.brave.com"))));
-  EXPECT_EQ("brave.com",
-            eTLDPlusOne(url::Origin::Create(GURL("https://...brave.com"))));
+  EXPECT_EQ("nixbrowser.in",
+            eTLDPlusOne(url::Origin::Create(GURL("https://blog.nixbrowser.in"))));
+  EXPECT_EQ("nixbrowser.in",
+            eTLDPlusOne(url::Origin::Create(GURL("https://...nixbrowser.in"))));
   EXPECT_EQ(
-      "brave.com",
-      eTLDPlusOne(url::Origin::Create(GURL("https://a.b.c.d.brave.com/1"))));
+      "nixbrowser.in",
+      eTLDPlusOne(url::Origin::Create(GURL("https://a.b.c.d.nixbrowser.in/1"))));
   EXPECT_EQ("brave.github.io", eTLDPlusOne(url::Origin::Create(GURL(
                                    "https://a.b.brave.github.io/example"))));
   EXPECT_EQ("", eTLDPlusOne(url::Origin::Create(GURL("https://github.io"))));
@@ -475,9 +475,9 @@ TEST(BraveWalletUtilsUnitTest, eTLDPlusOne) {
 
 TEST(BraveWalletUtilsUnitTest, MakeOriginInfo) {
   auto origin_info =
-      MakeOriginInfo(url::Origin::Create(GURL("https://blog.brave.com:443")));
-  EXPECT_EQ("https://blog.brave.com", origin_info->origin_spec);
-  EXPECT_EQ("brave.com", origin_info->e_tld_plus_one);
+      MakeOriginInfo(url::Origin::Create(GURL("https://blog.nixbrowser.in:443")));
+  EXPECT_EQ("https://blog.nixbrowser.in", origin_info->origin_spec);
+  EXPECT_EQ("nixbrowser.in", origin_info->e_tld_plus_one);
 
   url::Origin empty_origin;
   auto empty_origin_info = MakeOriginInfo(empty_origin);

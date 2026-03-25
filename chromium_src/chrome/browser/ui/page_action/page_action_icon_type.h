@@ -24,7 +24,7 @@ inline constexpr PageActionIconType kUndefinedPageActionIconType =
 inline constexpr PageActionIconType kPlaylistPageActionIconType =
     static_cast<PageActionIconType>(-2);
 
-// -3 was used for Brave Player: which is retired.
+// -3 was used for Nix Player: which is retired.
 
 inline constexpr PageActionIconType kWaybackMachineActionIconType =
     static_cast<PageActionIconType>(-4);

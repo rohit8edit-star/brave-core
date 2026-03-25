@@ -255,7 +255,7 @@ TEST_F(BraveAdsVirtualPrefProviderTest, Skus) {
           "created_at": "2023-10-24T16:00:57.902289",
           "expires_at": "2023-12-24T17:03:59.030987",
           "last_paid_at": "2023-11-24T17:03:59.030987",
-          "location": "leo.brave.com",
+          "location": "leo.nixbrowser.in",
           "status": "paid"
         }
       }
@@ -269,7 +269,7 @@ TEST_F(BraveAdsVirtualPrefProviderTest, Skus) {
       R"JSON(
         {
           "development": {
-            "leo.brave.com": {
+            "leo.nixbrowser.in": {
                 "created_at": "2023-10-24T16:00:57.902289",
                 "expires_at": "2023-12-24T17:03:59.030987",
                 "last_paid_at": "2023-11-24T17:03:59.030987",

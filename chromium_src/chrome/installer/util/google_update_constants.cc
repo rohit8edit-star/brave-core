@@ -34,7 +34,7 @@ const wchar_t kChromeUpgradeCode[] = L"{F1EF32DE-F987-4289-81D2-6C4780027F9B}";
 const wchar_t kChromeUpgradeCode[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
 #endif
 
-// Updater constants are shared between Brave Browser and Brave Origin since
+// Updater constants are shared between Nix Browser and Brave Origin since
 // they use the same updater infrastructure.
 const wchar_t kGoogleUpdateUpgradeCode[] =
     L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";

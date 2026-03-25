@@ -18,7 +18,7 @@
 
 namespace brave_search {
 
-// TODO(petemill): rename this to BraveSearchFrameJSHandler
+// TODO(petemill): rename this to NixSearchFrameJSHandler
 class BraveSearchDefaultJSHandler {
  public:
   BraveSearchDefaultJSHandler(content::RenderFrame* render_frame,

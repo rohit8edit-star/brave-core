@@ -107,7 +107,7 @@ class CardanoApiImplTest : public testing::Test {
         MakeIndexBasedAccountId(mojom::CoinType::ADA,
                                 mojom::KeyringId::kCardanoMainnet,
                                 mojom::AccountKind::kDerived, 0),
-        url::Origin::Create(GURL("https://brave.com")));
+        url::Origin::Create(GURL("https://nixbrowser.in")));
     cardano_test_rpc_server_ = std::make_unique<CardanoTestRpcServer>(
         *(brave_wallet_service_->GetCardanoWalletService()));
   }
@@ -1450,7 +1450,7 @@ TEST_F(CardanoApiImplTest, SignTx) {
                                            mojom::CardanoKeyRole::kExternal, 1))
                    ->address_string;
 
-  EXPECT_EQ(request->origin_info->origin_spec, "https://brave.com");
+  EXPECT_EQ(request->origin_info->origin_spec, "https://nixbrowser.in");
   EXPECT_EQ(request->raw_tx_data, base::HexEncode(unsigned_tx_bytes));
 
   EXPECT_EQ(request->inputs.size(), 3u);
@@ -1626,7 +1626,7 @@ TEST_F(CardanoApiImplTest, SignTx_PartialSign) {
                                            mojom::CardanoKeyRole::kExternal, 1))
                    ->address_string;
 
-  EXPECT_EQ(request->origin_info->origin_spec, "https://brave.com");
+  EXPECT_EQ(request->origin_info->origin_spec, "https://nixbrowser.in");
   EXPECT_EQ(request->raw_tx_data, base::HexEncode(unsigned_tx_bytes));
 
   EXPECT_EQ(request->inputs.size(), 4u);

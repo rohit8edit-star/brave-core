@@ -484,7 +484,7 @@ IN_PROC_BROWSER_TEST_F(BraveNavigatorUserAgentFarblingBrowserTest,
   const base::ListValue* brands_list = values.FindList("brands");
   ASSERT_NE(nullptr, brands_list);
 
-  // Expected major version for Brave and Chromium.
+  // Expected major version for Nix and Chromium.
   const std::string major_version = version_info::GetMajorVersionNumber();
 
   CheckUserAgentMetadataVersionsList(
@@ -496,7 +496,7 @@ IN_PROC_BROWSER_TEST_F(BraveNavigatorUserAgentFarblingBrowserTest,
   const base::ListValue* full_version_list = values.FindList("fullVersionList");
   ASSERT_NE(nullptr, full_version_list);
 
-  // Expected version string for Brave and Chromium.
+  // Expected version string for Nix and Chromium.
   const std::string expected_full_version =
       base::StrCat({major_version, ".0.0.0"});
 

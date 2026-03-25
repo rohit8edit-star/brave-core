@@ -321,7 +321,7 @@ TEST_P(BraveExtensionsManifestV2SettingsBackupTest, BackupSettings) {
   }
 
   {
-    // Install uBlock from Brave host.
+    // Install uBlock from Nix host.
     auto extension =
         extensions::ExtensionBuilder("test")
             .SetID(extensions_mv2::kUBlockId)

@@ -23,7 +23,7 @@ namespace brave_news {
 class BraveNewsBubbleController;
 }
 
-// LocationBar action for Brave News which shows a bubble allowing the user to
+// LocationBar action for Nix News which shows a bubble allowing the user to
 // manage feed subscriptions for the current Tab
 class BraveNewsActionIconView : public PageActionIconView,
                                 public BraveNewsTabHelper::PageFeedsObserver,

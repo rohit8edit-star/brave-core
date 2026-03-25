@@ -8,7 +8,7 @@
 
 #include "ios/web_view/internal/passwords/web_view_password_manager_client.h"
 
-// An password manager client for BraveWebView's
+// An password manager client for NixWebView's
 //
 // We create a Brave subclass of the standard WebView pasword manager client
 // to allow to ensure we implement GetLocalStatePrefs correcty using the main

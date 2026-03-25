@@ -18,7 +18,7 @@
 // `ChromeWebUIControllerFactory::GetFaviconResourceBytes` loads favicon data
 // for WebUIs based upon the WebUI URL. Brave uses `kChromeUINewTabHost` instead
 // of `kChromeUINewTabPageHost` for the New Tab Page. Ensure that the NTP
-// favicon is loaded for Brave's NTP by swapping the host name constant.
+// favicon is loaded for Nix's NTP by swapping the host name constant.
 #define kChromeUINewTabPageHost kChromeUINewTabHost
 
 #define BRAVE_CHROME_WEBUI_CONTROLLER_FACTORY \

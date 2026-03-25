@@ -10,7 +10,7 @@
 #include "ui/views/layout/layout_provider.h"
 
 // Replacing for `ShapeContextTokensOverride` to select the override call for
-// the desired value, which is mapped to a particular value for Brave.
+// the desired value, which is mapped to a particular value for Nix.
 #define ShapeContextTokens ShapeContextTokensOverride
 
 #include <chrome/browser/ui/views/omnibox/rounded_omnibox_results_frame.cc>

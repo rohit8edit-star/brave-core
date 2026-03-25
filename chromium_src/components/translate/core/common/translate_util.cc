@@ -17,7 +17,7 @@
 
 namespace translate {
 
-// Redirect native translate requests to the translate.brave.com (expect the
+// Redirect native translate requests to the translate.nixbrowser.in (expect the
 // script request).
 GURL GetTranslateSecurityOrigin() {
   std::string security_origin(kBraveTranslateOrigin);

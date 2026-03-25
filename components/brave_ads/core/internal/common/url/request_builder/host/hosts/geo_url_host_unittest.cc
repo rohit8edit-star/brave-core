@@ -21,7 +21,7 @@ TEST_F(BraveAdsGeoUrlHostTest, GetProductionUrlHost) {
       mojom::EnvironmentType::kProduction;
 
   // Act & Assert
-  EXPECT_EQ("https://geo.ads.brave.com", GetGeoUrlHost());
+  EXPECT_EQ("https://geo.ads.nixbrowser.in", GetGeoUrlHost());
 }
 
 TEST_F(BraveAdsGeoUrlHostTest, GetStagingUrlHost) {

@@ -13,7 +13,7 @@ branding_replacements = [
      r'The Brave Authors. All rights reserved.'),
     (r'Google\sLLC.\sAll\srights\sreserved.',
      r'The Brave Authors. All rights reserved.'),
-    (r'The\sChromium\sAuthors', r'Brave Software Inc'),
+    (r'The\sChromium\sAuthors', r'Nix Technologies Inc'),
     (r'Google\sChrome', r'Brave'),
     (r'(Google)(?!\sPlay)', r'Brave'),
     (r'Chromium', r'Brave'),
@@ -50,7 +50,7 @@ fixup_replacements = [
     (r'Safe Browsing \(protects you and your device from dangerous sites\)',
      r'Google Safe Browsing (protects you and your device from dangerous sites)'
      ),
-    (r'Sends URLs of some pages you visit to Brave',
+    (r'Sends URLs of some pages you visit to Nix',
      r'Sends URLs of some pages you visit to Google'),
     (r'Google Google', r'Google'),
     (r'Brave Account', r'Brave sync chain'),
@@ -63,7 +63,7 @@ fixup_replacements = [
     (r'Brave Projects', r'Chromium Projects'),
     (r'Brave Root Program', r'Chrome Root Program'),
     (r'BraveVox', r'ChromeVox'),
-    (r'powered by Brave AI', r'powered by Google AI'),
+    (r'powered by Nix AI', r'powered by Google AI'),
     (r'Brave Extension developer documentation',
      r'Google Extension developer documentation'),
 ]
@@ -81,6 +81,6 @@ main_text_only_replacements = [
 # different GRD would be impractical. These need to be translated in Crowdin.
 brave_strings_grd_replacements = [
     ('IDS_LOCAL_NETWORK_ACCESS_PERMISSION_DESC', r'''
-          This will allow you to share content from Brave to your local devices, such as a TV or speaker.
+          This will allow you to share content from Nix to your local devices, such as a TV or speaker.
         '''),
 ]

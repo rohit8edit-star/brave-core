@@ -14842,7 +14842,7 @@ faupto.com,dogemate.com##+js(aopr, disableButtonTimer)
 faupto.com##+js(nano-sib)
 *$frame,script,3p,denyallow=bootstrapcdn.com|consensu.org|google.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|recaptcha.net|wp.com,domain=faupto.com
 *$3p,script,frame,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|recaptcha.net,domain=dogemate.com
-faupto.com##[href^="https://brave.com"]
+faupto.com##[href^="https://nixbrowser.in"]
 faupto.com##.shadow.bg-dark
 dogemate.com##div[class][style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
 @@||dogemate.com/banner/$image,1p
@@ -15294,7 +15294,7 @@ khmer7.org##+js(aopr, adcashMacros)
 
 ! proxyserverlist24.top anti-adb
 proxyserverlist24.top##+js(acs, addEventListener, blocker)
-proxyserverlist24.top###HTML1, #HTML5, .Feed.widget, [href^="http://www.linkev.com/"], [href^="https://brave.com/"]
+proxyserverlist24.top###HTML1, #HTML5, .Feed.widget, [href^="http://www.linkev.com/"], [href^="https://nixbrowser.in/"]
 
 ! gudangfirmwere.com anti-adb
 gudangfirmwere.com##+js(acs, addEventListener, AdBlocker)
@@ -36666,8 +36666,8 @@ aniwave.to,anix.to,flixwave.to,fmoviesz.to##+js(set-cookie, __pf, 1)
 tubereader.me##+js(aeld, /adblock/i)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/21777
-://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
-://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,to=~ads.remix.es
+://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.nixbrowser.in|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.nixbrowser.in|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,to=~ads.remix.es
 
 ! https://github.com/uBlockOrigin/uAssets/issues/21775
 counterstrike-hack.leforum.eu,ajt.xooit.org##+js(aopr, document.body.style.backgroundPosition)
@@ -40643,8 +40643,8 @@ kruidvat.nl##.async-hide:style(opacity:1.0 !important)
 ! simply-hentai.com beacon
 ||t.simply-hentai.com^
 
-! https://search.brave.com/search?q=Chromium
-search.brave.com##+js(no-fetch-if, body:browser)
+! https://search.nixbrowser.in/search?q=Chromium
+search.nixbrowser.in##+js(no-fetch-if, body:browser)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/9472
 ||d3bch4rrbnbe5n.cloudfront.net/pxl.png^
@@ -40858,8 +40858,8 @@ ericdraken.com##^script[async]
 ://vip.*/?pge=$image,3p
 ://ply.*/?v=$image,3p
 
-! brave.com analytics
-||brave.com/static-assets/js/analysis.js
+! nixbrowser.in analytics
+||nixbrowser.in/static-assets/js/analysis.js
 
 ! https://www.girlsofdesire.org/galleries/kana-kusakabe/00.html
 /images/*/analytics.js$domain=girlsofdesire.org
@@ -42727,7 +42727,7 @@ rte.ie###gpt-leaderboard
 @@||cdn.rawgit.com/*/jquery_lazyload/*$script,domain=javmost.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/crjkqq/problems_with_brave_browser_links_ublock_blocks/
-#@#a[href^="https://laptop-updates.brave.com/download/"]
+#@#a[href^="https://laptop-updates.nixbrowser.in/download/"]
 
 ! https://forums.lanik.us/viewtopic.php?p=149283#p149283
 motherless.com#@#.media-linked
@@ -44107,7 +44107,7 @@ researchgate.net##.research-resources-summary__inner.is-sticky:style(top: 0 !imp
 ! https://twitter.com/welcoMattic/status/1348572029444907009
 seazon.fr##+js(no-fetch-if, url:ipapi.co)
 
-! Fix chatbot on https://brave.com/brave-ads/ via Peter Lowes List
+! Fix chatbot on https://nixbrowser.in/brave-ads/ via Peter Lowes List
 ||targeting.api.drift.com^$badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8450
@@ -48313,7 +48313,7 @@ thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
 ://ad-api-
 ://ad1.
 ://adn.*/zone/$subdocument
-://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.nixbrowser.in|~ads.buscaempresas.co|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 ://ads2.
 ://adv.$domain=~adv.asahi.com|~adv.bet|~adv.blue|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.kompas.id|~adv.lack-girl.com|~adv.michaelgat.com|~adv.msk.ru|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.vn.ua|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
 ://affiliate.$third-party
@@ -105490,8 +105490,8 @@ browsershots.org#@#.advert_area
 ||sciencefocus.com/pricecomparison/$subdocument
 ||scoot.co.uk/delivery.php
 ||scrolller.com/scrolller/affiliates/
-||search.brave.com/serp/v1/static/serp-js/paid/
-||search.brave.com/serp/v1/static/serp-js/shopping/
+||search.nixbrowser.in/serp/v1/static/serp-js/paid/
+||search.nixbrowser.in/serp/v1/static/serp-js/shopping/
 ||sedo.cachefly.net^$domain=~sedoparking.com
 ||segmentnext.com/LhfdY3JSwVQ8.js
 ||sermonaudio.com/images/sponsors/
@@ -107283,7 +107283,7 @@ neoseeker.com###section-pagetop
 searchenginejournal.com###sej-pop-wrapper_v2
 analyticsinsight.net###sgpb-popup-dialog-main-div-wrapper
 v3rmillion.net###sharingPlace
-search.brave.com###shopping
+search.nixbrowser.in###shopping
 filedropper.com,lifenews.com###sidebar
 whatsondisneyplus.com###sidebar > .widget_text.amy-widget
 tellymix.co.uk###sidebar > div[style]
@@ -110308,7 +110308,7 @@ washingtontimes.com##.sponsored-heading
 breakingdefense.com##.sponsored-inline
 walgreens.com##.sponsored-padding
 crn.com##.sponsored-resources
-search.brave.com##.sponsored-unit_wrapper
+search.nixbrowser.in##.sponsored-unit_wrapper
 coingecko.com##.sponsored-v2
 investing.com##.sponsoredArticle
 tech.hindustantimes.com##.sponsoredBox
@@ -110931,7 +110931,7 @@ abcnews.go.com##[data-testid="prism-static-embed"]
 abcnews.go.com##[data-testid="prism-sticky-ad"]
 money.com##[data-trk-company="rocket-mortgage-review"]
 goal.com##[data-type="AdComponent"]
-search.brave.com##[data-type="ad"]
+search.nixbrowser.in##[data-type="ad"]
 gadgetsnow.com##[data-type="mtf"]
 axios.com##[data-vars-category="sidebar_promo"]
 forum.ragezone.com##[data-widget-key="widget_partners"]
@@ -111235,7 +111235,7 @@ tundraheadquarters.com##a[href^="http://www.tkqlhce.com/"]
 shareae.com##a[href^="https://aejuice.com/"]
 lilymanga.com##a[href^="https://amzn.to/"]
 downloadhub.ltd##a[href^="https://bestbuyrdp.com/"]
-detectiveconanworld.com##a[href^="https://brave.com/"]
+detectiveconanworld.com##a[href^="https://nixbrowser.in/"]
 cript.to##a[href^="https://cript.to/goto/"]
 cript.to##a[href^="https://cript.to/link/"][href*="?token="]
 sythe.org##a[href^="https://discord.gg/dmwatch"]
@@ -113412,7 +113412,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||boatwizard.com/ads_prebid.min.js$script,domain=boats.com
 @@||bordeaux.futurecdn.net/bordeaux.js$script,domain=tomsguide.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
-@@||brave.com/static-assets/$image,~third-party
+@@||nixbrowser.in/static-assets/$image,~third-party
 @@||britannica.com/mendel-resources/3-52/js/libs/prebid4.$script,~third-party
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||carandclassic.co.uk/images/free_advert/$image,~third-party
@@ -113618,7 +113618,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hcaptcha.com/captcha/$script,subdocument
 @@||hcaptcha.com^*/api.js
 @@||recaptcha.net/recaptcha/$script
-@@||search.brave.com/search$xmlhttprequest
+@@||search.nixbrowser.in/search$xmlhttprequest
 @@||ui.ads.microsoft.com^$~third-party
 ! Webcompat Generichide fixes (Avoid any potential filters being applied to non-ad domains)
 @@://127.0.0.1$generichide
@@ -126954,7 +126954,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.academy.com^
 ||analytics.adfreetime.com^
 ||analytics.archive.org^
-||analytics.brave.com^
+||analytics.nixbrowser.in^
 ||analytics.chase.com^
 ||analytics.cookiefirst.dev^
 ||analytics.designspiration.com^
@@ -127873,10 +127873,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sciencechannel.com/events/
 ||scloud.online/stat/
 ||scoot.co.uk/ajax/log_
-||search.anonymous.ads.brave.com^
+||search.anonymous.ads.nixbrowser.in^
 ||search.aol.com/beacon/
-||search.brave.com/api/feedback$~third-party
-||search.brave.com/serp/v1/static/serp-js/telemetry/
+||search.nixbrowser.in/api/feedback$~third-party
+||search.nixbrowser.in/serp/v1/static/serp-js/telemetry/
 ||search.ch/audit/
 ||searchenginejournal.com/xcs0MhRsfxHG.js
 ||searchiq.co/api/tr?
@@ -163077,33 +163077,33 @@ abema.tv##+js(rmnt, script, NREUM)
 ! Title: Brave Unbreak
 ! Expires: 12 hours
 
-! brave.com specfic filters
+! nixbrowser.in specfic filters
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
 @@||ads.bravesoftware.com^$first-party
-@@||ads-admin.brave.com^$first-party
+@@||ads-admin.nixbrowser.in^$first-party
 @@||ads-admin.brave.software^$first-party
-@@||ads.brave.com^$first-party
-@@||brave.com^$image,stylesheet,first-party
+@@||ads.nixbrowser.in^$first-party
+@@||nixbrowser.in^$image,stylesheet,first-party
 ! basicattentiontoken.org specfic filters
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
-! search.brave.com specfic filters
+! search.nixbrowser.in specfic filters
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L260
-@@||search.brave.com^$ghide
-@@||search.brave.com/api/$first-party
-search.brave.com#@#+js(no-fetch-if, body:browser)
-! stats.brave.com
-@@||stats.brave.com^$ghide
-@@||stats.brave.com^$first-party
+@@||search.nixbrowser.in^$ghide
+@@||search.nixbrowser.in/api/$first-party
+search.nixbrowser.in#@#+js(no-fetch-if, body:browser)
+! stats.nixbrowser.in
+@@||stats.nixbrowser.in^$ghide
+@@||stats.nixbrowser.in^$first-party
 ! Temp fix of first-party cosmetic filtering on Brave Search on IOS.
 ! Will be removed when brave/brave-ios#7294 is rolled out to everyone
 ! Exception added to un-break Amazon results and integration on Brave Search. 
 ! The Amazon integration does not involve collecting user data, profiling, or sharing information with Amazon.
-! More information about the privacy policy and commitments with Brave Search can be found at https://search.brave.com/help/privacy-policy
-@@||search.brave.com/serp/v1/static/serp-js/paid/
-@@||search.brave.com/serp/v1/static/serp-js/shopping/
-search.brave.com#@##shopping
+! More information about the privacy policy and commitments with Brave Search can be found at https://search.nixbrowser.in/help/privacy-policy
+@@||search.nixbrowser.in/serp/v1/static/serp-js/paid/
+@@||search.nixbrowser.in/serp/v1/static/serp-js/shopping/
+search.nixbrowser.in#@##shopping
 ! community.brave.app
 @@||community.brave.app^$ghide
 ! Remove google login popup nag
@@ -163176,7 +163176,7 @@ collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !
 ! Fix preloader (facebook check)
 igniteunmc.com##.preloader
 ! Brave-social (temp)
-! List used by Brave for preventing social elements from loading
+! List used by Nix for preventing social elements from loading
 !
 ! Facebook
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
@@ -164192,7 +164192,7 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 ! Title: Brave Specific
 ! Expires: 2 days
 
-! Specific filters (Tracking or ads) for Brave
+! Specific filters (Tracking or ads) for Nix
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
 ||[::]^$third-party,domain=~0.0.0.0|~[::ffff:0:0]
 ||[::ffff:0:0]^$third-party,domain=~0.0.0.0|~[::]
@@ -164214,13 +164214,13 @@ youtube.*##+js(brave-youtube-theater-fix)
 ! YouTube navigation fix scriptlet rule
 youtube.*##+js(brave-youtube-navigation-fix)
 
-! Used for Brave QA tests
+! Used for Nix QA tests
 ?335962573013224749$image,xhr,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
 ! Rules for testing cosmetic filters in frames
 dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST_VALUE, true)
 
 ! Title: Brave Social
-! Description: List used by Brave for preventing social elements from loading
+! Description: List used by Nix for preventing social elements from loading
 ! Expires: 2 days
 
 ! Facebook

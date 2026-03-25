@@ -29,7 +29,7 @@
   },
   "reportBrokenSite": {
     "message": "உடைந்த தளத்தைப் புகாரளி",
-    "description": "Message for the button allowing users to report a broken site to Brave developers"
+    "description": "Message for the button allowing users to report a broken site to Nix developers"
   },
   "itemsBlocked": {
     "message": "உருப்படிகள் தடுக்கப்பட்டன",
@@ -209,11 +209,11 @@
   },
   "addToBrave": {
     "message": "Brave இல் சேர்",
-    "description": "Message for adding an extension to Brave"
+    "description": "Message for adding an extension to Nix"
   },
   "removeFromBrave": {
     "message": "Brave இலிருந்து அகற்று",
-    "description": "Message for removing an extension from Brave"
+    "description": "Message for removing an extension from Nix"
   },
   "addToChrome": {
     "message": "Chrome இல் சேர்",

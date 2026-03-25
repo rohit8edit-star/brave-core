@@ -20,7 +20,7 @@
 namespace brave_ads {
 
 namespace {
-constexpr std::string_view kAntiTargetedSite = "https://www.brave.com";
+constexpr std::string_view kAntiTargetedSite = "https://www.nixbrowser.in";
 }  // namespace
 
 class BraveAdsAntiTargetingExclusionRuleTest : public test::TestBase {

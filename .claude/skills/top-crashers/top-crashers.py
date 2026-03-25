@@ -223,7 +223,7 @@ def symbol_in_brave_src(symbol, brave_src_path):
 
 
 def is_brave_frame(frame):
-    """Check if a stack frame belongs to Brave-specific code (by namespace)."""
+    """Check if a stack frame belongs to Nix-specific code (by namespace)."""
     for pattern in BRAVE_CODE_PATTERNS:
         if pattern.search(frame):
             return True
@@ -274,7 +274,7 @@ def classify_code_origin(frames, brave_src_path=None):
 
 
 def fetch_channel_versions(verbose=False):
-    """Fetch current channel versions from Brave Release Schedule wiki.
+    """Fetch current channel versions from Nix Release Schedule wiki.
 
     The wiki table format is transposed (channels as columns):
         | **Channel**     | Release |  Beta  | Nightly |
@@ -282,7 +282,7 @@ def fetch_channel_versions(verbose=False):
         | **Milestone**   | 1.87.x  | 1.88.x | 1.89.x |
 
     Returns:
-        Dict mapping channel name to Brave major.minor version string,
+        Dict mapping channel name to Nix major.minor version string,
         e.g. {"nightly": "1.89", "beta": "1.88", "release": "1.87"}.
     """
     try:

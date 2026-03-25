@@ -196,7 +196,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
   EXPECT_EQ(simple_hash_client_->GetSimpleHashNftsByWalletUrl(
                 "0x0000000000000000000000000000000000000000",
                 test::MakeVectorFromArgs(EthMainnetChainId()), std::nullopt),
-            GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+            GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
                  "owners?chains=ethereum&wallet_addresses="
                  "0x0000000000000000000000000000000000000000"));
 
@@ -208,7 +208,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
                     mojom::ChainId::New(mojom::CoinType::ETH,
                                         mojom::kOptimismMainnetChainId)),
                 std::nullopt),
-            GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+            GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
                  "owners?chains=ethereum%2Coptimism&wallet_addresses="
                  "0x0000000000000000000000000000000000000000"));
 
@@ -227,7 +227,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
       simple_hash_client_->GetSimpleHashNftsByWalletUrl(
           "0x0000000000000000000000000000000000000000",
           test::MakeVectorFromArgs(EthMainnetChainId()), cursor),
-      GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
            "owners?chains=ethereum&wallet_addresses="
            "0x0000000000000000000000000000000000000000&cursor=example_cursor"));
 
@@ -240,7 +240,7 @@ TEST_F(SimpleHashClientUnitTest, GetSimpleHashNftsByWalletUrl) {
               mojom::ChainId::New(mojom::CoinType::ETH,
                                   mojom::kOptimismMainnetChainId)),
           cursor),
-      GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
            "owners?chains=ethereum%2Coptimism&wallet_addresses="
            "0x0000000000000000000000000000000000000000&cursor=example_cursor"));
 }
@@ -968,7 +968,7 @@ TEST_F(SimpleHashClientUnitTest, FetchAllNFTsFromSimpleHash) {
   nft1->coin = mojom::CoinType::ETH;
   expected_nfts.push_back(std::move(nft1));
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum%2Coptimism&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   responses[url] = json;
@@ -1002,7 +1002,7 @@ TEST_F(SimpleHashClientUnitTest, FetchAllNFTsFromSimpleHash) {
   })";
   responses[url] = json;
   GURL next_url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum%2Coptimism&wallet_addresses="
       "0x0000000000000000000000000000000000000000&cursor=abc123");
   json2 = R"({
@@ -1112,7 +1112,7 @@ TEST_F(SimpleHashClientUnitTest, FetchNFTsFromSimpleHash) {
   })";
 
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   responses[url] = json;
@@ -1125,7 +1125,7 @@ TEST_F(SimpleHashClientUnitTest, FetchNFTsFromSimpleHash) {
 
   // Single NFT fetched with cursor argument also returning a cursor
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000&cursor=abc123");
   json = R"({
@@ -1155,7 +1155,7 @@ TEST_F(SimpleHashClientUnitTest, FetchNFTsFromSimpleHash) {
 
   // Test fetching only spam NFTs
   url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "owners?chains=ethereum&wallet_addresses="
       "0x0000000000000000000000000000000000000000");
   std::string json2 = R"({
@@ -1227,7 +1227,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftsUrl) {
   url = SimpleHashClient::GetNftsUrl(nft_ids);
   EXPECT_EQ(
       url,
-      GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/assets"
+      GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/assets"
            "?nft_ids=solana.BoSDWCAWmZEM7TQLg2gawt5wnurGyQu7c77tAcbtzfDG"));
   nft_ids.clear();
 
@@ -1249,7 +1249,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftsUrl) {
   nft_ids.push_back(std::move(nft_id));
   url = SimpleHashClient::GetNftsUrl(nft_ids);
   EXPECT_EQ(url,
-            GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/assets"
+            GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/assets"
                  "?nft_ids=ethereum.0x0.1"));
   nft_ids.clear();
 
@@ -1263,7 +1263,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftsUrl) {
   }
   url = SimpleHashClient::GetNftsUrl(nft_ids);
   EXPECT_EQ(url,
-            GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+            GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
                  "assets?nft_ids="
                  "ethereum.0x0.0%2Cethereum.0x1.1%2Cethereum.0x2.2%2C"
                  "ethereum.0x3.3%2Cethereum.0x4.4%2Cethereum.0x5.5%2C"
@@ -1291,7 +1291,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftsUrl) {
   nft_id->token_id = "0x1";
   nft_ids.push_back(std::move(nft_id));
   url = SimpleHashClient::GetNftsUrl(nft_ids);
-  EXPECT_EQ(url, GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+  EXPECT_EQ(url, GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
                       "assets?nft_ids=ethereum.0x0.1"));
   nft_id = mojom::NftIdentifier::New();
   nft_id->chain_id =
@@ -1397,7 +1397,7 @@ TEST_F(SimpleHashClientUnitTest, GetNfts) {
     ]
   })";
   GURL url = GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR%"
       "2Csolana.3knghmwnuaMxkiuqXrqzjL7gLDuRw6DkkZcW7F4mvkK8");
   responses[url] = json;
@@ -1450,7 +1450,7 @@ TEST_F(SimpleHashClientUnitTest, GetNfts) {
   }
 
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/assets?nft_ids="
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/assets?nft_ids="
       "ethereum.0x0.0%2Cethereum.0x1.1%2Cethereum.0x2.2%2C"
       "ethereum.0x3.3%2Cethereum.0x4.4%2Cethereum.0x5.5%2C"
       "ethereum.0x6.6%2Cethereum.0x7.7%2Cethereum.0x8.8%2C"
@@ -1469,7 +1469,7 @@ TEST_F(SimpleHashClientUnitTest, GetNfts) {
       "ethereum.0x45.69%2Cethereum.0x46.70%2Cethereum.0x47.71%2C"
       "ethereum.0x48.72%2Cethereum.0x49.73")] = "{}";
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/assets?nft_ids="
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/assets?nft_ids="
       "ethereum.0x50.80%2Cethereum.0x51.81%2Cethereum.0x52.82%2C"
       "ethereum.0x53.83%2Cethereum.0x54.84%2Cethereum.0x55.85%2C"
       "ethereum.0x56.86%2Cethereum.0x57.87%2Cethereum.0x58.88%2C"
@@ -1540,7 +1540,7 @@ TEST_F(SimpleHashClientUnitTest, ParseMetadatas) {
   EXPECT_EQ(it->second->name, "Azuki #2767");
   EXPECT_EQ(it->second->description, "Azuki is a cute little bean");
   EXPECT_EQ(it->second->image,
-            "https://simplehash.wallet-cdn.brave.com/assets/"
+            "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
             "168e33bbf5276f717d8d190810ab93b4992ac8681054c1811f8248fe7636b54b."
             "png");
   EXPECT_EQ(it->second->image_data, "");
@@ -1604,7 +1604,7 @@ TEST_F(SimpleHashClientUnitTest, ParseMetadatas) {
       "him move and attack quickly, and his tail like a big sword that can "
       "easily cut-off enemies into slices.");
   EXPECT_EQ(it->second->image,
-            "https://simplehash.wallet-cdn.brave.com/assets/"
+            "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
             "168e33bbf5276f717d8d190810ab93b4992ac8681054c1811f8248fe7636b54b."
             "png");
   EXPECT_EQ(it->second->image_data, "");
@@ -1675,7 +1675,7 @@ TEST_F(SimpleHashClientUnitTest, ParseMetadatas) {
   EXPECT_EQ(it->second->name, "Azuki #2767");
   EXPECT_EQ(it->second->description, "Azuki is a cute little bean");
   EXPECT_EQ(it->second->image,
-            "https://simplehash.wallet-cdn.brave.com/assets/"
+            "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
             "168e33bbf5276f717d8d190810ab93b4992ac8681054c1811f8248fe7636b54b."
             "png");
   EXPECT_EQ(it->second->image_data, "");
@@ -1836,7 +1836,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftMetadatas) {
 
   std::map<GURL, std::string> responses;
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR%"
       "2Csolana.3knghmwnuaMxkiuqXrqzjL7gLDuRw6DkkZcW7F4mvkK8")] = json;
 
@@ -1845,7 +1845,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftMetadatas) {
   metadata1->name = "Common Water Warrior #19";
   metadata1->description = "A true gladiator";
   metadata1->image =
-      "https://simplehash.wallet-cdn.brave.com/assets/"
+      "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
       "168e33bbf5276f717d8d190810ab93b4992ac8681054c1811f8248fe7636b54b.png";
   metadata1->image_data = "";
   metadata1->external_url = "";
@@ -1856,7 +1856,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftMetadatas) {
   mojom::NftMetadataPtr metadata2 = mojom::NftMetadata::New();
   metadata2->name = "Sneaker #432819057";
   metadata2->description = "A sneaker";
-  metadata2->image = "https://simplehash.wallet-cdn.brave.com/assets/3.png";
+  metadata2->image = "https://simplehash.wallet-cdn.nixbrowser.in/assets/3.png";
   metadata2->image_data = "";
   metadata2->external_url =
       "https://nft.dragonwar.io/avatars/dragons/CWTWRDR_1.json";
@@ -1921,7 +1921,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftMetadatas) {
   duplicate_metadata->name = "Common Water Warrior #19";
   duplicate_metadata->description = "A true gladiator";
   duplicate_metadata->image =
-      "https://simplehash.wallet-cdn.brave.com/assets/"
+      "https://simplehash.wallet-cdn.nixbrowser.in/assets/"
       "168e33bbf5276f717d8d190810ab93b4992ac8681054c1811f8248fe7636b54b.png";
   duplicate_metadata->image_data = "";
   duplicate_metadata->external_url = "";
@@ -1937,7 +1937,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftMetadatas) {
   // Set up the response interceptor for the duplicate NFT request
   responses.clear();
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR%"
       "2Csolana.2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR")] =
       duplicate_json;
@@ -2021,7 +2021,7 @@ TEST_F(SimpleHashClientUnitTest, GetNftBalances) {
 
   std::map<GURL, std::string> responses;
   responses[GURL(
-      "https://gate3.wallet.brave.com/simplehash/api/v0/nfts/"
+      "https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/"
       "assets?nft_ids=solana.3knghmwnuaMxkiuqXrqzjL7gLDuRw6DkkZcW7F4mvkK8%"
       "2Csolana.2izbbrgnlveezh6jdsansto66s2uxx7dtchvwku8oisr")] = json;
 
@@ -2237,7 +2237,7 @@ TEST_F(SimpleHashClientUnitTest, FetchSolCompressedNftProofData) {
     "canopy_depth": 0
   })";
   SetInterceptors(
-      {{GURL("https://gate3.wallet.brave.com/simplehash/api/v0/nfts/proof/"
+      {{GURL("https://gate3.wallet.nixbrowser.in/simplehash/api/v0/nfts/proof/"
              "solana/2iZBbRGnLVEEZH6JDsaNsTo66s2uxx7DTchVWKU8oisR"),
         json}});
 

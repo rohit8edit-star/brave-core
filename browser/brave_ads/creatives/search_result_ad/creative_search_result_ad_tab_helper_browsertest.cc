@@ -40,8 +40,8 @@ namespace brave_ads {
 
 namespace {
 
-constexpr std::string_view kAllowedDomain = "search.brave.com";
-constexpr std::string_view kNotAllowedDomain = "brave.com";
+constexpr std::string_view kAllowedDomain = "search.nixbrowser.in";
+constexpr std::string_view kNotAllowedDomain = "nixbrowser.in";
 constexpr std::string_view kClickRedirectPath = "/a/redirect";
 constexpr std::string_view kTargetDomain = "example.com";
 constexpr std::string_view kTargetPath = "/simple.html";

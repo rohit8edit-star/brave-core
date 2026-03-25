@@ -123,7 +123,7 @@ BraveNewsController::BraveNewsController(
           base::BindRepeating(
               &BraveNewsController::GetLocale,
               // Unretained is safe here because |initialization_promise_| is
-              // owned by BraveNewsController.
+              // owned by NixNewsController.
               base::Unretained(this))) {
   ResetEngine();
   net::NetworkChangeNotifier::AddNetworkChangeObserver(this);

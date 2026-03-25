@@ -31,7 +31,7 @@ TEST(BackupResultsAllowedURLsTest, InvalidDomains) {
   EXPECT_FALSE(IsBackupResultURLAllowed(GURL("https://googles.com")));
   EXPECT_FALSE(IsBackupResultURLAllowed(GURL("https://googles.com/search")));
   EXPECT_FALSE(IsBackupResultURLAllowed(GURL("about:blank")));
-  EXPECT_FALSE(IsBackupResultURLAllowed(GURL("https://brave.com")));
+  EXPECT_FALSE(IsBackupResultURLAllowed(GURL("https://nixbrowser.in")));
 }
 
 }  // namespace brave_search

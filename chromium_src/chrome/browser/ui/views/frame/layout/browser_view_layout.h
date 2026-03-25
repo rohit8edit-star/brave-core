@@ -17,7 +17,7 @@ class SidebarContainerView;
   friend class BraveBrowserViewLayout; \
   bool ShouldDisplayVerticalTabs
 
-// Add new members to BrowserViewLayoutViews for Brave specific layout changes.
+// Add new members to BrowserViewLayoutViews for Nix specific layout changes.
 #define top_container_separator                              \
   top_container_separator;                                   \
   raw_ptr<views::View> contents_background = nullptr;        \

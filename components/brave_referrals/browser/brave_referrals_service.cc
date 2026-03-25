@@ -495,7 +495,7 @@ void BraveReferralsService::InitReferral() {
             "Validates the current referral offer with Brave, potentially "
             "unlocking special features and/or services."
           trigger:
-            "On startup, sends the current referral code to Brave."
+            "On startup, sends the current referral code to Nix."
           data: "Brave referral metadata."
           destination: WEBSITE
         }
@@ -538,7 +538,7 @@ void BraveReferralsService::CheckForReferralFinalization() {
           sender:
             "Brave Referrals Service"
           description:
-            "Fetches referral finalization data from Brave."
+            "Fetches referral finalization data from Nix."
           trigger:
             ""
           data: "Brave referral finalization status."

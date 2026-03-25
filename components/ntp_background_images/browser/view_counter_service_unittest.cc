@@ -49,7 +49,7 @@ constexpr char kCreativeSetId[] = "6690ad47-d0af-4dbb-a2dd-c7a678b2b83b";
 constexpr char kCampaignId[] = "fb7ee174-5430-4fb9-8e97-29bf14e8d828";
 constexpr char kAdvertiserId[] = "5484a63f-eb99-4ba5-a3b0-8c25d3c0e4b2";
 constexpr char kSegment[] = "untargeted";
-constexpr char kTargetUrl[] = "https://brave.com";
+constexpr char kTargetUrl[] = "https://nixbrowser.in";
 constexpr char kCompanyName[] = "Technikke";
 constexpr char kAltText[] = "Technikke: For music lovers.";
 
@@ -68,7 +68,7 @@ constexpr char kSponsoredImageCampaignsJson[] = R"(
                   "creativeInstanceId": "c0d61af3-3b85-4af4-a3cc-cf1b3dd40e70",
                   "companyName": "Technikke",
                   "alt": "Technikke: For music lovers.",
-                  "targetUrl": "https://brave.com",
+                  "targetUrl": "https://nixbrowser.in",
                   "wallpaper": {
                     "type": "image",
                     "relativeUrl": "30244a36-561a-48f0-8d7a-780e9035c57a/background-1.jpg",
@@ -105,7 +105,7 @@ constexpr char kSponsoredRichMediaCampaignsJson[] = R"(
                   "creativeInstanceId": "c0d61af3-3b85-4af4-a3cc-cf1b3dd40e70",
                   "companyName": "Technikke",
                   "alt": "Technikke: For music lovers.",
-                  "targetUrl": "https://brave.com",
+                  "targetUrl": "https://nixbrowser.in",
                   "wallpaper": {
                     "type": "richMedia",
                     "relativeUrl": "39d78863-327d-4b64-9952-cd0e5e330eb6/index.html"
@@ -281,7 +281,7 @@ class ViewCounterServiceTest : public testing::Test {
     auto images_data = std::make_unique<NTPBackgroundImagesData>();
     images_data->backgrounds = {
         {base::FilePath(FILE_PATH_LITERAL("wallpaper1.jpg")), "Brave",
-         "https://brave.com/"}};
+         "https://nixbrowser.in/"}};
 
     background_images_service_->background_images_data_ =
         std::move(images_data);
@@ -325,7 +325,7 @@ class ViewCounterServiceTest : public testing::Test {
       {
         "author": "Brave",
         "isBackground": true,
-        "link": "https://brave.com/",
+        "link": "https://nixbrowser.in/",
         "random": true,
         "type": "brave",
         "wallpaperImagePath": "wallpaper1.jpg",
@@ -454,7 +454,7 @@ TEST_F(ViewCounterServiceTest, GetCurrentWallpaper) {
       {
         "author": "Brave",
         "isBackground": true,
-        "link": "https://brave.com/",
+        "link": "https://nixbrowser.in/",
         "random": true,
         "type": "brave",
         "wallpaperImagePath": "wallpaper1.jpg",
@@ -478,7 +478,7 @@ TEST_F(ViewCounterServiceTest, GetCurrentWallpaper) {
       {
         "author": "Brave",
         "isBackground": true,
-        "link": "https://brave.com/",
+        "link": "https://nixbrowser.in/",
         "random": true,
         "type": "brave",
         "wallpaperImagePath": "wallpaper1.jpg",

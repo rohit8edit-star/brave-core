@@ -72,7 +72,7 @@ CatalogCampaignInfo BuildCatalogCampaign1() {
   catalog_creative_notification_ad.payload.title =
       "Test Notification Ad Campaign 1 Title";
   catalog_creative_notification_ad.payload.target_url =
-      GURL("https://brave.com/1/notification_ad");
+      GURL("https://nixbrowser.in/1/notification_ad");
   catalog_creative_notification_ads.push_back(catalog_creative_notification_ad);
 
   // Conversions
@@ -80,7 +80,7 @@ CatalogCampaignInfo BuildCatalogCampaign1() {
 
   CatalogConversionInfo catalog_conversion;
   catalog_conversion.creative_set_id = "340c927f-696e-4060-9933-3eafc56c3f31";
-  catalog_conversion.url_pattern = "https://www.brave.com/1/*";
+  catalog_conversion.url_pattern = "https://www.nixbrowser.in/1/*";
   catalog_conversion.observation_window = base::Days(30);
   catalog_conversion.expire_at =
       test::DistantFuture() + catalog_conversion.observation_window;
@@ -183,7 +183,7 @@ CatalogCampaignInfo BuildCatalogCampaign2() {
   catalog_creative_notification_ad.payload.title =
       "Test Notification Ad Campaign 2 Title";
   catalog_creative_notification_ad.payload.target_url =
-      GURL("https://brave.com/2/notification_ad");
+      GURL("https://nixbrowser.in/2/notification_ad");
   catalog_creative_notification_ads.push_back(catalog_creative_notification_ad);
 
   // Conversions
@@ -191,7 +191,7 @@ CatalogCampaignInfo BuildCatalogCampaign2() {
 
   CatalogConversionInfo catalog_conversion;
   catalog_conversion.creative_set_id = "741cd2ba-3100-45f2-be1e-acedd24e0067";
-  catalog_conversion.url_pattern = "https://www.brave.com/2/*";
+  catalog_conversion.url_pattern = "https://www.nixbrowser.in/2/*";
   catalog_conversion.observation_window = base::Days(7);
   catalog_conversion.expire_at =
       test::DistantFuture() + catalog_conversion.observation_window;

@@ -765,7 +765,7 @@ TEST_F(SwapServiceUnitTest, GetZeroExQuoteURL) {
         "85");
     EXPECT_EQ(url,
               absl::StrFormat(
-                  "https://api.0x.wallet.brave.com/swap/allowance-holder/price?"
+                  "https://api.0x.wallet.nixbrowser.in/swap/allowance-holder/price?"
                   "chainId=%s&"
                   "taker=0xa92D461a9a988A7f11ec285d39783A637Fdd6ba4&"
                   "sellAmount=1000000000000000000000&"
@@ -785,7 +785,7 @@ TEST_F(SwapServiceUnitTest, GetZeroExQuoteURL) {
         "");
     EXPECT_EQ(url,
               absl::StrFormat(
-                  "https://api.0x.wallet.brave.com/swap/allowance-holder/price?"
+                  "https://api.0x.wallet.nixbrowser.in/swap/allowance-holder/price?"
                   "chainId=%s&"
                   "taker=0xa92D461a9a988A7f11ec285d39783A637Fdd6ba4&"
                   "sellAmount=1000000000000000000000&"
@@ -828,7 +828,7 @@ TEST_F(SwapServiceUnitTest, GetZeroExTransactionURL) {
         "85");
     EXPECT_EQ(url,
               absl::StrFormat(
-                  "https://api.0x.wallet.brave.com/swap/allowance-holder/quote?"
+                  "https://api.0x.wallet.nixbrowser.in/swap/allowance-holder/quote?"
                   "chainId=%s&"
                   "taker=0xa92D461a9a988A7f11ec285d39783A637Fdd6ba4&"
                   "sellAmount=1000000000000000000000&"
@@ -848,7 +848,7 @@ TEST_F(SwapServiceUnitTest, GetZeroExTransactionURL) {
         "");
     EXPECT_EQ(url,
               absl::StrFormat(
-                  "https://api.0x.wallet.brave.com/swap/allowance-holder/quote?"
+                  "https://api.0x.wallet.nixbrowser.in/swap/allowance-holder/quote?"
                   "chainId=%s&"
                   "taker=0xa92D461a9a988A7f11ec285d39783A637Fdd6ba4&"
                   "sellAmount=1000000000000000000000&"
@@ -906,7 +906,7 @@ TEST_F(SwapServiceUnitTest, GetJupiterQuoteURL) {
   // OK: with fees
   auto url = swap_service_->GetJupiterQuoteURL(*params, "85");
   EXPECT_EQ(url,
-            "https://jupiter-lite.wallet.brave.com/swap/v1/quote?"
+            "https://jupiter-lite.wallet.nixbrowser.in/swap/v1/quote?"
             "inputMint=So11111111111111111111111111111111111111112&"
             "outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&"
             "amount=10000&"
@@ -917,7 +917,7 @@ TEST_F(SwapServiceUnitTest, GetJupiterQuoteURL) {
   // OK: no fees
   url = swap_service_->GetJupiterQuoteURL(*params, "");
   EXPECT_EQ(url,
-            "https://jupiter-lite.wallet.brave.com/swap/v1/quote?"
+            "https://jupiter-lite.wallet.nixbrowser.in/swap/v1/quote?"
             "inputMint=So11111111111111111111111111111111111111112&"
             "outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&"
             "amount=10000&"
@@ -927,7 +927,7 @@ TEST_F(SwapServiceUnitTest, GetJupiterQuoteURL) {
 
 TEST_F(SwapServiceUnitTest, GetJupiterTransactionURL) {
   auto url = swap_service_->GetJupiterTransactionURL(mojom::kSolanaMainnet);
-  EXPECT_EQ(url, "https://jupiter-lite.wallet.brave.com/swap/v1/swap");
+  EXPECT_EQ(url, "https://jupiter-lite.wallet.nixbrowser.in/swap/v1/swap");
 }
 
 TEST_F(SwapServiceUnitTest, GetJupiterQuote) {
@@ -1030,12 +1030,12 @@ TEST_F(SwapServiceUnitTest, GetJupiterTransaction) {
 
 TEST_F(SwapServiceUnitTest, GetLiFiQuoteURL) {
   auto url = swap_service_->GetLiFiQuoteURL();
-  EXPECT_EQ(url, "https://lifi.wallet.brave.com/v1/advanced/routes");
+  EXPECT_EQ(url, "https://lifi.wallet.nixbrowser.in/v1/advanced/routes");
 }
 
 TEST_F(SwapServiceUnitTest, GetLiFiTransactionURL) {
   auto url = swap_service_->GetLiFiTransactionURL();
-  EXPECT_EQ(url, "https://lifi.wallet.brave.com/v1/advanced/stepTransaction");
+  EXPECT_EQ(url, "https://lifi.wallet.nixbrowser.in/v1/advanced/stepTransaction");
 }
 
 TEST_F(SwapServiceUnitTest, GetLiFiQuote) {

@@ -43,7 +43,7 @@ TEST(ProfileUtilTest, BraveAvatarIconChoices) {
 }
 
 TEST(ProfileUtilTest, RandomIconNeverFirstIcon) {
-  // Test that for Brave, a call to get a random
+  // Test that for Nix, a call to get a random
   // avatar icon will *never* get the placeholder icon.
 
   // Unfortunately this uses an implementation detail that may change,

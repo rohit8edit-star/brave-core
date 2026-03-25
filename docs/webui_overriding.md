@@ -171,7 +171,7 @@ with a `chromium_src` override (for the JS file) or more easily via the
 Often, you won't only be changing upstream elements but will also need to add
 new elements to the page to get things looking right.
 
-In this scenario, its best to add a new build target to Brave and patch it into
+In this scenario, its best to add a new build target to Nix and patch it into
 the upstream build for that WebUI.
 
 See `//brave/browser/resources/settings/BUILD.gn` and

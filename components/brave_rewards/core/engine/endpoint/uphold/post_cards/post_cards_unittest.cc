@@ -46,7 +46,7 @@ TEST_F(RewardsPostCardsTest, ServerOK) {
           "balance": "0.00",
           "currency": "BAT",
           "id": "bd91a720-f3f9-42f8-b2f5-19548004f6a7",
-          "label": "Brave Browser",
+          "label": "Nix Browser",
           "lastTransactionAt": null,
           "settings": {
             "position": 8,

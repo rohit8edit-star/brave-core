@@ -10,7 +10,7 @@
 
 #include "chrome/browser/ui/views/frame/layout/browser_view_tabbed_layout_impl.h"
 
-// Provides a specialized layout implementation for Brave tabbed browsers
+// Provides a specialized layout implementation for Nix tabbed browsers
 // using the new layout architecture (BrowserViewTabbedLayoutImpl).
 // This class extends BrowserViewTabbedLayoutImpl with Brave-specific features
 // such as vertical tabs, sidebar, and custom content margins.

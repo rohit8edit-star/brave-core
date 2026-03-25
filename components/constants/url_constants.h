@@ -12,7 +12,7 @@ inline constexpr char kMagnetScheme[] = "magnet";
 inline constexpr char kWidevineTOS[] = "https://policies.google.com/terms";
 inline constexpr char kRewardsUpholdSupport[] =
     "https://uphold.com/en/brave/support";
-inline constexpr char kP3ALearnMoreURL[] = "https://brave.com/P3A";
+inline constexpr char kP3ALearnMoreURL[] = "https://nixbrowser.in/P3A";
 inline constexpr char kP3ASettingsLink[] = "chrome://settings/privacy";
 inline constexpr char kImportDataHelpURL[] =
     "https://support.brave.app/hc/en-us/articles/360019782291#safari";
@@ -25,8 +25,8 @@ inline constexpr char kSpeedreaderLearnMoreUrl[] =
     "https://support.brave.app/hc/en-us/articles/"
     "360045031392-What-is-SpeedReader";
 inline constexpr char kWebDiscoveryLearnMoreUrl[] =
-    "https://brave.com/privacy/browser/#web-discovery-project";
-inline constexpr char kBraveSearchHost[] = "search.brave.com";
+    "https://nixbrowser.in/privacy/browser/#web-discovery-project";
+inline constexpr char kBraveSearchHost[] = "search.nixbrowser.in";
 inline constexpr char kWidevineLearnMoreUrl[] =
     "https://support.brave.app/hc/en-us/articles/"
     "360023851591-How-do-I-view-DRM-protected-content-";
@@ -35,7 +35,7 @@ inline constexpr char kDevChannelDeprecationLearnMoreUrl[] =
     "17924707453581-How-do-I-migrate-my-Brave-Dev-data-to-another-channel-"
     "Nightly-Beta-Release-";
 
-inline constexpr char kDownloadBraveUrl[] = "https://www.brave.com/download";
-inline constexpr char kAIChatAboutUrl[] = "https://brave.com/leo/";
+inline constexpr char kDownloadBraveUrl[] = "https://www.nixbrowser.in/download";
+inline constexpr char kAIChatAboutUrl[] = "https://nixbrowser.in/leo/";
 
 #endif  // BRAVE_COMPONENTS_CONSTANTS_URL_CONSTANTS_H_

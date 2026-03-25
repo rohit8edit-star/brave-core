@@ -1745,7 +1745,7 @@ inline constexpr webui::LocalizedString kLocalizedStrings[] = {
     {"braveWalletAddToken", IDS_BRAVE_WALLET_ADD_TOKEN}};
 
 // 0x swap constants
-inline constexpr char kZeroExBaseAPIURL[] = "https://api.0x.wallet.brave.com";
+inline constexpr char kZeroExBaseAPIURL[] = "https://api.0x.wallet.nixbrowser.in";
 inline constexpr char kEVMFeeRecipient[] =
     "0xbd9420A98a7Bd6B89765e5715e169481602D9c3d";
 inline constexpr char kZeroExAllowanceHolderCancun[] =
@@ -1759,7 +1759,7 @@ inline constexpr char kZeroExAPIVersion[] = "v2";
 
 // Jupiter swap constants
 inline constexpr char kJupiterBaseAPIURL[] =
-    "https://jupiter-lite.wallet.brave.com";
+    "https://jupiter-lite.wallet.nixbrowser.in";
 inline constexpr char kJupiterReferralKey[] =
     "7yke2kxg6ewNsun61qBkdsLdxuXcUiB8CMB47Zv39Aoy";
 inline constexpr char kJupiterReferralProgram[] =
@@ -1770,12 +1770,12 @@ inline constexpr char kWrappedSolanaMintAddress[] =
 
 // Blowfish simulations constants
 inline constexpr char kBlowfishBaseAPIURL[] =
-    "https://blowfish.wallet.brave.com";
+    "https://blowfish.wallet.nixbrowser.in";
 inline constexpr char kBlowfishAPIVersionHeader[] = "X-Api-Version";
 inline constexpr char kBlowfishAPIVersion[] = "2023-06-05";
 
 // LiFi constants
-inline constexpr char kLiFiBaseAPIURL[] = "https://lifi.wallet.brave.com";
+inline constexpr char kLiFiBaseAPIURL[] = "https://lifi.wallet.nixbrowser.in";
 inline constexpr char kLiFiIntegratorID[] = "brave";
 inline constexpr char kLiFiNativeEVMAssetContractAddress[] =
     "0x0000000000000000000000000000000000000000";
@@ -1793,7 +1793,7 @@ inline constexpr int64_t kSolanaBlockTrackerTimeInSeconds = 2;
 
 // Ankr constants
 inline constexpr char kAnkrAdvancedAPIBaseURL[] =
-    "https://multichain.ankr.wallet.brave.com/";
+    "https://multichain.ankr.wallet.nixbrowser.in/";
 
 // Unstoppable domains record key for ethereum address.
 inline constexpr char kCryptoEthAddressKey[] = "crypto.ETH.address";
@@ -1814,7 +1814,7 @@ inline constexpr char kEthereumBlockTagLatest[] = "latest";
 inline constexpr char kBitcoinTestnetRpcEndpoint[] =
     "https://blockstream.info/testnet/api/";
 
-inline constexpr char kMeldRpcEndpoint[] = "https://api-meld.wallet.brave.com";
+inline constexpr char kMeldRpcEndpoint[] = "https://api-meld.wallet.nixbrowser.in";
 inline constexpr char kMeldRpcVersionHeader[] = "Meld-Version";
 inline constexpr char kMeldRpcVersion[] = "2023-05-26";
 

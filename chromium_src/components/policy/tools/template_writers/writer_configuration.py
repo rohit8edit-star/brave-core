@@ -29,7 +29,7 @@ _BRAVE_VALUES = {
             'mandatory_category_path': ['Cat_Brave', 'brave'],
             'recommended_category_path': ['Cat_Brave', 'brave_recommended'],
             'category_path_strings': {
-                'Cat_Brave': 'Brave Software',
+                'Cat_Brave': 'Nix Technologies',
                 'brave': 'Brave',
                 'brave_recommended': 'Brave - {doc_recommended}'
             },

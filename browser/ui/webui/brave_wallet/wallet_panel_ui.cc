@@ -97,7 +97,7 @@ WalletPanelUI::WalletPanelUI(content::WebUI* web_ui)
       base::JoinString(
           {"img-src", "'self'", "chrome://resources",
            "chrome://erc-token-images", "chrome://favicon2", "chrome://image",
-           "https://assets.cgproxy.brave.com", base::StrCat({"data:", ";"})},
+           "https://assets.cgproxy.nixbrowser.in", base::StrCat({"data:", ";"})},
           " "));
   source->AddString("braveWalletTrezorBridgeUrl", kUntrustedTrezorURL);
   source->AddString("braveWalletNftBridgeUrl", kUntrustedNftURL);

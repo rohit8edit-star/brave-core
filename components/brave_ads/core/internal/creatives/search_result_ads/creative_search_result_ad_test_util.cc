@@ -16,7 +16,7 @@ namespace brave_ads::test {
 
 namespace {
 
-constexpr char kConversionUrlPattern[] = "https://brave.com/*";
+constexpr char kConversionUrlPattern[] = "https://nixbrowser.in/*";
 constexpr base::TimeDelta kConversionObservationWindow = base::Days(3);
 
 }  // namespace

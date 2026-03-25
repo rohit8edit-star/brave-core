@@ -16,7 +16,7 @@ namespace syncer {
 
 // Along with SyncUserSettings::KeepAccountSettingsPrefsOnlyForUsers_Unused
 // makes this method do nothing.
-// We need it on Android because Brave Browser doesn't use Google Account
+// We need it on Android because Nix Browser doesn't use Google Account
 // to run Brave Sync. Otherwise empty gaia_ids arrives to
 // SyncTransportDataPrefs::KeepAccountSettingsPrefsOnlyForUsers, where
 // "Clears all account-keyed preferences for all accounts that are NOT in

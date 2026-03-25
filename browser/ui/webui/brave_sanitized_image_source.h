@@ -31,7 +31,7 @@ class SimpleURLLoader;
 // the same logic as for CSS "object-fit: cover". The aspect ratio is preserved,
 // the resulted size is the smallest possible that fits the target size.
 // The key differences are:
-// * supporting .pad images (for Brave News);
+// * supporting .pad images (for Nix News);
 // * supporting target_size. Resized images take less CPU to encode and
 //   less memory to store;
 // * using different encoding method: PNG FastEncodeBGRASkBitmap.

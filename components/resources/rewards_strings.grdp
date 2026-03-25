@@ -128,8 +128,8 @@
   </message>
   <message name="IDS_REWARDS_PUBLISHER_COUNT_TEXT" desc="">
     {PUBLISHER_COUNT, plural,
-      =1 {This month, you've visited # creator supported by Brave Rewards}
-      other {This month, you've visited # creators supported by Brave Rewards}
+      =1 {This month, you've visited # creator supported by Nix Rewards}
+      other {This month, you've visited # creators supported by Nix Rewards}
     }
   </message>
   <message name="IDS_REWARDS_CONNECT_ACCOUNT_TEXT_2" desc="">
@@ -348,7 +348,7 @@
     Unfortunately, there was an error while trying to set your country. Please try again.
   </message>
   <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_TEXT_DISABLED" desc="">
-    New signups for Brave Rewards are currently disabled in your region. However, you can always try again later. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">/$1</ph>
+    New signups for Nix Rewards are currently disabled in your region. However, you can always try again later. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">/$1</ph>
   </message>
   <message name="IDS_BRAVE_REWARDS_ONBOARDING_GEO_HEADER" desc="">
     Select your country
@@ -464,7 +464,7 @@
     Updated Terms of Service
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_TEXT" desc="">
-    We’ve updated the Terms of Service for Brave Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use Brave Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">/$1</ph> Brave Rewards, which will disable the feature.
+    We’ve updated the Terms of Service for Nix Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use Brave Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">/$1</ph> Brave Rewards, which will disable the feature.
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_NTP_TEXT" desc="" formatter_data="webui=BraveRewards">
     We've updated our Terms of Service. To keep using Brave Rewards, please review and agree to the updated terms.
@@ -505,7 +505,7 @@
     Verified Creator
   </message>
   <message name="IDS_REWARDS_TIP_VERIFIED_TOOLTIP_TEXT" desc="">
-    This creator has registered with Brave and can receive contributions from Brave Rewards users.
+    This creator has registered with Brave and can receive contributions from Nix Rewards users.
   </message>
   <message name="IDS_REWARDS_TIP_MONTHLY_TOOLTIP_TEXT" desc="">
     Make this a monthly recurring contribution. You can cancel it at any time.
@@ -538,7 +538,7 @@
     Logged out of <ph name="PROVIDER">$1</ph>
   </message>
   <message name="IDS_REWARDS_TIP_RECONNECT_TEXT" desc="">
-    It looks like you're logged out of <ph name="PROVIDER">$1</ph> for Brave Rewards. Log in again to continue.
+    It looks like you're logged out of <ph name="PROVIDER">$1</ph> for Nix Rewards. Log in again to continue.
   </message>
   <message name="IDS_REWARDS_TIP_RECONNECT_WEB3_TEXT" desc="">
     You can also send crypto contributions to this creator by using your Web3 wallet.
@@ -571,7 +571,7 @@
     Share your support
   </message>
   <message name="IDS_REWARDS_TIP_SHARE_TEXT" desc="">
-    I just contributed <ph name="AMOUNT">$1</ph> BAT using the Brave Browser! See how you can support your favorite creators and sites too: https://brave.com/rewards
+    I just contributed <ph name="AMOUNT">$1</ph> BAT using the Nix Browser! See how you can support your favorite creators and sites too: https://nixbrowser.in/rewards
   </message>
   <message name="IDS_REWARDS_TIP_UNEXPECTED_ERROR_TITLE" desc="">
     An unexpected error has occurred
@@ -665,13 +665,13 @@
     Unfortunately, your Brave Rewards profile was flagged because our automated checks found some unexpected Brave Ads activity.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_2" desc="">
-    While your profile is flagged, you may continue to see ads, but won't be eligible to receive payouts. You also won't be able to connect a custodial account to Brave Rewards.
+    While your profile is flagged, you may continue to see ads, but won't be eligible to receive payouts. You also won't be able to connect a custodial account to Nix Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_3" desc="">
     It's possible your profile was flagged in error, and no immediate action is required on your part. The flag on your profile may be removed in the future.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_4" desc="">
-    Learn more about Brave's process for flagging Rewards profiles.
+    Learn more about Nix's process for flagging Rewards profiles.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TITLE" desc="">
     Brave Rewards profile is flagged
@@ -695,7 +695,7 @@
     Different account
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROVIDER_UNAVAILABLE_TEXT_1" desc="">
-    It looks like connecting <ph name="PROVIDER">$1<ex>Uphold</ex></ph> to Brave Rewards is temporarily unavailable. Please try again later.
+    It looks like connecting <ph name="PROVIDER">$1<ex>Uphold</ex></ph> to Nix Rewards is temporarily unavailable. Please try again later.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROVIDER_UNAVAILABLE_TEXT_2" desc="">
     You can view <ph name="BEGIN_LINK">$1</ph>service status here<ph name="END_LINK">/$1</ph>.
@@ -704,10 +704,10 @@
     Connecting to selected custodian temporarily unavailable
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TEXT_1" desc="">
-    Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account can't be connected to your Brave Rewards profile at this time. Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account is registered in a country that's not currently supported for connecting to Brave Rewards.
+    Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account can't be connected to your Brave Rewards profile at this time. Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account is registered in a country that's not currently supported for connecting to Nix Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TEXT_2" desc="">
-    See the <ph name="LINK_BEGIN">$1</ph>current list of supported regions and learn more<ph name="END_LINK">/$1</ph> about connecting a custodial account to Brave Rewards.
+    See the <ph name="LINK_BEGIN">$1</ph>current list of supported regions and learn more<ph name="END_LINK">/$1</ph> about connecting a custodial account to Nix Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TITLE" desc="">
     Region currently not supported
@@ -725,7 +725,7 @@
     Limited Uphold account functionality
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_SIGNATURE_VERIFICATION_ERROR_TEXT" desc="">
-    There was a problem validating your request to connect your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account to Brave Rewards. You can <ph name="BEGIN_LINK">$2</ph>contact support<ph name="END_LINK">/$2</ph> for more help.
+    There was a problem validating your request to connect your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account to Nix Rewards. You can <ph name="BEGIN_LINK">$2</ph>contact support<ph name="END_LINK">/$2</ph> for more help.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_SIGNATURE_VERIFICATION_ERROR_TITLE" desc="">
     Request could not be validated
@@ -892,7 +892,7 @@
     Contribute
   </message>
   <message name="IDS_REWARDS_CONTRIBUTE_CHOOSE_METHOD_TEXT" desc="">
-    Choose the method you want to use to contribute to Brave Software:
+    Choose the method you want to use to contribute to Nix Technologies:
   </message>
   <message name="IDS_REWARDS_CONTRIBUTE_CUSTODIAL_SUBTEXT" desc="">
     Custodial wallet
@@ -910,7 +910,7 @@
     Log in to <ph name="PROVIDER">$1<ex>Uphold</ex></ph>
   </message>
   <message name="IDS_REWARDS_CONTRIBUTE_LOGGED_OUT_TEXT" desc="">
-    It looks like you’re logged out of <ph name="PROVIDER">$1<ex>Uphold</ex></ph> for Brave Rewards. Log in again to continue.
+    It looks like you’re logged out of <ph name="PROVIDER">$1<ex>Uphold</ex></ph> for Nix Rewards. Log in again to continue.
   </message>
   <message name="IDS_REWARDS_CONTRIBUTE_LOGGED_OUT_TITLE" desc="">
     Logged out of <ph name="PROVIDER">$1<ex>Uphold</ex></ph>
@@ -960,7 +960,7 @@
   </message>
 
   <message name="IDS_REWARDS_WDP_CHECKBOX_LABEL" desc="">
-    Yes, I’d also like to contribute to Brave Search and opt in to <ph name="LINK_BEGIN">$1</ph>Web Discovery Project<ph name="LINK_END">/$1</ph>.
+    Yes, I’d also like to contribute to Nix Search and opt in to <ph name="LINK_BEGIN">$1</ph>Web Discovery Project<ph name="LINK_END">/$1</ph>.
   </message>
   <message name="IDS_REWARDS_WDP_OPT_IN_TEXT" desc="">
     Contribute some anonymous search and browsing data to refine Brave Search with Web Discovery Project. It’s completely open-source.

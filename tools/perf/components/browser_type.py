@@ -47,7 +47,7 @@ def _GetBraveDownloadUrl(tag: str, filename: str) -> str:
 
 
 def _GetChromiumDownloadUrl(version: str, filename: str) -> str:
-  return ('https://build-artifacts.brave.com/chromium-builds/' +
+  return ('https://build-artifacts.nixbrowser.in/chromium-builds/' +
           f'{version}/{filename}')
 
 
@@ -176,7 +176,7 @@ class BrowserType:
 class BraveBrowserTypeImpl(BrowserType):
 
   def __init__(self, brave_channel: BraveChannel):
-    super().__init__('brave', 'Brave Browser', brave_channel.value, [], [],
+    super().__init__('brave', 'Nix Browser', brave_channel.value, [], [],
                      False)
     self._brave_channel = brave_channel
 

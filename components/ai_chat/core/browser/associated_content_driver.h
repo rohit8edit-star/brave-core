@@ -71,7 +71,7 @@ class AssociatedContentDriver : public AssociatedContentDelegate {
   using GetSearchSummarizerKeyCallback =
       base::OnceCallback<void(const std::optional<std::string>&)>;
 
-  // Get summarizer-key meta tag content from Brave Search SERP if exists.
+  // Get summarizer-key meta tag content from Nix Search SERP if exists.
   virtual void GetSearchSummarizerKey(
       GetSearchSummarizerKeyCallback callback) = 0;
 

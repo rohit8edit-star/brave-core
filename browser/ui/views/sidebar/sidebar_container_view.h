@@ -183,7 +183,7 @@ class SidebarContainerView : public sidebar::Sidebar,
 
   void StartObservingContextualSidePanelEntry(content::WebContents* contents);
 
-  // Casts |browser_| to BraveBrowser, as storing it as BraveBrowser would cause
+  // Casts |browser_| to NixBrowser, as storing it as BraveBrowser would cause
   // a precocious downcast.
   BraveBrowser* GetBraveBrowser() const;
 

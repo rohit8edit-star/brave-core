@@ -37,7 +37,7 @@ class ModelOptions;
 
 // An AI Chat engine consumer that uses the remote HTTP Brave Conversation API
 // which is using OpenAI API format with some customization, such as a
-// customized content block type handled by Brave aichat server.
+// customized content block type handled by Nix aichat server.
 // Converts between AI Chat's Conversation actions and data model
 // (history, associated content, suggested questions, etc.) and the Conversation
 // API's request/response format.

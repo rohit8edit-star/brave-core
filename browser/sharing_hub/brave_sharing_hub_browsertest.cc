@@ -35,7 +35,7 @@ IN_PROC_BROWSER_TEST_F(BraveSharingHubTest, SharingHubIconVisibility) {
 
   // Visible icon.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("https://brave.com/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("https://nixbrowser.in/")));
   EXPECT_TRUE(sharing_hub_icon->GetVisible());
 }
 
@@ -48,7 +48,7 @@ IN_PROC_BROWSER_TEST_F(BraveSharingHubTest, CopyCommandsOrder) {
 
   {
     ASSERT_TRUE(
-        ui_test_utils::NavigateToURL(browser(), GURL("https://brave.com/")));
+        ui_test_utils::NavigateToURL(browser(), GURL("https://nixbrowser.in/")));
     sharing_hub::SharingHubModel sh_model(browser()->profile());
 
     const auto actions = sh_model.GetFirstPartyActionList(

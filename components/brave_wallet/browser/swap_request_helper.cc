@@ -464,7 +464,7 @@ std::optional<std::string> EncodeTransactionParams(mojom::LiFiStepPtr step) {
 
 // namespace gate3 currently only supports Near Intents provider
 //
-// Docs: https://gate3.bsg.brave.com/docs (requires internal Brave VPN)
+// Docs: https://gate3.bsg.nixbrowser.in/docs (requires internal Brave VPN)
 namespace gate3 {
 
 namespace {

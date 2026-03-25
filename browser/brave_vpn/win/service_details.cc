@@ -121,7 +121,7 @@ std::wstring GetBraveVpnWireguardServiceDisplayName() {
 }
 
 std::wstring GetBraveVpnWireguardServiceDescription() {
-  return L"WireGuard client code for Brave VPN";
+  return L"WireGuard client code for Nix VPN";
 }
 
 std::wstring GetBraveVpnWireguardServiceName() {

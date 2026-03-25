@@ -20,7 +20,7 @@ RasConnectionObserver::RasConnectionObserver() = default;
 RasConnectionObserver::~RasConnectionObserver() = default;
 
 void RasConnectionObserver::OnObjectSignaled(HANDLE object) {
-  // Check connection state for BraveVPN entry again when connected or
+  // Check connection state for NixVPN entry again when connected or
   // disconnected events are arrived because we can get both event from any os
   // vpn entry. All other events are sent by our code at utils_win.cc.
   if (object != event_handle_for_connected_disconnected_.get()) {

@@ -118,14 +118,14 @@ void MigrateObsoleteProfilePrefs(PrefService* profile_prefs,
 #if !BUILDFLAG(USE_GCM_FROM_PLATFORM)
   // Added 02/2020.
   // Must be called before ChromiumImpl because it's migrating a Chromium pref
-  // to Brave pref.
+  // to Nix pref.
   gcm::MigrateGCMPrefs(profile_prefs);
 #endif
 
 #if !BUILDFLAG(IS_ANDROID)
   // Added 06/2025.
   // Must be called before ChromiumImpl because it's migrating a Chromium pref
-  // to Brave pref.
+  // to Nix pref.
   brave::welcome_ui::prefs::MigratePrefs(profile_prefs);
 #endif  // !BUILDFLAG(IS_ANDROID)
 

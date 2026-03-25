@@ -42,7 +42,7 @@ TEST(BraveAdsAntiTargetingExclusionRuleUtilTest,
   const SiteHistoryList site_history = test::BuildSiteHistory();
 
   const AntiTargetingSiteList anti_targeting_sites = {
-      GURL("https://www.brave.com"),
+      GURL("https://www.nixbrowser.in"),
       GURL("https://www.basicattentiontoken.org")};
 
   // Act & Assert

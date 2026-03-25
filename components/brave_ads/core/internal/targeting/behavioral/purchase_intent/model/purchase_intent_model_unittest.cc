@@ -32,7 +32,7 @@ TEST_F(BraveAdsPurchaseIntentModelTest,
        DoNotGetSegmentsForUnitializedResource) {
   // Arrange
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
 
   // Act
   const SegmentList purchase_intent_segments = GetPurchaseIntentSegments();
@@ -48,7 +48,7 @@ TEST_F(BraveAdsPurchaseIntentModelTest, DoNotGetSegmentsForExpiredSignals) {
   ASSERT_TRUE(resource_->IsLoaded());
 
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
 
   AdvanceClockBy(base::Days(1));
 
@@ -98,9 +98,9 @@ TEST_F(BraveAdsPurchaseIntentModelTest, GetSegmentsForPreviouslyMatchedSite) {
   ASSERT_TRUE(resource_->IsLoaded());
 
   PurchaseIntentProcessor processor(*resource_);
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
   processor.Process(GURL("https://basicattentiontoken.org/test?bar=foo"));
-  processor.Process(GURL("https://www.brave.com/test?foo=bar"));
+  processor.Process(GURL("https://www.nixbrowser.in/test?foo=bar"));
 
   // Act
   const SegmentList purchase_intent_segments = GetPurchaseIntentSegments();

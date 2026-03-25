@@ -46,7 +46,7 @@ class BraveShieldsSettingsServiceTest : public testing::Test {
     return host_content_settings_map_.get();
   }
 
-  const GURL kTestUrl{"https://brave.com"};
+  const GURL kTestUrl{"https://nixbrowser.in"};
 
   brave_shields::BraveShieldsSettingsService* brave_shields_settings() {
     return brave_shields_settings_.get();
@@ -419,8 +419,8 @@ TEST_F(BraveShieldsSettingsServiceTest, DefaultForgetFirstPartyStorageEnabled) {
 
 TEST_F(BraveShieldsSettingsServiceTest,
        SetForgetFirstPartyStorageEnabledUsesETLD) {
-  const GURL test_url("https://brave.com");
-  const GURL test_subdomain_url("https://www.brave.com");
+  const GURL test_url("https://nixbrowser.in");
+  const GURL test_subdomain_url("https://www.nixbrowser.in");
 
   EXPECT_EQ(
       GetHostContentSettingsMap()->GetWebsiteSetting(
